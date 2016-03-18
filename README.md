@@ -11,7 +11,7 @@ BIB-RCAT is a dataset of MARC21 records accompanied by the FRBR version to evalu
 ## Getting Started
 The MARC files are provided in MARC/XML format and can be handled by MARC-based libraries or tools (e.g., MARC4J). The FRBR files use the RDF/XML format. They can be loaded and managed by API such as Jena to manipulate data as triples. 
 
-The FRBR collections use an adhoc vocabulary which is specific to our project. However, each concept come from reference FRBR Vocabularies such as FRBRer and RDA. A RDF mapping file is provided where each concept from our vocabulary is mapped to reference concepts. Example:
+The FRBR collections use an adhoc vocabulary which is specific to our project. However, each concept comes from reference FRBR vocabularies such as FRBRer and RDA. A RDF mapping file is provided where each concept from our vocabulary is mapped to reference concepts. Example:
 ```xml
 <rdf:Description rdf:about="http://research.progilone.fr/benchmark/placeOfpublication">
   <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/P30088"/>
