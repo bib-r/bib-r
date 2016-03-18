@@ -7,3 +7,7 @@ BIB-R is the first benchmark for evaluating the FRBRization process. It is compo
 ## T42
 
 T42 has been built for benchmarking FRBRization solutions which deal with MARC records. The dataset is composed by 42 different tests. Each test can relates a specific FRBR pattern representation and can include specific issues.
+
+## Licence
+These datasets are released under a CC BY-NC licence.
+https://creativecommons.org/licenses/
