@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+	<marc:record>
+		<marc:leader>00325a   a2200109   4500</marc:leader>
+		<marc:controlfield tag="001">x18</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="020">
+			<marc:subfield code="a">9781408855713</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="100">
+			<marc:subfield code="a">Rowling, Joanne Kathleen</marc:subfield>
+			<marc:subfield code="d">1965-....</marc:subfield>
+			<marc:subfield code="4">aut</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2="0" tag="245">
+			<marc:subfield code="a">Harry Potter and the Deathly Hallows</marc:subfield>
+			<marc:subfield code="h">[publication]</marc:subfield>
+			<marc:subfield code="c">J.K. Rowling</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="3" ind2=" " tag="260">
+			<marc:subfield code="a">London</marc:subfield>
+			<marc:subfield code="b">Bloomsbury</marc:subfield>
+			<marc:subfield code="c">2014</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="490">
+			<marc:subfield code="a">Harry Potter series</marc:subfield>
+			<marc:subfield code="v">7</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="760">
+			<marc:subfield code="w">colauth-003</marc:subfield>
+			<marc:subfield code="a">Harry Potter series</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00414a   a2200109   4500</marc:leader>
+		<marc:controlfield tag="001">x19</marc:controlfield>
+		<marc:datafield ind1="1" ind2=" " tag="100">
+			<marc:subfield code="a">Yates, David</marc:subfield>
+			<marc:subfield code="4">drt</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2="0" tag="245">
+			<marc:subfield code="a">Harry Potter and the Deathly Hallows Part 1</marc:subfield>
+			<marc:subfield code="h">[Motion Picture]</marc:subfield>
+			<marc:subfield code="c">David Yates; Daniel Radcliffe; Emma Watson</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="3" ind2=" " tag="260">
+			<marc:subfield code="a">Neuilly-sur-Seine</marc:subfield>
+			<marc:subfield code="b">Warner Home Video</marc:subfield>
+			<marc:subfield code="c">2011</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="300">
+			<marc:subfield code="a">1 DVD (2 h 20 min)</marc:subfield>
+			<marc:subfield code="b">Colors, Audio (PAL)</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="700">
+			<marc:subfield code="a">Radcliffe, Daniel</marc:subfield>
+			<marc:subfield code="4">act</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="700">
+			<marc:subfield code="a">Watson, Emma</marc:subfield>
+			<marc:subfield code="4">act</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00430a   a2200109   4500</marc:leader>
+		<marc:controlfield tag="001">x20</marc:controlfield>
+		<marc:datafield ind1="1" ind2=" " tag="100">
+			<marc:subfield code="a">Yates, David</marc:subfield>
+			<marc:subfield code="4">drt</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2="0" tag="245">
+			<marc:subfield code="a">Harry Potter and the Deathly Hallows Part 2</marc:subfield>
+			<marc:subfield code="h">[Motion Picture]</marc:subfield>
+			<marc:subfield code="c">David Yates; Daniel Radcliffe; Emma Watson</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="3" ind2=" " tag="260">
+			<marc:subfield code="a">Neuilly-sur-Seine</marc:subfield>
+			<marc:subfield code="b">Warner Home Video [ed., distrib.]</marc:subfield>
+			<marc:subfield code="c">2011</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="300">
+			<marc:subfield code="a">1 DVD (2 h 05 min)</marc:subfield>
+			<marc:subfield code="b">Colors, Audio (PAL)</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="700">
+			<marc:subfield code="a">Radcliffe, Daniel</marc:subfield>
+			<marc:subfield code="4">act</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="700">
+			<marc:subfield code="a">Watson, Emma</marc:subfield>
+			<marc:subfield code="4">act</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00397a   a2200133   4500</marc:leader>
+		<marc:controlfield tag="001">x25</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="020">
+			<marc:subfield code="a">9781843444848</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="020">
+			<marc:subfield code="a">9781843444862</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="020">
+			<marc:subfield code="a">9781843444879</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="041">
+			<marc:subfield code="a">English</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="100">
+			<marc:subfield code="a">Stevenson, Robert Louis</marc:subfield>
+			<marc:subfield code="d">1850-1894</marc:subfield>
+			<marc:subfield code="4">aut</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2="0" tag="245">
+			<marc:subfield code="a">The strange case of Dr Jekyll and Mr Hyde</marc:subfield>
+			<marc:subfield code="c">Robert Louis Stevenson</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="3" ind2=" " tag="260">
+			<marc:subfield code="a">Harpenden</marc:subfield>
+			<marc:subfield code="b">Pulp! The Classics</marc:subfield>
+			<marc:subfield code="c">2014</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00429a   a2200121   4500</marc:leader>
+		<marc:controlfield tag="001">x27</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="020">
+			<marc:subfield code="a">2203389885</marc:subfield>
+			<marc:subfield code="c">13.50euro</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="041">
+			<marc:subfield code="a">French</marc:subfield>
+			<marc:subfield code="h">Italian</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="100">
+			<marc:subfield code="a">Mattotti, Lorenzo</marc:subfield>
+			<marc:subfield code="4">aut</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2="0" tag="245">
+			<marc:subfield code="a">Docteur Jekyll &amp; Mister Hyde</marc:subfield>
+			<marc:subfield code="h">[print]</marc:subfield>
+			<marc:subfield code="b">free adapatation from the book of Robert L. Stevenson</marc:subfield>
+			<marc:subfield code="c">Lorenzo Mattotti; Jerry Kramsky</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="3" ind2=" " tag="260">
+			<marc:subfield code="a">Paris</marc:subfield>
+			<marc:subfield code="b">Casterman</marc:subfield>
+			<marc:subfield code="c">2002</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="700">
+			<marc:subfield code="a">Kramsky, Jerry</marc:subfield>
+			<marc:subfield code="4">aut</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="700">
+			<marc:subfield code="a">Stevenson, Robert Louis</marc:subfield>
+			<marc:subfield code="4">ant</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00338a   a2200121   4500</marc:leader>
+		<marc:controlfield tag="001">x22</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="020">
+			<marc:subfield code="a">2070360377</marc:subfield>
+			<marc:subfield code="c">39,00 F</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="041">
+			<marc:subfield code="a">French</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="100">
+			<marc:subfield code="a">Steinbeck, John</marc:subfield>
+			<marc:subfield code="4">aut</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2="0" tag="245">
+			<marc:subfield code="a">Des souris et des hommes</marc:subfield>
+			<marc:subfield code="c">John Steinbeck; M.E. Coindreau</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="3" ind2=" " tag="260">
+			<marc:subfield code="a">Paris</marc:subfield>
+			<marc:subfield code="b">Gallimard</marc:subfield>
+			<marc:subfield code="c">1992</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="700">
+			<marc:subfield code="a">Coindreau, M.E.</marc:subfield>
+			<marc:subfield code="4">trl</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="765">
+			<marc:subfield code="w">tauth-010</marc:subfield>
+			<marc:subfield code="t">Of Mice and men</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00308a   a2200097   4500</marc:leader>
+		<marc:controlfield tag="001">x28</marc:controlfield>
+		<marc:datafield ind1="1" ind2=" " tag="100">
+			<marc:subfield code="a">Hooper, Tim</marc:subfield>
+			<marc:subfield code="4">drt</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2="0" tag="245">
+			<marc:subfield code="a">Les miserables</marc:subfield>
+			<marc:subfield code="c">Tom Hooper; Victor Hugo; Hugh Jackman; Russell Crowe</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="3" ind2=" " tag="260">
+			<marc:subfield code="a">Universal city</marc:subfield>
+			<marc:subfield code="b">Universal</marc:subfield>
+			<marc:subfield code="c">cop. 2013</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="700">
+			<marc:subfield code="a">Jackman, Hugh</marc:subfield>
+			<marc:subfield code="4">act</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="700">
+			<marc:subfield code="a">Crowe, Russell</marc:subfield>
+			<marc:subfield code="4">act</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="700">
+			<marc:subfield code="a">Hugo, Victor</marc:subfield>
+			<marc:subfield code="4">ant</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00407a   a2200121   4500</marc:leader>
+		<marc:controlfield tag="001">x29</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="020">
+			<marc:subfield code="a">9782302013773</marc:subfield>
+			<marc:subfield code="c">6,95 euro</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="041">
+			<marc:subfield code="a">French</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2="0" tag="245">
+			<marc:subfield code="a">miserables (Les )</marc:subfield>
+			<marc:subfield code="c">based on writting by Victor Hugo; adapted in manga by studio Variety artworks</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="3" ind2=" " tag="260">
+			<marc:subfield code="a">Paris</marc:subfield>
+			<marc:subfield code="b">Soleil</marc:subfield>
+			<marc:subfield code="c">2011</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="520">
+			<marc:subfield code="a">The masterpiece of the literature adapted in manga</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="700">
+			<marc:subfield code="a">Hugo, Victor</marc:subfield>
+			<marc:subfield code="4">ant</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="700">
+			<marc:subfield code="a">Studio Variety Artworks</marc:subfield>
+			<marc:subfield code="4">adp</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00687a   a2200121   4500</marc:leader>
+		<marc:controlfield tag="001">xx6</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="020">
+			<marc:subfield code="a">9782013226554</marc:subfield>
+			<marc:subfield code="c">5,90 EUR</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="100">
+			<marc:subfield code="a">Twain, Mark</marc:subfield>
+			<marc:subfield code="4">aut</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2="0" tag="245">
+			<marc:subfield code="a">aventures de Tom Sawyer (Les)</marc:subfield>
+			<marc:subfield code="c">Mark Twain; P. F. Caille; Y. Dubois-Mauvais</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="3" ind2=" " tag="260">
+			<marc:subfield code="a">Paris</marc:subfield>
+			<marc:subfield code="b">Hachette</marc:subfield>
+			<marc:subfield code="c">2008</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="520">
+			<marc:subfield code="a">Tom n'aime rien tant que l'ecole buissonniere, les expeditions avec ce voyou de Huck, la vie de pirates sur une ile du Mississippi, sans oublier la petite Becky. Mais sa tante Polly ne voit pas cela d'un tres bon oeil ! Et si elle savait que Tom et Huck, caches dans un cimetiere pendant une terrible nuit, ont vu tuer un homme.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="700">
+			<marc:subfield code="a">Caille, Pierre-Francois</marc:subfield>
+			<marc:subfield code="d">1907-1979</marc:subfield>
+			<marc:subfield code="4">trl</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="700">
+			<marc:subfield code="a">Dubois-Mauvais, Y.</marc:subfield>
+			<marc:subfield code="4">trl</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="765">
+			<marc:subfield code="w">tauth-009</marc:subfield>
+			<marc:subfield code="t">The Adventures of Tom Sawyer</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00441a   a2200145   4500</marc:leader>
+		<marc:controlfield tag="001">xx4</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="020">
+			<marc:subfield code="a">9782013223973</marc:subfield>
+			<marc:subfield code="c">4.50 euro</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="041">
+			<marc:subfield code="a">French</marc:subfield>
+			<marc:subfield code="h">English</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="100">
+			<marc:subfield code="a">Stevenson, Robert Louis</marc:subfield>
+			<marc:subfield code="4">aut</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2="0" tag="245">
+			<marc:subfield code="a">Ile au tresor (L')</marc:subfield>
+			<marc:subfield code="c">Robert Louis Stevenson; Michel Laporte</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="3" ind2=" " tag="260">
+			<marc:subfield code="a">Paris</marc:subfield>
+			<marc:subfield code="b">Hachette</marc:subfield>
+			<marc:subfield code="c">2010</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="490">
+			<marc:subfield code="a">Classique</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="700">
+			<marc:subfield code="a">Laporte, Michel</marc:subfield>
+			<marc:subfield code="4">trl</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="760">
+			<marc:subfield code="w">colauth-004</marc:subfield>
+			<marc:subfield code="t">Livre de poche classique</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="765">
+			<marc:subfield code="w">tauth-008</marc:subfield>
+			<marc:subfield code="t">Treasure Island</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00365a   a2200121   4500</marc:leader>
+		<marc:controlfield tag="001">x30</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="020">
+			<marc:subfield code="a">9782205060386</marc:subfield>
+			<marc:subfield code="c">20.50 EUR</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="041">
+			<marc:subfield code="a">French</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="100">
+			<marc:subfield code="a">Mezieres, Jean-Claude</marc:subfield>
+			<marc:subfield code="4">aut</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2="0" tag="245">
+			<marc:subfield code="a">Valerian et Laureline</marc:subfield>
+			<marc:subfield code="b">l'integrale</marc:subfield>
+			<marc:subfield code="c">Pierre Christin; Jean-Claude Meziere</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="3" ind2=" " tag="260">
+			<marc:subfield code="a">Paris</marc:subfield>
+			<marc:subfield code="b">Dargaud</marc:subfield>
+			<marc:subfield code="c">2012</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="700">
+			<marc:subfield code="a">Christin, Pierre</marc:subfield>
+			<marc:subfield code="4">aut</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00498a   a2200145   4500</marc:leader>
+		<marc:controlfield tag="001">x32</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="020">
+			<marc:subfield code="a">9782205067583</marc:subfield>
+			<marc:subfield code="c">11,95 eur</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="041">
+			<marc:subfield code="a">French</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="100">
+			<marc:subfield code="a">Larcenet, Manu</marc:subfield>
+			<marc:subfield code="4">aut</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2="0" tag="245">
+			<marc:subfield code="a">Armure du Jakolass (L')</marc:subfield>
+			<marc:subfield code="b">Valerian par Manu Larcenet</marc:subfield>
+			<marc:subfield code="c">Manu Larcenet; from Christin et Mezieres</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="3" ind2=" " tag="260">
+			<marc:subfield code="b">Dargaud</marc:subfield>
+			<marc:subfield code="c">2011</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="520">
+			<marc:subfield code="a">In this album, the author manages to parody the cult series without dishonoring it.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="700">
+			<marc:subfield code="a">Christin, Pierre</marc:subfield>
+			<marc:subfield code="4">ant</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="700">
+			<marc:subfield code="a">Mezieres, Jean-Claude</marc:subfield>
+			<marc:subfield code="4">ant</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00342a   a2200121   4500</marc:leader>
+		<marc:controlfield tag="001">xx2</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="020">
+			<marc:subfield code="a">9782070558902</marc:subfield>
+			<marc:subfield code="c">14 euro</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="041">
+			<marc:subfield code="a">French</marc:subfield>
+			<marc:subfield code="h">English</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="100">
+			<marc:subfield code="a">Morpurgo, Michael</marc:subfield>
+			<marc:subfield code="4">aut</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2="0" tag="240">
+			<marc:subfield code="a">War horse</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2="0" tag="245">
+			<marc:subfield code="a">Cheval de guerre</marc:subfield>
+			<marc:subfield code="c">Michael Morpurgo; Andre Dupuis</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="3" ind2=" " tag="260">
+			<marc:subfield code="a">Paris</marc:subfield>
+			<marc:subfield code="b">Gallimard</marc:subfield>
+			<marc:subfield code="c">2005</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="700">
+			<marc:subfield code="a">Dupuis, Andre</marc:subfield>
+			<marc:subfield code="4">trl</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="765">
+			<marc:subfield code="w">tauth-004</marc:subfield>
+			<marc:subfield code="t">War horse</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+</marc:collection>

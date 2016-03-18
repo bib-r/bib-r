@@ -1,0 +1,92 @@
+<?xml version="1.0" ?>
+<report>
+	<field tag="000" total="13" total_in_records="13"/>
+	<field tag="001" total="13" total_in_records="13"/>
+	<field tag="020" total="8" total_in_records="8">
+		<subfield code="c">8</subfield>
+		<subfield code="a">8</subfield>
+	</field>
+	<field tag="022" total="1" total_in_records="1">
+		<subfield code="b">1</subfield>
+		<subfield code="a">1</subfield>
+	</field>
+	<field tag="041" total="9" total_in_records="9">
+		<subfield code="a">9</subfield>
+	</field>
+	<field tag="100" total="11" total_in_records="10">
+		<subfield code="a">11</subfield>
+		<subfield code="4">11</subfield>
+	</field>
+	<field tag="110" total="1" total_in_records="1">
+		<subfield code="4">1</subfield>
+		<subfield code="a">1</subfield>
+	</field>
+	<field tag="240" total="5" total_in_records="5">
+		<subfield code="a">5</subfield>
+	</field>
+	<field tag="245" total="13" total_in_records="13">
+		<subfield code="b">7</subfield>
+		<subfield code="a">13</subfield>
+		<subfield code="p">4</subfield>
+		<subfield code="c">13</subfield>
+		<subfield code="h">1</subfield>
+	</field>
+	<field tag="246" total="2" total_in_records="1">
+		<subfield code="a">2</subfield>
+	</field>
+	<field tag="260" total="13" total_in_records="12">
+		<subfield code="b">11</subfield>
+		<subfield code="c">13</subfield>
+		<subfield code="a">9</subfield>
+	</field>
+	<field tag="300" total="9" total_in_records="9">
+		<subfield code="b">7</subfield>
+		<subfield code="c">9</subfield>
+		<subfield code="e">1</subfield>
+		<subfield code="a">8</subfield>
+	</field>
+	<field tag="310" total="2" total_in_records="2">
+		<subfield code="a">2</subfield>
+	</field>
+	<field tag="362" total="1" total_in_records="1">
+		<subfield code="a">1</subfield>
+	</field>
+	<field tag="490" total="5" total_in_records="5">
+		<subfield code="v">2</subfield>
+		<subfield code="a">5</subfield>
+	</field>
+	<field tag="500" total="4" total_in_records="3">
+		<subfield code="a">4</subfield>
+	</field>
+	<field tag="520" total="2" total_in_records="2">
+		<subfield code="a">2</subfield>
+	</field>
+	<field tag="650" total="4" total_in_records="2">
+		<subfield code="a">4</subfield>
+	</field>
+	<field tag="651" total="1" total_in_records="1">
+		<subfield code="a">1</subfield>
+	</field>
+	<field tag="700" total="5" total_in_records="5">
+		<subfield code="a">5</subfield>
+		<subfield code="4">5</subfield>
+	</field>
+	<field tag="760" total="5" total_in_records="5">
+		<subfield code="a">2</subfield>
+		<subfield code="w">5</subfield>
+		<subfield code="t">3</subfield>
+	</field>
+	<field tag="773" total="4" total_in_records="2">
+		<subfield code="a">3</subfield>
+		<subfield code="d">1</subfield>
+		<subfield code="q">1</subfield>
+		<subfield code="g">2</subfield>
+		<subfield code="w">4</subfield>
+		<subfield code="t">4</subfield>
+	</field>
+	<field tag="774" total="3" total_in_records="3">
+		<subfield code="w">3</subfield>
+		<subfield code="t">3</subfield>
+		<subfield code="g">1</subfield>
+	</field>
+</report>

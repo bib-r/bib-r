@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+	<marc:record>
+		<marc:leader>00609a   a2200181   4500</marc:leader>
+		<marc:controlfield tag="001">x12</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="020">
+			<marc:subfield code="a">9782091873053</marc:subfield>
+			<marc:subfield code="c">7,50 EUR</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2="0" tag="240">
+			<marc:subfield code="a">I love english</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="041">
+			<marc:subfield code="a">French</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="100">
+			<marc:subfield code="a">Descartes, Rene</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2="0" tag="245">
+			<marc:subfield code="a">Meditations metaphysiques</marc:subfield>
+			<marc:subfield code="c">Descartes; Andre Vergez; in collaboration with Christine Thubert</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="3" ind2=" " tag="260">
+			<marc:subfield code="b">Nathan</marc:subfield>
+			<marc:subfield code="c">2009</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="300">
+			<marc:subfield code="a">191 pages</marc:subfield>
+			<marc:subfield code="c">21 cm</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="490">
+			<marc:subfield code="a">integrales de philo (Les)</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="500">
+			<marc:subfield code="a">On the cover: Texte integral annote, dossier pedagogique</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="500">
+			<marc:subfield code="a">Bibliography at pages 191-192</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="700">
+			<marc:subfield code="a">Thubert, Christine</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="760">
+			<marc:subfield code="w">colauth-001</marc:subfield>
+			<marc:subfield code="t">Les Integrales de philo</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00432a   a2200145   4500</marc:leader>
+		<marc:controlfield tag="001">x13</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="020">
+			<marc:subfield code="a">9782091873022</marc:subfield>
+			<marc:subfield code="c">6,50 EUR</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="100">
+			<marc:subfield code="a">Descartes, Rene</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2="0" tag="245">
+			<marc:subfield code="a">Discours de la methode</marc:subfield>
+			<marc:subfield code="c">Descartes; with the comments of Denis Huisman</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="3" ind2=" " tag="260">
+			<marc:subfield code="b">Nathan</marc:subfield>
+			<marc:subfield code="c">2009</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="300">
+			<marc:subfield code="a">143 pages</marc:subfield>
+			<marc:subfield code="c">21 cm</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="490">
+			<marc:subfield code="a">integrales de philo (Les)</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="500">
+			<marc:subfield code="a">Bibliogr.aphy pages 142-143</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="700">
+			<marc:subfield code="a">Huisman, Denis</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="760">
+			<marc:subfield code="w">colauth-001</marc:subfield>
+			<marc:subfield code="t">Les Integrales de philo</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00440a   a2200157   4500</marc:leader>
+		<marc:controlfield tag="001">x10</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="020">
+			<marc:subfield code="a">9782080702104</marc:subfield>
+			<marc:subfield code="c">5.80euro</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="041">
+			<marc:subfield code="a">French</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="100">
+			<marc:subfield code="a">Montaigne, Michel de</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2="0" tag="240">
+			<marc:subfield code="a">Essais</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2="0" tag="245">
+			<marc:subfield code="a">Essais</marc:subfield>
+			<marc:subfield code="b">Book I</marc:subfield>
+			<marc:subfield code="c">Michel de Montaigne</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="3" ind2=" " tag="260">
+			<marc:subfield code="a">Paris</marc:subfield>
+			<marc:subfield code="b">Garnier-Flammarion</marc:subfield>
+			<marc:subfield code="c">1969</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="300">
+			<marc:subfield code="a">443 pages</marc:subfield>
+			<marc:subfield code="b">Cover with colorful illustrations</marc:subfield>
+			<marc:subfield code="c">18 cm</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="490">
+			<marc:subfield code="a">GF</marc:subfield>
+			<marc:subfield code="v">210</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="760">
+			<marc:subfield code="w">colauth-008</marc:subfield>
+			<marc:subfield code="a">GF</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00441a   a2200157   4500</marc:leader>
+		<marc:controlfield tag="001">x11</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="020">
+			<marc:subfield code="a">9782080702111</marc:subfield>
+			<marc:subfield code="c">6.80euro</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="041">
+			<marc:subfield code="a">French</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="100">
+			<marc:subfield code="a">Montaigne, Michel de</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2="0" tag="240">
+			<marc:subfield code="a">Essais</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2="0" tag="245">
+			<marc:subfield code="a">Essais</marc:subfield>
+			<marc:subfield code="b">Book II</marc:subfield>
+			<marc:subfield code="c">Michel de Montaigne</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="3" ind2=" " tag="260">
+			<marc:subfield code="a">Paris</marc:subfield>
+			<marc:subfield code="b">Garnier-Flammarion</marc:subfield>
+			<marc:subfield code="c">1969</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="300">
+			<marc:subfield code="a">510 pages</marc:subfield>
+			<marc:subfield code="b">Cover with colorful illustrations</marc:subfield>
+			<marc:subfield code="c">18 cm</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="490">
+			<marc:subfield code="a">GF</marc:subfield>
+			<marc:subfield code="v">211</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="760">
+			<marc:subfield code="w">colauth-008</marc:subfield>
+			<marc:subfield code="a">GF</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00627a   a2200157   4500</marc:leader>
+		<marc:controlfield tag="001">x39</marc:controlfield>
+		<marc:datafield ind1="1" ind2=" " tag="041">
+			<marc:subfield code="a">German</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="100">
+			<marc:subfield code="a">Slijpen, Hans</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2="0" tag="245">
+			<marc:subfield code="a">Hart und Sozial</marc:subfield>
+			<marc:subfield code="b">Das Utrechter Modell</marc:subfield>
+			<marc:subfield code="c">Hans Slijpen</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="520">
+			<marc:subfield code="a">Wiederholungstater sind haufig noch weiteren Belastungen in Form einer Abhangigkeit von psychotropen Substanzen oder einer anderen psychischen Storung ausgesetzt. Eine alleinige Bearbeitung des Deliktes hat deshalb wenig Sinn.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2="4" tag="650">
+			<marc:subfield code="a">Abhangigkeit</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2="4" tag="650">
+			<marc:subfield code="a">Behandlung</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2="4" tag="650">
+			<marc:subfield code="a">Klinik</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2="4" tag="651">
+			<marc:subfield code="a">Netherlands</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="773">
+			<marc:subfield code="w">jauth-001</marc:subfield>
+			<marc:subfield code="t">Abhangigkeiten</marc:subfield>
+			<marc:subfield code="g">volume 14, number 3</marc:subfield>
+			<marc:subfield code="d">2008</marc:subfield>
+			<marc:subfield code="q">pages 40-46</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>01268a   a2200229   4500</marc:leader>
+		<marc:controlfield tag="001">x33</marc:controlfield>
+		<marc:datafield ind1="0" ind2=" " tag="022">
+			<marc:subfield code="a">0899-823X</marc:subfield>
+			<marc:subfield code="b">1</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="041">
+			<marc:subfield code="a">English</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="100">
+			<marc:subfield code="a">Wenzel, Richard P.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2="0" tag="240">
+			<marc:subfield code="a">Infection control and hospital epidemiology</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2="0" tag="245">
+			<marc:subfield code="a">Infection control and hospital epidemiology</marc:subfield>
+			<marc:subfield code="b">An official journal of the Society of Hospital Epidemiologists of America</marc:subfield>
+			<marc:subfield code="c">pub. director, Richard P. Wenzel and Barry Farr</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2="3" tag="246">
+			<marc:subfield code="a">Official journal of The SHEA</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2="3" tag="246">
+			<marc:subfield code="a">ICHE</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="3" ind2=" " tag="260">
+			<marc:subfield code="a">Thorofare, NJ</marc:subfield>
+			<marc:subfield code="b">SLACK Inc.</marc:subfield>
+			<marc:subfield code="c">1988-</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="3" ind2=" " tag="260">
+			<marc:subfield code="a">Chicago, IL</marc:subfield>
+			<marc:subfield code="b">University of Chicago Press</marc:subfield>
+			<marc:subfield code="c">2006-</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="310">
+			<marc:subfield code="a">Monthly</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="362">
+			<marc:subfield code="a">Volume 9, number 1 (January 1988)-</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="500">
+			<marc:subfield code="a">Published by University chicago press in 2006</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="520">
+			<marc:subfield code="a">Infection Control and Hospital Epidemiology provides original, peer-reviewed scientific articles for anyone involved with an infection control or epidemiology program in a hospital or healthcare facility. Written by infection control practitioners and epidemiologists and guided by an editorial board composed of the nation's leaders in the field, ICHE provides a critical forum for this vital information. </marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="700">
+			<marc:subfield code="a">Farr, Barry</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2="0" tag="710">
+			<marc:subfield code="a">Society of Hospital Epidemiologists of America</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00307a   a2200109   4500</marc:leader>
+		<marc:controlfield tag="001">x35</marc:controlfield>
+		<marc:datafield ind1="0" ind2=" " tag="041">
+			<marc:subfield code="a">French</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2="0" tag="245">
+			<marc:subfield code="a">I love english</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="3" ind2=" " tag="260">
+			<marc:subfield code="a">Paris</marc:subfield>
+			<marc:subfield code="b">Bayard Presse</marc:subfield>
+			<marc:subfield code="c">2002-</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="300">
+			<marc:subfield code="b">Coloful Illustrations, cover with colorful illustrations</marc:subfield>
+			<marc:subfield code="c">28 cm</marc:subfield>
+			<marc:subfield code="e">1 CD audio</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="310">
+			<marc:subfield code="a">Monthly</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00095a   a2200061   4500</marc:leader>
+		<marc:controlfield tag="001">x36</marc:controlfield>
+		<marc:datafield ind1="0" ind2="0" tag="245">
+			<marc:subfield code="a">May-1-2013</marc:subfield>
+			<marc:subfield code="b">208</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="3" ind2=" " tag="260">
+			<marc:subfield code="c">2013</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="774">
+			<marc:subfield code="w">colauth-005</marc:subfield>
+			<marc:subfield code="t">I love english</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00096a   a2200061   4500</marc:leader>
+		<marc:controlfield tag="001">x37</marc:controlfield>
+		<marc:datafield ind1="0" ind2="0" tag="245">
+			<marc:subfield code="a">June-1-2013</marc:subfield>
+			<marc:subfield code="b">209</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="3" ind2=" " tag="260">
+			<marc:subfield code="c">2013</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="774">
+			<marc:subfield code="w">colauth-005</marc:subfield>
+			<marc:subfield code="t">I love english</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00569a   a2200169   4500</marc:leader>
+		<marc:controlfield tag="001">xx8</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="020">
+			<marc:subfield code="a">9782081209633</marc:subfield>
+			<marc:subfield code="c">2,70 euro</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="041">
+			<marc:subfield code="a">French</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="100">
+			<marc:subfield code="a">Keime, Christian</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2="0" tag="240">
+			<marc:subfield code="a">Roman de Renart</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2="0" tag="245">
+			<marc:subfield code="a">Roman de Renart (Le)</marc:subfield>
+			<marc:subfield code="c">Christian Keime; adaptation by Monique Lachet-Lagarde</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="3" ind2=" " tag="260">
+			<marc:subfield code="a">Paris</marc:subfield>
+			<marc:subfield code="b">Flammarion</marc:subfield>
+			<marc:subfield code="c">2008</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="300">
+			<marc:subfield code="a">159 pages</marc:subfield>
+			<marc:subfield code="b">Illustrations, cover with colorful illustrations</marc:subfield>
+			<marc:subfield code="c">18 cm</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="490">
+			<marc:subfield code="a">Etonnants classiques. 335</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="700">
+			<marc:subfield code="a">Lachet-Lagarde, Monique</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="760">
+			<marc:subfield code="w">colauth-007</marc:subfield>
+			<marc:subfield code="t">Etonnants classiques</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00409a   a2200133   4500</marc:leader>
+		<marc:controlfield tag="001">xx9</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="020">
+			<marc:subfield code="a">9782756003580</marc:subfield>
+			<marc:subfield code="c">8,90 Euros</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="041">
+			<marc:subfield code="a">French</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="100">
+			<marc:subfield code="a">Mathis, Jean-Marc</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2="0" tag="245">
+			<marc:subfield code="a">Jambons d'Ysengrin (Les )</marc:subfield>
+			<marc:subfield code="c">Jean-Marc Mathis; illustrated by Thierry Martin</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="3" ind2=" " tag="260">
+			<marc:subfield code="a">Paris</marc:subfield>
+			<marc:subfield code="b">Delcourt</marc:subfield>
+			<marc:subfield code="c">2007</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="300">
+			<marc:subfield code="a">31 pages</marc:subfield>
+			<marc:subfield code="b">colorful illustrations</marc:subfield>
+			<marc:subfield code="c">30 cm</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="700">
+			<marc:subfield code="a">Martin, Thierry</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="774">
+			<marc:subfield code="w">tauth-001</marc:subfield>
+			<marc:subfield code="t">Roman de Renart</marc:subfield>
+			<marc:subfield code="g">1</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00443a   a2200121   4500</marc:leader>
+		<marc:controlfield tag="001">xx7</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="020">
+			<marc:subfield code="a">2253132225</marc:subfield>
+			<marc:subfield code="c">120,00 F</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="041">
+			<marc:subfield code="a">French</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="100">
+			<marc:subfield code="a">Chretien de Troyes</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2="0" tag="245">
+			<marc:subfield code="a">Romans</marc:subfield>
+			<marc:subfield code="p">Cliges</marc:subfield>
+			<marc:subfield code="p">Chevalier de la Charrette (Le)</marc:subfield>
+			<marc:subfield code="p">Chevalier au Lion (Le)</marc:subfield>
+			<marc:subfield code="p">Conte du Graal (Le)</marc:subfield>
+			<marc:subfield code="c">Chretien de Troyes</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="3" ind2=" " tag="260">
+			<marc:subfield code="a">Paris</marc:subfield>
+			<marc:subfield code="b">Librairie Generale Francaise</marc:subfield>
+			<marc:subfield code="c">1994</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="300">
+			<marc:subfield code="a">1279 pages</marc:subfield>
+			<marc:subfield code="b">Cover with colorful illustrations</marc:subfield>
+			<marc:subfield code="c">19 cm</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2="4" tag="650">
+			<marc:subfield code="a">Romans de la Table ronde</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00653a   a2200145   4500</marc:leader>
+		<marc:controlfield tag="001">x31</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="020">
+			<marc:subfield code="a">9782205060386</marc:subfield>
+			<marc:subfield code="c">20.50 EUR</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="100">
+			<marc:subfield code="a">Mezieres, Jean-Claude</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2="0" tag="245">
+			<marc:subfield code="a">Valerian et Laureline</marc:subfield>
+			<marc:subfield code="h">[print]</marc:subfield>
+			<marc:subfield code="b">l'integrale Volume 7</marc:subfield>
+			<marc:subfield code="c">Pierre Christin; Jean-Claude Mezieres</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="3" ind2=" " tag="260">
+			<marc:subfield code="a">Paris</marc:subfield>
+			<marc:subfield code="b">Dargaud</marc:subfield>
+			<marc:subfield code="c">2012</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="300">
+			<marc:subfield code="a">1 volume (173 pages)</marc:subfield>
+			<marc:subfield code="b">Colorful illustrations, cover with colorful illustrations</marc:subfield>
+			<marc:subfield code="c">30 cm</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="700">
+			<marc:subfield code="a">Christin, Pierre</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="773">
+			<marc:subfield code="w">tauth-007</marc:subfield>
+			<marc:subfield code="t">Au bord du gouffre</marc:subfield>
+			<marc:subfield code="a">Victor Margueritte</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="773">
+			<marc:subfield code="w">tauth-006</marc:subfield>
+			<marc:subfield code="t">L'ordre des pierres</marc:subfield>
+			<marc:subfield code="a">Jean-Claude Mezieres et Pierre Christin</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="773">
+			<marc:subfield code="w">tauth-005</marc:subfield>
+			<marc:subfield code="t">Valerian et Laureline</marc:subfield>
+			<marc:subfield code="a">Jean-Claude Mezieres et Pierre Christin</marc:subfield>
+			<marc:subfield code="g">21</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+</marc:collection>

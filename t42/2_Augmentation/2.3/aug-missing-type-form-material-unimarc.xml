@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<collection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+	<record>
+		<leader>x10</leader>
+		<controlfield tag="001">x10</controlfield>
+		<datafield ind1=" " ind2=" " tag="010">
+			<subfield code="a">978-2-08-070210-4</subfield>
+			<subfield code="d">5.80euro</subfield>
+		</datafield>
+		<datafield ind1="|" ind2=" " tag="101">
+			<subfield code="a">French</subfield>
+		</datafield>
+		<datafield ind1="1" ind2=" " tag="200">
+			<subfield code="a">Essais</subfield>
+			<subfield code="f">Michel de Montaigne</subfield>
+			<subfield code="g">Introduction by Alexandre Micha</subfield>
+		</datafield>
+		<datafield ind1=" " ind2=" " tag="210">
+			<subfield code="a">Paris</subfield>
+			<subfield code="c">Garnier-Flammarion</subfield>
+			<subfield code="d">1969</subfield>
+		</datafield>
+		<datafield ind1="2" ind2=" " tag="225">
+			<subfield code="a">GF</subfield>
+			<subfield code="v">210</subfield>
+		</datafield>
+		<datafield ind1="1" ind2="1" tag="500">
+			<subfield code="3">tauth-002</subfield>
+			<subfield code="a">Essais</subfield>
+		</datafield>
+		<datafield ind1=" " ind2="1" tag="700">
+			<subfield code="3">pauth-007</subfield>
+			<subfield code="a">Montaigne</subfield>
+			<subfield code="b">Michel de</subfield>
+			<subfield code="4">070</subfield>
+		</datafield>
+		<datafield ind1=" " ind2="1" tag="702">
+			<subfield code="3">pauth-028</subfield>
+			<subfield code="a">Micha</subfield>
+			<subfield code="b">Alexandre</subfield>
+			<subfield code="4">080</subfield>
+		</datafield>
+	</record>
+	<record>
+		<leader>x26</leader>
+		<controlfield tag="001">x26</controlfield>
+		<datafield ind1=" " ind2=" " tag="010">
+			<subfield code="a">978-2-07-062231-3</subfield>
+			<subfield code="d">5,80 EUR</subfield>
+		</datafield>
+		<datafield ind1="1" ind2=" " tag="200">
+			<subfield code="a">Etrange cas du Dr Jekyll et de M. Hyde (L')</subfield>
+			<subfield code="f">Robert Louis Stevenson</subfield>
+			<subfield code="g">illustrations by Francois Place</subfield>
+		</datafield>
+		<datafield ind1=" " ind2=" " tag="210">
+			<subfield code="a">Paris</subfield>
+			<subfield code="c">Gallimard</subfield>
+			<subfield code="d">2008</subfield>
+		</datafield>
+		<datafield ind1=" " ind2="1" tag="700">
+			<subfield code="3">pauth-003</subfield>
+			<subfield code="a">Stevenson</subfield>
+			<subfield code="b">Robert Louis</subfield>
+			<subfield code="4">070</subfield>
+		</datafield>
+		<datafield ind1=" " ind2="1" tag="700">
+			<subfield code="3">pauth-051</subfield>
+			<subfield code="a">Place</subfield>
+			<subfield code="b">Francois</subfield>
+			<subfield code="4">440</subfield>
+		</datafield>
+	</record>
+	<record>
+		<leader>x23</leader>
+		<controlfield tag="001">x23</controlfield>
+		<datafield ind1=" " ind2=" " tag="010">
+			<subfield code="a">978-0-14-118510-1</subfield>
+			<subfield code="d">10euro</subfield>
+		</datafield>
+		<datafield ind1="|" ind2=" " tag="101">
+			<subfield code="a">English</subfield>
+		</datafield>
+		<datafield ind1="|" ind2=" " tag="200">
+			<subfield code="a">Of mice and men</subfield>
+			<subfield code="f">John Steinbeck</subfield>
+			<subfield code="g">Susan Shillinglaw</subfield>
+		</datafield>
+		<datafield ind1=" " ind2=" " tag="210">
+			<subfield code="a">Harmondsworth</subfield>
+			<subfield code="c">Penguin Books</subfield>
+			<subfield code="d">2010</subfield>
+		</datafield>
+		<datafield ind1="|" ind2=" " tag="225">
+			<subfield code="a">Penguin modern classics</subfield>
+		</datafield>
+		<datafield ind1=" " ind2="0" tag="410">
+			<subfield code="3">colauth-009</subfield>
+			<subfield code="t">Penguin modern classics</subfield>
+		</datafield>
+		<datafield ind1=" " ind2="1" tag="700">
+			<subfield code="3">pauth-016</subfield>
+			<subfield code="a">Steinbeck</subfield>
+			<subfield code="b">John</subfield>
+			<subfield code="4">070</subfield>
+		</datafield>
+		<datafield ind1=" " ind2="1" tag="700">
+			<subfield code="3">pauth-050</subfield>
+			<subfield code="a">Shillinglaw</subfield>
+			<subfield code="b">Susan</subfield>
+			<subfield code="4">080</subfield>
+		</datafield>
+	</record>
+	<record>
+		<leader>xx7</leader>
+		<controlfield tag="001">xx7</controlfield>
+		<datafield ind1=" " ind2=" " tag="010">
+			<subfield code="a">2-253-13222-5</subfield>
+			<subfield code="d">120,00 F</subfield>
+		</datafield>
+		<datafield ind1="|" ind2=" " tag="101">
+			<subfield code="a">French</subfield>
+		</datafield>
+		<datafield ind1="|" ind2=" " tag="200">
+			<subfield code="a">Romans</subfield>
+			<subfield code="a">in appendice, Philomena</subfield>
+			<subfield code="f">Chretien de Troyes</subfield>
+		</datafield>
+		<datafield ind1=" " ind2=" " tag="210">
+			<subfield code="a">Paris</subfield>
+			<subfield code="c">Librairie Generale Francaise</subfield>
+			<subfield code="d">1994</subfield>
+		</datafield>
+		<datafield ind1=" " ind2=" " tag="423">
+			<subfield code="3">tauth-003</subfield>
+			<subfield code="t">Philomena</subfield>
+		</datafield>
+		<datafield ind1=" " ind2=" " tag="605">
+			<subfield code="3">subauth-001</subfield>
+			<subfield code="a">Romans de la Table ronde</subfield>
+		</datafield>
+		<datafield ind1=" " ind2="|" tag="700">
+			<subfield code="3">pauth-004</subfield>
+			<subfield code="a">Chretien de Troyes</subfield>
+			<subfield code="4">070</subfield>
+		</datafield>
+	</record>
+</collection>

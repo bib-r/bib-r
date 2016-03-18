@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/editor">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/e/P20048"/>
+    <rdfs:label>editor</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/carrierType">
+    <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P3023"/>
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/P30001"/>
+    <rdfs:label>carrierType</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/placeOfpublication">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/P30088"/>
+    <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P3057"/>
+    <rdfs:label>placeOfpublication</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Object">
+    <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/C1008"/>
+    <rdfs:label>Object</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/artist">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10058"/>
+    <rdfs:label>artist</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/insert">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/P30022"/>
+    <rdfs:label>insert</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/continuationOfWork">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10226"/>
+    <rdfs:label>continuationOfWork</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/translator">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/e/P20037"/>
+    <rdfs:label>translator</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/c/C10006"/>
+    <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/C1002"/>
+    <rdfs:label>Expression</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/hasTermForTheConcept">
+    <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P3056"/>
+    <rdfs:label>hasTermForTheConcept</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/identifierForTheWork">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10002"/>
+    <rdfs:label>identifierForTheWork</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/noteOnPublicationStatement">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/P30055"/>
+    <rdfs:label>noteOnPublicationStatement</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/compiler">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10055"/>
+    <rdfs:label>compiler</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/dateOfPublication">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/P30011"/>
+    <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P3055"/>
+    <rdfs:label>dateOfPublication</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/hasTitleOfTheExpression">
+    <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P3008"/>
+    <rdfs:label>hasTitleOfTheExpression</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/identifierForTheCorporateBody">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/a/P50032"/>
+    <rdfs:label>identifierForTheCorporateBody</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/termsOfAvailability">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/P30160"/>
+    <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P3029"/>
+    <rdfs:label>termsOfAvailability</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/title">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/P30134"/>
+    <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P3020"/>
+    <rdfs:label>title</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/nameOfThePerson">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/a/P50111"/>
+    <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P3039"/>
+    <rdfs:label>nameOfThePerson</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/languageOfExpression">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/e/P20006"/>
+    <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P3011"/>
+    <rdfs:label>languageOfExpression</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/CorporateBody">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/c/C10005"/>
+    <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/C1006"/>
+    <rdfs:label>CorporateBody</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/hasAsSubjectPlace">
+    <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P2029"/>
+    <rdfs:label>hasAsSubjectPlace</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Item">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/c/C10003"/>
+    <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/C1004"/>
+    <rdfs:label>Item</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/containerOfManifestation">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/P30033"/>
+    <rdfs:label>containerOfManifestation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/dateAssociatedWithThePerson">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/a/P50107"/>
+    <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P3040"/>
+    <rdfs:label>dateAssociatedWithThePerson</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/award">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/e/P20005"/>
+    <rdfs:label>award</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/adaptor">
+    <rdfs:label>adaptor</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/otherTitleInformation">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/P30142"/>
+    <rdfs:label>otherTitleInformation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/c/C10004"/>
+    <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/C1005"/>
+    <rdfs:label>Person</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/variantTitleForTheWork">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10086"/>
+    <rdfs:label>variantTitleForTheWork</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/frequency">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/P30168"/>
+    <rdfs:label>frequency</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/seriesContainerOf">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10141"/>
+    <rdfs:label>seriesContainerOf</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Concept">
+    <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/C1007"/>
+    <rdfs:label>Concept</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/adaptedAsMotionPictureWork">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10025"/>
+    <rdfs:label>adaptedAsMotionPictureWork</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/containerOfWork">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10147"/>
+    <rdfs:label>containerOfWork</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/creator">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10061"/>
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10065"/>
+    <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P2009"/>
+    <rdfs:label>creator</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/hasAsSubjectConcept">
+    <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P2023"/>
+    <rdfs:label>hasAsSubjectConcept</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/manifestationOfExpression">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/e/P20059"/>
+    <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P2003"/>
+    <rdfs:label>manifestationOfExpression</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/alsoIssuedAs">
+    <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P2083"/>
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/P30026"/>
+    <rdfs:label>alsoIssuedAs</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/expressionOfWork">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10078"/>
+    <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P2001"/>
+    <rdfs:label>expressionOfWork</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/summarizationOfTheContent">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/e/P20069"/>
+    <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P3016"/>
+    <rdfs:label>summarizationOfTheContent</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/publisher">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/P30083"/>
+    <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P3056"/>
+    <rdfs:label>publisher</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/hasTermForTheEvent">
+    <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P3050"/>
+    <rdfs:label>hasTermForTheEvent</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/director">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10066"/>
+    <rdfs:label>director</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/hasTermForThePlace">
+    <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P3051"/>
+    <rdfs:label>hasTermForThePlace</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/parodyOfWork">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10197"/>
+    <rdfs:label>parodyOfWork</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/identifierForThePerson">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/a/P50094"/>
+    <rdfs:label>identifierForThePerson</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/nameOfTheCorporateBody">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/a/P50032"/>
+    <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P3043"/>
+    <rdfs:label>nameOfTheCorporateBody</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/composer">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10053"/>
+    <rdfs:label>composer</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/designationOfEdition">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/P30133"/>
+    <rdfs:label>designationOfEdition</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/issnOfSeries">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/P30166"/>
+    <rdfs:label>issnOfSeries</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/seriesStatement">
+    <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P3022"/>
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/P30106"/>
+    <rdfs:label>seriesStatement</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/identifierForTheManifestation">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/P30004"/>
+    <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P3028"/>
+    <rdfs:label>identifierForTheManifestation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/extent">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/P30182"/>
+    <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P3024"/>
+    <rdfs:label>extent</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/narrator">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/e/P20022"/>
+    <rdfs:label>narrator</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/actor">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/e/P20012"/>
+    <rdfs:label>actor</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/numberingOfPart">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10012"/>
+    <rdfs:label>numberingOfPart</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Place">
+    <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/C1010"/>
+    <rdfs:label>Place</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
+    <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/C1003"/>
+    <rdfs:label>Manifestation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/illustrationsExpression">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/e/P20094"/>
+    <rdfs:label>illustrationsExpression</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/augmentedByWork">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10108"/>
+    <rdfs:label>augmentedByWork</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/illustrator">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/e/P20051"/>
+    <rdfs:label>illustrator</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/publicationStatement">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/P30111"/>
+    <rdfs:label>publicationStatement</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/translatedAs">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/e/P20171"/>
+    <rdfs:label>translatedAs</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/adaptedAsGraphicNovelWork">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10251"/>
+    <rdfs:label>adaptedAsGraphicNovelWork</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/c/C10001"/>
+    <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/C1001"/>
+    <rdfs:label>Work</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/statementOfResponsibilityRelatingToTitleProper">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/P30105"/>
+    <rdfs:label>statementOfResponsibilityRelatingToTitleProper</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/titleOfTheWork">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10088"/>
+    <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P3001"/>
+    <rdfs:label>titleOfTheWork</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/writerOfIntroduction">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/e/P20045"/>
+    <rdfs:label>writerOfIntroduction</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/dimensions">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/P30169"/>
+    <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P3027"/>
+    <rdfs:label>dimensions</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/otherDesignationAssociatedWithTheCorporateBody">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/a/P50033"/>
+    <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P3047"/>
+    <rdfs:label>otherDesignationAssociatedWithTheCorporateBody</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/complementedByWork">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10103"/>
+    <rdfs:label>complementedByWork</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/numberingWithinSeries">
+    <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P3079"/>
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/P30014"/>
+    <rdfs:label>numberingWithinSeries</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Event">
+    <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/C1009"/>
+    <rdfs:label>Event</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/appendixWork">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10123"/>
+    <rdfs:label>appendixWork</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/numberingWithinSubseries">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/P30015"/>
+    <rdfs:label>numberingWithinSubseries</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/noteOnCarrier">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/P30214"/>
+    <rdfs:label>noteOnCarrier</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/contributor">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/e/P20053"/>
+    <rdfs:label>contributor</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/wholePartWorkRelationship">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10232"/>
+    <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P2057"/>
+    <rdfs:label>wholePartWorkRelationship</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Family">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/c/C10008"/>
+    <rdfs:label>Family</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/supplementWork">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10172"/>
+    <rdfs:label>supplementWork</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/noteOnExpression">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/e/P20071"/>
+    <rdfs:label>noteOnExpression</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/illustrationsWork">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10093"/>
+    <rdfs:label>illustrationsWork</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

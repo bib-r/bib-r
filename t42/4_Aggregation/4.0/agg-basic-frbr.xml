@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:frbr="http://research.progilone.fr/benchmark/">
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#RomandeRenart">
+    <frbr:wholePartWorkRelationship>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#JambonsYsengrin">
+        <frbr:creator>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#JeanMarcMathis">
+            <frbr:nameOfThePerson>Jean-Marc Mathis</frbr:nameOfThePerson>
+            <frbr:identifierForThePerson>pauth-026</frbr:identifierForThePerson>
+          </rdf:Description>
+        </frbr:creator>
+        <frbr:expressionOfWork>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#JambonsYsengrinComicFrench">
+            <frbr:manifestationOfExpression>
+              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Book9782756003580">
+                <frbr:placeOfpublication>Paris</frbr:placeOfpublication>
+                <frbr:noteOnCarrier>colorful illustrations</frbr:noteOnCarrier>
+                <frbr:dateOfPublication>2007</frbr:dateOfPublication>
+                <frbr:dimensions>30 cm</frbr:dimensions>
+                <frbr:identifierForTheManifestation>978-2-7560-0358-0</frbr:identifierForTheManifestation>
+                <frbr:publisher>
+                  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/CorporateBody#Delcourt">
+                    <frbr:nameOfTheCorporateBody>Delcourt</frbr:nameOfTheCorporateBody>
+                  </rdf:Description>
+                </frbr:publisher>
+                <frbr:title>Jambons d'Ysengrin (Les )</frbr:title>
+                <frbr:statementOfResponsibilityRelatingToTitleProper
+                >Jean-Marc Mathis; illustrated by Thierry Martin</frbr:statementOfResponsibilityRelatingToTitleProper>
+                <frbr:termsOfAvailability>8,90 Euros</frbr:termsOfAvailability>
+                <frbr:extent>31 pages</frbr:extent>
+              </rdf:Description>
+            </frbr:manifestationOfExpression>
+            <frbr:languageOfExpression>French</frbr:languageOfExpression>
+          </rdf:Description>
+        </frbr:expressionOfWork>
+        <frbr:titleOfTheWork>Jambons d'Ysengrin (Les )</frbr:titleOfTheWork>
+      </rdf:Description>
+    </frbr:wholePartWorkRelationship>
+    <frbr:creator>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#ChristianKeime">
+        <frbr:nameOfThePerson>Christian Keime</frbr:nameOfThePerson>
+        <frbr:identifierForThePerson>pauth-005</frbr:identifierForThePerson>
+      </rdf:Description>
+    </frbr:creator>
+    <frbr:expressionOfWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#RomandeRenartTextFrench">
+        <frbr:contributor>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#MoniqueLachetLagarde">
+            <frbr:nameOfThePerson>Monique Lachet-Lagarde</frbr:nameOfThePerson>
+            <frbr:identifierForThePerson>pauth-006</frbr:identifierForThePerson>
+          </rdf:Description>
+        </frbr:contributor>
+        <frbr:manifestationOfExpression>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Book9782081209633">
+            <frbr:dateOfPublication>2008</frbr:dateOfPublication>
+            <frbr:placeOfpublication>Paris</frbr:placeOfpublication>
+            <frbr:termsOfAvailability>2,70 euro</frbr:termsOfAvailability>
+            <frbr:statementOfResponsibilityRelatingToTitleProper
+            >Christian Keime; Monique Lachet-Lagarde</frbr:statementOfResponsibilityRelatingToTitleProper>
+            <frbr:publisher>
+              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/CorporateBody#Flammarion">
+                <frbr:nameOfTheCorporateBody>Flammarion</frbr:nameOfTheCorporateBody>
+              </rdf:Description>
+            </frbr:publisher>
+            <frbr:identifierForTheManifestation>978-2-0812-0963-3</frbr:identifierForTheManifestation>
+            <frbr:title>Roman de Renart (Le)</frbr:title>
+            <frbr:dimensions>18 cm</frbr:dimensions>
+            <frbr:extent>159 pages</frbr:extent>
+            <frbr:noteOnCarrier>Illustrations, cover with colorful illustrations</frbr:noteOnCarrier>
+          </rdf:Description>
+        </frbr:manifestationOfExpression>
+        <frbr:languageOfExpression>French</frbr:languageOfExpression>
+      </rdf:Description>
+    </frbr:expressionOfWork>
+    <frbr:titleOfTheWork>Roman de Renart</frbr:titleOfTheWork>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#ConteduGraalText">
+    <frbr:manifestationOfExpression>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Book2253132225">
+        <frbr:dateOfPublication>1994</frbr:dateOfPublication>
+        <frbr:placeOfpublication>Paris</frbr:placeOfpublication>
+        <frbr:dimensions>19 cm</frbr:dimensions>
+        <frbr:statementOfResponsibilityRelatingToTitleProper>Chretien de Troyes</frbr:statementOfResponsibilityRelatingToTitleProper>
+        <frbr:title>Romans</frbr:title>
+        <frbr:termsOfAvailability>120,00 F</frbr:termsOfAvailability>
+        <frbr:publisher>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/CorporateBody#LibrairieGeneraleFrancaise">
+            <frbr:nameOfTheCorporateBody>Librairie Generale Francaise</frbr:nameOfTheCorporateBody>
+          </rdf:Description>
+        </frbr:publisher>
+        <frbr:noteOnCarrier>Cover with colorful illustrations</frbr:noteOnCarrier>
+        <frbr:identifierForTheManifestation>2-253-13222-5</frbr:identifierForTheManifestation>
+        <frbr:extent>1279 pages</frbr:extent>
+      </rdf:Description>
+    </frbr:manifestationOfExpression>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#Romans">
+    <frbr:containerOfWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#ConteduGraal">
+        <frbr:titleOfTheWork>Conte du Graal (Le)</frbr:titleOfTheWork>
+      </rdf:Description>
+    </frbr:containerOfWork>
+    <frbr:containerOfWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#ChevalierauLion">
+        <frbr:titleOfTheWork>Chevalier au Lion (Le)</frbr:titleOfTheWork>
+      </rdf:Description>
+    </frbr:containerOfWork>
+    <frbr:containerOfWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#ChevalierdelaCharrette">
+        <frbr:titleOfTheWork>Chevalier de la Charrette (Le)</frbr:titleOfTheWork>
+      </rdf:Description>
+    </frbr:containerOfWork>
+    <frbr:containerOfWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#Cliges">
+        <frbr:titleOfTheWork>Cliges</frbr:titleOfTheWork>
+      </rdf:Description>
+    </frbr:containerOfWork>
+    <frbr:hasAsSubjectConcept>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Concept#RomansdelaTableronde">
+        <frbr:hasTermForTheConcept>Romans de la Table ronde</frbr:hasTermForTheConcept>
+      </rdf:Description>
+    </frbr:hasAsSubjectConcept>
+    <frbr:compiler>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#ChretiendeTroyes">
+        <frbr:nameOfThePerson>Chretien de Troyes</frbr:nameOfThePerson>
+        <frbr:identifierForThePerson>pauth-004</frbr:identifierForThePerson>
+      </rdf:Description>
+    </frbr:compiler>
+    <frbr:expressionOfWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#RomansTextFrench">
+        <frbr:manifestationOfExpression rdf:resource="http://research.progilone.fr/benchmark/Manifestation#Book2253132225"/>
+        <frbr:languageOfExpression>French</frbr:languageOfExpression>
+      </rdf:Description>
+    </frbr:expressionOfWork>
+    <frbr:titleOfTheWork>Romans</frbr:titleOfTheWork>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#ChevalierauLionText">
+    <frbr:manifestationOfExpression rdf:resource="http://research.progilone.fr/benchmark/Manifestation#Book2253132225"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#Abhangigkeiten">
+    <frbr:wholePartWorkRelationship>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#HartUndSozial">
+        <frbr:hasAsSubjectPlace>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Place#Netherlands">
+            <frbr:hasTermForTheConcept>Netherlands</frbr:hasTermForTheConcept>
+          </rdf:Description>
+        </frbr:hasAsSubjectPlace>
+        <frbr:hasAsSubjectConcept>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Concept#Klinik">
+            <frbr:hasTermForTheConcept>Klinik</frbr:hasTermForTheConcept>
+          </rdf:Description>
+        </frbr:hasAsSubjectConcept>
+        <frbr:hasAsSubjectConcept>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Concept#Behandlung">
+            <frbr:hasTermForTheConcept>Behandlung</frbr:hasTermForTheConcept>
+          </rdf:Description>
+        </frbr:hasAsSubjectConcept>
+        <frbr:hasAsSubjectConcept>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Concept#Abhangigkeit">
+            <frbr:hasTermForTheConcept>Abhangigkeit</frbr:hasTermForTheConcept>
+          </rdf:Description>
+        </frbr:hasAsSubjectConcept>
+        <frbr:creator>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#HansSlijpen">
+            <frbr:nameOfThePerson>Hans Slijpen</frbr:nameOfThePerson>
+            <frbr:identifierForThePerson>pauth-023</frbr:identifierForThePerson>
+          </rdf:Description>
+        </frbr:creator>
+        <frbr:expressionOfWork>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#HartUndSozialArticleEnglish">
+            <frbr:manifestationOfExpression>
+              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#ArticleHartUndSozial">
+                <frbr:statementOfResponsibilityRelatingToTitleProper
+                >Hans Slijpen</frbr:statementOfResponsibilityRelatingToTitleProper>
+                <frbr:title>Hart und Sozial</frbr:title>
+                <frbr:otherTitleInformation>Das Utrechter Modell</frbr:otherTitleInformation>
+                <frbr:extent>pages 40-46</frbr:extent>
+                <frbr:publicationStatement>volume 14, number 3</frbr:publicationStatement>
+                <frbr:dateOfPublication>2008</frbr:dateOfPublication>
+              </rdf:Description>
+            </frbr:manifestationOfExpression>
+            <frbr:summarizationOfTheContent>Wiederholungstater sind haufig noch...</frbr:summarizationOfTheContent>
+            <frbr:languageOfExpression>German</frbr:languageOfExpression>
+          </rdf:Description>
+        </frbr:expressionOfWork>
+        <frbr:titleOfTheWork>Hart und Sozial</frbr:titleOfTheWork>
+      </rdf:Description>
+    </frbr:wholePartWorkRelationship>
+    <frbr:identifierForTheWork>jauth-001</frbr:identifierForTheWork>
+    <frbr:titleOfTheWork>Abhangigkeiten</frbr:titleOfTheWork>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#DiscoursdelaMethode">
+    <frbr:creator>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#Descartes">
+        <frbr:nameOfThePerson>Descartes</frbr:nameOfThePerson>
+        <frbr:identifierForThePerson>pauth-008</frbr:identifierForThePerson>
+      </rdf:Description>
+    </frbr:creator>
+    <frbr:expressionOfWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#MeditationsMetaphysiquesTextFrench">
+        <frbr:contributor>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#DenisHuisman">
+            <frbr:nameOfThePerson>Denis Huisman</frbr:nameOfThePerson>
+            <frbr:identifierForThePerson>pauth-056</frbr:identifierForThePerson>
+          </rdf:Description>
+        </frbr:contributor>
+        <frbr:manifestationOfExpression>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Book9782091873022">
+            <frbr:publisher>
+              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/CorporateBody#Nathan">
+                <frbr:nameOfTheCorporateBody>Nathan</frbr:nameOfTheCorporateBody>
+              </rdf:Description>
+            </frbr:publisher>
+            <frbr:seriesStatement>
+              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#LesIntegralesphilo">
+                <frbr:identifierForTheWork>colauth-001</frbr:identifierForTheWork>
+                <frbr:titleOfTheWork>Les Integrales de philo</frbr:titleOfTheWork>
+              </rdf:Description>
+            </frbr:seriesStatement>
+            <frbr:dateOfPublication>2009</frbr:dateOfPublication>
+            <frbr:extent>143 pages</frbr:extent>
+            <frbr:termsOfAvailability>6,50 EUR</frbr:termsOfAvailability>
+            <frbr:dimensions>21 cm</frbr:dimensions>
+            <frbr:identifierForTheManifestation>9782091873022</frbr:identifierForTheManifestation>
+          </rdf:Description>
+        </frbr:manifestationOfExpression>
+        <frbr:noteOnExpression>Bibliography pages 142-143</frbr:noteOnExpression>
+        <frbr:contributor>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#ChristineThubert">
+            <frbr:nameOfThePerson>Christine Thubert</frbr:nameOfThePerson>
+            <frbr:identifierForThePerson>pauth-010</frbr:identifierForThePerson>
+          </rdf:Description>
+        </frbr:contributor>
+        <frbr:manifestationOfExpression>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Book9782091873053">
+            <frbr:title>Discours de la methode</frbr:title>
+            <frbr:identifierForTheManifestation>978-2-09-187305-3</frbr:identifierForTheManifestation>
+            <frbr:placeOfpublication>France</frbr:placeOfpublication>
+            <frbr:statementOfResponsibilityRelatingToTitleProper
+            >Descartes; Andre Vergez; Christine Thubert</frbr:statementOfResponsibilityRelatingToTitleProper>
+            <frbr:termsOfAvailability>7,50 EUR</frbr:termsOfAvailability>
+            <frbr:dateOfPublication>2009</frbr:dateOfPublication>
+            <frbr:statementOfResponsibilityRelatingToTitleProper
+            >Descartes; Denis Huisman</frbr:statementOfResponsibilityRelatingToTitleProper>
+            <frbr:extent>191 pages</frbr:extent>
+            <frbr:noteOnCarrier>On the cover: Texte integral annote, dossier pedagogique</frbr:noteOnCarrier>
+            <frbr:title>Meditations metaphysiques</frbr:title>
+            <frbr:publisher rdf:resource="http://research.progilone.fr/benchmark/CorporateBody#Nathan"/>
+            <frbr:dimensions>21 cm</frbr:dimensions>
+            <frbr:seriesStatement rdf:resource="http://research.progilone.fr/benchmark/Work#LesIntegralesphilo"/>
+          </rdf:Description>
+        </frbr:manifestationOfExpression>
+        <frbr:languageOfExpression>French</frbr:languageOfExpression>
+      </rdf:Description>
+    </frbr:expressionOfWork>
+    <frbr:titleOfTheWork>Discours de la methode</frbr:titleOfTheWork>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#Iloveenglish">
+    <frbr:wholePartWorkRelationship>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#Iloveenglish209">
+        <frbr:expressionOfWork>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#Iloveenglish209">
+            <frbr:manifestationOfExpression>
+              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Iloveenglish209">
+                <frbr:otherTitleInformation>209</frbr:otherTitleInformation>
+                <frbr:numberingWithinSeries>209</frbr:numberingWithinSeries>
+                <frbr:dateOfPublication>2013</frbr:dateOfPublication>
+                <frbr:title>June-1-2013</frbr:title>
+              </rdf:Description>
+            </frbr:manifestationOfExpression>
+          </rdf:Description>
+        </frbr:expressionOfWork>
+        <frbr:titleOfTheWork>I love english</frbr:titleOfTheWork>
+      </rdf:Description>
+    </frbr:wholePartWorkRelationship>
+    <frbr:wholePartWorkRelationship>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#Iloveenglish208">
+        <frbr:expressionOfWork>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#Iloveenglish208">
+            <frbr:manifestationOfExpression>
+              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Iloveenglish208">
+                <frbr:otherTitleInformation>208</frbr:otherTitleInformation>
+                <frbr:numberingWithinSeries>208</frbr:numberingWithinSeries>
+                <frbr:dateOfPublication>2013</frbr:dateOfPublication>
+                <frbr:title>May-1-2013</frbr:title>
+              </rdf:Description>
+            </frbr:manifestationOfExpression>
+          </rdf:Description>
+        </frbr:expressionOfWork>
+        <frbr:titleOfTheWork>I love english</frbr:titleOfTheWork>
+      </rdf:Description>
+    </frbr:wholePartWorkRelationship>
+    <frbr:hasAsSubjectConcept>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Concept#LearningEnglish">
+        <frbr:hasTermForTheConcept>Learning English</frbr:hasTermForTheConcept>
+      </rdf:Description>
+    </frbr:hasAsSubjectConcept>
+    <frbr:expressionOfWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#IloveenglishAudio">
+        <frbr:manifestationOfExpression>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#JournalIloveenglish">
+            <frbr:publisher>
+              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/CorporateBody#BayardPresse">
+                <frbr:nameOfTheCorporateBody>Bayard Presse</frbr:nameOfTheCorporateBody>
+              </rdf:Description>
+            </frbr:publisher>
+            <frbr:title>I love english</frbr:title>
+            <frbr:dateOfPublication>2002-</frbr:dateOfPublication>
+            <frbr:frequency>Monthly</frbr:frequency>
+            <frbr:dimensions>28 cm</frbr:dimensions>
+          </rdf:Description>
+        </frbr:manifestationOfExpression>
+        <frbr:noteOnExpression>1 CD audio</frbr:noteOnExpression>
+      </rdf:Description>
+    </frbr:expressionOfWork>
+    <frbr:expressionOfWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#IloveenglishJournal">
+        <frbr:manifestationOfExpression rdf:resource="http://research.progilone.fr/benchmark/Manifestation#JournalIloveenglish"/>
+        <frbr:publisher rdf:resource="http://research.progilone.fr/benchmark/CorporateBody#BayardPresse"/>
+        <frbr:noteOnExpression>Serial</frbr:noteOnExpression>
+      </rdf:Description>
+    </frbr:expressionOfWork>
+    <frbr:titleOfTheWork>I love english</frbr:titleOfTheWork>
+    <frbr:identifierForTheWork>tauth-013</frbr:identifierForTheWork>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#MeditationsMetaphysiques">
+    <frbr:creator rdf:resource="http://research.progilone.fr/benchmark/Person#Descartes"/>
+    <frbr:expressionOfWork rdf:resource="http://research.progilone.fr/benchmark/Expression#MeditationsMetaphysiquesTextFrench"/>
+    <frbr:titleOfTheWork>Meditations metaphysiques</frbr:titleOfTheWork>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#ValerianEtLaureline">
+    <frbr:containerOfWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#ValerianetLaureline">
+        <frbr:creator>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#PierreChristin">
+            <frbr:nameOfThePerson>Pierre Christin</frbr:nameOfThePerson>
+            <frbr:identifierForThePerson>pauth-020</frbr:identifierForThePerson>
+          </rdf:Description>
+        </frbr:creator>
+        <frbr:creator>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#JeanClaudeMezieres">
+            <frbr:nameOfThePerson>Jean-Claude Mezieres</frbr:nameOfThePerson>
+            <frbr:identifierForThePerson>pauth-021</frbr:identifierForThePerson>
+          </rdf:Description>
+        </frbr:creator>
+        <frbr:identifierForTheWork>tauth-005</frbr:identifierForTheWork>
+        <frbr:titleOfTheWork>Valerian et Laureline</frbr:titleOfTheWork>
+      </rdf:Description>
+    </frbr:containerOfWork>
+    <frbr:containerOfWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#Lordredespierres">
+        <frbr:creator rdf:resource="http://research.progilone.fr/benchmark/Person#PierreChristin"/>
+        <frbr:creator rdf:resource="http://research.progilone.fr/benchmark/Person#JeanClaudeMezieres"/>
+        <frbr:identifierForTheWork>tauth-006</frbr:identifierForTheWork>
+        <frbr:titleOfTheWork>L'ordre des pierres</frbr:titleOfTheWork>
+      </rdf:Description>
+    </frbr:containerOfWork>
+    <frbr:containerOfWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#Auborddugouffre">
+        <frbr:creator>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#VictorMargueritte">
+            <frbr:nameOfThePerson>Victor Margueritte</frbr:nameOfThePerson>
+          </rdf:Description>
+        </frbr:creator>
+        <frbr:identifierForTheWork>tauth-007</frbr:identifierForTheWork>
+        <frbr:titleOfTheWork>Au bord du gouffre</frbr:titleOfTheWork>
+      </rdf:Description>
+    </frbr:containerOfWork>
+    <frbr:creator rdf:resource="http://research.progilone.fr/benchmark/Person#JeanClaudeMezieres"/>
+    <frbr:creator rdf:resource="http://research.progilone.fr/benchmark/Person#PierreChristin"/>
+    <frbr:expressionOfWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#ValerianEtLaurelineTextFrench">
+        <frbr:manifestationOfExpression>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Comic9782205060386">
+            <frbr:placeOfpublication>Paris</frbr:placeOfpublication>
+            <frbr:extent>1 volume (173 pages)</frbr:extent>
+            <frbr:title>Valerian et Laureline</frbr:title>
+            <frbr:otherTitleInformation>l'integrale Volume 7</frbr:otherTitleInformation>
+            <frbr:publisher>
+              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/CorporateBody#Dargaud">
+                <frbr:nameOfTheCorporateBody>Dargaud</frbr:nameOfTheCorporateBody>
+              </rdf:Description>
+            </frbr:publisher>
+            <frbr:noteOnCarrier>Colorful illustrations, cover with colorful illustrations</frbr:noteOnCarrier>
+            <frbr:carrierType>Printed Text</frbr:carrierType>
+            <frbr:identifierForTheManifestation>978-2205-06038-6</frbr:identifierForTheManifestation>
+            <frbr:dateOfPublication>2012</frbr:dateOfPublication>
+            <frbr:dimensions>30 cm</frbr:dimensions>
+            <frbr:statementOfResponsibilityRelatingToTitleProper
+            >Pierre Christin; Jean-Claude Mezieres</frbr:statementOfResponsibilityRelatingToTitleProper>
+          </rdf:Description>
+        </frbr:manifestationOfExpression>
+        <frbr:languageOfExpression>French</frbr:languageOfExpression>
+      </rdf:Description>
+    </frbr:expressionOfWork>
+    <frbr:titleOfTheWork>Valerian et Laureline</frbr:titleOfTheWork>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#ChevalierdelaCharretteText">
+    <frbr:manifestationOfExpression rdf:resource="http://research.progilone.fr/benchmark/Manifestation#Book2253132225"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#CligesText">
+    <frbr:manifestationOfExpression rdf:resource="http://research.progilone.fr/benchmark/Manifestation#Book2253132225"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#InfectionControlAndHospitalEpidemiology">
+    <frbr:variantTitleForTheWork>Infect Control Hosp Epidemiol</frbr:variantTitleForTheWork>
+    <frbr:variantTitleForTheWork>ICHE</frbr:variantTitleForTheWork>
+    <frbr:titleOfTheWork>Infection control and hospital epidemiology</frbr:titleOfTheWork>
+    <frbr:variantTitleForTheWork>Official journal of The SHEA</frbr:variantTitleForTheWork>
+    <frbr:hasAsSubjectConcept>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Concept#Hospitals">
+        <frbr:hasTermForTheConcept>Hospitals</frbr:hasTermForTheConcept>
+      </rdf:Description>
+    </frbr:hasAsSubjectConcept>
+    <frbr:hasAsSubjectConcept>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Concept#Epidemiology">
+        <frbr:hasTermForTheConcept>Epidemiology</frbr:hasTermForTheConcept>
+      </rdf:Description>
+    </frbr:hasAsSubjectConcept>
+    <frbr:expressionOfWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#InfectionControlAndHospitalEpidemiologyPublication">
+        <frbr:manifestationOfExpression>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Journal0899823XPub2">
+            <frbr:publisher>
+              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/CorporateBody#UniversityofChicagoPress">
+                <frbr:nameOfTheCorporateBody>University of Chicago Press</frbr:nameOfTheCorporateBody>
+              </rdf:Description>
+            </frbr:publisher>
+            <frbr:placeOfpublication>Chicago, IL</frbr:placeOfpublication>
+            <frbr:dateOfPublication>2006-</frbr:dateOfPublication>
+          </rdf:Description>
+        </frbr:manifestationOfExpression>
+        <frbr:manifestationOfExpression>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Journal0899823XPub1">
+            <frbr:publisher>
+              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/CorporateBody#SLACKInc">
+                <frbr:nameOfTheCorporateBody>SLACK Inc.</frbr:nameOfTheCorporateBody>
+              </rdf:Description>
+            </frbr:publisher>
+            <frbr:placeOfpublication>Thorofare, NJ</frbr:placeOfpublication>
+            <frbr:dateOfPublication>1988-</frbr:dateOfPublication>
+          </rdf:Description>
+        </frbr:manifestationOfExpression>
+      </rdf:Description>
+    </frbr:expressionOfWork>
+    <frbr:expressionOfWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#InfectionControlAndHospitalEpidemiologyJournal">
+        <frbr:manifestationOfExpression>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Journal0899823X">
+            <frbr:containerOfManifestation rdf:resource="http://research.progilone.fr/benchmark/Manifestation#Journal0899823XPub2"/>
+            <frbr:containerOfManifestation rdf:resource="http://research.progilone.fr/benchmark/Manifestation#Journal0899823XPub1"/>
+            <frbr:statementOfResponsibilityRelatingToTitleProper
+            >Richard P. Wenzel; Barry Farr</frbr:statementOfResponsibilityRelatingToTitleProper>
+            <frbr:otherTitleInformation>An official journal of the Society of Hospital Epidemiologists of America</frbr:otherTitleInformation>
+            <frbr:title>Infection control and hospital epidemiology</frbr:title>
+            <frbr:frequency>Monthly</frbr:frequency>
+            <frbr:noteOnPublicationStatement>Published by University chicago press in 2006</frbr:noteOnPublicationStatement>
+            <frbr:publicationStatement>Volume 9, number 1 (January 1988)-</frbr:publicationStatement>
+            <frbr:issnOfSeries>0899-823X</frbr:issnOfSeries>
+          </rdf:Description>
+        </frbr:manifestationOfExpression>
+        <frbr:editor>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/CorporateBody#SocietyHospitalEpidemiologistsAmerica">
+            <frbr:nameOfTheCorporateBody>Society of Hospital Epidemiologists of America</frbr:nameOfTheCorporateBody>
+          </rdf:Description>
+        </frbr:editor>
+        <frbr:summarizationOfTheContent>Infection Control and Hospital Epidemiology...</frbr:summarizationOfTheContent>
+        <frbr:noteOnExpression>Serial</frbr:noteOnExpression>
+        <frbr:languageOfExpression>English</frbr:languageOfExpression>
+      </rdf:Description>
+    </frbr:expressionOfWork>
+    <frbr:hasAsSubjectConcept>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Concept#CrossInfection">
+        <frbr:hasTermForTheConcept>Cross Infection</frbr:hasTermForTheConcept>
+      </rdf:Description>
+    </frbr:hasAsSubjectConcept>
+    <frbr:identifierForTheWork>tauth-014</frbr:identifierForTheWork>
+    <frbr:director>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#BarryFarr">
+        <frbr:nameOfThePerson>Barry Farr</frbr:nameOfThePerson>
+        <frbr:identifierForThePerson>pauth-045</frbr:identifierForThePerson>
+      </rdf:Description>
+    </frbr:director>
+    <frbr:hasAsSubjectConcept>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Concept#InfectionControl">
+        <frbr:hasTermForTheConcept>Infection Control</frbr:hasTermForTheConcept>
+      </rdf:Description>
+    </frbr:hasAsSubjectConcept>
+    <frbr:director>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#RichardPWenzel">
+        <frbr:nameOfThePerson>Richard P. Wenzel</frbr:nameOfThePerson>
+        <frbr:identifierForThePerson>pauth-044</frbr:identifierForThePerson>
+      </rdf:Description>
+    </frbr:director>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#Essais">
+    <frbr:containerOfWork rdf:resource="http://research.progilone.fr/benchmark/Work#Essais"/>
+    <frbr:creator>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#MicheldeMontaigne">
+        <frbr:nameOfThePerson>Michel de Montaigne</frbr:nameOfThePerson>
+        <frbr:identifierForThePerson>pauth-007</frbr:identifierForThePerson>
+      </rdf:Description>
+    </frbr:creator>
+    <frbr:expressionOfWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#EssaisTextFrench">
+        <frbr:manifestationOfExpression>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Book9782080702111">
+            <frbr:publisher>
+              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/CorporateBody#GarnierFlammarion">
+                <frbr:nameOfTheCorporateBody>Garnier-Flammarion</frbr:nameOfTheCorporateBody>
+              </rdf:Description>
+            </frbr:publisher>
+            <frbr:otherTitleInformation>Book II</frbr:otherTitleInformation>
+            <frbr:dateOfPublication>1969</frbr:dateOfPublication>
+            <frbr:identifierForTheManifestation>978-2-08-070211-1</frbr:identifierForTheManifestation>
+            <frbr:numberingWithinSeries>211</frbr:numberingWithinSeries>
+            <frbr:extent>510 pages</frbr:extent>
+            <frbr:statementOfResponsibilityRelatingToTitleProper
+            >Michel de Montaigne</frbr:statementOfResponsibilityRelatingToTitleProper>
+            <frbr:dimensions>18 cm</frbr:dimensions>
+            <frbr:seriesStatement>
+              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#GF">
+                <frbr:titleOfTheWork>GF</frbr:titleOfTheWork>
+              </rdf:Description>
+            </frbr:seriesStatement>
+            <frbr:placeOfpublication>Paris</frbr:placeOfpublication>
+            <frbr:noteOnCarrier>Cover with colorful illustrations</frbr:noteOnCarrier>
+            <frbr:termsOfAvailability>6.80euro</frbr:termsOfAvailability>
+            <frbr:title>Essais</frbr:title>
+            <frbr:numberingWithinSubseries>2</frbr:numberingWithinSubseries>
+          </rdf:Description>
+        </frbr:manifestationOfExpression>
+        <frbr:manifestationOfExpression>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Book9782080702104">
+            <frbr:title>Essais</frbr:title>
+            <frbr:dateOfPublication>1969</frbr:dateOfPublication>
+            <frbr:extent>443 pages</frbr:extent>
+            <frbr:otherTitleInformation>Book I</frbr:otherTitleInformation>
+            <frbr:seriesStatement rdf:resource="http://research.progilone.fr/benchmark/Work#GF"/>
+            <frbr:statementOfResponsibilityRelatingToTitleProper
+            >Michel de Montaigne</frbr:statementOfResponsibilityRelatingToTitleProper>
+            <frbr:dimensions>18 cm</frbr:dimensions>
+            <frbr:placeOfpublication>Paris</frbr:placeOfpublication>
+            <frbr:termsOfAvailability>5.80 euro</frbr:termsOfAvailability>
+            <frbr:publisher rdf:resource="http://research.progilone.fr/benchmark/CorporateBody#GarnierFlammarion"/>
+            <frbr:numberingWithinSubseries>1</frbr:numberingWithinSubseries>
+            <frbr:numberingWithinSeries>210</frbr:numberingWithinSeries>
+            <frbr:noteOnCarrier>Cover with colorful illustrations</frbr:noteOnCarrier>
+            <frbr:identifierForTheManifestation>978-2-08-070210-4</frbr:identifierForTheManifestation>
+          </rdf:Description>
+        </frbr:manifestationOfExpression>
+        <frbr:languageOfExpression>French</frbr:languageOfExpression>
+      </rdf:Description>
+    </frbr:expressionOfWork>
+    <frbr:titleOfTheWork>Essais</frbr:titleOfTheWork>
+  </rdf:Description>
+</rdf:RDF>

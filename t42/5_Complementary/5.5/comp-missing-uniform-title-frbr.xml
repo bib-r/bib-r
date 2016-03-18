@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:frbr="http://research.progilone.fr/benchmark/">
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#InfectionControlAndHospitalEpidemiology">
+    <frbr:variantTitleForTheWork>Infect Control Hosp Epidemiol</frbr:variantTitleForTheWork>
+    <frbr:variantTitleForTheWork>ICHE</frbr:variantTitleForTheWork>
+    <frbr:variantTitleForTheWork>Official journal of The SHEA</frbr:variantTitleForTheWork>
+    <frbr:hasAsSubjectConcept>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Concept#Hospitals">
+        <frbr:hasTermForTheConcept>Hospitals</frbr:hasTermForTheConcept>
+      </rdf:Description>
+    </frbr:hasAsSubjectConcept>
+    <frbr:hasAsSubjectConcept>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Concept#Epidemiology">
+        <frbr:hasTermForTheConcept>Epidemiology</frbr:hasTermForTheConcept>
+      </rdf:Description>
+    </frbr:hasAsSubjectConcept>
+    <frbr:expressionOfWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#InfectionControlAndHospitalEpidemiologyJournal">
+        <frbr:manifestationOfExpression>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Journal0899823X">
+            <frbr:containerOfManifestation>
+              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Journal0899823XPub2">
+                <frbr:publisher>
+                  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/CorporateBody#UniversityofChicagoPress">
+                    <frbr:nameOfTheCorporateBody>University of Chicago Press</frbr:nameOfTheCorporateBody>
+                  </rdf:Description>
+                </frbr:publisher>
+                <frbr:placeOfpublication>Chicago, IL</frbr:placeOfpublication>
+                <frbr:dateOfPublication>2006-</frbr:dateOfPublication>
+              </rdf:Description>
+            </frbr:containerOfManifestation>
+            <frbr:containerOfManifestation>
+              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Journal0899823XPub1">
+                <frbr:publisher>
+                  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/CorporateBody#SLACKInc">
+                    <frbr:nameOfTheCorporateBody>SLACK Inc.</frbr:nameOfTheCorporateBody>
+                  </rdf:Description>
+                </frbr:publisher>
+                <frbr:placeOfpublication>Thorofare, NJ</frbr:placeOfpublication>
+                <frbr:dateOfPublication>1988-</frbr:dateOfPublication>
+              </rdf:Description>
+            </frbr:containerOfManifestation>
+            <frbr:statementOfResponsibilityRelatingToTitleProper
+            >Richard P. Wenzel; Barry Farr</frbr:statementOfResponsibilityRelatingToTitleProper>
+            <frbr:otherTitleInformation>An official journal of the Society of Hospital Epidemiologists of America</frbr:otherTitleInformation>
+            <frbr:title>Infection control and hospital epidemiology</frbr:title>
+            <frbr:frequency>Monthly</frbr:frequency>
+            <frbr:noteOnPublicationStatement>Published by University chicago press in 2006</frbr:noteOnPublicationStatement>
+            <frbr:publicationStatement>Volume 9, number 1 (January 1988)-</frbr:publicationStatement>
+            <frbr:issnOfSeries>0899-823X</frbr:issnOfSeries>
+          </rdf:Description>
+        </frbr:manifestationOfExpression>
+        <frbr:editor>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/CorporateBody#SocietyHospitalEpidemiologistsAmerica">
+            <frbr:nameOfTheCorporateBody>Society of Hospital Epidemiologists of America</frbr:nameOfTheCorporateBody>
+          </rdf:Description>
+        </frbr:editor>
+        <frbr:summarizationOfTheContent>Infection Control and Hospital Epidemiology...</frbr:summarizationOfTheContent>
+        <frbr:noteOnExpression>Serial</frbr:noteOnExpression>
+        <frbr:languageOfExpression>English</frbr:languageOfExpression>
+      </rdf:Description>
+    </frbr:expressionOfWork>
+    <frbr:expressionOfWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#InfectionControlAndHospitalEpidemiologyPublication">
+        <frbr:manifestationOfExpression rdf:resource="http://research.progilone.fr/benchmark/Manifestation#Journal0899823XPub2"/>
+        <frbr:manifestationOfExpression rdf:resource="http://research.progilone.fr/benchmark/Manifestation#Journal0899823XPub1"/>
+      </rdf:Description>
+    </frbr:expressionOfWork>
+    <frbr:hasAsSubjectConcept>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Concept#CrossInfection">
+        <frbr:hasTermForTheConcept>Cross Infection</frbr:hasTermForTheConcept>
+      </rdf:Description>
+    </frbr:hasAsSubjectConcept>
+    <frbr:identifierForTheWork>tauth-014</frbr:identifierForTheWork>
+    <frbr:director>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#BarryFarr">
+        <frbr:nameOfThePerson>Barry Farr</frbr:nameOfThePerson>
+        <frbr:identifierForThePerson>pauth-045</frbr:identifierForThePerson>
+      </rdf:Description>
+    </frbr:director>
+    <frbr:continuationOfWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#Infectioncontrol">
+        <frbr:expressionOfWork>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#InfectioncontrolJournal">
+            <frbr:manifestationOfExpression>
+              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Journal0195-9417">
+                <frbr:title>Infection control</frbr:title>
+                <frbr:publisher rdf:resource="http://research.progilone.fr/benchmark/CorporateBody#SLACKInc"/>
+                <frbr:frequency>Monthly</frbr:frequency>
+                <frbr:issnOfSeries>0195-9417</frbr:issnOfSeries>
+              </rdf:Description>
+            </frbr:manifestationOfExpression>
+            <frbr:noteOnExpression>Serial</frbr:noteOnExpression>
+            <frbr:languageOfExpression>English</frbr:languageOfExpression>
+          </rdf:Description>
+        </frbr:expressionOfWork>
+        <frbr:hasAsSubjectConcept>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Concept#InfectionControl">
+            <frbr:hasTermForTheConcept>Infection Control</frbr:hasTermForTheConcept>
+          </rdf:Description>
+        </frbr:hasAsSubjectConcept>
+        <frbr:hasAsSubjectConcept>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Concept#Infection">
+            <frbr:hasTermForTheConcept>Infection</frbr:hasTermForTheConcept>
+          </rdf:Description>
+        </frbr:hasAsSubjectConcept>
+        <frbr:identifierForTheWork>tauth-019</frbr:identifierForTheWork>
+      </rdf:Description>
+    </frbr:continuationOfWork>
+    <frbr:director>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#RichardPWenzel">
+        <frbr:nameOfThePerson>Richard P. Wenzel</frbr:nameOfThePerson>
+        <frbr:identifierForThePerson>pauth-044</frbr:identifierForThePerson>
+      </rdf:Description>
+    </frbr:director>
+    <frbr:hasAsSubjectConcept rdf:resource="http://research.progilone.fr/benchmark/Concept#InfectionControl"/>
+  </rdf:Description>
+</rdf:RDF>

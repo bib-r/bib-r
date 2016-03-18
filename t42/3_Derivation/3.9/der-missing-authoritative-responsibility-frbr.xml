@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:frbr="http://research.progilone.fr/benchmark/">
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#strangecaseofDrJekyllMrHyde">
+    <frbr:adaptedAsGraphicNovelWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#DocteurJekyllMisterHyde">
+        <frbr:creator>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#JerryKramsky">
+            <frbr:nameOfThePerson>Jerry Kramsky</frbr:nameOfThePerson>
+          </rdf:Description>
+        </frbr:creator>
+        <frbr:creator>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#LorenzoMattotti">
+            <frbr:nameOfThePerson>Lorenzo Mattottin</frbr:nameOfThePerson>
+          </rdf:Description>
+        </frbr:creator>
+        <frbr:expressionOfWork>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#strangecaseofDrJekyllMrHydeTextFrench">
+            <frbr:manifestationOfExpression>
+              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Book2203389885">
+                <frbr:identifierForTheManifestation>2203389885</frbr:identifierForTheManifestation>
+                <frbr:extent>64 pages</frbr:extent>
+                <frbr:dimensions>32 cm</frbr:dimensions>
+                <frbr:noteOnCarrier>Colorful illustrations</frbr:noteOnCarrier>
+                <frbr:publisher>
+                  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/CorporateBody#Casterman">
+                    <frbr:nameOfTheCorporateBody>Casterman</frbr:nameOfTheCorporateBody>
+                  </rdf:Description>
+                </frbr:publisher>
+                <frbr:carrierType>Graphic Novel</frbr:carrierType>
+                <frbr:title>Docteur Jekyll &amp; Mister Hyde</frbr:title>
+                <frbr:placeOfpublication>Paris</frbr:placeOfpublication>
+                <frbr:identifierForTheManifestation>2-203-38988-5</frbr:identifierForTheManifestation>
+                <frbr:dateOfPublication>2002</frbr:dateOfPublication>
+                <frbr:otherTitleInformation>free adapatation from the book of Robert L. Stevenson</frbr:otherTitleInformation>
+              </rdf:Description>
+            </frbr:manifestationOfExpression>
+            <frbr:translator>
+              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#MarcVoline">
+                <frbr:nameOfThePerson>Marc Voline</frbr:nameOfThePerson>
+              </rdf:Description>
+            </frbr:translator>
+            <frbr:languageOfExpression>French</frbr:languageOfExpression>
+          </rdf:Description>
+        </frbr:expressionOfWork>
+        <frbr:expressionOfWork>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#strangecaseofDrJekyllMrHydeTextItalian">
+            <frbr:translatedAs rdf:resource="http://research.progilone.fr/benchmark/Expression#strangecaseofDrJekyllMrHydeTextFrench"/>
+            <frbr:languageOfExpression>Italian</frbr:languageOfExpression>
+          </rdf:Description>
+        </frbr:expressionOfWork>
+        <frbr:titleOfTheWork>Docteur Jekyll &amp; Mister Hyde</frbr:titleOfTheWork>
+      </rdf:Description>
+    </frbr:adaptedAsGraphicNovelWork>
+    <frbr:creator>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#RobertLouisStevenson">
+        <frbr:nameOfThePerson>Robert Louis Stevenson</frbr:nameOfThePerson>
+      </rdf:Description>
+    </frbr:creator>
+    <frbr:expressionOfWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#strangecaseofDrJekyllMrHydeTextEnglish">
+        <frbr:manifestationOfExpression>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Book9781843444848">
+            <frbr:identifierForTheManifestation>978-1-84344-484-8</frbr:identifierForTheManifestation>
+            <frbr:carrierType>book</frbr:carrierType>
+            <frbr:statementOfResponsibilityRelatingToTitleProper
+            >Robert Louis Stevenson</frbr:statementOfResponsibilityRelatingToTitleProper>
+            <frbr:dateOfPublication>2014</frbr:dateOfPublication>
+            <frbr:title>The strange case of Dr Jekyll and Mr Hyde</frbr:title>
+            <frbr:extent>1 volume (123 pages)</frbr:extent>
+            <frbr:publisher>
+              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/CorporateBody#PulpTheClassics">
+                <frbr:nameOfTheCorporateBody>Pulp! The Classics</frbr:nameOfTheCorporateBody>
+              </rdf:Description>
+            </frbr:publisher>
+            <frbr:placeOfpublication>Harpenden</frbr:placeOfpublication>
+            <frbr:dimensions>18 cm</frbr:dimensions>
+            <frbr:noteOnCarrier>Cover with colorful illustrations</frbr:noteOnCarrier>
+            <frbr:identifierForTheManifestation>9781843444848</frbr:identifierForTheManifestation>
+          </rdf:Description>
+        </frbr:manifestationOfExpression>
+        <frbr:languageOfExpression>English</frbr:languageOfExpression>
+      </rdf:Description>
+    </frbr:expressionOfWork>
+    <frbr:titleOfTheWork>The strange case of Dr Jekyll and Mr Hyde</frbr:titleOfTheWork>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#OfMiceAndMen">
+    <frbr:creator>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#JohnSteinbeck">
+        <frbr:nameOfThePerson>John Steinbeck</frbr:nameOfThePerson>
+      </rdf:Description>
+    </frbr:creator>
+    <frbr:expressionOfWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#OfMiceAndMenTranslated">
+        <frbr:manifestationOfExpression>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Book2070360377">
+            <frbr:extent>189 pages</frbr:extent>
+            <frbr:dateOfPublication>1992</frbr:dateOfPublication>
+            <frbr:termsOfAvailability>39,00 F</frbr:termsOfAvailability>
+            <frbr:noteOnCarrier>Cover with colorful illustrations</frbr:noteOnCarrier>
+            <frbr:title>Des souris et des hommes</frbr:title>
+            <frbr:identifierForTheManifestation>2-07-036037-7</frbr:identifierForTheManifestation>
+            <frbr:publisher>
+              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/CorporateBody#Gallimard">
+                <frbr:nameOfTheCorporateBody>Gallimard</frbr:nameOfTheCorporateBody>
+              </rdf:Description>
+            </frbr:publisher>
+            <frbr:statementOfResponsibilityRelatingToTitleProper
+            >John Steinbeck; M.E. Coindreau</frbr:statementOfResponsibilityRelatingToTitleProper>
+            <frbr:dimensions>18 cm</frbr:dimensions>
+            <frbr:placeOfpublication>Paris</frbr:placeOfpublication>
+          </rdf:Description>
+        </frbr:manifestationOfExpression>
+        <frbr:translator>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#MECoindreau">
+            <frbr:nameOfThePerson>M.E. Coindreau</frbr:nameOfThePerson>
+          </rdf:Description>
+        </frbr:translator>
+        <frbr:hasTitleOfTheExpression>Des souris et des hommes</frbr:hasTitleOfTheExpression>
+        <frbr:languageOfExpression>French</frbr:languageOfExpression>
+      </rdf:Description>
+    </frbr:expressionOfWork>
+    <frbr:expressionOfWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#OfMiceAndMenOriginal">
+        <frbr:translatedAs rdf:resource="http://research.progilone.fr/benchmark/Expression#OfMiceAndMenTranslated"/>
+      </rdf:Description>
+    </frbr:expressionOfWork>
+    <frbr:titleOfTheWork>Of Mice and men</frbr:titleOfTheWork>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#HarryPotterandtheDeathlyHallows">
+    <frbr:adaptedAsMotionPictureWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#WorkHarryPotter2DVD">
+        <frbr:expressionOfWork>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#HarryPotterandtheDeathlyHallowsFilm">
+            <frbr:manifestationOfExpression>
+              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#MP5051889209546">
+                <frbr:publisher>
+                  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/CorporateBody#WarnerHomeVideo">
+                    <frbr:nameOfTheCorporateBody>Warner Home Video</frbr:nameOfTheCorporateBody>
+                  </rdf:Description>
+                </frbr:publisher>
+                <frbr:statementOfResponsibilityRelatingToTitleProper
+                >David Yates; Daniel Radcliffe; Emma Watson</frbr:statementOfResponsibilityRelatingToTitleProper>
+                <frbr:title>Harry Potter and the Deathly Hallows Part 2</frbr:title>
+                <frbr:noteOnCarrier>Colors, Audio (PAL)</frbr:noteOnCarrier>
+                <frbr:extent>1 DVD (2 h 05 min)</frbr:extent>
+                <frbr:dateOfPublication>2011</frbr:dateOfPublication>
+                <frbr:placeOfpublication>Neuilly-sur-Seine</frbr:placeOfpublication>
+                <frbr:identifierForTheManifestation>5051889209546</frbr:identifierForTheManifestation>
+              </rdf:Description>
+            </frbr:manifestationOfExpression>
+            <frbr:actor>
+              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#EmmaWatson">
+                <frbr:nameOfThePerson>Emma Watson</frbr:nameOfThePerson>
+              </rdf:Description>
+            </frbr:actor>
+            <frbr:actor>
+              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#DanielRadcliffe">
+                <frbr:nameOfThePerson>Daniel Radcliffe</frbr:nameOfThePerson>
+              </rdf:Description>
+            </frbr:actor>
+            <frbr:manifestationOfExpression>
+              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#MP5051889060093">
+                <frbr:publisher rdf:resource="http://research.progilone.fr/benchmark/CorporateBody#WarnerHomeVideo"/>
+                <frbr:statementOfResponsibilityRelatingToTitleProper
+                >David Yates; Daniel Radcliffe; Emma Watson</frbr:statementOfResponsibilityRelatingToTitleProper>
+                <frbr:title>Harry Potter and the Deathly Hallows Part 1</frbr:title>
+                <frbr:noteOnCarrier>Colors, Audio (PAL)</frbr:noteOnCarrier>
+                <frbr:extent>1 DVD (2 h 20 min)</frbr:extent>
+                <frbr:dateOfPublication>2011</frbr:dateOfPublication>
+                <frbr:placeOfpublication>Neuilly-sur-Seine</frbr:placeOfpublication>
+                <frbr:identifierForTheManifestation>5051889060093</frbr:identifierForTheManifestation>
+              </rdf:Description>
+            </frbr:manifestationOfExpression>
+          </rdf:Description>
+        </frbr:expressionOfWork>
+        <frbr:director>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#DavidYates">
+            <frbr:nameOfThePerson>David Yates</frbr:nameOfThePerson>
+          </rdf:Description>
+        </frbr:director>
+      </rdf:Description>
+    </frbr:adaptedAsMotionPictureWork>
+    <frbr:adaptedAsMotionPictureWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#WorkHarryPotter1DVD">
+        <frbr:expressionOfWork rdf:resource="http://research.progilone.fr/benchmark/Expression#HarryPotterandtheDeathlyHallowsFilm"/>
+        <frbr:director rdf:resource="http://research.progilone.fr/benchmark/Person#DavidYates"/>
+      </rdf:Description>
+    </frbr:adaptedAsMotionPictureWork>
+    <frbr:creator>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#JKRowling">
+        <frbr:nameOfThePerson>J.K. Rowling</frbr:nameOfThePerson>
+      </rdf:Description>
+    </frbr:creator>
+    <frbr:expressionOfWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#HarryPotterandtheDeathlyHallowsText">
+        <frbr:manifestationOfExpression>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Book9781408855713">
+            <frbr:publisher>
+              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/CorporateBody#Bloomsbury">
+                <frbr:nameOfTheCorporateBody>Bloomsbury</frbr:nameOfTheCorporateBody>
+              </rdf:Description>
+            </frbr:publisher>
+            <frbr:statementOfResponsibilityRelatingToTitleProper
+            >J.K. Rowling</frbr:statementOfResponsibilityRelatingToTitleProper>
+            <frbr:title>Harry Potter and the Deathly Hallows</frbr:title>
+            <frbr:dateOfPublication>2014</frbr:dateOfPublication>
+            <frbr:placeOfpublication>London</frbr:placeOfpublication>
+            <frbr:noteOnCarrier>Cover with colorful illustrations</frbr:noteOnCarrier>
+            <frbr:extent>1 volume (619 pages)</frbr:extent>
+            <frbr:dimensions>20 cm</frbr:dimensions>
+            <frbr:identifierForTheManifestation>978-1-4088-5571-3</frbr:identifierForTheManifestation>
+          </rdf:Description>
+        </frbr:manifestationOfExpression>
+      </rdf:Description>
+    </frbr:expressionOfWork>
+    <frbr:titleOfTheWork>Harry Potter and the Deathly Hallows</frbr:titleOfTheWork>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#LesmiserablesOrig">
+    <frbr:adaptedAsMotionPictureWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#LesMiserablesFilm">
+        <frbr:expressionOfWork>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#LesMiserablesFilm">
+            <frbr:manifestationOfExpression>
+              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Book9782302013773">
+                <frbr:dateOfPublication>2011</frbr:dateOfPublication>
+                <frbr:termsOfAvailability>6,95 euro</frbr:termsOfAvailability>
+                <frbr:statementOfResponsibilityRelatingToTitleProper
+                >based on writting by Victor Hugo; adapted in manga by studio Variety artworks</frbr:statementOfResponsibilityRelatingToTitleProper>
+                <frbr:carrierType>Manga</frbr:carrierType>
+                <frbr:noteOnCarrier>Illustrations, Cover with illustration</frbr:noteOnCarrier>
+                <frbr:extent>Not paged</frbr:extent>
+                <frbr:publisher>
+                  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/CorporateBody#Soleil">
+                    <frbr:nameOfTheCorporateBody>Soleil</frbr:nameOfTheCorporateBody>
+                  </rdf:Description>
+                </frbr:publisher>
+                <frbr:title>miserables (Les )</frbr:title>
+                <frbr:placeOfpublication>Paris</frbr:placeOfpublication>
+                <frbr:identifierForTheManifestation>9782302013773</frbr:identifierForTheManifestation>
+                <frbr:dimensions>19 cm</frbr:dimensions>
+              </rdf:Description>
+            </frbr:manifestationOfExpression>
+            <frbr:actor>
+              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#RussellCrowe">
+                <frbr:nameOfThePerson>Russell Crowe</frbr:nameOfThePerson>
+              </rdf:Description>
+            </frbr:actor>
+            <frbr:actor>
+              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#HughJackman">
+                <frbr:nameOfThePerson>Hugh Jackman</frbr:nameOfThePerson>
+              </rdf:Description>
+            </frbr:actor>
+            <frbr:award>
+              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Event#GoldenGlobe2012">
+                <frbr:hasTermForTheEvent>United States</frbr:hasTermForTheEvent>
+                <frbr:hasTermForTheEvent>2012</frbr:hasTermForTheEvent>
+                <frbr:hasTermForTheEvent>Best comedy at Golden Globe</frbr:hasTermForTheEvent>
+              </rdf:Description>
+            </frbr:award>
+            <frbr:manifestationOfExpression>
+              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#MP5050582942156">
+                <frbr:publisher>
+                  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/CorporateBody#Universal">
+                    <frbr:nameOfTheCorporateBody>Universal</frbr:nameOfTheCorporateBody>
+                  </rdf:Description>
+                </frbr:publisher>
+                <frbr:statementOfResponsibilityRelatingToTitleProper
+                >Tom Hooper; Victor Hugo; Hugh Jackman; Russell Crowe</frbr:statementOfResponsibilityRelatingToTitleProper>
+                <frbr:title>Les miserables</frbr:title>
+                <frbr:noteOnCarrier>Colors (PAL), audio</frbr:noteOnCarrier>
+                <frbr:extent>1 DVD monoface area 2 (2 h 31 min)</frbr:extent>
+                <frbr:dateOfPublication>2013</frbr:dateOfPublication>
+                <frbr:placeOfpublication>Universal city</frbr:placeOfpublication>
+                <frbr:carrierType>Motion Picture</frbr:carrierType>
+                <frbr:identifierForTheManifestation>5050582942156</frbr:identifierForTheManifestation>
+              </rdf:Description>
+            </frbr:manifestationOfExpression>
+          </rdf:Description>
+        </frbr:expressionOfWork>
+        <frbr:director>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#TimHooper">
+            <frbr:nameOfThePerson>Tim Hooper</frbr:nameOfThePerson>
+          </rdf:Description>
+        </frbr:director>
+        <frbr:titleOfTheWork>Les miserables</frbr:titleOfTheWork>
+      </rdf:Description>
+    </frbr:adaptedAsMotionPictureWork>
+    <frbr:adaptedAsGraphicNovelWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#LesMiserablesManga">
+        <frbr:expressionOfWork>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#LesMiserablesMangaFrench">
+            <frbr:languageOfExpression>French</frbr:languageOfExpression>
+          </rdf:Description>
+        </frbr:expressionOfWork>
+        <frbr:creator>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/CorporateBody#StudioVarietyArtwork">
+            <frbr:identifierForTheCorporateBody>cauth-018</frbr:identifierForTheCorporateBody>
+            <frbr:nameOfTheCorporateBody>Studio Variety Artwork</frbr:nameOfTheCorporateBody>
+          </rdf:Description>
+        </frbr:creator>
+        <frbr:titleOfTheWork>miserables (Les )</frbr:titleOfTheWork>
+      </rdf:Description>
+    </frbr:adaptedAsGraphicNovelWork>
+    <frbr:creator>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#VictorHugo">
+        <frbr:nameOfThePerson>Victor Hugo</frbr:nameOfThePerson>
+      </rdf:Description>
+    </frbr:creator>
+    <frbr:titleOfTheWork>miserables (Les )</frbr:titleOfTheWork>
+    <frbr:titleOfTheWork>Les miserables</frbr:titleOfTheWork>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#ValerianEtLaureline">
+    <frbr:parodyOfWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#ArmureduJakolass">
+        <frbr:creator>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#ManuLarcenet">
+            <frbr:nameOfThePerson>Manu Larcenet</frbr:nameOfThePerson>
+          </rdf:Description>
+        </frbr:creator>
+        <frbr:expressionOfWork>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#ArmureduJakolassTextFrench">
+            <frbr:manifestationOfExpression>
+              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Comic9782205067583">
+                <frbr:publisher>
+                  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/CorporateBody#Dargaud">
+                    <frbr:nameOfTheCorporateBody>Dargaud</frbr:nameOfTheCorporateBody>
+                  </rdf:Description>
+                </frbr:publisher>
+                <frbr:statementOfResponsibilityRelatingToTitleProper
+                >Manu Larcenet; from Christin et Mezieres</frbr:statementOfResponsibilityRelatingToTitleProper>
+                <frbr:title>Armure du Jakolass (L')</frbr:title>
+                <frbr:otherTitleInformation>Valerian par Manu Larcenet</frbr:otherTitleInformation>
+                <frbr:dateOfPublication>2011</frbr:dateOfPublication>
+                <frbr:placeOfpublication>Paris</frbr:placeOfpublication>
+                <frbr:carrierType>Graphic Novel</frbr:carrierType>
+                <frbr:identifierForTheManifestation>9782205067583</frbr:identifierForTheManifestation>
+                <frbr:identifierForTheManifestation>978-2-205-06758-3</frbr:identifierForTheManifestation>
+              </rdf:Description>
+            </frbr:manifestationOfExpression>
+            <frbr:noteOnExpression>In this album, the author manages to parody the cult series without dishonoring it.</frbr:noteOnExpression>
+            <frbr:languageOfExpression>French</frbr:languageOfExpression>
+          </rdf:Description>
+        </frbr:expressionOfWork>
+        <frbr:titleOfTheWork>Armure du Jakolass (L')</frbr:titleOfTheWork>
+      </rdf:Description>
+    </frbr:parodyOfWork>
+    <frbr:adaptedAsGraphicNovelWork rdf:resource="http://research.progilone.fr/benchmark/Work#ArmureduJakolass"/>
+    <frbr:creator>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#JeanClaudeMezieres">
+        <frbr:nameOfThePerson>Jean-Claude Mezieres</frbr:nameOfThePerson>
+      </rdf:Description>
+    </frbr:creator>
+    <frbr:creator>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#PierreChristin">
+        <frbr:nameOfThePerson>Pierre Christin</frbr:nameOfThePerson>
+      </rdf:Description>
+    </frbr:creator>
+    <frbr:expressionOfWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#ValerianEtLaurelineTextFrench">
+        <frbr:manifestationOfExpression>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Comic9782205060386">
+            <frbr:placeOfpublication>Paris</frbr:placeOfpublication>
+            <frbr:otherTitleInformation>l'integrale</frbr:otherTitleInformation>
+            <frbr:title>Valerian et Laureline</frbr:title>
+            <frbr:publisher rdf:resource="http://research.progilone.fr/benchmark/CorporateBody#Dargaud"/>
+            <frbr:noteOnCarrier>Colorful illustrations, cover with colorful illustrations</frbr:noteOnCarrier>
+            <frbr:carrierType>Printed Text</frbr:carrierType>
+            <frbr:identifierForTheManifestation>978-2205-06038-6</frbr:identifierForTheManifestation>
+            <frbr:statementOfResponsibilityRelatingToTitleProper
+            >Pierre Christin; Jean-Claude Meziere</frbr:statementOfResponsibilityRelatingToTitleProper>
+            <frbr:dateOfPublication>2012</frbr:dateOfPublication>
+            <frbr:dimensions>30 cm</frbr:dimensions>
+            <frbr:extent>1 volume (164 pages)</frbr:extent>
+          </rdf:Description>
+        </frbr:manifestationOfExpression>
+        <frbr:languageOfExpression>French</frbr:languageOfExpression>
+      </rdf:Description>
+    </frbr:expressionOfWork>
+    <frbr:titleOfTheWork>Valerian et Laureline</frbr:titleOfTheWork>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#WarHorse">
+    <frbr:creator>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#MichaelMorpurgo">
+        <frbr:nameOfThePerson>Michael Morpurgo</frbr:nameOfThePerson>
+      </rdf:Description>
+    </frbr:creator>
+    <frbr:expressionOfWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#WarHorseTranslated">
+        <frbr:manifestationOfExpression>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Book9782070558902">
+            <frbr:statementOfResponsibilityRelatingToTitleProper
+            >Michael Morpurgo; Andre Dupuis</frbr:statementOfResponsibilityRelatingToTitleProper>
+            <frbr:dateOfPublication>2005</frbr:dateOfPublication>
+            <frbr:identifierForTheManifestation>978-2-07-055890-2</frbr:identifierForTheManifestation>
+            <frbr:publisher rdf:resource="http://research.progilone.fr/benchmark/CorporateBody#Gallimard"/>
+            <frbr:title>Cheval de guerre</frbr:title>
+            <frbr:dimensions>22 cm</frbr:dimensions>
+            <frbr:noteOnCarrier>Illustrations, cover with colorful illustrations</frbr:noteOnCarrier>
+            <frbr:extent>185 pages</frbr:extent>
+            <frbr:placeOfpublication>Paris</frbr:placeOfpublication>
+            <frbr:termsOfAvailability>14 euro</frbr:termsOfAvailability>
+          </rdf:Description>
+        </frbr:manifestationOfExpression>
+        <frbr:translator>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#AndreDupuis">
+            <frbr:nameOfThePerson>Andre Dupuis</frbr:nameOfThePerson>
+          </rdf:Description>
+        </frbr:translator>
+        <frbr:hasTitleOfTheExpression>Cheval de guerre</frbr:hasTitleOfTheExpression>
+        <frbr:languageOfExpression>French</frbr:languageOfExpression>
+      </rdf:Description>
+    </frbr:expressionOfWork>
+    <frbr:expressionOfWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#WarHorseOriginal">
+        <frbr:translatedAs rdf:resource="http://research.progilone.fr/benchmark/Expression#WarHorseTranslated"/>
+        <frbr:languageOfExpression>English</frbr:languageOfExpression>
+      </rdf:Description>
+    </frbr:expressionOfWork>
+    <frbr:titleOfTheWork>War horse</frbr:titleOfTheWork>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#TreasureIsland">
+    <frbr:creator rdf:resource="http://research.progilone.fr/benchmark/Person#RobertLouisStevenson"/>
+    <frbr:expressionOfWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#TreasureIslandTranslated">
+        <frbr:manifestationOfExpression>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Book9782013223973">
+            <frbr:publisher>
+              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/CorporateBody#Hachette">
+                <frbr:nameOfTheCorporateBody>Hachette</frbr:nameOfTheCorporateBody>
+              </rdf:Description>
+            </frbr:publisher>
+            <frbr:statementOfResponsibilityRelatingToTitleProper
+            >Robert Louis Stevenson; Michel Laporte</frbr:statementOfResponsibilityRelatingToTitleProper>
+            <frbr:dateOfPublication>2010</frbr:dateOfPublication>
+            <frbr:placeOfpublication>Paris</frbr:placeOfpublication>
+            <frbr:termsOfAvailability>4.50 euro</frbr:termsOfAvailability>
+            <frbr:extent>248 pages</frbr:extent>
+            <frbr:dimensions>18 cm</frbr:dimensions>
+            <frbr:title>Ile au tresor (L')</frbr:title>
+            <frbr:identifierForTheManifestation>9782-01-322397-3</frbr:identifierForTheManifestation>
+          </rdf:Description>
+        </frbr:manifestationOfExpression>
+        <frbr:translator>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#MichelLaporte">
+            <frbr:nameOfThePerson>Michel Laporte</frbr:nameOfThePerson>
+          </rdf:Description>
+        </frbr:translator>
+        <frbr:hasTitleOfTheExpression>Ile au tresor (L')</frbr:hasTitleOfTheExpression>
+        <frbr:languageOfExpression>French</frbr:languageOfExpression>
+      </rdf:Description>
+    </frbr:expressionOfWork>
+    <frbr:expressionOfWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#TreasureIslandOriginal">
+        <frbr:translatedAs rdf:resource="http://research.progilone.fr/benchmark/Expression#TreasureIslandTranslated"/>
+        <frbr:languageOfExpression>English</frbr:languageOfExpression>
+      </rdf:Description>
+    </frbr:expressionOfWork>
+    <frbr:titleOfTheWork>Treasure Island</frbr:titleOfTheWork>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#AdventuresTomSawyer">
+    <frbr:creator>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#MarkTwain">
+        <frbr:nameOfThePerson>Mark Twain</frbr:nameOfThePerson>
+      </rdf:Description>
+    </frbr:creator>
+    <frbr:expressionOfWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#AdventuresTomSawyerTranslated">
+        <frbr:manifestationOfExpression>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Book9782013226554">
+            <frbr:publisher rdf:resource="http://research.progilone.fr/benchmark/CorporateBody#Hachette"/>
+            <frbr:statementOfResponsibilityRelatingToTitleProper
+            >Mark Twain; P. F. Caille; Y. Dubois-Mauvais</frbr:statementOfResponsibilityRelatingToTitleProper>
+            <frbr:dateOfPublication>2008</frbr:dateOfPublication>
+            <frbr:placeOfpublication>Paris</frbr:placeOfpublication>
+            <frbr:termsOfAvailability>5,90 EUR</frbr:termsOfAvailability>
+            <frbr:extent>411 pages</frbr:extent>
+            <frbr:dimensions>18 cm</frbr:dimensions>
+            <frbr:title>aventures de Tom Sawyer (Les)</frbr:title>
+            <frbr:identifierForTheManifestation>978-2-01-322655-4</frbr:identifierForTheManifestation>
+          </rdf:Description>
+        </frbr:manifestationOfExpression>
+        <frbr:translator>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#DuboisMauvaisY">
+            <frbr:nameOfThePerson>Y. Dubois-Mauvais</frbr:nameOfThePerson>
+          </rdf:Description>
+        </frbr:translator>
+        <frbr:translator>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#PierreFrancoisCaille">
+            <frbr:nameOfThePerson>P. F. Caille</frbr:nameOfThePerson>
+          </rdf:Description>
+        </frbr:translator>
+        <frbr:hasTitleOfTheExpression>aventures de Tom Sawyer (Les)</frbr:hasTitleOfTheExpression>
+        <frbr:summarizationOfTheContent>Tom n'aime rien tant que l'ecole buissonniere...</frbr:summarizationOfTheContent>
+        <frbr:languageOfExpression>French</frbr:languageOfExpression>
+      </rdf:Description>
+    </frbr:expressionOfWork>
+    <frbr:expressionOfWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#AdventuresTomSawyerOriginal">
+        <frbr:translatedAs rdf:resource="http://research.progilone.fr/benchmark/Expression#AdventuresTomSawyerTranslated"/>
+        <frbr:languageOfExpression>English</frbr:languageOfExpression>
+      </rdf:Description>
+    </frbr:expressionOfWork>
+    <frbr:titleOfTheWork>The Adventures of Tom Sawyer</frbr:titleOfTheWork>
+  </rdf:Description>
+</rdf:RDF>

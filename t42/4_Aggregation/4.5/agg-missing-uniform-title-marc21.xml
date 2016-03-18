@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+	<marc:record>
+		<marc:leader>00422a   a2200145   4500</marc:leader>
+		<marc:controlfield tag="001">x10</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="020">
+			<marc:subfield code="a">9782080702104</marc:subfield>
+			<marc:subfield code="c">5.80euro</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="041">
+			<marc:subfield code="a">French</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="100">
+			<marc:subfield code="a">Montaigne, Michel de</marc:subfield>
+			<marc:subfield code="4">aut</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2="0" tag="245">
+			<marc:subfield code="a">Essais</marc:subfield>
+			<marc:subfield code="b">Book I</marc:subfield>
+			<marc:subfield code="c">Michel de Montaigne</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="3" ind2=" " tag="260">
+			<marc:subfield code="a">Paris</marc:subfield>
+			<marc:subfield code="b">Garnier-Flammarion</marc:subfield>
+			<marc:subfield code="c">1969</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="300">
+			<marc:subfield code="a">443 pages</marc:subfield>
+			<marc:subfield code="b">Cover with colorful illustrations</marc:subfield>
+			<marc:subfield code="c">18 cm</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="490">
+			<marc:subfield code="a">GF</marc:subfield>
+			<marc:subfield code="v">210</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="760">
+			<marc:subfield code="w">colauth-008</marc:subfield>
+			<marc:subfield code="a">GF</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00446a   a2200157   4500</marc:leader>
+		<marc:controlfield tag="001">x11</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="020">
+			<marc:subfield code="a">9782080702111</marc:subfield>
+			<marc:subfield code="c">6.80euro</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="041">
+			<marc:subfield code="a">French</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="100">
+			<marc:subfield code="a">Montaigne, Michel de</marc:subfield>
+			<marc:subfield code="4">aut</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2="0" tag="240">
+			<marc:subfield code="a">Essais</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2="0" tag="245">
+			<marc:subfield code="a">Essais</marc:subfield>
+			<marc:subfield code="b">Book II</marc:subfield>
+			<marc:subfield code="c">Michel de Montaigne</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="3" ind2=" " tag="260">
+			<marc:subfield code="a">Paris</marc:subfield>
+			<marc:subfield code="b">Garnier-Flammarion</marc:subfield>
+			<marc:subfield code="c">1969</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="300">
+			<marc:subfield code="a">510 pages</marc:subfield>
+			<marc:subfield code="b">Cover with colorful illustrations</marc:subfield>
+			<marc:subfield code="c">18 cm</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="490">
+			<marc:subfield code="a">GF</marc:subfield>
+			<marc:subfield code="v">211</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="760">
+			<marc:subfield code="w">colauth-008</marc:subfield>
+			<marc:subfield code="a">GF</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>01193a   a2200217   4500</marc:leader>
+		<marc:controlfield tag="001">x33</marc:controlfield>
+		<marc:datafield ind1="0" ind2=" " tag="022">
+			<marc:subfield code="a">0899-823X</marc:subfield>
+			<marc:subfield code="b">1</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="041">
+			<marc:subfield code="a">English</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="100">
+			<marc:subfield code="a">Wenzel, Richard P.</marc:subfield>
+			<marc:subfield code="4">pbd</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2="0" tag="245">
+			<marc:subfield code="a">Infection control and hospital epidemiology</marc:subfield>
+			<marc:subfield code="b">An official journal of the Society of Hospital Epidemiologists of America</marc:subfield>
+			<marc:subfield code="c">Richard P. Wenzel; Barry Farr</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2="3" tag="246">
+			<marc:subfield code="a">Official journal of The SHEA</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2="3" tag="246">
+			<marc:subfield code="a">ICHE</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="3" ind2=" " tag="260">
+			<marc:subfield code="a">Thorofare, NJ</marc:subfield>
+			<marc:subfield code="b">SLACK Inc.</marc:subfield>
+			<marc:subfield code="c">1988-</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="3" ind2=" " tag="260">
+			<marc:subfield code="a">Chicago, IL</marc:subfield>
+			<marc:subfield code="b">University of Chicago Press</marc:subfield>
+			<marc:subfield code="c">2006-</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="310">
+			<marc:subfield code="a">Monthly</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="362">
+			<marc:subfield code="a">Volume 9, number 1 (January 1988)-</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="500">
+			<marc:subfield code="a">Published by University chicago press in 2006</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="520">
+			<marc:subfield code="a">Infection Control and Hospital Epidemiology provides original, peer-reviewed scientific articles for anyone involved with an infection control or epidemiology program in a hospital or healthcare facility. Written by infection control practitioners and epidemiologists and guided by an editorial board composed of the nation's leaders in the field, ICHE provides a critical forum for this vital information. </marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="700">
+			<marc:subfield code="a">Farr, Barry</marc:subfield>
+			<marc:subfield code="4">pbd</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2="0" tag="710">
+			<marc:subfield code="a">Society of Hospital Epidemiologists of America</marc:subfield>
+			<marc:subfield code="4">edt</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00533a   a2200157   4500</marc:leader>
+		<marc:controlfield tag="001">xx8</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="020">
+			<marc:subfield code="a">9782081209633</marc:subfield>
+			<marc:subfield code="c">2,70 euro</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="041">
+			<marc:subfield code="a">French</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="100">
+			<marc:subfield code="a">Keime, Christian</marc:subfield>
+			<marc:subfield code="4">drt</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2="0" tag="245">
+			<marc:subfield code="a">Roman de Renart (Le)</marc:subfield>
+			<marc:subfield code="c">Christian Keime; Monique Lachet-Lagarde</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="3" ind2=" " tag="260">
+			<marc:subfield code="a">Paris</marc:subfield>
+			<marc:subfield code="b">Flammarion</marc:subfield>
+			<marc:subfield code="c">2008</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="300">
+			<marc:subfield code="a">159 pages</marc:subfield>
+			<marc:subfield code="b">Illustrations, cover with colorful illustrations</marc:subfield>
+			<marc:subfield code="c">18 cm</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="490">
+			<marc:subfield code="a">Etonnants classiques. 335</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="700">
+			<marc:subfield code="a">Lachet-Lagarde, Monique</marc:subfield>
+			<marc:subfield code="4">adp</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="760">
+			<marc:subfield code="w">colauth-007</marc:subfield>
+			<marc:subfield code="t">Etonnants classiques</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00419a   a2200133   4500</marc:leader>
+		<marc:controlfield tag="001">xx9</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="020">
+			<marc:subfield code="a">9782756003580</marc:subfield>
+			<marc:subfield code="c">8,90 Euros</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="041">
+			<marc:subfield code="a">French</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="100">
+			<marc:subfield code="a">Mathis, Jean-Marc</marc:subfield>
+			<marc:subfield code="4">aut</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2="0" tag="245">
+			<marc:subfield code="a">Jambons d'Ysengrin (Les )</marc:subfield>
+			<marc:subfield code="c">Jean-Marc Mathis; illustrated by Thierry Martin</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="3" ind2=" " tag="260">
+			<marc:subfield code="a">Paris</marc:subfield>
+			<marc:subfield code="b">Delcourt</marc:subfield>
+			<marc:subfield code="c">2007</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="300">
+			<marc:subfield code="a">31 pages</marc:subfield>
+			<marc:subfield code="b">colorful illustrations</marc:subfield>
+			<marc:subfield code="c">30 cm</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="700">
+			<marc:subfield code="a">Martin, Thierry</marc:subfield>
+			<marc:subfield code="4">ill</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="774">
+			<marc:subfield code="w">tauth-001</marc:subfield>
+			<marc:subfield code="t">Roman de Renart</marc:subfield>
+			<marc:subfield code="g">1</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+</marc:collection>

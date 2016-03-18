@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+	<marc:record>
+		<marc:leader>00855a   a2200133   4500</marc:leader>
+		<marc:controlfield tag="001">x38</marc:controlfield>
+		<marc:datafield ind1="0" ind2=" " tag="024">
+			<marc:subfield code="a">doi:10.1007/BF00489793</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="041">
+			<marc:subfield code="a">English</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="100">
+			<marc:subfield code="a">Thomasma, D.C.</marc:subfield>
+			<marc:subfield code="4">aut</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2="0" tag="245">
+			<marc:subfield code="a">Why philosophers should offer ethics consultations</marc:subfield>
+			<marc:subfield code="c">D.C. Thomasma</marc:subfield>
+			<marc:subfield code="h">[article]</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="520">
+			<marc:subfield code="a">Considerable debate has occurred about the proper role of philosophers when offering ethics consultations. Some argue that only physicians or clinical experienced personnel should offer ethics consultations in the clinical setting. Others argue still further that philosophers are ill-equipped to offer such advice, since to do so rests on no social warrant, and violates the abstract and neutral nature of the discipline itself. I argue that philosophers not only can offer such consultations but ought to.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2="4" tag="650">
+			<marc:subfield code="a">Consultants</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2="4" tag="650">
+			<marc:subfield code="a">Ethics, Medical</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2="4" tag="650">
+			<marc:subfield code="a">Philosophy, Medical</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00984a   a2200157   4500</marc:leader>
+		<marc:controlfield tag="001">x40</marc:controlfield>
+		<marc:datafield ind1="0" ind2=" " tag="024">
+			<marc:subfield code="a">doi:10.1556/JBA.3.2014.4.3</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="041">
+			<marc:subfield code="a">English</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="100">
+			<marc:subfield code="a">Jonker, Anna</marc:subfield>
+			<marc:subfield code="4">aut</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2="0" tag="245">
+			<marc:subfield code="a">Could music potentially serve as a functional alternative to alcohol consumption?&lt;/tag=&quot;012&quot;subfield&gt;     &lt;subfield code=&quot;e&quot;&gt;the importance of music motives among drinking and non-drinking adolescents</marc:subfield>
+			<marc:subfield code="c">Anna Jonker; Emmanuel N. Kuntsche</marc:subfield>
+			<marc:subfield code="h">[article]</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="520">
+			<marc:subfield code="a">This study investigated whether adolescents who drink and those who are teetotal differ in the link between music motives and health-related outcomes (life satisfaction, self-rated health, school pressure, somatic complaints, depressed and aggressive mood, physical powerlessness, frequency of being bullied and bullying others and evenings spent out with friends).</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2="4" tag="650">
+			<marc:subfield code="a">Alkohol</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2="4" tag="650">
+			<marc:subfield code="a">Epidemiologie</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2="4" tag="650">
+			<marc:subfield code="a">Musik</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="700">
+			<marc:subfield code="a">Kuntsche, Emmanuel N.</marc:subfield>
+			<marc:subfield code="4">clb</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="773">
+			<marc:subfield code="w">jauth-002</marc:subfield>
+			<marc:subfield code="t">Journal of Behavioral Addictions</marc:subfield>
+			<marc:subfield code="g">volume 3, number 4</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00349a   a2200121   4500</marc:leader>
+		<marc:controlfield tag="001">x24</marc:controlfield>
+		<marc:datafield ind1="2" ind2=" " tag="024">
+			<marc:subfield code="a">9780007191154</marc:subfield>
+			<marc:subfield code="c">30.00 euro</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="041">
+			<marc:subfield code="a">English</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="100">
+			<marc:subfield code="a">Christie, Agatha</marc:subfield>
+			<marc:subfield code="4">aut</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2="0" tag="245">
+			<marc:subfield code="a">Death on the Nil</marc:subfield>
+			<marc:subfield code="c">Agatha Christie; David Suchet</marc:subfield>
+			<marc:subfield code="h">[read text]</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="3" ind2=" " tag="260">
+			<marc:subfield code="b">HarperCollins Publishers</marc:subfield>
+			<marc:subfield code="c">2004</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="300">
+			<marc:subfield code="a">7 CD (approx. 8h30)</marc:subfield>
+			<marc:subfield code="c">14 x 13 cm</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="700">
+			<marc:subfield code="a">Suchet, David</marc:subfield>
+			<marc:subfield code="4">nrt</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00597a   a2200181   4500</marc:leader>
+		<marc:controlfield tag="001">x12</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="020">
+			<marc:subfield code="a">9782091873053</marc:subfield>
+			<marc:subfield code="c">7,50 EUR</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="041">
+			<marc:subfield code="a">French</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="100">
+			<marc:subfield code="a">Descartes, Rene</marc:subfield>
+			<marc:subfield code="4">aut</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2="0" tag="245">
+			<marc:subfield code="a">Meditations metaphysiques</marc:subfield>
+			<marc:subfield code="c">Descartes; Christine Thubert</marc:subfield>
+			<marc:subfield code="h">[publication]</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="3" ind2=" " tag="260">
+			<marc:subfield code="b">Nathan</marc:subfield>
+			<marc:subfield code="c">2009</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="300">
+			<marc:subfield code="a">191 pages</marc:subfield>
+			<marc:subfield code="c">21 cm</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="490">
+			<marc:subfield code="a">integrales de philo (Les)</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="500">
+			<marc:subfield code="a">On the cover: Texte integral annote, dossier pedagogique</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="500">
+			<marc:subfield code="a">Bibliography at pages 191-192</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="700">
+			<marc:subfield code="a">Thubert, Christine</marc:subfield>
+			<marc:subfield code="4">clb</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="760">
+			<marc:subfield code="w">colauth-001</marc:subfield>
+			<marc:subfield code="t">Les Integrales de philo</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00382a   a2200133   4500</marc:leader>
+		<marc:controlfield tag="001">x10</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="020">
+			<marc:subfield code="a">9782080702104</marc:subfield>
+			<marc:subfield code="c">5.80 euro</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="041">
+			<marc:subfield code="a">French</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="100">
+			<marc:subfield code="a">Montaigne, Michel de</marc:subfield>
+			<marc:subfield code="4">aut</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2="0" tag="240">
+			<marc:subfield code="a">Essais</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2="0" tag="245">
+			<marc:subfield code="a">Essais</marc:subfield>
+			<marc:subfield code="c">Michel de Montaigne</marc:subfield>
+			<marc:subfield code="h">[publication]</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="3" ind2=" " tag="260">
+			<marc:subfield code="a">Paris</marc:subfield>
+			<marc:subfield code="b">Garnier-Flammarion</marc:subfield>
+			<marc:subfield code="c">1969</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="300">
+			<marc:subfield code="a">443 pages</marc:subfield>
+			<marc:subfield code="b">Cover with colorful illustrations</marc:subfield>
+			<marc:subfield code="c">18 cm</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>01215a   a2200241   4500</marc:leader>
+		<marc:controlfield tag="001">x14</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="020">
+			<marc:subfield code="a">3319035746</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="041">
+			<marc:subfield code="a">English</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="100">
+			<marc:subfield code="a">Khey, David N.</marc:subfield>
+			<marc:subfield code="4">aut</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2="0" tag="245">
+			<marc:subfield code="a">Emerging trends in drug use and distribution</marc:subfield>
+			<marc:subfield code="c">David N. Khey; John Stogner; Bryan Lee Miller</marc:subfield>
+			<marc:subfield code="h">[publication]</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="3" ind2=" " tag="260">
+			<marc:subfield code="a">Cham</marc:subfield>
+			<marc:subfield code="a">Heidelberg</marc:subfield>
+			<marc:subfield code="a">New York</marc:subfield>
+			<marc:subfield code="b">Springer</marc:subfield>
+			<marc:subfield code="c">2014</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="300">
+			<marc:subfield code="a">99 pages</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="490">
+			<marc:subfield code="a">Springer briefs in criminology</marc:subfield>
+			<marc:subfield code="v">12</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="520">
+			<marc:subfield code="a">This Brief explores emerging trends in drug use and distribution. This timely Brief examines recent examples of emerging drugs including salvia (from the plant Salvia divinorum), bath salts (and other synthetic stimulants) and so-called research chemicals (primarily substituted phenethylamines, synthetic cousins of ecstasy), which have tended to receive brief levels of high intensity media coverage that may or may not reflect an actual increase in their usage.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2="4" tag="650">
+			<marc:subfield code="a">Psychotropic Drugs</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2="4" tag="650">
+			<marc:subfield code="a">Substance-Related Disorders</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2="4" tag="650">
+			<marc:subfield code="a">Marketing</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2="4" tag="650">
+			<marc:subfield code="a">Street Drugs</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2="4" tag="651">
+			<marc:subfield code="a">United States</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="700">
+			<marc:subfield code="a">Stogner, John</marc:subfield>
+			<marc:subfield code="4">aut</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="700">
+			<marc:subfield code="a">Miller, Bryan Lee</marc:subfield>
+			<marc:subfield code="4">aut</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="760">
+			<marc:subfield code="w">colauth-002</marc:subfield>
+			<marc:subfield code="a">Springer briefs in criminology</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00401a   a2200145   4500</marc:leader>
+		<marc:controlfield tag="001">x15</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="020">
+			<marc:subfield code="a">9781585281503</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="041">
+			<marc:subfield code="a">English</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="100">
+			<marc:subfield code="a">Trissel, L.A.</marc:subfield>
+			<marc:subfield code="4">aut</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2="0" tag="245">
+			<marc:subfield code="a">Handbook of Injectable Drugs</marc:subfield>
+			<marc:subfield code="c">Lawrence A. Trissel</marc:subfield>
+			<marc:subfield code="h">[publication]</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="250">
+			<marc:subfield code="a">14th</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="3" ind2=" " tag="260">
+			<marc:subfield code="a">Bethesda</marc:subfield>
+			<marc:subfield code="b">American Society of Health-System Pharmacists</marc:subfield>
+			<marc:subfield code="c">2006</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="300">
+			<marc:subfield code="a">1720 pages</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2="4" tag="650">
+			<marc:subfield code="a">Injectable</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00404a   a2200121   4500</marc:leader>
+		<marc:controlfield tag="001">x18</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="020">
+			<marc:subfield code="a">9781408855713</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="100">
+			<marc:subfield code="a">Rowling, Joanne Kathleen</marc:subfield>
+			<marc:subfield code="d">1965-....</marc:subfield>
+			<marc:subfield code="4">aut</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2="0" tag="245">
+			<marc:subfield code="a">Harry Potter and the Deathly Hallows</marc:subfield>
+			<marc:subfield code="c">J.K. Rowling</marc:subfield>
+			<marc:subfield code="h">[publication]</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="3" ind2=" " tag="260">
+			<marc:subfield code="a">London</marc:subfield>
+			<marc:subfield code="b">Bloomsbury</marc:subfield>
+			<marc:subfield code="c">2014</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="300">
+			<marc:subfield code="a">1 volume (619 pages)</marc:subfield>
+			<marc:subfield code="b">Cover with colorful illustrations</marc:subfield>
+			<marc:subfield code="c">20 cm</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="490">
+			<marc:subfield code="a">Harry Potter series</marc:subfield>
+			<marc:subfield code="v">7</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="760">
+			<marc:subfield code="w">colauth-003</marc:subfield>
+			<marc:subfield code="a">Harry Potter series</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00569a   a2200145   4500</marc:leader>
+		<marc:controlfield tag="001">x39</marc:controlfield>
+		<marc:datafield ind1="1" ind2=" " tag="041">
+			<marc:subfield code="a">German</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="100">
+			<marc:subfield code="a">Slijpen, Hans</marc:subfield>
+			<marc:subfield code="4">aut</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2="0" tag="245">
+			<marc:subfield code="a">Hart und Sozial</marc:subfield>
+			<marc:subfield code="b">Das Utrechter Modell</marc:subfield>
+			<marc:subfield code="c">Hans Slijpen</marc:subfield>
+			<marc:subfield code="h">[article]</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="520">
+			<marc:subfield code="a">Wiederholungstater sind haufig noch weiteren Belastungen in Form einer Abhangigkeit von psychotropen Substanzen oder einer anderen psychischen Storung ausgesetzt. Eine alleinige Bearbeitung des Deliktes hat deshalb wenig Sinn.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2="4" tag="650">
+			<marc:subfield code="a">Abhangigkeit</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2="4" tag="650">
+			<marc:subfield code="a">Behandlung</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2="4" tag="650">
+			<marc:subfield code="a">Klinik</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2="4" tag="651">
+			<marc:subfield code="a">Netherlands</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00491a   a2200145   4500</marc:leader>
+		<marc:controlfield tag="001">x25</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="020">
+			<marc:subfield code="a">9781843444848</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="020">
+			<marc:subfield code="a">9781843444862 (kindle)</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="020">
+			<marc:subfield code="a">9781843444879 (PDF)</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="041">
+			<marc:subfield code="a">English</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="100">
+			<marc:subfield code="a">Stevenson, Robert Louis</marc:subfield>
+			<marc:subfield code="d">1850-1894</marc:subfield>
+			<marc:subfield code="4">aut</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2="0" tag="245">
+			<marc:subfield code="a">The strange case of Dr Jekyll and Mr Hyde</marc:subfield>
+			<marc:subfield code="c">Robert Louis Stevenson</marc:subfield>
+			<marc:subfield code="h">[publication]</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="3" ind2=" " tag="260">
+			<marc:subfield code="a">Harpenden</marc:subfield>
+			<marc:subfield code="b">Pulp! The Classics</marc:subfield>
+			<marc:subfield code="c">2014</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="300">
+			<marc:subfield code="a">1 volume (123 pages)</marc:subfield>
+			<marc:subfield code="b">Cover with colorful illustrations</marc:subfield>
+			<marc:subfield code="c">18 cm</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00354a   a2200121   4500</marc:leader>
+		<marc:controlfield tag="001">x21</marc:controlfield>
+		<marc:datafield ind1="2" ind2=" " tag="024">
+			<marc:subfield code="a">9780142429181</marc:subfield>
+			<marc:subfield code="c">20 euro</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="041">
+			<marc:subfield code="a">English</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="100">
+			<marc:subfield code="a">Steinbeck, John</marc:subfield>
+			<marc:subfield code="4">aut</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2="0" tag="245">
+			<marc:subfield code="a">Of mice and men</marc:subfield>
+			<marc:subfield code="c">John Steinbeck; Gary Sinise</marc:subfield>
+			<marc:subfield code="h">[read text]</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="3" ind2=" " tag="260">
+			<marc:subfield code="b">Penguin</marc:subfield>
+			<marc:subfield code="c">1992</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="300">
+			<marc:subfield code="a">3 CD (21h30)</marc:subfield>
+			<marc:subfield code="b">housing with illustrations</marc:subfield>
+			<marc:subfield code="c">14 x 13 cm</marc:subfield>
+			<marc:subfield code="e">book</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="700">
+			<marc:subfield code="a">Sinise, Gary</marc:subfield>
+			<marc:subfield code="4">nrt</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00565a   a2200169   4500</marc:leader>
+		<marc:controlfield tag="001">xx8</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="020">
+			<marc:subfield code="a">9782081209633</marc:subfield>
+			<marc:subfield code="c">2,70 euro</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="041">
+			<marc:subfield code="a">French</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="100">
+			<marc:subfield code="a">Keime, Christian</marc:subfield>
+			<marc:subfield code="4">drt</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2="0" tag="240">
+			<marc:subfield code="a">Roman de Renart</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2="0" tag="245">
+			<marc:subfield code="a">Roman de Renart (Le)</marc:subfield>
+			<marc:subfield code="c">Christian Keime; Monique Lachet-Lagarde</marc:subfield>
+			<marc:subfield code="h">[publication]</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="3" ind2=" " tag="260">
+			<marc:subfield code="a">Paris</marc:subfield>
+			<marc:subfield code="b">Flammarion</marc:subfield>
+			<marc:subfield code="c">2008</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="300">
+			<marc:subfield code="a">159 pages</marc:subfield>
+			<marc:subfield code="b">Illustrations, cover with colorful illustrations</marc:subfield>
+			<marc:subfield code="c">18 cm</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="490">
+			<marc:subfield code="a">Etonnants classiques. 335</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="700">
+			<marc:subfield code="a">Lachet-Lagarde, Monique</marc:subfield>
+			<marc:subfield code="4">adp</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="760">
+			<marc:subfield code="w">colauth-007</marc:subfield>
+			<marc:subfield code="t">Etonnants classiques</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00363a   a2200121   4500</marc:leader>
+		<marc:controlfield tag="001">xx7</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="020">
+			<marc:subfield code="a">2253132225</marc:subfield>
+			<marc:subfield code="c">120,00 F</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="041">
+			<marc:subfield code="a">French</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="100">
+			<marc:subfield code="a">Chretien de Troyes</marc:subfield>
+			<marc:subfield code="4">aut</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2="0" tag="245">
+			<marc:subfield code="a">Romans</marc:subfield>
+			<marc:subfield code="c">Chretien de Troyes</marc:subfield>
+			<marc:subfield code="h">[publication]</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="3" ind2=" " tag="260">
+			<marc:subfield code="a">Paris</marc:subfield>
+			<marc:subfield code="b">Librairie Generale Francaise</marc:subfield>
+			<marc:subfield code="c">1994</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="300">
+			<marc:subfield code="a">1279 pages</marc:subfield>
+			<marc:subfield code="b">Cover with colorful illustrations</marc:subfield>
+			<marc:subfield code="c">19 cm</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2="4" tag="650">
+			<marc:subfield code="a">Romans de la Table ronde</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00425a   a2200145   4500</marc:leader>
+		<marc:controlfield tag="001">xx5</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="020">
+			<marc:subfield code="a">0140390480</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="041">
+			<marc:subfield code="a">English</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="100">
+			<marc:subfield code="a">Twain, Mark</marc:subfield>
+			<marc:subfield code="4">aut</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2="0" tag="245">
+			<marc:subfield code="a">The Adventures of Tom Sawyer</marc:subfield>
+			<marc:subfield code="c">Mark Twain</marc:subfield>
+			<marc:subfield code="h">[publication]</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="3" ind2=" " tag="260">
+			<marc:subfield code="a">London</marc:subfield>
+			<marc:subfield code="b">Penguin books</marc:subfield>
+			<marc:subfield code="c">1986</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="300">
+			<marc:subfield code="a">226 pages</marc:subfield>
+			<marc:subfield code="b">Cover with colorful illustrations</marc:subfield>
+			<marc:subfield code="c">18 cm</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="490">
+			<marc:subfield code="a">Penguin classics</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="760">
+			<marc:subfield code="w">colauth-006</marc:subfield>
+			<marc:subfield code="t">Penguin classics</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00856a   a2200133   4500</marc:leader>
+		<marc:controlfield tag="001">xx3</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="020">
+			<marc:subfield code="a">9780747587477</marc:subfield>
+			<marc:subfield code="c">11,00 euro</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="041">
+			<marc:subfield code="a">English</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="100">
+			<marc:subfield code="a">Stevenson, Robert Louis</marc:subfield>
+			<marc:subfield code="4">aut</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2="0" tag="245">
+			<marc:subfield code="a">Treasure island</marc:subfield>
+			<marc:subfield code="c">Robert Louis Stevenson</marc:subfield>
+			<marc:subfield code="h">[publication]</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="3" ind2=" " tag="260">
+			<marc:subfield code="b">Editions Robert Laffont</marc:subfield>
+			<marc:subfield code="c">2006</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="300">
+			<marc:subfield code="a">204 pages</marc:subfield>
+			<marc:subfield code="c">17 cm</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="520">
+			<marc:subfield code="a">When an old sailor named Billy Bones dies in the inn belonging to young Jim Hawkins's parents, he leaves a greasy old map on which an X marks the spot where treasure is buried. Jim joins the crew of a ship in pursuit of Bones's treasure, and on the seas meets up with Long John Silver, a peg-legged pirate who has infiltrated their ranks. Jim must survive mutinies and counter-mutinies, face hand-to-hand combat with drunken sailors, and outwit double-crossing thieves before the treasure can be his.</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00482a   a2200133   4500</marc:leader>
+		<marc:controlfield tag="001">x30</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="020">
+			<marc:subfield code="a">9782205060386</marc:subfield>
+			<marc:subfield code="c">20.50 EUR</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="041">
+			<marc:subfield code="a">French</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="100">
+			<marc:subfield code="a">Mezieres, Jean-Claude</marc:subfield>
+			<marc:subfield code="4">aut</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2="0" tag="245">
+			<marc:subfield code="a">Valerian et Laureline</marc:subfield>
+			<marc:subfield code="b">l'integrale</marc:subfield>
+			<marc:subfield code="c">Pierre Christin; Jean-Claude Meziere</marc:subfield>
+			<marc:subfield code="h">[print]</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="3" ind2=" " tag="260">
+			<marc:subfield code="a">Paris</marc:subfield>
+			<marc:subfield code="b">Dargaud</marc:subfield>
+			<marc:subfield code="c">2012</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="300">
+			<marc:subfield code="a">1 volume (164 pages)</marc:subfield>
+			<marc:subfield code="b">Colorful illustrations, cover with colorful illustrations</marc:subfield>
+			<marc:subfield code="c">30 cm</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="700">
+			<marc:subfield code="a">Christin, Pierre</marc:subfield>
+			<marc:subfield code="4">aut</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00642a   a2200133   4500</marc:leader>
+		<marc:controlfield tag="001">xx1</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="020">
+			<marc:subfield code="a">9780439796644</marc:subfield>
+			<marc:subfield code="c">8.00 euro</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="041">
+			<marc:subfield code="a">English</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="100">
+			<marc:subfield code="a">Morpurgo, Michael</marc:subfield>
+			<marc:subfield code="4">aut</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2="0" tag="245">
+			<marc:subfield code="a">War horse</marc:subfield>
+			<marc:subfield code="c">Michael Morpurgo</marc:subfield>
+			<marc:subfield code="h">[publication]</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="3" ind2=" " tag="260">
+			<marc:subfield code="b">Scholastic Ltd</marc:subfield>
+			<marc:subfield code="c">2010</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="300">
+			<marc:subfield code="a">165 pages</marc:subfield>
+			<marc:subfield code="c">18 cm</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="520">
+			<marc:subfield code="a">World War I has started and the military needs horses to move equipment, charge the enemy, and carry wounded soldiers off the battlefield. Joey, a farm horse is sold to the Army. Joey misses the farmer's son, Albert, and spends the war years wondering if the war will ever end and if he will ever see Albert again.</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+</marc:collection>

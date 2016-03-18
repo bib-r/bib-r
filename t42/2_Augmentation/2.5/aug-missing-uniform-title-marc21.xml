@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+	<marc:record>
+		<marc:leader>00453a   a2200145   4500</marc:leader>
+		<marc:controlfield tag="001">x10</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="020">
+			<marc:subfield code="a">9782080702104</marc:subfield>
+			<marc:subfield code="c">5.80euro</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="041">
+			<marc:subfield code="a">French</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="100">
+			<marc:subfield code="a">Montaigne, Michel de</marc:subfield>
+			<marc:subfield code="4">aut</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2="0" tag="245">
+			<marc:subfield code="a">Essais</marc:subfield>
+			<marc:subfield code="c">Michel de Montaigne; Introduction by Alexandre Micha</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="3" ind2=" " tag="260">
+			<marc:subfield code="a">Paris</marc:subfield>
+			<marc:subfield code="b">Garnier-Flammarion</marc:subfield>
+			<marc:subfield code="c">1969</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="300">
+			<marc:subfield code="a">443 pages</marc:subfield>
+			<marc:subfield code="b">Cover with colorful illustrations</marc:subfield>
+			<marc:subfield code="c">18 cm</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="490">
+			<marc:subfield code="a">GF</marc:subfield>
+			<marc:subfield code="v">210</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="700">
+			<marc:subfield code="a">Micha, Alexandre</marc:subfield>
+			<marc:subfield code="4">aui</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+</marc:collection>

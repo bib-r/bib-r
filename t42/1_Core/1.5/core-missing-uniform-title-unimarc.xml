@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+	<marc:record>
+		<marc:leader>x10</marc:leader>
+		<marc:controlfield tag="001">x10</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="010">
+			<marc:subfield code="a">978-2-08-070210-4</marc:subfield>
+			<marc:subfield code="d">5.80euro</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="|" ind2=" " tag="101">
+			<marc:subfield code="a">French</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="200">
+			<marc:subfield code="a">Essais</marc:subfield>
+			<subfield code="b">[publication]</subfield>
+			<marc:subfield code="f">Michel de Montaigne</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="210">
+			<marc:subfield code="a">Paris</marc:subfield>
+			<marc:subfield code="c">Garnier-Flammarion</marc:subfield>
+			<marc:subfield code="d">1969</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="215">
+			<marc:subfield code="a">443 pages</marc:subfield>
+			<marc:subfield code="c">Cover with colorful illustrations</marc:subfield>
+			<marc:subfield code="d">18 cm</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2="1" tag="700">
+			<marc:subfield code="3">pauth-007</marc:subfield>
+			<marc:subfield code="a">Montaigne</marc:subfield>
+			<marc:subfield code="b">Michel de</marc:subfield>
+			<marc:subfield code="4">070</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>xx8</marc:leader>
+		<marc:controlfield tag="001">xx8</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="010">
+			<marc:subfield code="a">978-2-0812-0963-3</marc:subfield>
+			<marc:subfield code="d">2,70 euro</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="101">
+			<marc:subfield code="a">French</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="200">
+			<marc:subfield code="a">Roman de Renart (Le)</marc:subfield>
+			<subfield code="b">[publication]</subfield>
+			<marc:subfield code="f">Christian Keime</marc:subfield>
+			<marc:subfield code="g">Monique Lachet-Lagarde</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="210">
+			<marc:subfield code="a">Paris</marc:subfield>
+			<marc:subfield code="c">Flammarion</marc:subfield>
+			<marc:subfield code="d">2008</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="215">
+			<marc:subfield code="a">159 pages</marc:subfield>
+			<marc:subfield code="c">Illustrations, cover with colorful illustrations</marc:subfield>
+			<marc:subfield code="d">18 cm</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="|" ind2=" " tag="225">
+			<marc:subfield code="a">Etonnants classiques</marc:subfield>
+			<marc:subfield code="h">335</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2="0" tag="410">
+			<marc:subfield code="3">colauth-007</marc:subfield>
+			<marc:subfield code="t">Etonnants classiques</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2="1" tag="700">
+			<marc:subfield code="3">pauth-005</marc:subfield>
+			<marc:subfield code="4">300</marc:subfield>
+			<marc:subfield code="a">Keime</marc:subfield>
+			<marc:subfield code="b">Christian</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2="1" tag="701">
+			<marc:subfield code="3">pauth-006</marc:subfield>
+			<marc:subfield code="4">010</marc:subfield>
+			<marc:subfield code="a">Lachet-Lagarde</marc:subfield>
+			<marc:subfield code="b">Monique</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+</marc:collection>

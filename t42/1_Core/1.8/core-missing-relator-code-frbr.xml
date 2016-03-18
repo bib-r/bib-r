@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:frbr="http://research.progilone.fr/benchmark/">
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#strangecaseofDrJekyllMrHyde">
+    <frbr:creator>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#RobertLouisStevenson">
+        <frbr:nameOfThePerson>Robert Louis Stevenson</frbr:nameOfThePerson>
+        <frbr:nameOfThePerson>Stevenson, Robert Louis</frbr:nameOfThePerson>
+        <frbr:identifierForThePerson>pauth-003</frbr:identifierForThePerson>
+      </rdf:Description>
+    </frbr:creator>
+    <frbr:expressionOfWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#strangecaseofDrJekyllMrHydeTextEnglish">
+        <frbr:manifestationOfExpression>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Kindle9781843444862">
+            <frbr:carrierType>Kindle</frbr:carrierType>
+            <frbr:identifierForTheManifestation>9781843444862</frbr:identifierForTheManifestation>
+            <frbr:identifierForTheManifestation>978-1-84344-486-2</frbr:identifierForTheManifestation>
+          </rdf:Description>
+        </frbr:manifestationOfExpression>
+        <frbr:manifestationOfExpression>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#PDF9781843444879">
+            <frbr:carrierType>PDF</frbr:carrierType>
+            <frbr:identifierForTheManifestation>9781843444879</frbr:identifierForTheManifestation>
+            <frbr:identifierForTheManifestation>978-1-84344-487-9</frbr:identifierForTheManifestation>
+          </rdf:Description>
+        </frbr:manifestationOfExpression>
+        <frbr:manifestationOfExpression>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Book9781843444848">
+            <frbr:alsoIssuedAs rdf:resource="http://research.progilone.fr/benchmark/Manifestation#PDF9781843444879"/>
+            <frbr:identifierForTheManifestation>978-1-84344-484-8</frbr:identifierForTheManifestation>
+            <frbr:alsoIssuedAs rdf:resource="http://research.progilone.fr/benchmark/Manifestation#Kindle9781843444862"/>
+            <frbr:carrierType>book</frbr:carrierType>
+            <frbr:statementOfResponsibilityRelatingToTitleProper
+            >Robert Louis Stevenson</frbr:statementOfResponsibilityRelatingToTitleProper>
+            <frbr:dateOfPublication>2014</frbr:dateOfPublication>
+            <frbr:title>The strange case of Dr Jekyll and Mr Hyde</frbr:title>
+            <frbr:extent>1 volume (123 pages)</frbr:extent>
+            <frbr:publisher>
+              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/CorporateBody#PulpTheClassics">
+                <frbr:nameOfTheCorporateBody>Pulp! The Classics</frbr:nameOfTheCorporateBody>
+              </rdf:Description>
+            </frbr:publisher>
+            <frbr:placeOfpublication>Harpenden</frbr:placeOfpublication>
+            <frbr:dimensions>18 cm</frbr:dimensions>
+            <frbr:noteOnCarrier>Cover with colorful illustrations</frbr:noteOnCarrier>
+            <frbr:identifierForTheManifestation>9781843444848</frbr:identifierForTheManifestation>
+          </rdf:Description>
+        </frbr:manifestationOfExpression>
+        <frbr:languageOfExpression>English</frbr:languageOfExpression>
+      </rdf:Description>
+    </frbr:expressionOfWork>
+    <frbr:titleOfTheWork>The strange case of Dr Jekyll and Mr Hyde</frbr:titleOfTheWork>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#RomandeRenart">
+    <frbr:creator>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#ChristianKeime">
+        <frbr:nameOfThePerson>Christian Keime</frbr:nameOfThePerson>
+        <frbr:identifierForThePerson>pauth-005</frbr:identifierForThePerson>
+      </rdf:Description>
+    </frbr:creator>
+    <frbr:expressionOfWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#RomandeRenartTextFrench">
+        <frbr:creator>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#MoniqueLachetLagarde">
+            <frbr:nameOfThePerson>Monique Lachet-Lagarde</frbr:nameOfThePerson>
+            <frbr:identifierForThePerson>pauth-006</frbr:identifierForThePerson>
+          </rdf:Description>
+        </frbr:creator>
+        <frbr:manifestationOfExpression>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Book9782081209633">
+            <frbr:dateOfPublication>2008</frbr:dateOfPublication>
+            <frbr:placeOfpublication>Paris</frbr:placeOfpublication>
+            <frbr:termsOfAvailability>2,70 euro</frbr:termsOfAvailability>
+            <frbr:statementOfResponsibilityRelatingToTitleProper
+            >Christian Keime; Monique Lachet-Lagarde</frbr:statementOfResponsibilityRelatingToTitleProper>
+            <frbr:publisher>
+              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/CorporateBody#Flammarion">
+                <frbr:nameOfTheCorporateBody>Flammarion</frbr:nameOfTheCorporateBody>
+              </rdf:Description>
+            </frbr:publisher>
+            <frbr:identifierForTheManifestation>978-2-0812-0963-3</frbr:identifierForTheManifestation>
+            <frbr:title>Roman de Renart (Le)</frbr:title>
+            <frbr:dimensions>18 cm</frbr:dimensions>
+            <frbr:extent>159 pages</frbr:extent>
+            <frbr:noteOnCarrier>Illustrations, cover with colorful illustrations</frbr:noteOnCarrier>
+          </rdf:Description>
+        </frbr:manifestationOfExpression>
+        <frbr:languageOfExpression>French</frbr:languageOfExpression>
+      </rdf:Description>
+    </frbr:expressionOfWork>
+    <frbr:titleOfTheWork>Roman de Renart</frbr:titleOfTheWork>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#Ofmiceandmen">
+    <frbr:creator>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#JohnSteinbeck">
+        <frbr:nameOfThePerson>Steinbeck, John</frbr:nameOfThePerson>
+        <frbr:identifierForThePerson>pauth-016</frbr:identifierForThePerson>
+      </rdf:Description>
+    </frbr:creator>
+    <frbr:expressionOfWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#OfmiceandmenAudioEnglish">
+        <frbr:creator>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#GarySinise">
+            <frbr:nameOfThePerson>Sinise, Gary</frbr:nameOfThePerson>
+            <frbr:nameOfThePerson>Gary Sinise</frbr:nameOfThePerson>
+            <frbr:identifierForThePerson>pauth-017</frbr:identifierForThePerson>
+          </rdf:Description>
+        </frbr:creator>
+        <frbr:manifestationOfExpression>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Book9780142429181">
+            <frbr:statementOfResponsibilityRelatingToTitleProper
+            >John Steinbeck; Gary Sinise</frbr:statementOfResponsibilityRelatingToTitleProper>
+            <frbr:dimensions>14 x 13 cm</frbr:dimensions>
+            <frbr:publisher>
+              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/CorporateBody#Penguinbooks">
+                <frbr:nameOfTheCorporateBody>Penguin books</frbr:nameOfTheCorporateBody>
+              </rdf:Description>
+            </frbr:publisher>
+            <frbr:dateOfPublication>1992</frbr:dateOfPublication>
+            <frbr:identifierForTheManifestation>9780142429181</frbr:identifierForTheManifestation>
+            <frbr:placeOfpublication>France</frbr:placeOfpublication>
+            <frbr:noteOnCarrier>housing with illustrations</frbr:noteOnCarrier>
+            <frbr:carrierType>book</frbr:carrierType>
+            <frbr:extent>3 CD (21h30)</frbr:extent>
+            <frbr:title>Of mice and men</frbr:title>
+            <frbr:carrierType>audio</frbr:carrierType>
+          </rdf:Description>
+        </frbr:manifestationOfExpression>
+        <frbr:languageOfExpression>English</frbr:languageOfExpression>
+      </rdf:Description>
+    </frbr:expressionOfWork>
+    <frbr:titleOfTheWork>Of mice and men</frbr:titleOfTheWork>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#Romans">
+    <frbr:hasAsSubjectConcept>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Concept#RomansdelaTableronde">
+        <frbr:hasTermForTheConcept>Romans de la Table ronde</frbr:hasTermForTheConcept>
+      </rdf:Description>
+    </frbr:hasAsSubjectConcept>
+    <frbr:creator>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#ChretiendeTroyes">
+        <frbr:nameOfThePerson>Chretien de Troyes</frbr:nameOfThePerson>
+        <frbr:identifierForThePerson>pauth-004</frbr:identifierForThePerson>
+      </rdf:Description>
+    </frbr:creator>
+    <frbr:expressionOfWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#RomansTextFrench">
+        <frbr:manifestationOfExpression>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Book2253132225">
+            <frbr:dateOfPublication>1994</frbr:dateOfPublication>
+            <frbr:placeOfpublication>Paris</frbr:placeOfpublication>
+            <frbr:dimensions>19 cm</frbr:dimensions>
+            <frbr:statementOfResponsibilityRelatingToTitleProper
+            >Chretien de Troyes</frbr:statementOfResponsibilityRelatingToTitleProper>
+            <frbr:title>Romans</frbr:title>
+            <frbr:termsOfAvailability>120,00 F</frbr:termsOfAvailability>
+            <frbr:publisher>
+              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/CorporateBody#LibrairieGeneraleFrancaise">
+                <frbr:nameOfTheCorporateBody>Librairie Generale Francaise</frbr:nameOfTheCorporateBody>
+              </rdf:Description>
+            </frbr:publisher>
+            <frbr:noteOnCarrier>Cover with colorful illustrations</frbr:noteOnCarrier>
+            <frbr:identifierForTheManifestation>2-253-13222-5</frbr:identifierForTheManifestation>
+            <frbr:extent>1279 pages</frbr:extent>
+          </rdf:Description>
+        </frbr:manifestationOfExpression>
+        <frbr:languageOfExpression>French</frbr:languageOfExpression>
+      </rdf:Description>
+    </frbr:expressionOfWork>
+    <frbr:titleOfTheWork>Romans</frbr:titleOfTheWork>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#ValerianEtLaureline">
+    <frbr:creator>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#JeanClaudeMezieres">
+        <frbr:nameOfThePerson>Jean-Claude Mezieres</frbr:nameOfThePerson>
+        <frbr:identifierForThePerson>pauth-021</frbr:identifierForThePerson>
+      </rdf:Description>
+    </frbr:creator>
+    <frbr:creator>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#PierreChristin">
+        <frbr:nameOfThePerson>Pierre Christin</frbr:nameOfThePerson>
+        <frbr:identifierForThePerson>pauth-020</frbr:identifierForThePerson>
+      </rdf:Description>
+    </frbr:creator>
+    <frbr:expressionOfWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#ValerianEtLaurelineTextFrench">
+        <frbr:manifestationOfExpression>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Comic9782205060386">
+            <frbr:placeOfpublication>Paris</frbr:placeOfpublication>
+            <frbr:otherTitleInformation>l'integrale</frbr:otherTitleInformation>
+            <frbr:title>Valerian et Laureline</frbr:title>
+            <frbr:publisher>
+              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/CorporateBody#Dargaud">
+                <frbr:nameOfTheCorporateBody>Dargaud</frbr:nameOfTheCorporateBody>
+              </rdf:Description>
+            </frbr:publisher>
+            <frbr:noteOnCarrier>Colorful illustrations, cover with colorful illustrations</frbr:noteOnCarrier>
+            <frbr:carrierType>Printed Text</frbr:carrierType>
+            <frbr:identifierForTheManifestation>978-2205-06038-6</frbr:identifierForTheManifestation>
+            <frbr:statementOfResponsibilityRelatingToTitleProper
+            >Pierre Christin; Jean-Claude Meziere</frbr:statementOfResponsibilityRelatingToTitleProper>
+            <frbr:dateOfPublication>2012</frbr:dateOfPublication>
+            <frbr:dimensions>30 cm</frbr:dimensions>
+            <frbr:extent>1 volume (164 pages)</frbr:extent>
+          </rdf:Description>
+        </frbr:manifestationOfExpression>
+        <frbr:languageOfExpression>French</frbr:languageOfExpression>
+      </rdf:Description>
+    </frbr:expressionOfWork>
+    <frbr:titleOfTheWork>Valerian et Laureline</frbr:titleOfTheWork>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#HartUndSozial">
+    <frbr:hasAsSubjectPlace>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Place#Netherlands">
+        <frbr:hasTermForTheConcept>Netherlands</frbr:hasTermForTheConcept>
+      </rdf:Description>
+    </frbr:hasAsSubjectPlace>
+    <frbr:hasAsSubjectConcept>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Concept#Klinik">
+        <frbr:hasTermForTheConcept>Klinik</frbr:hasTermForTheConcept>
+      </rdf:Description>
+    </frbr:hasAsSubjectConcept>
+    <frbr:hasAsSubjectConcept>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Concept#Behandlung">
+        <frbr:hasTermForTheConcept>Behandlung</frbr:hasTermForTheConcept>
+      </rdf:Description>
+    </frbr:hasAsSubjectConcept>
+    <frbr:hasAsSubjectConcept>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Concept#Abhangigkeit">
+        <frbr:hasTermForTheConcept>Abhangigkeit</frbr:hasTermForTheConcept>
+      </rdf:Description>
+    </frbr:hasAsSubjectConcept>
+    <frbr:creator>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#HansSlijpen">
+        <frbr:nameOfThePerson>Hans Slijpen</frbr:nameOfThePerson>
+        <frbr:identifierForThePerson>pauth-023</frbr:identifierForThePerson>
+      </rdf:Description>
+    </frbr:creator>
+    <frbr:expressionOfWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#HartUndSozialArticleEnglish">
+        <frbr:manifestationOfExpression>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#ArticleHartUndSozial">
+            <frbr:statementOfResponsibilityRelatingToTitleProper
+            >Hans Slijpen</frbr:statementOfResponsibilityRelatingToTitleProper>
+            <frbr:title>Hart und Sozial</frbr:title>
+            <frbr:otherTitleInformation>Das Utrechter Modell</frbr:otherTitleInformation>
+          </rdf:Description>
+        </frbr:manifestationOfExpression>
+        <frbr:summarizationOfTheContent>Wiederholungstater sind haufig noch...</frbr:summarizationOfTheContent>
+        <frbr:languageOfExpression>German</frbr:languageOfExpression>
+      </rdf:Description>
+    </frbr:expressionOfWork>
+    <frbr:titleOfTheWork>Hart und Sozial</frbr:titleOfTheWork>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#WarHorse">
+    <frbr:creator>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#MichaelMorpurgo">
+        <frbr:nameOfThePerson>Morpurgo, Michael</frbr:nameOfThePerson>
+        <frbr:identifierForThePerson>pauth-001</frbr:identifierForThePerson>
+      </rdf:Description>
+    </frbr:creator>
+    <frbr:expressionOfWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#WarHorseTextEnglish">
+        <frbr:manifestationOfExpression>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Book9780439796644">
+            <frbr:publisher>
+              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/CorporateBody#ScholasticLtd">
+                <frbr:nameOfTheCorporateBody>Scholastic Ltd</frbr:nameOfTheCorporateBody>
+              </rdf:Description>
+            </frbr:publisher>
+            <frbr:statementOfResponsibilityRelatingToTitleProper
+            >Michael Morpurgo</frbr:statementOfResponsibilityRelatingToTitleProper>
+            <frbr:title>War horse</frbr:title>
+            <frbr:dateOfPublication>2010</frbr:dateOfPublication>
+            <frbr:termsOfAvailability>8.00 €</frbr:termsOfAvailability>
+            <frbr:extent>165 pages</frbr:extent>
+            <frbr:dimensions>18 cm</frbr:dimensions>
+            <frbr:identifierForTheManifestation>9780439796644</frbr:identifierForTheManifestation>
+            <frbr:identifierForTheManifestation>978-0-439-79664-4</frbr:identifierForTheManifestation>
+          </rdf:Description>
+        </frbr:manifestationOfExpression>
+        <frbr:summarizationOfTheContent>World War I has started...</frbr:summarizationOfTheContent>
+        <frbr:languageOfExpression>English</frbr:languageOfExpression>
+      </rdf:Description>
+    </frbr:expressionOfWork>
+    <frbr:titleOfTheWork>War horse</frbr:titleOfTheWork>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#CouldMusicPotentially">
+    <frbr:hasAsSubjectConcept>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Concept#Musik">
+        <frbr:hasTermForTheConcept>Musik</frbr:hasTermForTheConcept>
+      </rdf:Description>
+    </frbr:hasAsSubjectConcept>
+    <frbr:hasAsSubjectConcept>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Concept#Epidemiologie">
+        <frbr:hasTermForTheConcept>Epidemiologie</frbr:hasTermForTheConcept>
+      </rdf:Description>
+    </frbr:hasAsSubjectConcept>
+    <frbr:hasAsSubjectConcept>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Concept#Alkohol">
+        <frbr:hasTermForTheConcept>Alkohol</frbr:hasTermForTheConcept>
+      </rdf:Description>
+    </frbr:hasAsSubjectConcept>
+    <frbr:creator>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#EmmanuelNKuntsche">
+        <frbr:nameOfThePerson>Emmanuel N. Kuntsche</frbr:nameOfThePerson>
+        <frbr:identifierForThePerson>pauth-025</frbr:identifierForThePerson>
+      </rdf:Description>
+    </frbr:creator>
+    <frbr:creator>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#AnnaJonker">
+        <frbr:nameOfThePerson>Anna Jonker</frbr:nameOfThePerson>
+        <frbr:identifierForThePerson>pauth-024</frbr:identifierForThePerson>
+      </rdf:Description>
+    </frbr:creator>
+    <frbr:expressionOfWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#CouldMusicPotentiallyArticleEnglish">
+        <frbr:manifestationOfExpression>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#ArticleJBA3201443">
+            <frbr:statementOfResponsibilityRelatingToTitleProper
+            >Anna Jonker; Emmanuel N. Kuntsche</frbr:statementOfResponsibilityRelatingToTitleProper>
+            <frbr:title>Could music potentially serve as a functional alternative to alcohol consumption?</frbr:title>
+            <frbr:otherTitleInformation>the importance of music motives among drinking and non-drinking adolescents</frbr:otherTitleInformation>
+            <frbr:dateOfPublication>2014</frbr:dateOfPublication>
+            <frbr:identifierForTheManifestation>doi:10.1556/JBA.3.2014.4.3</frbr:identifierForTheManifestation>
+          </rdf:Description>
+        </frbr:manifestationOfExpression>
+        <frbr:summarizationOfTheContent>This study investigated whether adolescents...</frbr:summarizationOfTheContent>
+        <frbr:languageOfExpression>English</frbr:languageOfExpression>
+      </rdf:Description>
+    </frbr:expressionOfWork>
+    <frbr:titleOfTheWork>Could music potentially serve as a functional alternative to alcohol consumption?</frbr:titleOfTheWork>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#HarryPotterandtheDeathlyHallows">
+    <frbr:creator>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#JKRowling">
+        <frbr:dateAssociatedWithThePerson>1965-....</frbr:dateAssociatedWithThePerson>
+        <frbr:nameOfThePerson>Rowling, Joanne Kathleen</frbr:nameOfThePerson>
+        <frbr:nameOfThePerson>J.K. Rowling</frbr:nameOfThePerson>
+        <frbr:identifierForThePerson>pauth-014</frbr:identifierForThePerson>
+      </rdf:Description>
+    </frbr:creator>
+    <frbr:expressionOfWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#HarryPotterandtheDeathlyHallowsText">
+        <frbr:manifestationOfExpression>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Book9781408855713">
+            <frbr:publisher>
+              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/CorporateBody#Bloomsbury">
+                <frbr:nameOfTheCorporateBody>Bloomsbury</frbr:nameOfTheCorporateBody>
+              </rdf:Description>
+            </frbr:publisher>
+            <frbr:statementOfResponsibilityRelatingToTitleProper
+            >J.K. Rowling</frbr:statementOfResponsibilityRelatingToTitleProper>
+            <frbr:title>Harry Potter and the Deathly Hallows</frbr:title>
+            <frbr:dateOfPublication>2014</frbr:dateOfPublication>
+            <frbr:placeOfpublication>London</frbr:placeOfpublication>
+            <frbr:noteOnCarrier>Cover with colorful illustrations</frbr:noteOnCarrier>
+            <frbr:extent>1 volume (619 pages)</frbr:extent>
+            <frbr:dimensions>20 cm</frbr:dimensions>
+            <frbr:identifierForTheManifestation>978-1-4088-5571-3</frbr:identifierForTheManifestation>
+          </rdf:Description>
+        </frbr:manifestationOfExpression>
+      </rdf:Description>
+    </frbr:expressionOfWork>
+    <frbr:titleOfTheWork>Harry Potter and the Deathly Hallows</frbr:titleOfTheWork>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#Whyphilosophersethicsconsult">
+    <frbr:hasAsSubjectConcept>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Concept#PhilosophyMedical">
+        <frbr:hasTermForTheConcept>Philosophy, Medical</frbr:hasTermForTheConcept>
+      </rdf:Description>
+    </frbr:hasAsSubjectConcept>
+    <frbr:hasAsSubjectConcept>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Concept#EthicsMedical">
+        <frbr:hasTermForTheConcept>Ethics, Medical</frbr:hasTermForTheConcept>
+      </rdf:Description>
+    </frbr:hasAsSubjectConcept>
+    <frbr:hasAsSubjectConcept>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Concept#Consultants">
+        <frbr:hasTermForTheConcept>Consultants</frbr:hasTermForTheConcept>
+      </rdf:Description>
+    </frbr:hasAsSubjectConcept>
+    <frbr:creator>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#DCThomasma">
+        <frbr:nameOfThePerson>D.C. Thomasma</frbr:nameOfThePerson>
+        <frbr:identifierForThePerson>pauth-022</frbr:identifierForThePerson>
+      </rdf:Description>
+    </frbr:creator>
+    <frbr:expressionOfWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#WhyphilosopherArticleEnglish">
+        <frbr:manifestationOfExpression>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#ArticleBF00489793">
+            <frbr:statementOfResponsibilityRelatingToTitleProper
+            >D.C. Thomasma</frbr:statementOfResponsibilityRelatingToTitleProper>
+            <frbr:title>Why philosophers should offer ethics consultations</frbr:title>
+            <frbr:identifierForTheManifestation>doi:10.1007/BF00489793</frbr:identifierForTheManifestation>
+          </rdf:Description>
+        </frbr:manifestationOfExpression>
+        <frbr:summarizationOfTheContent>Considerable debate has occurred...</frbr:summarizationOfTheContent>
+        <frbr:languageOfExpression>English</frbr:languageOfExpression>
+      </rdf:Description>
+    </frbr:expressionOfWork>
+    <frbr:titleOfTheWork>Why philosophers should offer ethics consultations</frbr:titleOfTheWork>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#MeditationsMetaphysiques">
+    <frbr:creator>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#Descartes">
+        <frbr:nameOfThePerson>Descartes</frbr:nameOfThePerson>
+        <frbr:identifierForThePerson>pauth-008</frbr:identifierForThePerson>
+      </rdf:Description>
+    </frbr:creator>
+    <frbr:expressionOfWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#MeditationsMetaphysiquesTextFrench">
+        <frbr:creator>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#ChristineThubert">
+            <frbr:nameOfThePerson>Christine Thubert</frbr:nameOfThePerson>
+            <frbr:identifierForThePerson>pauth-010</frbr:identifierForThePerson>
+          </rdf:Description>
+        </frbr:creator>
+        <frbr:manifestationOfExpression>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Book9782091873053">
+            <frbr:identifierForTheManifestation>978-2-09-187305-3</frbr:identifierForTheManifestation>
+            <frbr:placeOfpublication>France</frbr:placeOfpublication>
+            <frbr:termsOfAvailability>7,50 EUR</frbr:termsOfAvailability>
+            <frbr:dateOfPublication>2009</frbr:dateOfPublication>
+            <frbr:statementOfResponsibilityRelatingToTitleProper
+            >Descartes; Christine Thubert</frbr:statementOfResponsibilityRelatingToTitleProper>
+            <frbr:extent>191 pages</frbr:extent>
+            <frbr:noteOnCarrier>On the cover: Texte integral annote, dossier pedagogique</frbr:noteOnCarrier>
+            <frbr:title>Meditations metaphysiques</frbr:title>
+            <frbr:publisher>
+              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/CorporateBody#Nathan">
+                <frbr:nameOfTheCorporateBody>Nathan</frbr:nameOfTheCorporateBody>
+              </rdf:Description>
+            </frbr:publisher>
+            <frbr:dimensions>21 cm</frbr:dimensions>
+          </rdf:Description>
+        </frbr:manifestationOfExpression>
+        <frbr:languageOfExpression>French</frbr:languageOfExpression>
+      </rdf:Description>
+    </frbr:expressionOfWork>
+    <frbr:titleOfTheWork>Meditations metaphysiques</frbr:titleOfTheWork>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#DeathontheNil">
+    <frbr:creator>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#AgathaChristie">
+        <frbr:nameOfThePerson>Christie, Agatha</frbr:nameOfThePerson>
+        <frbr:nameOfThePerson>Agatha Christie</frbr:nameOfThePerson>
+        <frbr:identifierForThePerson>pauth-018</frbr:identifierForThePerson>
+      </rdf:Description>
+    </frbr:creator>
+    <frbr:expressionOfWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#DeathontheNilAudioEnglish">
+        <frbr:creator>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#DavidSuchet">
+            <frbr:nameOfThePerson>Suchet, David</frbr:nameOfThePerson>
+            <frbr:nameOfThePerson>David Suchet</frbr:nameOfThePerson>
+            <frbr:identifierForThePerson>pauth-019</frbr:identifierForThePerson>
+          </rdf:Description>
+        </frbr:creator>
+        <frbr:manifestationOfExpression>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Audio9780007191154">
+            <frbr:publisher>
+              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/CorporateBody#HarperCollinsPublishers">
+                <frbr:nameOfTheCorporateBody>HarperCollins Publishers</frbr:nameOfTheCorporateBody>
+              </rdf:Description>
+            </frbr:publisher>
+            <frbr:statementOfResponsibilityRelatingToTitleProper
+            >Agatha Christie; David Suchet</frbr:statementOfResponsibilityRelatingToTitleProper>
+            <frbr:title>Death on the Nil</frbr:title>
+            <frbr:carrierType>audio</frbr:carrierType>
+            <frbr:dateOfPublication>2004</frbr:dateOfPublication>
+            <frbr:placeOfpublication>France</frbr:placeOfpublication>
+            <frbr:extent>7 CD (approx. 8h30)</frbr:extent>
+            <frbr:dimensions>14 x 13 cm</frbr:dimensions>
+            <frbr:identifierForTheManifestation>9780007191154</frbr:identifierForTheManifestation>
+          </rdf:Description>
+        </frbr:manifestationOfExpression>
+        <frbr:languageOfExpression>English</frbr:languageOfExpression>
+      </rdf:Description>
+    </frbr:expressionOfWork>
+    <frbr:titleOfTheWork>Death on the Nil</frbr:titleOfTheWork>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#HandbookofInjectableDrugs">
+    <frbr:hasAsSubjectConcept>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Concept#Injectable">
+        <frbr:hasTermForTheConcept>Injectable</frbr:hasTermForTheConcept>
+      </rdf:Description>
+    </frbr:hasAsSubjectConcept>
+    <frbr:creator>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#LawrenceATrissel">
+        <frbr:nameOfThePerson>Lawrence A. Trissel</frbr:nameOfThePerson>
+        <frbr:identifierForThePerson>pauth-015</frbr:identifierForThePerson>
+      </rdf:Description>
+    </frbr:creator>
+    <frbr:expressionOfWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#HandbookofInjectableDrugsTextEnglish">
+        <frbr:manifestationOfExpression>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Book9781585281503">
+            <frbr:publisher>
+              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/CorporateBody#AmericanSocietyofHealthSystemPharmacists">
+                <frbr:nameOfTheCorporateBody>American Society of Health-System Pharmacists</frbr:nameOfTheCorporateBody>
+              </rdf:Description>
+            </frbr:publisher>
+            <frbr:statementOfResponsibilityRelatingToTitleProper
+            >Lawrence A. Trissel</frbr:statementOfResponsibilityRelatingToTitleProper>
+            <frbr:title>Handbook of Injectable Drugs</frbr:title>
+            <frbr:designationOfEdition>14th</frbr:designationOfEdition>
+            <frbr:dateOfPublication>2006</frbr:dateOfPublication>
+            <frbr:placeOfpublication>Bethesda</frbr:placeOfpublication>
+            <frbr:extent>1720 pages</frbr:extent>
+            <frbr:identifierForTheManifestation>9781585281503</frbr:identifierForTheManifestation>
+          </rdf:Description>
+        </frbr:manifestationOfExpression>
+        <frbr:languageOfExpression>English</frbr:languageOfExpression>
+      </rdf:Description>
+    </frbr:expressionOfWork>
+    <frbr:titleOfTheWork>Handbook of Injectable Drugs</frbr:titleOfTheWork>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#TreasureIsland">
+    <frbr:creator rdf:resource="http://research.progilone.fr/benchmark/Person#RobertLouisStevenson"/>
+    <frbr:expressionOfWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#TreasureIslandTextEnglish">
+        <frbr:manifestationOfExpression>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Book9780747587477">
+            <frbr:termsOfAvailability>11,00 euro</frbr:termsOfAvailability>
+            <frbr:publisher>
+              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/CorporateBody#EditionsRobertLaffont">
+                <frbr:nameOfTheCorporateBody>Editions Robert Laffont</frbr:nameOfTheCorporateBody>
+              </rdf:Description>
+            </frbr:publisher>
+            <frbr:identifierForTheManifestation>978-0-7475-8747-7</frbr:identifierForTheManifestation>
+            <frbr:dateOfPublication>2006</frbr:dateOfPublication>
+            <frbr:dimensions>17 cm</frbr:dimensions>
+            <frbr:placeOfpublication>Great Britain</frbr:placeOfpublication>
+            <frbr:title>Treasure island</frbr:title>
+            <frbr:identifierForTheManifestation>9780747587477</frbr:identifierForTheManifestation>
+            <frbr:extent>204 pages</frbr:extent>
+            <frbr:statementOfResponsibilityRelatingToTitleProper
+            >Robert Louis Stevenson</frbr:statementOfResponsibilityRelatingToTitleProper>
+          </rdf:Description>
+        </frbr:manifestationOfExpression>
+        <frbr:summarizationOfTheContent>When an old sailor named Billy Bones...</frbr:summarizationOfTheContent>
+        <frbr:languageOfExpression>English</frbr:languageOfExpression>
+      </rdf:Description>
+    </frbr:expressionOfWork>
+    <frbr:titleOfTheWork>Treasure island</frbr:titleOfTheWork>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#Emergingtrendsindruguseanddistribution">
+    <frbr:creator>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#DavidNKhey">
+        <frbr:nameOfThePerson>David N. Khey</frbr:nameOfThePerson>
+        <frbr:identifierForThePerson>pauth-011</frbr:identifierForThePerson>
+      </rdf:Description>
+    </frbr:creator>
+    <frbr:hasAsSubjectPlace>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Place#UnitedStates">
+        <frbr:hasTermForTheConcept>United States</frbr:hasTermForTheConcept>
+      </rdf:Description>
+    </frbr:hasAsSubjectPlace>
+    <frbr:expressionOfWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#EmergingtrendsindruguseanddistributionTextEnglish">
+        <frbr:manifestationOfExpression>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Book3319035746">
+            <frbr:identifierForTheManifestation>3319035746</frbr:identifierForTheManifestation>
+            <frbr:statementOfResponsibilityRelatingToTitleProper
+            >David N. Khey; John Stogner</frbr:statementOfResponsibilityRelatingToTitleProper>
+            <frbr:extent>99 pages</frbr:extent>
+            <frbr:title>Emerging trends in drug use and distribution</frbr:title>
+            <frbr:placeOfpublication>Cham</frbr:placeOfpublication>
+            <frbr:placeOfpublication>Heidelberg</frbr:placeOfpublication>
+            <frbr:placeOfpublication>New York</frbr:placeOfpublication>
+            <frbr:dateOfPublication>2014</frbr:dateOfPublication>
+            <frbr:identifierForTheManifestation>doi:10.1007/978-3-319-03575-8</frbr:identifierForTheManifestation>
+            <frbr:publisher>
+              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/CorporateBody#Springer">
+                <frbr:nameOfTheCorporateBody>Springer</frbr:nameOfTheCorporateBody>
+              </rdf:Description>
+            </frbr:publisher>
+          </rdf:Description>
+        </frbr:manifestationOfExpression>
+        <frbr:languageOfExpression>English</frbr:languageOfExpression>
+      </rdf:Description>
+    </frbr:expressionOfWork>
+    <frbr:hasAsSubjectConcept>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Concept#StreetDrugs">
+        <frbr:hasTermForTheConcept>Street Drugs</frbr:hasTermForTheConcept>
+      </rdf:Description>
+    </frbr:hasAsSubjectConcept>
+    <frbr:titleOfTheWork>Emerging trends in drug use and distribution</frbr:titleOfTheWork>
+    <frbr:creator>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#BryanLeeMiller">
+        <frbr:nameOfThePerson>Bryan Lee Miller</frbr:nameOfThePerson>
+        <frbr:identifierForThePerson>pauth-013</frbr:identifierForThePerson>
+      </rdf:Description>
+    </frbr:creator>
+    <frbr:hasAsSubjectConcept>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Concept#PsychotropicDrugs">
+        <frbr:hasTermForTheConcept>Psychotropic Drugs</frbr:hasTermForTheConcept>
+      </rdf:Description>
+    </frbr:hasAsSubjectConcept>
+    <frbr:creator>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#JohnStogner">
+        <frbr:nameOfThePerson>John Stogner</frbr:nameOfThePerson>
+        <frbr:identifierForThePerson>pauth-012</frbr:identifierForThePerson>
+      </rdf:Description>
+    </frbr:creator>
+    <frbr:hasAsSubjectConcept>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Concept#Marketing">
+        <frbr:hasTermForTheConcept>Marketing</frbr:hasTermForTheConcept>
+      </rdf:Description>
+    </frbr:hasAsSubjectConcept>
+    <frbr:hasAsSubjectConcept>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Concept#SubstanceRelatedDisorders">
+        <frbr:hasTermForTheConcept>Substance-Related Disorders</frbr:hasTermForTheConcept>
+      </rdf:Description>
+    </frbr:hasAsSubjectConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#TheAdventuresofTomSawyer">
+    <frbr:creator>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#MarkTwain">
+        <frbr:nameOfThePerson>Twain, Mark</frbr:nameOfThePerson>
+        <frbr:identifierForThePerson>pauth-002</frbr:identifierForThePerson>
+      </rdf:Description>
+    </frbr:creator>
+    <frbr:expressionOfWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#TheAdventuresofTomSawyerTextEnglish">
+        <frbr:manifestationOfExpression>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Book0140390480">
+            <frbr:statementOfResponsibilityRelatingToTitleProper
+            >Mark Twain</frbr:statementOfResponsibilityRelatingToTitleProper>
+            <frbr:identifierForTheManifestation>0-14-039048-0</frbr:identifierForTheManifestation>
+            <frbr:dimensions>18 cm</frbr:dimensions>
+            <frbr:extent>226 pages</frbr:extent>
+            <frbr:identifierForTheManifestation>0140390480</frbr:identifierForTheManifestation>
+            <frbr:publisher rdf:resource="http://research.progilone.fr/benchmark/CorporateBody#Penguinbooks"/>
+            <frbr:dateOfPublication>1986</frbr:dateOfPublication>
+            <frbr:noteOnCarrier>Cover with colorful illustrations</frbr:noteOnCarrier>
+            <frbr:placeOfpublication>London</frbr:placeOfpublication>
+            <frbr:title>The Adventures of Tom Sawyer</frbr:title>
+          </rdf:Description>
+        </frbr:manifestationOfExpression>
+        <frbr:languageOfExpression>English</frbr:languageOfExpression>
+      </rdf:Description>
+    </frbr:expressionOfWork>
+    <frbr:titleOfTheWork>The Adventures of Tom Sawyer</frbr:titleOfTheWork>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#Essais">
+    <frbr:creator>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#MicheldeMontaigne">
+        <frbr:nameOfThePerson>Michel de Montaigne</frbr:nameOfThePerson>
+        <frbr:identifierForThePerson>pauth-007</frbr:identifierForThePerson>
+      </rdf:Description>
+    </frbr:creator>
+    <frbr:expressionOfWork>
+      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#EssaisTextFrench">
+        <frbr:manifestationOfExpression>
+          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Book9782080702104">
+            <frbr:title>Essais</frbr:title>
+            <frbr:dateOfPublication>1969</frbr:dateOfPublication>
+            <frbr:extent>443 pages</frbr:extent>
+            <frbr:statementOfResponsibilityRelatingToTitleProper
+            >Michel de Montaigne</frbr:statementOfResponsibilityRelatingToTitleProper>
+            <frbr:dimensions>18 cm</frbr:dimensions>
+            <frbr:placeOfpublication>Paris</frbr:placeOfpublication>
+            <frbr:termsOfAvailability>5.80 euro</frbr:termsOfAvailability>
+            <frbr:publisher>
+              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/CorporateBody#GarnierFlammarion">
+                <frbr:nameOfTheCorporateBody>Garnier-Flammarion</frbr:nameOfTheCorporateBody>
+              </rdf:Description>
+            </frbr:publisher>
+            <frbr:noteOnCarrier>Cover with colorful illustrations</frbr:noteOnCarrier>
+            <frbr:identifierForTheManifestation>978-2-08-070210-4</frbr:identifierForTheManifestation>
+          </rdf:Description>
+        </frbr:manifestationOfExpression>
+        <frbr:languageOfExpression>French</frbr:languageOfExpression>
+      </rdf:Description>
+    </frbr:expressionOfWork>
+    <frbr:titleOfTheWork>Essais</frbr:titleOfTheWork>
+  </rdf:Description>
+</rdf:RDF>

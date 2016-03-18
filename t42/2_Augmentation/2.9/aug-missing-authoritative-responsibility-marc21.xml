@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+	<marc:record>
+		<marc:leader>00396a   a2200133   4500</marc:leader>
+		<marc:controlfield tag="001">x10</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="020">
+			<marc:subfield code="a">9782080702104</marc:subfield>
+			<marc:subfield code="c">5.80euro</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="041">
+			<marc:subfield code="a">French</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2="0" tag="240">
+			<marc:subfield code="a">Essais</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2="0" tag="245">
+			<marc:subfield code="a">Essais</marc:subfield>
+			<marc:subfield code="c">Michel de Montaigne; Introduction by Alexandre Micha</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="3" ind2=" " tag="260">
+			<marc:subfield code="a">Paris</marc:subfield>
+			<marc:subfield code="b">Garnier-Flammarion</marc:subfield>
+			<marc:subfield code="c">1969</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="300">
+			<marc:subfield code="a">443 pages</marc:subfield>
+			<marc:subfield code="b">Cover with colorful illustrations</marc:subfield>
+			<marc:subfield code="c">18 cm</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="490">
+			<marc:subfield code="a">GF</marc:subfield>
+			<marc:subfield code="v">210</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00321a   a2200085   4500</marc:leader>
+		<marc:controlfield tag="001">x26</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="020">
+			<marc:subfield code="a">9782070622313</marc:subfield>
+			<marc:subfield code="c">5,80 EUR</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2="0" tag="245">
+			<marc:subfield code="a">Etrange cas du Dr Jekyll et de M. Hyde (L')</marc:subfield>
+			<marc:subfield code="c">Robert Louis Stevenson; illustrations by Francois Place</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="3" ind2=" " tag="260">
+			<marc:subfield code="a">Paris</marc:subfield>
+			<marc:subfield code="b">Gallimard</marc:subfield>
+			<marc:subfield code="c">2008</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="300">
+			<marc:subfield code="a">144 pages</marc:subfield>
+			<marc:subfield code="b">Illustrations, cover with colorful illustrations</marc:subfield>
+			<marc:subfield code="c">18 cm</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00415a   a2200133   4500</marc:leader>
+		<marc:controlfield tag="001">x23</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="020">
+			<marc:subfield code="a">9780141185101</marc:subfield>
+			<marc:subfield code="c">10euro</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="041">
+			<marc:subfield code="a">English</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2="0" tag="245">
+			<marc:subfield code="a">Of mice and men</marc:subfield>
+			<marc:subfield code="c">John Steinbeck; introduction by Susan Shillinglaw</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="3" ind2=" " tag="260">
+			<marc:subfield code="a">Harmondsworth</marc:subfield>
+			<marc:subfield code="b">Penguin Books</marc:subfield>
+			<marc:subfield code="c">2010</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="300">
+			<marc:subfield code="a">105 pages</marc:subfield>
+			<marc:subfield code="c">20 cm</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="490">
+			<marc:subfield code="a">Penguin modern classics</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="760">
+			<marc:subfield code="w">colauth-009</marc:subfield>
+			<marc:subfield code="t">Penguin modern classics</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00348a   a2200109   4500</marc:leader>
+		<marc:controlfield tag="001">xx7</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="020">
+			<marc:subfield code="a">2253132225</marc:subfield>
+			<marc:subfield code="c">120,00 F</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="041">
+			<marc:subfield code="a">French</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2="0" tag="245">
+			<marc:subfield code="a">Romans</marc:subfield>
+			<marc:subfield code="b">in appendice, Philomena</marc:subfield>
+			<marc:subfield code="c">Chretien de Troyes</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="3" ind2=" " tag="260">
+			<marc:subfield code="a">Paris</marc:subfield>
+			<marc:subfield code="b">Librairie Generale Francaise</marc:subfield>
+			<marc:subfield code="c">1994</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="300">
+			<marc:subfield code="a">1279 pages</marc:subfield>
+			<marc:subfield code="b">Cover with colorful illustrations</marc:subfield>
+			<marc:subfield code="c">19 cm</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2="4" tag="650">
+			<marc:subfield code="a">Romans de la Table ronde</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="777">
+			<marc:subfield code="t">Philomena</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+</marc:collection>
