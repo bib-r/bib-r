@@ -1,355 +1,355 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<collection xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+<marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<!-- Complementary -->
-	<record>
-		<leader>x41</leader>
-		<controlfield tag="001">x41</controlfield>
-		<datafield ind1=" " ind2=" " tag="101">
-			<subfield code="a">English</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="200">
-			<subfield code="a">A study in continual improvement</subfield>
-			<subfield code="e">Part 1</subfield>
-			<subfield code="b">Video</subfield>
-			<subfield code="f">Clare Crawford-Mason</subfield>
-			<subfield code="g">W. Edwards Deming</subfield>
-			<subfield code="g">Lloyd Dobyns</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="210">
-			<subfield code="a">Chicago, Ill. :</subfield>
-			<subfield code="b">Films Incorporated</subfield>
-			<subfield code="c">1995, cop. 1995</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="225">
-			<subfield code="a">The Deming library</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="215">
-			<subfield code="a">1 videocassette (27 min)</subfield>
-			<subfield code="c">PAL</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="330">
-			<subfield code="a">This two-part video program takes a look at the quality transformation under way at Virginia's Reston Hospital Center. You will discover ; Reston Hospital Center's 14 guiding principles and their relationship to Dr Deming's 14 points; why Reston Hospital Center's leadership believes that their quality improvement effort is their best hope for reducing costs and improving services; why employees need knowledge, tools, freedom, and support to initiate and take responsibility for their own process improvements.</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="606">
-			<subfield code="3">subauth-020</subfield>
-			<subfield code="a">Hospitals</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="606">
-			<subfield code="3">subauth-023</subfield>
-			<subfield code="a">Total Quality Management</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="607">
-			<subfield code="3">plauth-001</subfield>
-			<subfield code="a">Virginia</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="700">
-			<subfield code="3">pauth-057</subfield>
-			<subfield code="4">340</subfield>
-			<subfield code="a">Crawford-Mason</subfield>
-			<subfield code="b">Clare</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="701">
-			<subfield code="3">pauth-058</subfield>
-			<subfield code="4">205</subfield>
-			<subfield code="a">Deming</subfield>
-			<subfield code="b">William Edwards</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="702">
-			<subfield code="3">pauth-059</subfield>
-			<subfield code="4">550</subfield>
-			<subfield code="a">Dobyns</subfield>
-			<subfield code="b">Lloyd</subfield>
-		</datafield>
-	</record>
-	<record>
-		<leader>x42</leader>
-		<controlfield tag="001">x42</controlfield>
-		<datafield ind1=" " ind2=" " tag="101">
-			<subfield code="a">English</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="200">
-			<subfield code="a">A study in continual improvement</subfield>
-			<subfield code="e">Part 2</subfield>
-			<subfield code="b">Video</subfield>
-			<subfield code="f">Clare Crawford-Mason</subfield>
-			<subfield code="g">W. Edwards Deming</subfield>
-			<subfield code="g">Lloyd Dobyns</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="210">
-			<subfield code="a">Chicago, Ill. :</subfield>
-			<subfield code="b">Films Incorporated</subfield>
-			<subfield code="c">1995, cop. 1995</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="225">
-			<subfield code="a">The Deming library</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="215">
-			<subfield code="a">1 videocassette (27 min)</subfield>
-			<subfield code="c">PAL</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="330">
-			<subfield code="a">This two-part video program takes a look at the quality transformation under way at Virginia's Reston Hospital Center. You will discover ; how an understanding of systems, variation, psychology, and the theory of knowledge underpins the transformation of American business; ; the need for organizations to change to a process view; why all participants in the system, from top management to the front line, must be involved in transforming the organization; ; how Reston Hospital Center began and continues its transformation through the application of Continual Quality Improvement.</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="606">
-			<subfield code="3">subauth-020</subfield>
-			<subfield code="a">Hospitals</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="606">
-			<subfield code="3">subauth-023</subfield>
-			<subfield code="a">Total Quality Management</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="607">
-			<subfield code="3">plauth-001</subfield>
-			<subfield code="a">Virginia</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="700">
-			<subfield code="3">pauth-057</subfield>
-			<subfield code="4">340</subfield>
-			<subfield code="a">Crawford-Mason</subfield>
-			<subfield code="b">Clare</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="701">
-			<subfield code="3">pauth-058</subfield>
-			<subfield code="4">208</subfield>
-			<subfield code="a">Deming</subfield>
-			<subfield code="b">William Edwards</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="702">
-			<subfield code="3">pauth-059</subfield>
-			<subfield code="4">550</subfield>
-			<subfield code="a">Dobyns</subfield>
-			<subfield code="b">Lloyd</subfield>
-		</datafield>
-	</record>
-	<record>
-		<leader>x16</leader>
-		<controlfield tag="001">x16</controlfield>
-		<datafield ind1=" " ind2=" " tag="010">
-			<subfield code="a">978-2-09-163866-9</subfield>
-		</datafield>
-		<datafield ind1="1" ind2=" " tag="200">
-			<subfield code="a">DCG epreuve 10</subfield>
-			<subfield code="e">comptabilite approfondie</subfield>
-			<subfield code="e">manuel et applications</subfield>
-			<subfield code="f">Odile Barbe</subfield>
-			<subfield code="f">Laurent Didelot</subfield>
-			<subfield code="f">Jean-Luc Siegwart</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="205">
-			<subfield code="a">2015-2016</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="210">
-			<subfield code="a">Paris</subfield>
-			<subfield code="c">Nathan</subfield>
-			<subfield code="c">Groupe Revue fiduciaire</subfield>
-			<subfield code="d">2015</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="215">
-			<subfield code="a">1 volume (763 pages)</subfield>
-			<subfield code="d">24 cm</subfield>
-		</datafield>
-		<datafield ind1="2" ind2=" " tag="225">
-			<subfield code="a">DCG</subfield>
-		</datafield>
-		<datafield ind1=" " ind2="1" tag="700">
-			<subfield code="3">pauth-046</subfield>
-			<subfield code="a">Barbe-Dandon</subfield>
-			<subfield code="b">Odile</subfield>
-			<subfield code="4">070</subfield>
-		</datafield>
-		<datafield ind1=" " ind2="1" tag="701">
-			<subfield code="3">pauth-047</subfield>
-			<subfield code="a">Didelot</subfield>
-			<subfield code="b">Laurent</subfield>
-			<subfield code="4">070</subfield>
-		</datafield>
-		<datafield ind1=" " ind2="1" tag="701">
-			<subfield code="3">pauth-048</subfield>
-			<subfield code="a">Siegwart</subfield>
-			<subfield code="b">Jean-Luc</subfield>
-			<subfield code="4">070</subfield>
-		</datafield>
-	</record>
-	<record>
-		<leader>x17</leader>
-		<controlfield tag="001">x17</controlfield>
-		<datafield ind1=" " ind2=" " tag="010">
-			<subfield code="a">978-2-09-163867-6</subfield>
-		</datafield>
-		<datafield ind1="1" ind2=" " tag="200">
-			<subfield code="a">DCG epreuve 10</subfield>
-			<subfield code="e">comptabilite approfondie</subfield>
-			<subfield code="e">corriges des applications</subfield>
-			<subfield code="f">Odile Barbe</subfield>
-			<subfield code="f">Laurent Didelot</subfield>
-			<subfield code="f">Laurence Cassio</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="205">
-			<subfield code="a">2015-2016</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="210">
-			<subfield code="a">Paris</subfield>
-			<subfield code="c">Nathan</subfield>
-			<subfield code="c">Groupe Revue fiduciaire</subfield>
-			<subfield code="d">2015, cop. 2015</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="215">
-			<subfield code="a">1 volume (271 pages)</subfield>
-			<subfield code="d">24 cm</subfield>
-		</datafield>
-		<datafield ind1="2" ind2=" " tag="225">
-			<subfield code="a">DCG</subfield>
-		</datafield>
-		<datafield ind1=" " ind2="1" tag="700">
-			<subfield code="3">pauth-046</subfield>
-			<subfield code="a">Barbe-Dandon</subfield>
-			<subfield code="b">Odile</subfield>
-			<subfield code="4">070</subfield>
-			<subfield code="4">651</subfield>
-		</datafield>
-		<datafield ind1=" " ind2="1" tag="701">
-			<subfield code="3">pauth-047</subfield>
-			<subfield code="a">Didelot</subfield>
-			<subfield code="b">Laurent</subfield>
-			<subfield code="4">070</subfield>
-			<subfield code="4">651</subfield>
-		</datafield>
-		<datafield ind1=" " ind2="1" tag="701">
-			<subfield code="3">pauth-049</subfield>
-			<subfield code="a">Cassio</subfield>
-			<subfield code="b">Laurence</subfield>
-			<subfield code="4">070</subfield>
-		</datafield>
-	</record>
+	<marc:record>
+		<marc:leader>00761nam0 2200241   450 </marc:leader>
+		<marc:controlfield tag="001">41</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="101">
+			<marc:subfield code="a">English</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="200">
+			<marc:subfield code="a">A study in continual improvement</marc:subfield>
+			<marc:subfield code="e">Part 1</marc:subfield>
+			<marc:subfield code="b">Video</marc:subfield>
+			<marc:subfield code="f">Clare Crawford-Mason</marc:subfield>
+			<marc:subfield code="g">W. Edwards Deming</marc:subfield>
+			<marc:subfield code="g">Lloyd Dobyns</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="210">
+			<marc:subfield code="a">Chicago, Ill. :</marc:subfield>
+			<marc:subfield code="b">Films Incorporated</marc:subfield>
+			<marc:subfield code="c">1995, cop. 1995</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="225">
+			<marc:subfield code="a">The Deming library</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="215">
+			<marc:subfield code="a">1 videocassette (27 min)</marc:subfield>
+			<marc:subfield code="c">PAL</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="330">
+			<marc:subfield code="a">This two-part video program takes a look at the quality transformation under way at Virginia's Reston Hospital Center. You will discover ; Reston Hospital Center's 14 guiding principles and their relationship to Dr Deming's 14 points; why Reston Hospital Center's leadership believes that their quality improvement effort is their best hope for reducing costs and improving services; why employees need knowledge, tools, freedom, and support to initiate and take responsibility for their own process improvements.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="606">
+			<marc:subfield code="3">subauth-020</marc:subfield>
+			<marc:subfield code="a">Hospitals</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="606">
+			<marc:subfield code="3">subauth-023</marc:subfield>
+			<marc:subfield code="a">Total Quality Management</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="607">
+			<marc:subfield code="3">plauth-001</marc:subfield>
+			<marc:subfield code="a">Virginia</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="700">
+			<marc:subfield code="3">pauth-057</marc:subfield>
+			<marc:subfield code="4">340</marc:subfield>
+			<marc:subfield code="a">Crawford-Mason</marc:subfield>
+			<marc:subfield code="b">Clare</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="701">
+			<marc:subfield code="3">pauth-058</marc:subfield>
+			<marc:subfield code="4">205</marc:subfield>
+			<marc:subfield code="a">Deming</marc:subfield>
+			<marc:subfield code="b">William Edwards</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="702">
+			<marc:subfield code="3">pauth-059</marc:subfield>
+			<marc:subfield code="4">550</marc:subfield>
+			<marc:subfield code="a">Dobyns</marc:subfield>
+			<marc:subfield code="b">Lloyd</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00761nam0 2200241   450 </marc:leader>
+		<marc:controlfield tag="001">42</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="101">
+			<marc:subfield code="a">English</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="200">
+			<marc:subfield code="a">A study in continual improvement</marc:subfield>
+			<marc:subfield code="e">Part 2</marc:subfield>
+			<marc:subfield code="b">Video</marc:subfield>
+			<marc:subfield code="f">Clare Crawford-Mason</marc:subfield>
+			<marc:subfield code="g">W. Edwards Deming</marc:subfield>
+			<marc:subfield code="g">Lloyd Dobyns</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="210">
+			<marc:subfield code="a">Chicago, Ill. :</marc:subfield>
+			<marc:subfield code="b">Films Incorporated</marc:subfield>
+			<marc:subfield code="c">1995, cop. 1995</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="225">
+			<marc:subfield code="a">The Deming library</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="215">
+			<marc:subfield code="a">1 videocassette (27 min)</marc:subfield>
+			<marc:subfield code="c">PAL</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="330">
+			<marc:subfield code="a">This two-part video program takes a look at the quality transformation under way at Virginia's Reston Hospital Center. You will discover ; how an understanding of systems, variation, psychology, and the theory of knowledge underpins the transformation of American business; ; the need for organizations to change to a process view; why all participants in the system, from top management to the front line, must be involved in transforming the organization; ; how Reston Hospital Center began and continues its transformation through the application of Continual Quality Improvement.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="606">
+			<marc:subfield code="3">subauth-020</marc:subfield>
+			<marc:subfield code="a">Hospitals</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="606">
+			<marc:subfield code="3">subauth-023</marc:subfield>
+			<marc:subfield code="a">Total Quality Management</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="607">
+			<marc:subfield code="3">plauth-001</marc:subfield>
+			<marc:subfield code="a">Virginia</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="700">
+			<marc:subfield code="3">pauth-057</marc:subfield>
+			<marc:subfield code="4">340</marc:subfield>
+			<marc:subfield code="a">Crawford-Mason</marc:subfield>
+			<marc:subfield code="b">Clare</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="701">
+			<marc:subfield code="3">pauth-058</marc:subfield>
+			<marc:subfield code="4">208</marc:subfield>
+			<marc:subfield code="a">Deming</marc:subfield>
+			<marc:subfield code="b">William Edwards</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="702">
+			<marc:subfield code="3">pauth-059</marc:subfield>
+			<marc:subfield code="4">550</marc:subfield>
+			<marc:subfield code="a">Dobyns</marc:subfield>
+			<marc:subfield code="b">Lloyd</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00761nam0 2200241   450 </marc:leader>
+		<marc:controlfield tag="001">16</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="010">
+			<marc:subfield code="a">978-2-09-163866-9</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="200">
+			<marc:subfield code="a">DCG epreuve 10</marc:subfield>
+			<marc:subfield code="e">comptabilite approfondie</marc:subfield>
+			<marc:subfield code="e">manuel et applications</marc:subfield>
+			<marc:subfield code="f">Odile Barbe</marc:subfield>
+			<marc:subfield code="f">Laurent Didelot</marc:subfield>
+			<marc:subfield code="f">Jean-Luc Siegwart</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="205">
+			<marc:subfield code="a">2015-2016</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="210">
+			<marc:subfield code="a">Paris</marc:subfield>
+			<marc:subfield code="c">Nathan</marc:subfield>
+			<marc:subfield code="c">Groupe Revue fiduciaire</marc:subfield>
+			<marc:subfield code="d">2015</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="215">
+			<marc:subfield code="a">1 volume (763 pages)</marc:subfield>
+			<marc:subfield code="d">24 cm</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="2" ind2=" " tag="225">
+			<marc:subfield code="a">DCG</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2="1" tag="700">
+			<marc:subfield code="3">pauth-046</marc:subfield>
+			<marc:subfield code="a">Barbe-Dandon</marc:subfield>
+			<marc:subfield code="b">Odile</marc:subfield>
+			<marc:subfield code="4">070</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2="1" tag="701">
+			<marc:subfield code="3">pauth-047</marc:subfield>
+			<marc:subfield code="a">Didelot</marc:subfield>
+			<marc:subfield code="b">Laurent</marc:subfield>
+			<marc:subfield code="4">070</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2="1" tag="701">
+			<marc:subfield code="3">pauth-048</marc:subfield>
+			<marc:subfield code="a">Siegwart</marc:subfield>
+			<marc:subfield code="b">Jean-Luc</marc:subfield>
+			<marc:subfield code="4">070</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00761nam0 2200241   450 </marc:leader>
+		<marc:controlfield tag="001">17</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="010">
+			<marc:subfield code="a">978-2-09-163867-6</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="200">
+			<marc:subfield code="a">DCG epreuve 10</marc:subfield>
+			<marc:subfield code="e">comptabilite approfondie</marc:subfield>
+			<marc:subfield code="e">corriges des applications</marc:subfield>
+			<marc:subfield code="f">Odile Barbe</marc:subfield>
+			<marc:subfield code="f">Laurent Didelot</marc:subfield>
+			<marc:subfield code="f">Laurence Cassio</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="205">
+			<marc:subfield code="a">2015-2016</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="210">
+			<marc:subfield code="a">Paris</marc:subfield>
+			<marc:subfield code="c">Nathan</marc:subfield>
+			<marc:subfield code="c">Groupe Revue fiduciaire</marc:subfield>
+			<marc:subfield code="d">2015, cop. 2015</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="215">
+			<marc:subfield code="a">1 volume (271 pages)</marc:subfield>
+			<marc:subfield code="d">24 cm</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="2" ind2=" " tag="225">
+			<marc:subfield code="a">DCG</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2="1" tag="700">
+			<marc:subfield code="3">pauth-046</marc:subfield>
+			<marc:subfield code="a">Barbe-Dandon</marc:subfield>
+			<marc:subfield code="b">Odile</marc:subfield>
+			<marc:subfield code="4">070</marc:subfield>
+			<marc:subfield code="4">651</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2="1" tag="701">
+			<marc:subfield code="3">pauth-047</marc:subfield>
+			<marc:subfield code="a">Didelot</marc:subfield>
+			<marc:subfield code="b">Laurent</marc:subfield>
+			<marc:subfield code="4">070</marc:subfield>
+			<marc:subfield code="4">651</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2="1" tag="701">
+			<marc:subfield code="3">pauth-049</marc:subfield>
+			<marc:subfield code="a">Cassio</marc:subfield>
+			<marc:subfield code="b">Laurence</marc:subfield>
+			<marc:subfield code="4">070</marc:subfield>
+		</marc:datafield>
+	</marc:record>
 	<!-- Following: Infection Control -->
-	<record>
-		<leader>x33</leader>
-		<controlfield tag="001">x33</controlfield>
-		<datafield ind1=" " ind2=" " tag="011">
-			<subfield code="a">0899-823X</subfield>
-			<subfield code="b">1</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="101">
-			<subfield code="a">English</subfield>
-		</datafield>
-		<datafield ind1="1" ind2=" " tag="200">
-			<subfield code="a">Infection control and hospital epidemiology</subfield>
-			<subfield code="e">An official journal of the Society of Hospital Epidemiologists of America</subfield>
-			<subfield code="f">Richard P. Wenzel</subfield>
-			<subfield code="f">Barry Farr</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="207">
-			<subfield code="a">Volume 9, number 1 (January 1988)-</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="210">
-			<subfield code="a">Thorofare, NJ</subfield>
-			<subfield code="c">SLACK Inc.</subfield>
-			<subfield code="d">1988-</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="210">
-			<subfield code="a">Chicago, IL</subfield>
-			<subfield code="c">University of Chicago Press</subfield>
-			<subfield code="d">2006-</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="306">
-			<subfield code="a">Published by University chicago press in 2006</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="326">
-			<subfield code="a">Monthly</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="330">
-			<subfield code="a">Infection Control and Hospital Epidemiology provides original, peer-reviewed scientific articles for anyone involved with an infection control or epidemiology program in a hospital or healthcare facility. Written by infection control practitioners and epidemiologists and guided by an editorial board composed of the nation's leaders in the field, ICHE provides a critical forum for this vital information. </subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="430">
-			<subfield code="3">tauth-019</subfield>
-			<subfield code="t">Infection control</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="500">
-			<subfield code="3">tauth-014</subfield>
-			<subfield code="a">Infection control and hospital epidemiology</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="517">
-			<subfield code="3">tauth-015</subfield>
-			<subfield code="a">Official journal of The SHEA</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="517">
-			<subfield code="3">tauth-016</subfield>
-			<subfield code="a">ICHE</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="531">
-			<subfield code="3">tauth-017</subfield>
-			<subfield code="a">Infect Control Hosp Epidemiol</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="540">
-			<subfield code="3">tauth-018</subfield>
-			<subfield code="a">Infect Control Hosp Epidemiol</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="610">
-			<subfield code="3">subauth-018</subfield>
-			<subfield code="a">Cross Infection</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="610">
-			<subfield code="3">subauth-019</subfield>
-			<subfield code="a">Epidemiology</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="610">
-			<subfield code="3">subauth-020</subfield>
-			<subfield code="a">Hospitals</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="610">
-			<subfield code="3">subauth-021</subfield>
-			<subfield code="a">Infection Control</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="700">
-			<subfield code="3">pauth-044</subfield>
-			<subfield code="4">651</subfield>
-			<subfield code="a">Wenzel</subfield>
-			<subfield code="b">Richard P.</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="700">
-			<subfield code="3">pauth-045</subfield>
-			<subfield code="4">651</subfield>
-			<subfield code="a">Farr</subfield>
-			<subfield code="b">Barry</subfield>
-		</datafield>
-		<datafield ind1="0" ind2="2" tag="710">
-			<subfield code="3">cauth-022</subfield>
-			<subfield code="a">Society of Hospital Epidemiologists of America</subfield>
-			<subfield code="4">340</subfield>
-		</datafield>
-	</record>
-	<record>
-		<leader>x34</leader>
-		<controlfield tag="001">x34</controlfield>
-		<datafield ind1=" " ind2=" " tag="011">
-			<subfield code="a">0195-9417</subfield>
-			<subfield code="b">1</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="101">
-			<subfield code="a">English</subfield>
-		</datafield>
-		<datafield ind1="1" ind2=" " tag="200">
-			<subfield code="a">Infection control</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="210">
-			<subfield code="a">Thorofare, NJ</subfield>
-			<subfield code="c">SLACK Inc.</subfield>
-			<subfield code="d">1980-1987</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="326">
-			<subfield code="a">Monthly</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="500">
-			<subfield code="3">tauth-019</subfield>
-			<subfield code="a">Infection control</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="610">
-			<subfield code="3">subauth-022</subfield>
-			<subfield code="a">Infection</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="610">
-			<subfield code="3">subauth-021</subfield>
-			<subfield code="a">Infection Control</subfield>
-		</datafield>
-	</record>
-</collection>
+	<marc:record>
+		<marc:leader>00761nam0 2200241   450 </marc:leader>
+		<marc:controlfield tag="001">33</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="011">
+			<marc:subfield code="a">0899-823X</marc:subfield>
+			<marc:subfield code="b">1</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="101">
+			<marc:subfield code="a">English</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="200">
+			<marc:subfield code="a">Infection control and hospital epidemiology</marc:subfield>
+			<marc:subfield code="e">An official journal of the Society of Hospital Epidemiologists of America</marc:subfield>
+			<marc:subfield code="f">Richard P. Wenzel</marc:subfield>
+			<marc:subfield code="f">Barry Farr</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="207">
+			<marc:subfield code="a">Volume 9, number 1 (January 1988)-</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="210">
+			<marc:subfield code="a">Thorofare, NJ</marc:subfield>
+			<marc:subfield code="c">SLACK Inc.</marc:subfield>
+			<marc:subfield code="d">1988-</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="210">
+			<marc:subfield code="a">Chicago, IL</marc:subfield>
+			<marc:subfield code="c">University of Chicago Press</marc:subfield>
+			<marc:subfield code="d">2006-</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="306">
+			<marc:subfield code="a">Published by University chicago press in 2006</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="326">
+			<marc:subfield code="a">Monthly</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="330">
+			<marc:subfield code="a">Infection Control and Hospital Epidemiology provides original, peer-reviewed scientific articles for anyone involved with an infection control or epidemiology program in a hospital or healthcare facility. Written by infection control practitioners and epidemiologists and guided by an editorial board composed of the nation's leaders in the field, ICHE provides a critical forum for this vital information. </marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="430">
+			<marc:subfield code="3">tauth-019</marc:subfield>
+			<marc:subfield code="t">Infection control</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="500">
+			<marc:subfield code="3">tauth-014</marc:subfield>
+			<marc:subfield code="a">Infection control and hospital epidemiology</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="517">
+			<marc:subfield code="3">tauth-015</marc:subfield>
+			<marc:subfield code="a">Official journal of The SHEA</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="517">
+			<marc:subfield code="3">tauth-016</marc:subfield>
+			<marc:subfield code="a">ICHE</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="531">
+			<marc:subfield code="3">tauth-017</marc:subfield>
+			<marc:subfield code="a">Infect Control Hosp Epidemiol</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="540">
+			<marc:subfield code="3">tauth-018</marc:subfield>
+			<marc:subfield code="a">Infect Control Hosp Epidemiol</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="610">
+			<marc:subfield code="3">subauth-018</marc:subfield>
+			<marc:subfield code="a">Cross Infection</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="610">
+			<marc:subfield code="3">subauth-019</marc:subfield>
+			<marc:subfield code="a">Epidemiology</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="610">
+			<marc:subfield code="3">subauth-020</marc:subfield>
+			<marc:subfield code="a">Hospitals</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="610">
+			<marc:subfield code="3">subauth-021</marc:subfield>
+			<marc:subfield code="a">Infection Control</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="700">
+			<marc:subfield code="3">pauth-044</marc:subfield>
+			<marc:subfield code="4">651</marc:subfield>
+			<marc:subfield code="a">Wenzel</marc:subfield>
+			<marc:subfield code="b">Richard P.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="700">
+			<marc:subfield code="3">pauth-045</marc:subfield>
+			<marc:subfield code="4">651</marc:subfield>
+			<marc:subfield code="a">Farr</marc:subfield>
+			<marc:subfield code="b">Barry</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2="2" tag="710">
+			<marc:subfield code="3">cauth-022</marc:subfield>
+			<marc:subfield code="a">Society of Hospital Epidemiologists of America</marc:subfield>
+			<marc:subfield code="4">340</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00761nam0 2200241   450 </marc:leader>
+		<marc:controlfield tag="001">34</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="011">
+			<marc:subfield code="a">0195-9417</marc:subfield>
+			<marc:subfield code="b">1</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="101">
+			<marc:subfield code="a">English</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="200">
+			<marc:subfield code="a">Infection control</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="210">
+			<marc:subfield code="a">Thorofare, NJ</marc:subfield>
+			<marc:subfield code="c">SLACK Inc.</marc:subfield>
+			<marc:subfield code="d">1980-1987</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="326">
+			<marc:subfield code="a">Monthly</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="500">
+			<marc:subfield code="3">tauth-019</marc:subfield>
+			<marc:subfield code="a">Infection control</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="610">
+			<marc:subfield code="3">subauth-022</marc:subfield>
+			<marc:subfield code="a">Infection</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="610">
+			<marc:subfield code="3">subauth-021</marc:subfield>
+			<marc:subfield code="a">Infection Control</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+</marc:collection>

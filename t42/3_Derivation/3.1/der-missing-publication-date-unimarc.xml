@@ -1,581 +1,581 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<collection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+<marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<!-- Film adaptation - Harry Potter -->
-	<record>
-		<leader>x18</leader>
-		<controlfield tag="001">x18</controlfield>
-		<datafield ind1=" " ind2=" " tag="010">
-			<subfield code="a">978-1-4088-5571-3</subfield>
-		</datafield>
-		<datafield ind1="1" ind2=" " tag="200">
-			<subfield code="a">Harry Potter and the Deathly Hallows</subfield>
-			<subfield code="f">J.K. Rowling</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="210">
-			<subfield code="a">London</subfield>
-			<subfield code="c">Bloomsbury</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="215">
-			<subfield code="a">1 volume (619 pages)</subfield>
-			<subfield code="c">Cover with colorful illustrations</subfield>
-			<subfield code="d">20 cm</subfield>
-		</datafield>
-		<datafield ind1="0" ind2=" " tag="225">
-			<subfield code="a">Harry Potter series</subfield>
-			<subfield code="v">7</subfield>
-		</datafield>
-		<datafield ind1="0" ind2=" " tag="410">
-			<subfield code="3">colauth-003</subfield>
-			<subfield code="a">Harry Potter series</subfield>
-		</datafield>
-		<datafield ind1=" " ind2="1" tag="700">
-			<subfield code="3">pauth-014</subfield>
-			<subfield code="a">Rowling</subfield>
-			<subfield code="b">Joanne Kathleen</subfield>
-			<subfield code="f">1965-....</subfield>
-			<subfield code="4">070</subfield>
-		</datafield>
-	</record>
-	<record>
-		<leader>x19</leader>
-		<controlfield tag="001">x19</controlfield>
-		<datafield ind1=" " ind2="1" tag="073">
-			<subfield code="a">5051889060093</subfield>
-		</datafield>
-		<datafield ind1="1" ind2=" " tag="200">
-			<subfield code="a">Harry Potter and the Deathly Hallows Part 1</subfield>
-			<subfield code="b">[Motion Picture]</subfield>
-			<subfield code="f">David Yates</subfield>
-			<subfield code="g">Daniel Radcliffe</subfield>
-			<subfield code="g">Emma Watson</subfield>
-		</datafield>
-		<datafield ind1="1" ind2=" " tag="210">
-			<subfield code="a">Neuilly-sur-Seine</subfield>
-			<subfield code="c">Warner Home Video</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="215">
-			<subfield code="a">1 DVD (2 h 20 min)</subfield>
-			<subfield code="c">Colors, Audio (PAL)</subfield>
-		</datafield>
-		<datafield ind1=" " ind2="1" tag="700">
-			<subfield code="3">pauth-033</subfield>
-			<subfield code="a">Yates</subfield>
-			<subfield code="b">David</subfield>
-			<subfield code="4">300</subfield>
-		</datafield>
-		<datafield ind1=" " ind2="1" tag="702">
-			<subfield code="3">pauth-036</subfield>
-			<subfield code="a">Radcliffe</subfield>
-			<subfield code="b">Daniel</subfield>
-			<subfield code="4">005</subfield>
-		</datafield>
-		<datafield ind1=" " ind2="1" tag="702">
-			<subfield code="3">pauth-037</subfield>
-			<subfield code="a">Watson</subfield>
-			<subfield code="b">Emma</subfield>
-			<subfield code="4">005</subfield>
-		</datafield>
-	</record>
-	<record>
-		<leader>x20</leader>
-		<controlfield tag="001">x20</controlfield>
-		<datafield ind1=" " ind2="1" tag="073">
-			<subfield code="a">5051889209546</subfield>
-		</datafield>
-		<datafield ind1="1" ind2=" " tag="200">
-			<subfield code="a">Harry Potter and the Deathly Hallows Part 2</subfield>
-			<subfield code="b">[Motion Picture]</subfield>
-			<subfield code="f">David Yates</subfield>
-			<subfield code="g">Daniel Radcliffe</subfield>
-			<subfield code="g">Emma Watson</subfield>
-		</datafield>
-		<datafield ind1="1" ind2=" " tag="210">
-			<subfield code="a">Neuilly-sur-Seine</subfield>
-			<subfield code="c">Warner Home Video [ed., distrib.]</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="215">
-			<subfield code="a">1 DVD (2 h 05 min)</subfield>
-			<subfield code="c">Colors, Audio (PAL)</subfield>
-		</datafield>
-		<datafield ind1=" " ind2="1" tag="700">
-			<subfield code="3">pauth-033</subfield>
-			<subfield code="a">Yates</subfield>
-			<subfield code="b">David</subfield>
-			<subfield code="4">300</subfield>
-		</datafield>
-		<datafield ind1=" " ind2="1" tag="702">
-			<subfield code="3">pauth-036</subfield>
-			<subfield code="a">Radcliffe</subfield>
-			<subfield code="b">Daniel</subfield>
-			<subfield code="4">005</subfield>
-		</datafield>
-		<datafield ind1=" " ind2="1" tag="702">
-			<subfield code="3">pauth-037</subfield>
-			<subfield code="a">Watson</subfield>
-			<subfield code="b">Emma</subfield>
-			<subfield code="4">005</subfield>
-		</datafield>
-	</record>
+	<marc:record>
+		<marc:leader>00761nam0 2200241   450 </marc:leader>
+		<marc:controlfield tag="001">18</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="010">
+			<marc:subfield code="a">978-1-4088-5571-3</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="200">
+			<marc:subfield code="a">Harry Potter and the Deathly Hallows</marc:subfield>
+			<marc:subfield code="f">J.K. Rowling</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="210">
+			<marc:subfield code="a">London</marc:subfield>
+			<marc:subfield code="c">Bloomsbury</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="215">
+			<marc:subfield code="a">1 volume (619 pages)</marc:subfield>
+			<marc:subfield code="c">Cover with colorful illustrations</marc:subfield>
+			<marc:subfield code="d">20 cm</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="225">
+			<marc:subfield code="a">Harry Potter series</marc:subfield>
+			<marc:subfield code="v">7</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2=" " tag="410">
+			<marc:subfield code="3">colauth-003</marc:subfield>
+			<marc:subfield code="a">Harry Potter series</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2="1" tag="700">
+			<marc:subfield code="3">pauth-014</marc:subfield>
+			<marc:subfield code="a">Rowling</marc:subfield>
+			<marc:subfield code="b">Joanne Kathleen</marc:subfield>
+			<marc:subfield code="f">1965-....</marc:subfield>
+			<marc:subfield code="4">070</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00761nam0 2200241   450 </marc:leader>
+		<marc:controlfield tag="001">19</marc:controlfield>
+		<marc:datafield ind1=" " ind2="1" tag="073">
+			<marc:subfield code="a">5051889060093</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="200">
+			<marc:subfield code="a">Harry Potter and the Deathly Hallows Part 1</marc:subfield>
+			<marc:subfield code="b">[Motion Picture]</marc:subfield>
+			<marc:subfield code="f">David Yates</marc:subfield>
+			<marc:subfield code="g">Daniel Radcliffe</marc:subfield>
+			<marc:subfield code="g">Emma Watson</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="210">
+			<marc:subfield code="a">Neuilly-sur-Seine</marc:subfield>
+			<marc:subfield code="c">Warner Home Video</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="215">
+			<marc:subfield code="a">1 DVD (2 h 20 min)</marc:subfield>
+			<marc:subfield code="c">Colors, Audio (PAL)</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2="1" tag="700">
+			<marc:subfield code="3">pauth-033</marc:subfield>
+			<marc:subfield code="a">Yates</marc:subfield>
+			<marc:subfield code="b">David</marc:subfield>
+			<marc:subfield code="4">300</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2="1" tag="702">
+			<marc:subfield code="3">pauth-036</marc:subfield>
+			<marc:subfield code="a">Radcliffe</marc:subfield>
+			<marc:subfield code="b">Daniel</marc:subfield>
+			<marc:subfield code="4">005</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2="1" tag="702">
+			<marc:subfield code="3">pauth-037</marc:subfield>
+			<marc:subfield code="a">Watson</marc:subfield>
+			<marc:subfield code="b">Emma</marc:subfield>
+			<marc:subfield code="4">005</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00761nam0 2200241   450 </marc:leader>
+		<marc:controlfield tag="001">20</marc:controlfield>
+		<marc:datafield ind1=" " ind2="1" tag="073">
+			<marc:subfield code="a">5051889209546</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="200">
+			<marc:subfield code="a">Harry Potter and the Deathly Hallows Part 2</marc:subfield>
+			<marc:subfield code="b">[Motion Picture]</marc:subfield>
+			<marc:subfield code="f">David Yates</marc:subfield>
+			<marc:subfield code="g">Daniel Radcliffe</marc:subfield>
+			<marc:subfield code="g">Emma Watson</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="210">
+			<marc:subfield code="a">Neuilly-sur-Seine</marc:subfield>
+			<marc:subfield code="c">Warner Home Video [ed., distrib.]</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="215">
+			<marc:subfield code="a">1 DVD (2 h 05 min)</marc:subfield>
+			<marc:subfield code="c">Colors, Audio (PAL)</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2="1" tag="700">
+			<marc:subfield code="3">pauth-033</marc:subfield>
+			<marc:subfield code="a">Yates</marc:subfield>
+			<marc:subfield code="b">David</marc:subfield>
+			<marc:subfield code="4">300</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2="1" tag="702">
+			<marc:subfield code="3">pauth-036</marc:subfield>
+			<marc:subfield code="a">Radcliffe</marc:subfield>
+			<marc:subfield code="b">Daniel</marc:subfield>
+			<marc:subfield code="4">005</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2="1" tag="702">
+			<marc:subfield code="3">pauth-037</marc:subfield>
+			<marc:subfield code="a">Watson</marc:subfield>
+			<marc:subfield code="b">Emma</marc:subfield>
+			<marc:subfield code="4">005</marc:subfield>
+		</marc:datafield>
+	</marc:record>
 	<!-- Traduction dr jekyll -->
-	<record>
-		<leader>x25</leader>
-		<controlfield tag="001">x25</controlfield>
-		<datafield ind1=" " ind2=" " tag="010">
-			<subfield code="a">978-1-84344-484-8</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="010">
-			<subfield code="a">978-1-84344-486-2</subfield>
-			<subfield code="b">kindle</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="010">
-			<subfield code="a">978-1-84344-487-9</subfield>
-			<subfield code="b">PDF</subfield>
-		</datafield>
-		<datafield ind1="|" ind2=" " tag="101">
-			<subfield code="a">English</subfield>
-		</datafield>
-		<datafield ind1="1" ind2=" " tag="200">
-			<subfield code="a">The strange case of Dr Jekyll and Mr Hyde</subfield>
-			<subfield code="f">Robert Louis Stevenson</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="210">
-			<subfield code="a">Harpenden</subfield>
-			<subfield code="c">Pulp! The Classics</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="215">
-			<subfield code="a">1 volume (123 pages)</subfield>
-			<subfield code="c">Cover with colorful illustrations</subfield>
-			<subfield code="d">18 cm</subfield>
-		</datafield>
-		<datafield ind1=" " ind2="1" tag="700">
-			<subfield code="3">pauth-003</subfield>
-			<subfield code="a">Stevenson</subfield>
-			<subfield code="b">Robert Louis</subfield>
-			<subfield code="f">1850-1894</subfield>
-			<subfield code="4">070</subfield>
-		</datafield>
-	</record>
-	<record>
-		<leader>x27</leader>
-		<controlfield tag="001">x27</controlfield>
-		<datafield ind1=" " ind2=" " tag="010">
-			<subfield code="a">2-203-38988-5</subfield>
-			<subfield code="d">13.50euro</subfield>
-		</datafield>
-		<datafield ind1="|" ind2=" " tag="101">
-			<subfield code="a">French</subfield>
-			<subfield code="c">Italian</subfield>
-		</datafield>
-		<datafield ind1="1" ind2=" " tag="200">
-			<subfield code="a">Docteur Jekyll &amp; Mister Hyde</subfield>
-			<subfield code="b">[print]</subfield>
-			<subfield code="e">free adapatation from the book of Robert L. Stevenson</subfield>
-			<subfield code="f">Lorenzo Mattotti</subfield>
-			<subfield code="f">Jerry Kramsky</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="210">
-			<subfield code="a">Paris</subfield>
-			<subfield code="c">Casterman</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="215">
-			<subfield code="a">64 pages</subfield>
-			<subfield code="c">Colorful illustrations</subfield>
-			<subfield code="d">32 cm</subfield>
-		</datafield>
-		<datafield ind1=" " ind2="1" tag="700">
-			<subfield code="3">pauth-032</subfield>
-			<subfield code="a">Kramsky</subfield>
-			<subfield code="b">Jerry</subfield>
-			<subfield code="4">070</subfield>
-		</datafield>
-		<datafield ind1=" " ind2="1" tag="700">
-			<subfield code="3">pauth-031</subfield>
-			<subfield code="a">Mattotti</subfield>
-			<subfield code="b">Lorenzo</subfield>
-			<subfield code="4">070</subfield>
-		</datafield>
-		<datafield ind1=" " ind2="1" tag="702">
-			<subfield code="3">pauth-003</subfield>
-			<subfield code="a">Stevenson</subfield>
-			<subfield code="b">Robert Louis</subfield>
-			<subfield code="4">100</subfield>
-		</datafield>
-	</record>
+	<marc:record>
+		<marc:leader>00761nam0 2200241   450 </marc:leader>
+		<marc:controlfield tag="001">25</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="010">
+			<marc:subfield code="a">978-1-84344-484-8</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="010">
+			<marc:subfield code="a">978-1-84344-486-2</marc:subfield>
+			<marc:subfield code="b">kindle</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="010">
+			<marc:subfield code="a">978-1-84344-487-9</marc:subfield>
+			<marc:subfield code="b">PDF</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="|" ind2=" " tag="101">
+			<marc:subfield code="a">English</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="200">
+			<marc:subfield code="a">The strange case of Dr Jekyll and Mr Hyde</marc:subfield>
+			<marc:subfield code="f">Robert Louis Stevenson</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="210">
+			<marc:subfield code="a">Harpenden</marc:subfield>
+			<marc:subfield code="c">Pulp! The Classics</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="215">
+			<marc:subfield code="a">1 volume (123 pages)</marc:subfield>
+			<marc:subfield code="c">Cover with colorful illustrations</marc:subfield>
+			<marc:subfield code="d">18 cm</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2="1" tag="700">
+			<marc:subfield code="3">pauth-003</marc:subfield>
+			<marc:subfield code="a">Stevenson</marc:subfield>
+			<marc:subfield code="b">Robert Louis</marc:subfield>
+			<marc:subfield code="f">1850-1894</marc:subfield>
+			<marc:subfield code="4">070</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00761nam0 2200241   450 </marc:leader>
+		<marc:controlfield tag="001">27</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="010">
+			<marc:subfield code="a">2-203-38988-5</marc:subfield>
+			<marc:subfield code="d">13.50euro</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="|" ind2=" " tag="101">
+			<marc:subfield code="a">French</marc:subfield>
+			<marc:subfield code="c">Italian</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="200">
+			<marc:subfield code="a">Docteur Jekyll &amp; Mister Hyde</marc:subfield>
+			<marc:subfield code="b">[print]</marc:subfield>
+			<marc:subfield code="e">free adapatation from the book of Robert L. Stevenson</marc:subfield>
+			<marc:subfield code="f">Lorenzo Mattotti</marc:subfield>
+			<marc:subfield code="f">Jerry Kramsky</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="210">
+			<marc:subfield code="a">Paris</marc:subfield>
+			<marc:subfield code="c">Casterman</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="215">
+			<marc:subfield code="a">64 pages</marc:subfield>
+			<marc:subfield code="c">Colorful illustrations</marc:subfield>
+			<marc:subfield code="d">32 cm</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2="1" tag="700">
+			<marc:subfield code="3">pauth-032</marc:subfield>
+			<marc:subfield code="a">Kramsky</marc:subfield>
+			<marc:subfield code="b">Jerry</marc:subfield>
+			<marc:subfield code="4">070</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2="1" tag="700">
+			<marc:subfield code="3">pauth-031</marc:subfield>
+			<marc:subfield code="a">Mattotti</marc:subfield>
+			<marc:subfield code="b">Lorenzo</marc:subfield>
+			<marc:subfield code="4">070</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2="1" tag="702">
+			<marc:subfield code="3">pauth-003</marc:subfield>
+			<marc:subfield code="a">Stevenson</marc:subfield>
+			<marc:subfield code="b">Robert Louis</marc:subfield>
+			<marc:subfield code="4">100</marc:subfield>
+		</marc:datafield>
+	</marc:record>
 	<!-- Traduction: Of Mice and men -->
-	<record>
-		<leader>x22</leader>
-		<controlfield tag="001">x22</controlfield>
-		<datafield ind1=" " ind2=" " tag="010">
-			<subfield code="a">2-07-036037-7</subfield>
-			<subfield code="d">39,00 F</subfield>
-		</datafield>
-		<datafield ind1="|" ind2=" " tag="101">
-			<subfield code="a">French</subfield>
-		</datafield>
-		<datafield ind1="|" ind2=" " tag="200">
-			<subfield code="a">Des souris et des hommes</subfield>
-			<subfield code="f">John Steinbeck</subfield>
-			<subfield code="f">M.E. Coindreau</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="210">
-			<subfield code="a">Paris</subfield>
-			<subfield code="c">Gallimard</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="215">
-			<subfield code="a">189 pages</subfield>
-			<subfield code="c">Cover with colorful illustrations</subfield>
-			<subfield code="d">18 cm</subfield>
-		</datafield>
-		<datafield ind1=" " ind2="|" tag="454">
-			<subfield code="3">tauth-010</subfield>
-			<subfield code="t">Of Mice and men</subfield>
-		</datafield>
-		<datafield ind1=" " ind2="|" tag="700">
-			<subfield code="3">pauth-016</subfield>
-			<subfield code="a">Steinbeck</subfield>
-			<subfield code="b">John</subfield>
-			<subfield code="4">070</subfield>
-		</datafield>
-		<datafield ind1=" " ind2="|" tag="702">
-			<subfield code="3">pauth-054</subfield>
-			<subfield code="a">Coindreau</subfield>
-			<subfield code="b">M.E.</subfield>
-			<subfield code="4">730</subfield>
-		</datafield>
-	</record>
-	<record>
-		<leader>x28</leader>
-		<controlfield tag="001">x28</controlfield>
-		<datafield ind1=" " ind2="0" tag="073">
-			<subfield code="a">5050582942156</subfield>
-		</datafield>
-		<datafield ind1="1" ind2=" " tag="200">
-			<subfield code="a">Les miserables</subfield>
-			<subfield code="b">[Motion Picture]</subfield>
-			<subfield code="f">Tom Hooper</subfield>
-			<subfield code="g">Victor Hugo</subfield>
-			<subfield code="g">Hugh Jackman</subfield>
-			<subfield code="g">Russell Crowe</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="210">
-			<subfield code="a">Universal city</subfield>
-			<subfield code="c">Universal</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="215">
-			<subfield code="a">1 DVD monoface area 2 (2 h 31 min)</subfield>
-			<subfield code="c">Colors (PAL), audio</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="334">
-			<subfield code="b">Best comedy at Golden Globe</subfield>
-			<subfield code="c">2012</subfield>
-			<subfield code="d">United States</subfield>
-		</datafield>
-		<datafield ind1=" " ind2="1" tag="700">
-			<subfield code="3">pauth-038</subfield>
-			<subfield code="a">Hooper</subfield>
-			<subfield code="b">Tim</subfield>
-			<subfield code="4">300</subfield>
-		</datafield>
-		<datafield ind1=" " ind2="1" tag="701">
-			<subfield code="3">pauth-039</subfield>
-			<subfield code="a">Hugo</subfield>
-			<subfield code="b">Victor</subfield>
-			<subfield code="4">100</subfield>
-		</datafield>
-		<datafield ind1=" " ind2="1" tag="701">
-			<subfield code="3">pauth-040</subfield>
-			<subfield code="a">Videcoq</subfield>
-			<subfield code="b">Philippe</subfield>
-			<subfield code="4">010</subfield>
-		</datafield>
-		<datafield ind1=" " ind2="1" tag="702">
-			<subfield code="3">pauth-041</subfield>
-			<subfield code="a">Jackman</subfield>
-			<subfield code="b">Hugh</subfield>
-			<subfield code="4">005</subfield>
-		</datafield>
-		<datafield ind1=" " ind2="1" tag="702">
-			<subfield code="3">pauth-042</subfield>
-			<subfield code="a">Crowe</subfield>
-			<subfield code="b">Russell</subfield>
-			<subfield code="4">005</subfield>
-		</datafield>
-	</record>
-	<record>
-		<leader>x29</leader>
-		<controlfield tag="001">x29</controlfield>
-		<datafield ind1=" " ind2=" " tag="010">
-			<subfield code="a">978-2-302-013773</subfield>
-			<subfield code="d">6,95 euro</subfield>
-		</datafield>
-		<datafield ind1="|" ind2=" " tag="101">
-			<subfield code="a">French</subfield>
-		</datafield>
-		<datafield ind1="1" ind2=" " tag="200">
-			<subfield code="a">miserables (Les )</subfield>
-			<subfield code="b">Manga</subfield>
-			<subfield code="f">based on writting by Victor Hugo</subfield>
-			<subfield code="g">adapted in manga by studio Variety artworks</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="210">
-			<subfield code="a">Paris</subfield>
-			<subfield code="c">Soleil</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="215">
-			<subfield code="a">Not paged</subfield>
-			<subfield code="c">Illustrations, Cover with illustrations</subfield>
-			<subfield code="d">19 cm</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="330">
-			<subfield code="a">The masterpiece of the literature adapted in manga</subfield>
-		</datafield>
-		<datafield ind1=" " ind2="1" tag="454">
-			<subfield code="3">tauth-012</subfield>
-			<subfield code="t">Manga de dokuha : les miserables</subfield>
-		</datafield>
-		<datafield ind1=" " ind2="1" tag="701">
-			<subfield code="3">pauth-039</subfield>
-			<subfield code="a">Hugo</subfield>
-			<subfield code="b">Victor</subfield>
-			<subfield code="4">100</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="710">
-			<subfield code="3">cauth-018</subfield>
-			<subfield code="a">Studio Variety Artworks</subfield>
-			<subfield code="4">010</subfield>
-		</datafield>
-	</record>
+	<marc:record>
+		<marc:leader>00761nam0 2200241   450 </marc:leader>
+		<marc:controlfield tag="001">22</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="010">
+			<marc:subfield code="a">2-07-036037-7</marc:subfield>
+			<marc:subfield code="d">39,00 F</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="|" ind2=" " tag="101">
+			<marc:subfield code="a">French</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="|" ind2=" " tag="200">
+			<marc:subfield code="a">Des souris et des hommes</marc:subfield>
+			<marc:subfield code="f">John Steinbeck</marc:subfield>
+			<marc:subfield code="f">M.E. Coindreau</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="210">
+			<marc:subfield code="a">Paris</marc:subfield>
+			<marc:subfield code="c">Gallimard</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="215">
+			<marc:subfield code="a">189 pages</marc:subfield>
+			<marc:subfield code="c">Cover with colorful illustrations</marc:subfield>
+			<marc:subfield code="d">18 cm</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2="|" tag="454">
+			<marc:subfield code="3">tauth-010</marc:subfield>
+			<marc:subfield code="t">Of Mice and men</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2="|" tag="700">
+			<marc:subfield code="3">pauth-016</marc:subfield>
+			<marc:subfield code="a">Steinbeck</marc:subfield>
+			<marc:subfield code="b">John</marc:subfield>
+			<marc:subfield code="4">070</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2="|" tag="702">
+			<marc:subfield code="3">pauth-054</marc:subfield>
+			<marc:subfield code="a">Coindreau</marc:subfield>
+			<marc:subfield code="b">M.E.</marc:subfield>
+			<marc:subfield code="4">730</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00761nam0 2200241   450 </marc:leader>
+		<marc:controlfield tag="001">28</marc:controlfield>
+		<marc:datafield ind1=" " ind2="0" tag="073">
+			<marc:subfield code="a">5050582942156</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="200">
+			<marc:subfield code="a">Les miserables</marc:subfield>
+			<marc:subfield code="b">[Motion Picture]</marc:subfield>
+			<marc:subfield code="f">Tom Hooper</marc:subfield>
+			<marc:subfield code="g">Victor Hugo</marc:subfield>
+			<marc:subfield code="g">Hugh Jackman</marc:subfield>
+			<marc:subfield code="g">Russell Crowe</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="210">
+			<marc:subfield code="a">Universal city</marc:subfield>
+			<marc:subfield code="c">Universal</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="215">
+			<marc:subfield code="a">1 DVD monoface area 2 (2 h 31 min)</marc:subfield>
+			<marc:subfield code="c">Colors (PAL), audio</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="334">
+			<marc:subfield code="b">Best comedy at Golden Globe</marc:subfield>
+			<marc:subfield code="c">2012</marc:subfield>
+			<marc:subfield code="d">United States</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2="1" tag="700">
+			<marc:subfield code="3">pauth-038</marc:subfield>
+			<marc:subfield code="a">Hooper</marc:subfield>
+			<marc:subfield code="b">Tim</marc:subfield>
+			<marc:subfield code="4">300</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2="1" tag="701">
+			<marc:subfield code="3">pauth-039</marc:subfield>
+			<marc:subfield code="a">Hugo</marc:subfield>
+			<marc:subfield code="b">Victor</marc:subfield>
+			<marc:subfield code="4">100</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2="1" tag="701">
+			<marc:subfield code="3">pauth-040</marc:subfield>
+			<marc:subfield code="a">Videcoq</marc:subfield>
+			<marc:subfield code="b">Philippe</marc:subfield>
+			<marc:subfield code="4">010</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2="1" tag="702">
+			<marc:subfield code="3">pauth-041</marc:subfield>
+			<marc:subfield code="a">Jackman</marc:subfield>
+			<marc:subfield code="b">Hugh</marc:subfield>
+			<marc:subfield code="4">005</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2="1" tag="702">
+			<marc:subfield code="3">pauth-042</marc:subfield>
+			<marc:subfield code="a">Crowe</marc:subfield>
+			<marc:subfield code="b">Russell</marc:subfield>
+			<marc:subfield code="4">005</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00761nam0 2200241   450 </marc:leader>
+		<marc:controlfield tag="001">29</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="010">
+			<marc:subfield code="a">978-2-302-013773</marc:subfield>
+			<marc:subfield code="d">6,95 euro</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="|" ind2=" " tag="101">
+			<marc:subfield code="a">French</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="200">
+			<marc:subfield code="a">miserables (Les )</marc:subfield>
+			<marc:subfield code="b">Manga</marc:subfield>
+			<marc:subfield code="f">based on writting by Victor Hugo</marc:subfield>
+			<marc:subfield code="g">adapted in manga by studio Variety artworks</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="210">
+			<marc:subfield code="a">Paris</marc:subfield>
+			<marc:subfield code="c">Soleil</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="215">
+			<marc:subfield code="a">Not paged</marc:subfield>
+			<marc:subfield code="c">Illustrations, Cover with illustrations</marc:subfield>
+			<marc:subfield code="d">19 cm</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="330">
+			<marc:subfield code="a">The masterpiece of the literature adapted in manga</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2="1" tag="454">
+			<marc:subfield code="3">tauth-012</marc:subfield>
+			<marc:subfield code="t">Manga de dokuha : les miserables</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2="1" tag="701">
+			<marc:subfield code="3">pauth-039</marc:subfield>
+			<marc:subfield code="a">Hugo</marc:subfield>
+			<marc:subfield code="b">Victor</marc:subfield>
+			<marc:subfield code="4">100</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="710">
+			<marc:subfield code="3">cauth-018</marc:subfield>
+			<marc:subfield code="a">Studio Variety Artworks</marc:subfield>
+			<marc:subfield code="4">010</marc:subfield>
+		</marc:datafield>
+	</marc:record>
 	<!-- ## Translation: Tow Sawyer (2 translators)-->
-	<record>
-		<leader>xx6</leader>
-		<controlfield tag="001">xx6</controlfield>
-		<datafield ind1=" " ind2=" " tag="010">
-			<subfield code="a">978-2-01-322655-4</subfield>
-			<subfield code="d">5,90 EUR</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="106">
-			<subfield code="a">Regular Print</subfield>
-		</datafield>
-		<datafield ind1="1" ind2=" " tag="200">
-			<subfield code="a">aventures de Tom Sawyer (Les)</subfield>
-			<subfield code="f">Mark Twain</subfield>
-			<subfield code="g">P. F. Caille</subfield>
-			<subfield code="g">Y. Dubois-Mauvais</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="210">
-			<subfield code="a">Paris</subfield>
-			<subfield code="c">Hachette</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="215">
-			<subfield code="a">411 pages</subfield>
-			<subfield code="d">18 cm</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="330">
-			<subfield code="a">Tom n'aime rien tant que l'ecole buissonniere, les expeditions avec ce voyou de Huck, la vie de pirates sur une ile du Mississippi, sans oublier la petite Becky. Mais sa tante Polly ne voit pas cela d'un tres bon oeil ! Et si elle savait que Tom et Huck, caches dans un cimetiere pendant une terrible nuit, ont vu tuer un homme.</subfield>
-		</datafield>
-		<datafield ind1=" " ind2="|" tag="454">
-			<subfield code="3">tauth-009</subfield>
-			<subfield code="t">The Adventures of Tom Sawyer</subfield>
-		</datafield>
-		<datafield ind1=" " ind2="1" tag="700">
-			<subfield code="3">pauth-002</subfield>
-			<subfield code="a">Twain</subfield>
-			<subfield code="b">Mark</subfield>
-			<subfield code="4">070</subfield>
-		</datafield>
-		<datafield ind1=" " ind2="1" tag="702">
-			<subfield code="3">pauth-030</subfield>
-			<subfield code="a">Caille</subfield>
-			<subfield code="b">Pierre-Francois</subfield>
-			<subfield code="f">1907-1979</subfield>
-			<subfield code="4">730</subfield>
-		</datafield>
-		<datafield ind1=" " ind2="1" tag="702">
-			<subfield code="3">pauth-029</subfield>
-			<subfield code="a">Dubois-Mauvais</subfield>
-			<subfield code="b">Y.</subfield>
-			<subfield code="4">730</subfield>
-		</datafield>
-	</record>
+	<marc:record>
+		<marc:leader>00761nam0 2200241   450 </marc:leader>
+		<marc:controlfield tag="001">6</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="010">
+			<marc:subfield code="a">978-2-01-322655-4</marc:subfield>
+			<marc:subfield code="d">5,90 EUR</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="106">
+			<marc:subfield code="a">Regular Print</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="200">
+			<marc:subfield code="a">aventures de Tom Sawyer (Les)</marc:subfield>
+			<marc:subfield code="f">Mark Twain</marc:subfield>
+			<marc:subfield code="g">P. F. Caille</marc:subfield>
+			<marc:subfield code="g">Y. Dubois-Mauvais</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="210">
+			<marc:subfield code="a">Paris</marc:subfield>
+			<marc:subfield code="c">Hachette</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="215">
+			<marc:subfield code="a">411 pages</marc:subfield>
+			<marc:subfield code="d">18 cm</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="330">
+			<marc:subfield code="a">Tom n'aime rien tant que l'ecole buissonniere, les expeditions avec ce voyou de Huck, la vie de pirates sur une ile du Mississippi, sans oublier la petite Becky. Mais sa tante Polly ne voit pas cela d'un tres bon oeil ! Et si elle savait que Tom et Huck, caches dans un cimetiere pendant une terrible nuit, ont vu tuer un homme.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2="|" tag="454">
+			<marc:subfield code="3">tauth-009</marc:subfield>
+			<marc:subfield code="t">The Adventures of Tom Sawyer</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2="1" tag="700">
+			<marc:subfield code="3">pauth-002</marc:subfield>
+			<marc:subfield code="a">Twain</marc:subfield>
+			<marc:subfield code="b">Mark</marc:subfield>
+			<marc:subfield code="4">070</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2="1" tag="702">
+			<marc:subfield code="3">pauth-030</marc:subfield>
+			<marc:subfield code="a">Caille</marc:subfield>
+			<marc:subfield code="b">Pierre-Francois</marc:subfield>
+			<marc:subfield code="f">1907-1979</marc:subfield>
+			<marc:subfield code="4">730</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2="1" tag="702">
+			<marc:subfield code="3">pauth-029</marc:subfield>
+			<marc:subfield code="a">Dubois-Mauvais</marc:subfield>
+			<marc:subfield code="b">Y.</marc:subfield>
+			<marc:subfield code="4">730</marc:subfield>
+		</marc:datafield>
+	</marc:record>
 	<!-- Translation: Treasure Island -->
-	<record>
-		<leader>xx4</leader>
-		<controlfield tag="001">xx4</controlfield>
-		<datafield ind1=" " ind2=" " tag="010">
-			<subfield code="a">978-2-01-322397-3</subfield>
-			<subfield code="d">4.50 euro</subfield>
-		</datafield>
-		<datafield ind1="|" ind2=" " tag="101">
-			<subfield code="a">French</subfield>
-			<subfield code="c">English</subfield>
-		</datafield>
-		<datafield ind1="|" ind2=" " tag="200">
-			<subfield code="a">Ile au tresor (L')</subfield>
-			<subfield code="f">Robert Louis Stevenson</subfield>
-			<subfield code="g">Michel Laporte</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="210">
-			<subfield code="a">Paris</subfield>
-			<subfield code="c">Hachette</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="215">
-			<subfield code="a">248 p.</subfield>
-			<subfield code="d">18 cm</subfield>
-		</datafield>
-		<datafield ind1="|" ind2=" " tag="225">
-			<subfield code="a">Classique</subfield>
-		</datafield>
-		<datafield ind1=" " ind2="0" tag="410">
-			<subfield code="3">colauth-004</subfield>
-			<subfield code="t">Livre de poche classique</subfield>
-		</datafield>
-		<datafield ind1=" " ind2="|" tag="454">
-			<subfield code="3">tauth-008</subfield>
-			<subfield code="t">Treasure Island</subfield>
-		</datafield>
-		<datafield ind1=" " ind2="1" tag="700">
-			<subfield code="3">pauth-003</subfield>
-			<subfield code="a">Stevenson</subfield>
-			<subfield code="b">Robert Louis</subfield>
-			<subfield code="4">070</subfield>
-		</datafield>
-		<datafield ind1=" " ind2="1" tag="700">
-			<subfield code="3">pauth-053</subfield>
-			<subfield code="a">Laporte</subfield>
-			<subfield code="b">Michel</subfield>
-			<subfield code="4">730</subfield>
-		</datafield>
-	</record>
+	<marc:record>
+		<marc:leader>00761nam0 2200241   450 </marc:leader>
+		<marc:controlfield tag="001">4</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="010">
+			<marc:subfield code="a">978-2-01-322397-3</marc:subfield>
+			<marc:subfield code="d">4.50 euro</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="|" ind2=" " tag="101">
+			<marc:subfield code="a">French</marc:subfield>
+			<marc:subfield code="c">English</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="|" ind2=" " tag="200">
+			<marc:subfield code="a">Ile au tresor (L')</marc:subfield>
+			<marc:subfield code="f">Robert Louis Stevenson</marc:subfield>
+			<marc:subfield code="g">Michel Laporte</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="210">
+			<marc:subfield code="a">Paris</marc:subfield>
+			<marc:subfield code="c">Hachette</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="215">
+			<marc:subfield code="a">248 p.</marc:subfield>
+			<marc:subfield code="d">18 cm</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="|" ind2=" " tag="225">
+			<marc:subfield code="a">Classique</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2="0" tag="410">
+			<marc:subfield code="3">colauth-004</marc:subfield>
+			<marc:subfield code="t">Livre de poche classique</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2="|" tag="454">
+			<marc:subfield code="3">tauth-008</marc:subfield>
+			<marc:subfield code="t">Treasure Island</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2="1" tag="700">
+			<marc:subfield code="3">pauth-003</marc:subfield>
+			<marc:subfield code="a">Stevenson</marc:subfield>
+			<marc:subfield code="b">Robert Louis</marc:subfield>
+			<marc:subfield code="4">070</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2="1" tag="700">
+			<marc:subfield code="3">pauth-053</marc:subfield>
+			<marc:subfield code="a">Laporte</marc:subfield>
+			<marc:subfield code="b">Michel</marc:subfield>
+			<marc:subfield code="4">730</marc:subfield>
+		</marc:datafield>
+	</marc:record>
 	<!-- Parody -->
-	<record>
-		<leader>x30</leader>
-		<controlfield tag="001">x30</controlfield>
-		<datafield ind1=" " ind2=" " tag="010">
-			<subfield code="a">978-2205-06038-6</subfield>
-			<subfield code="d">20.50 EUR</subfield>
-		</datafield>
-		<datafield ind1=" " ind2="1" tag="073">
-			<subfield code="a">9782205060386</subfield>
-		</datafield>
-		<datafield ind1="|" ind2=" " tag="101">
-			<subfield code="a">French</subfield>
-		</datafield>
-		<datafield ind1="1" ind2=" " tag="200">
-			<subfield code="a">Valerian et Laureline</subfield>
-			<subfield code="e">l'integrale</subfield>
-			<subfield code="b">[print]</subfield>
-			<subfield code="f">Pierre Christin</subfield>
-			<subfield code="f">Jean-Claude Mezieres</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="210">
-			<subfield code="a">Paris</subfield>
-			<subfield code="c">Dargaud</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="215">
-			<subfield code="a">1 volume (164 pages)</subfield>
-			<subfield code="c">Colorful illustrations, cover with colorful illustrations</subfield>
-			<subfield code="d">30 cm</subfield>
-		</datafield>
-		<datafield ind1=" " ind2="1" tag="700">
-			<subfield code="3">pauth-021</subfield>
-			<subfield code="a">Mezieres</subfield>
-			<subfield code="b">Jean-Claude</subfield>
-			<subfield code="4">070</subfield>
-		</datafield>
-		<datafield ind1=" " ind2="1" tag="701">
-			<subfield code="3">pauth-020</subfield>
-			<subfield code="a">Christin</subfield>
-			<subfield code="b">Pierre</subfield>
-			<subfield code="4">070</subfield>
-		</datafield>
-	</record>
-	<record>
-		<leader>x32</leader>
-		<controlfield tag="001">x32</controlfield>
-		<datafield ind1=" " ind2=" " tag="010">
-			<subfield code="a">978-2-205-06758-3</subfield>
-			<subfield code="d">11,95 eur</subfield>
-		</datafield>
-		<datafield ind1="|" ind2=" " tag="101">
-			<subfield code="a">French</subfield>
-		</datafield>
-		<datafield ind1="1" ind2=" " tag="200">
-			<subfield code="a">Armure du Jakolass (L')</subfield>
-			<subfield code="b">[print]</subfield>
-			<subfield code="e">Valerian par Manu Larcenet</subfield>
-			<subfield code="f">Manu Larcenet</subfield>
-			<subfield code="g">from Christin et Mezieres</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="210">
-			<subfield code="c">Dargaud</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="330">
-			<subfield code="a">In this album, the author manages to parody the cult series without dishonoring it.</subfield>
-		</datafield>
-		<datafield ind1=" " ind2="1" tag="700">
-			<subfield code="3">pauth-043</subfield>
-			<subfield code="a">Larcenet</subfield>
-			<subfield code="b">Manu</subfield>
-			<subfield code="4">070</subfield>
-		</datafield>
-		<datafield ind1=" " ind2="1" tag="700">
-			<subfield code="3">pauth-020</subfield>
-			<subfield code="a">Christin</subfield>
-			<subfield code="b">Pierre</subfield>
-			<subfield code="4">100</subfield>
-		</datafield>
-		<datafield ind1=" " ind2="1" tag="700">
-			<subfield code="3">pauth-021</subfield>
-			<subfield code="a">Mezieres</subfield>
-			<subfield code="b">Jean-Claude</subfield>
-			<subfield code="4">100</subfield>
-		</datafield>
-	</record>
-	<record>
-		<leader>xx2</leader>
-		<controlfield tag="001">xx2</controlfield>
-		<datafield ind1=" " ind2=" " tag="010">
-			<subfield code="a">978-2-07-055890-2</subfield>
-			<subfield code="d">14 euro</subfield>
-		</datafield>
-		<datafield ind1="|" ind2=" " tag="101">
-			<subfield code="a">French</subfield>
-			<subfield code="c">English</subfield>
-		</datafield>
-		<datafield ind1="1" ind2=" " tag="200">
-			<subfield code="a">Cheval de guerre</subfield>
-			<subfield code="f">Michael Morpurgo</subfield>
-			<subfield code="g">Andre Dupuis</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="210">
-			<subfield code="a">Paris</subfield>
-			<subfield code="c">Gallimard</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="215">
-			<subfield code="a">185 pages</subfield>
-			<subfield code="c">Illustrations, cover with colorful illustrations</subfield>
-			<subfield code="d">22 cm</subfield>
-		</datafield>
-		<datafield ind1=" " ind2="1" tag="454">
-			<subfield code="3">tauth-004</subfield>
-			<subfield code="t">War horse</subfield>
-		</datafield>
-		<datafield ind1="|" ind2=" " tag="610">
-			<subfield code="3">subauth-016</subfield>
-			<subfield code="a">World War I</subfield>
-			<subfield code="e">1916</subfield>
-		</datafield>
-		<datafield ind1=" " ind2="1" tag="700">
-			<subfield code="3">pauth-001</subfield>
-			<subfield code="a">Morpurgo</subfield>
-			<subfield code="b">Michael</subfield>
-			<subfield code="4">070</subfield>
-		</datafield>
-		<datafield ind1=" " ind2="1" tag="702">
-			<subfield code="3">pauth-052</subfield>
-			<subfield code="a">Dupuis</subfield>
-			<subfield code="b">Andre</subfield>
-			<subfield code="4">730</subfield>
-		</datafield>
-	</record>
-</collection>
+	<marc:record>
+		<marc:leader>00761nam0 2200241   450 </marc:leader>
+		<marc:controlfield tag="001">30</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="010">
+			<marc:subfield code="a">978-2205-06038-6</marc:subfield>
+			<marc:subfield code="d">20.50 EUR</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2="1" tag="073">
+			<marc:subfield code="a">9782205060386</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="|" ind2=" " tag="101">
+			<marc:subfield code="a">French</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="200">
+			<marc:subfield code="a">Valerian et Laureline</marc:subfield>
+			<marc:subfield code="e">l'integrale</marc:subfield>
+			<marc:subfield code="b">[print]</marc:subfield>
+			<marc:subfield code="f">Pierre Christin</marc:subfield>
+			<marc:subfield code="f">Jean-Claude Mezieres</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="210">
+			<marc:subfield code="a">Paris</marc:subfield>
+			<marc:subfield code="c">Dargaud</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="215">
+			<marc:subfield code="a">1 volume (164 pages)</marc:subfield>
+			<marc:subfield code="c">Colorful illustrations, cover with colorful illustrations</marc:subfield>
+			<marc:subfield code="d">30 cm</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2="1" tag="700">
+			<marc:subfield code="3">pauth-021</marc:subfield>
+			<marc:subfield code="a">Mezieres</marc:subfield>
+			<marc:subfield code="b">Jean-Claude</marc:subfield>
+			<marc:subfield code="4">070</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2="1" tag="701">
+			<marc:subfield code="3">pauth-020</marc:subfield>
+			<marc:subfield code="a">Christin</marc:subfield>
+			<marc:subfield code="b">Pierre</marc:subfield>
+			<marc:subfield code="4">070</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00761nam0 2200241   450 </marc:leader>
+		<marc:controlfield tag="001">32</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="010">
+			<marc:subfield code="a">978-2-205-06758-3</marc:subfield>
+			<marc:subfield code="d">11,95 eur</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="|" ind2=" " tag="101">
+			<marc:subfield code="a">French</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="200">
+			<marc:subfield code="a">Armure du Jakolass (L')</marc:subfield>
+			<marc:subfield code="b">[print]</marc:subfield>
+			<marc:subfield code="e">Valerian par Manu Larcenet</marc:subfield>
+			<marc:subfield code="f">Manu Larcenet</marc:subfield>
+			<marc:subfield code="g">from Christin et Mezieres</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="210">
+			<marc:subfield code="c">Dargaud</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="330">
+			<marc:subfield code="a">In this album, the author manages to parody the cult series without dishonoring it.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2="1" tag="700">
+			<marc:subfield code="3">pauth-043</marc:subfield>
+			<marc:subfield code="a">Larcenet</marc:subfield>
+			<marc:subfield code="b">Manu</marc:subfield>
+			<marc:subfield code="4">070</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2="1" tag="700">
+			<marc:subfield code="3">pauth-020</marc:subfield>
+			<marc:subfield code="a">Christin</marc:subfield>
+			<marc:subfield code="b">Pierre</marc:subfield>
+			<marc:subfield code="4">100</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2="1" tag="700">
+			<marc:subfield code="3">pauth-021</marc:subfield>
+			<marc:subfield code="a">Mezieres</marc:subfield>
+			<marc:subfield code="b">Jean-Claude</marc:subfield>
+			<marc:subfield code="4">100</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00761nam0 2200241   450 </marc:leader>
+		<marc:controlfield tag="001">2</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="010">
+			<marc:subfield code="a">978-2-07-055890-2</marc:subfield>
+			<marc:subfield code="d">14 euro</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="|" ind2=" " tag="101">
+			<marc:subfield code="a">French</marc:subfield>
+			<marc:subfield code="c">English</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="200">
+			<marc:subfield code="a">Cheval de guerre</marc:subfield>
+			<marc:subfield code="f">Michael Morpurgo</marc:subfield>
+			<marc:subfield code="g">Andre Dupuis</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="210">
+			<marc:subfield code="a">Paris</marc:subfield>
+			<marc:subfield code="c">Gallimard</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="215">
+			<marc:subfield code="a">185 pages</marc:subfield>
+			<marc:subfield code="c">Illustrations, cover with colorful illustrations</marc:subfield>
+			<marc:subfield code="d">22 cm</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2="1" tag="454">
+			<marc:subfield code="3">tauth-004</marc:subfield>
+			<marc:subfield code="t">War horse</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="|" ind2=" " tag="610">
+			<marc:subfield code="3">subauth-016</marc:subfield>
+			<marc:subfield code="a">World War I</marc:subfield>
+			<marc:subfield code="e">1916</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2="1" tag="700">
+			<marc:subfield code="3">pauth-001</marc:subfield>
+			<marc:subfield code="a">Morpurgo</marc:subfield>
+			<marc:subfield code="b">Michael</marc:subfield>
+			<marc:subfield code="4">070</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2="1" tag="702">
+			<marc:subfield code="3">pauth-052</marc:subfield>
+			<marc:subfield code="a">Dupuis</marc:subfield>
+			<marc:subfield code="b">Andre</marc:subfield>
+			<marc:subfield code="4">730</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+</marc:collection>

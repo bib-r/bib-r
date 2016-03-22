@@ -2,7 +2,7 @@
 <marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<marc:record>
 		<marc:leader>00422a   a2200145   4500</marc:leader>
-		<marc:controlfield tag="001">x10</marc:controlfield>
+		<marc:controlfield tag="001">10</marc:controlfield>
 		<marc:datafield ind1=" " ind2=" " tag="020">
 			<marc:subfield code="a">9782080702104</marc:subfield>
 			<marc:subfield code="c">5.80euro</marc:subfield>
@@ -40,7 +40,7 @@
 	</marc:record>
 	<marc:record>
 		<marc:leader>00446a   a2200157   4500</marc:leader>
-		<marc:controlfield tag="001">x11</marc:controlfield>
+		<marc:controlfield tag="001">11</marc:controlfield>
 		<marc:datafield ind1=" " ind2=" " tag="020">
 			<marc:subfield code="a">9782080702111</marc:subfield>
 			<marc:subfield code="c">6.80euro</marc:subfield>
@@ -81,7 +81,7 @@
 	</marc:record>
 	<marc:record>
 		<marc:leader>01193a   a2200217   4500</marc:leader>
-		<marc:controlfield tag="001">x33</marc:controlfield>
+		<marc:controlfield tag="001">33</marc:controlfield>
 		<marc:datafield ind1="0" ind2=" " tag="022">
 			<marc:subfield code="a">0899-823X</marc:subfield>
 			<marc:subfield code="b">1</marc:subfield>
@@ -137,7 +137,7 @@
 	</marc:record>
 	<marc:record>
 		<marc:leader>00533a   a2200157   4500</marc:leader>
-		<marc:controlfield tag="001">xx8</marc:controlfield>
+		<marc:controlfield tag="001">8</marc:controlfield>
 		<marc:datafield ind1=" " ind2=" " tag="020">
 			<marc:subfield code="a">9782081209633</marc:subfield>
 			<marc:subfield code="c">2,70 euro</marc:subfield>
@@ -177,7 +177,7 @@
 	</marc:record>
 	<marc:record>
 		<marc:leader>00419a   a2200133   4500</marc:leader>
-		<marc:controlfield tag="001">xx9</marc:controlfield>
+		<marc:controlfield tag="001">9</marc:controlfield>
 		<marc:datafield ind1=" " ind2=" " tag="020">
 			<marc:subfield code="a">9782756003580</marc:subfield>
 			<marc:subfield code="c">8,90 Euros</marc:subfield>

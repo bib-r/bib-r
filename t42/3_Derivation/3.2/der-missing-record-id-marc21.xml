@@ -2,7 +2,7 @@
 <marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<marc:record>
 		<marc:leader>00374a   a2200109   4500</marc:leader>
-		<marc:controlfield tag="001">x18</marc:controlfield>
+		<marc:controlfield tag="001">18</marc:controlfield>
 		<marc:datafield ind1="1" ind2=" " tag="100">
 			<marc:subfield code="a">Rowling, Joanne Kathleen</marc:subfield>
 			<marc:subfield code="d">1965-....</marc:subfield>
@@ -34,7 +34,7 @@
 	</marc:record>
 	<marc:record>
 		<marc:leader>00414a   a2200109   4500</marc:leader>
-		<marc:controlfield tag="001">x19</marc:controlfield>
+		<marc:controlfield tag="001">19</marc:controlfield>
 		<marc:datafield ind1="1" ind2=" " tag="100">
 			<marc:subfield code="a">Yates, David</marc:subfield>
 			<marc:subfield code="4">drt</marc:subfield>
@@ -64,7 +64,7 @@
 	</marc:record>
 	<marc:record>
 		<marc:leader>00430a   a2200109   4500</marc:leader>
-		<marc:controlfield tag="001">x20</marc:controlfield>
+		<marc:controlfield tag="001">20</marc:controlfield>
 		<marc:datafield ind1="1" ind2=" " tag="100">
 			<marc:subfield code="a">Yates, David</marc:subfield>
 			<marc:subfield code="4">drt</marc:subfield>
@@ -94,7 +94,7 @@
 	</marc:record>
 	<marc:record>
 		<marc:leader>00461a   a2200133   4500</marc:leader>
-		<marc:controlfield tag="001">x25</marc:controlfield>
+		<marc:controlfield tag="001">25</marc:controlfield>
 		<marc:datafield ind1=" " ind2=" " tag="020">
 			<marc:subfield code="a">9781843444848</marc:subfield>
 		</marc:datafield>
@@ -126,7 +126,7 @@
 	</marc:record>
 	<marc:record>
 		<marc:leader>00447a   a2200121   4500</marc:leader>
-		<marc:controlfield tag="001">x27</marc:controlfield>
+		<marc:controlfield tag="001">27</marc:controlfield>
 		<marc:datafield ind1="1" ind2=" " tag="041">
 			<marc:subfield code="a">French</marc:subfield>
 			<marc:subfield code="h">Italian</marc:subfield>
@@ -162,7 +162,7 @@
 	</marc:record>
 	<marc:record>
 		<marc:leader>00370a   a2200121   4500</marc:leader>
-		<marc:controlfield tag="001">x22</marc:controlfield>
+		<marc:controlfield tag="001">22</marc:controlfield>
 		<marc:datafield ind1="1" ind2=" " tag="041">
 			<marc:subfield code="a">French</marc:subfield>
 		</marc:datafield>
@@ -195,7 +195,7 @@
 	</marc:record>
 	<marc:record>
 		<marc:leader>00387a   a2200109   4500</marc:leader>
-		<marc:controlfield tag="001">x28</marc:controlfield>
+		<marc:controlfield tag="001">28</marc:controlfield>
 		<marc:datafield ind1="1" ind2=" " tag="100">
 			<marc:subfield code="a">Hooper, Tim</marc:subfield>
 			<marc:subfield code="4">drt</marc:subfield>
@@ -229,7 +229,7 @@
 	</marc:record>
 	<marc:record>
 		<marc:leader>00447a   a2200121   4500</marc:leader>
-		<marc:controlfield tag="001">x29</marc:controlfield>
+		<marc:controlfield tag="001">29</marc:controlfield>
 		<marc:datafield ind1="1" ind2=" " tag="041">
 			<marc:subfield code="a">French</marc:subfield>
 		</marc:datafield>
@@ -262,7 +262,7 @@
 	</marc:record>
 	<marc:record>
 		<marc:leader>00717a   a2200133   4500</marc:leader>
-		<marc:controlfield tag="001">xx6</marc:controlfield>
+		<marc:controlfield tag="001">6</marc:controlfield>
 		<marc:controlfield tag="008"/>
 		<marc:datafield ind1="1" ind2=" " tag="100">
 			<marc:subfield code="a">Twain, Mark</marc:subfield>
@@ -300,7 +300,7 @@
 	</marc:record>
 	<marc:record>
 		<marc:leader>00430a   a2200145   4500</marc:leader>
-		<marc:controlfield tag="001">xx4</marc:controlfield>
+		<marc:controlfield tag="001">4</marc:controlfield>
 		<marc:datafield ind1="1" ind2=" " tag="041">
 			<marc:subfield code="a">French</marc:subfield>
 			<marc:subfield code="h">English</marc:subfield>
@@ -340,7 +340,7 @@
 	</marc:record>
 	<marc:record>
 		<marc:leader>00441a   a2200121   4500</marc:leader>
-		<marc:controlfield tag="001">x30</marc:controlfield>
+		<marc:controlfield tag="001">30</marc:controlfield>
 		<marc:datafield ind1="1" ind2=" " tag="041">
 			<marc:subfield code="a">French</marc:subfield>
 		</marc:datafield>
@@ -371,7 +371,7 @@
 	</marc:record>
 	<marc:record>
 		<marc:leader>00457a   a2200133   4500</marc:leader>
-		<marc:controlfield tag="001">x32</marc:controlfield>
+		<marc:controlfield tag="001">32</marc:controlfield>
 		<marc:datafield ind1="1" ind2=" " tag="041">
 			<marc:subfield code="a">French</marc:subfield>
 		</marc:datafield>
@@ -403,7 +403,7 @@
 	</marc:record>
 	<marc:record>
 		<marc:leader>00386a   a2200121   4500</marc:leader>
-		<marc:controlfield tag="001">xx2</marc:controlfield>
+		<marc:controlfield tag="001">2</marc:controlfield>
 		<marc:datafield ind1="1" ind2=" " tag="041">
 			<marc:subfield code="a">French</marc:subfield>
 			<marc:subfield code="h">English</marc:subfield>

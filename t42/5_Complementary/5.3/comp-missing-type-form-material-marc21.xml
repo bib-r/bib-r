@@ -2,7 +2,7 @@
 <marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<marc:record>
 		<marc:leader>01036a   a2200169   4500</marc:leader>
-		<marc:controlfield tag="001">x41</marc:controlfield>
+		<marc:controlfield tag="001">41</marc:controlfield>
 		<marc:datafield ind1="1" ind2=" " tag="041">
 			<marc:subfield code="a">English</marc:subfield>
 		</marc:datafield>
@@ -45,7 +45,7 @@
 	</marc:record>
 	<marc:record>
 		<marc:leader>01106a   a2200169   4500</marc:leader>
-		<marc:controlfield tag="001">x42</marc:controlfield>
+		<marc:controlfield tag="001">42</marc:controlfield>
 		<marc:datafield ind1="1" ind2=" " tag="041">
 			<marc:subfield code="a">English</marc:subfield>
 		</marc:datafield>
@@ -88,7 +88,7 @@
 	</marc:record>
 	<marc:record>
 		<marc:leader>00428a   a2200133   4500</marc:leader>
-		<marc:controlfield tag="001">x16</marc:controlfield>
+		<marc:controlfield tag="001">16</marc:controlfield>
 		<marc:datafield ind1=" " ind2=" " tag="020">
 			<marc:subfield code="a">9782091638669</marc:subfield>
 		</marc:datafield>
@@ -124,7 +124,7 @@
 	</marc:record>
 	<marc:record>
 		<marc:leader>00448a   a2200133   4500</marc:leader>
-		<marc:controlfield tag="001">x17</marc:controlfield>
+		<marc:controlfield tag="001">17</marc:controlfield>
 		<marc:datafield ind1=" " ind2=" " tag="020">
 			<marc:subfield code="a">9782091638676</marc:subfield>
 		</marc:datafield>
@@ -162,7 +162,7 @@
 	</marc:record>
 	<marc:record>
 		<marc:leader>01253a   a2200229   4500</marc:leader>
-		<marc:controlfield tag="001">x33</marc:controlfield>
+		<marc:controlfield tag="001">33</marc:controlfield>
 		<marc:datafield ind1="0" ind2=" " tag="022">
 			<marc:subfield code="a">0899-823X</marc:subfield>
 			<marc:subfield code="b">1</marc:subfield>
@@ -225,7 +225,7 @@
 	</marc:record>
 	<marc:record>
 		<marc:leader>00291a   a2200121   4500</marc:leader>
-		<marc:controlfield tag="001">x34</marc:controlfield>
+		<marc:controlfield tag="001">34</marc:controlfield>
 		<marc:datafield ind1="0" ind2=" " tag="022">
 			<marc:subfield code="a">0195-9417</marc:subfield>
 			<marc:subfield code="b">1</marc:subfield>

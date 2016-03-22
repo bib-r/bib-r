@@ -1,130 +1,130 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<collection xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+<marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<!-- Following: Infection Control -->
-	<record>
-		<leader>x33</leader>
-		<controlfield tag="001">x33</controlfield>
-		<datafield ind1=" " ind2=" " tag="011">
-			<subfield code="a">0899-823X</subfield>
-			<subfield code="b">1</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="101">
-			<subfield code="a">English</subfield>
-		</datafield>
-		<datafield ind1="1" ind2=" " tag="200">
-			<subfield code="a">Infection control and hospital epidemiology</subfield>
-			<subfield code="e">An official journal of the Society of Hospital Epidemiologists of America</subfield>
-			<subfield code="f">Richard P. Wenzel</subfield>
-			<subfield code="f">Barry Farr</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="207">
-			<subfield code="a">Volume 9, number 1 (January 1988)-</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="210">
-			<subfield code="a">Thorofare, NJ</subfield>
-			<subfield code="c">SLACK Inc.</subfield>
-			<subfield code="d">1988-</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="210">
-			<subfield code="a">Chicago, IL</subfield>
-			<subfield code="c">University of Chicago Press</subfield>
-			<subfield code="d">2006-</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="306">
-			<subfield code="a">Published by University chicago press in 2006</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="326">
-			<subfield code="a">Monthly</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="330">
-			<subfield code="a">Infection Control and Hospital Epidemiology provides original, peer-reviewed scientific articles for anyone involved with an infection control or epidemiology program in a hospital or healthcare facility. Written by infection control practitioners and epidemiologists and guided by an editorial board composed of the nation's leaders in the field, ICHE provides a critical forum for this vital information. </subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="430">
-			<subfield code="3">tauth-019</subfield>
-			<subfield code="t">Infection control</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="517">
-			<subfield code="3">tauth-015</subfield>
-			<subfield code="a">Official journal of The SHEA</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="517">
-			<subfield code="3">tauth-016</subfield>
-			<subfield code="a">ICHE</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="531">
-			<subfield code="3">tauth-017</subfield>
-			<subfield code="a">Infect Control Hosp Epidemiol</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="540">
-			<subfield code="3">tauth-018</subfield>
-			<subfield code="a">Infect Control Hosp Epidemiol</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="610">
-			<subfield code="3">subauth-018</subfield>
-			<subfield code="a">Cross Infection</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="610">
-			<subfield code="3">subauth-019</subfield>
-			<subfield code="a">Epidemiology</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="610">
-			<subfield code="3">subauth-020</subfield>
-			<subfield code="a">Hospitals</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="610">
-			<subfield code="3">subauth-021</subfield>
-			<subfield code="a">Infection Control</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="700">
-			<subfield code="3">pauth-044</subfield>
-			<subfield code="4">651</subfield>
-			<subfield code="a">Wenzel</subfield>
-			<subfield code="b">Richard P.</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="700">
-			<subfield code="3">pauth-045</subfield>
-			<subfield code="4">651</subfield>
-			<subfield code="a">Farr</subfield>
-			<subfield code="b">Barry</subfield>
-		</datafield>
-		<datafield ind1="0" ind2="2" tag="710">
-			<subfield code="3">cauth-022</subfield>
-			<subfield code="a">Society of Hospital Epidemiologists of America</subfield>
-			<subfield code="4">340</subfield>
-		</datafield>
-	</record>
-	<record>
-		<leader>x34</leader>
-		<controlfield tag="001">x34</controlfield>
-		<datafield ind1=" " ind2=" " tag="011">
-			<subfield code="a">0195-9417</subfield>
-			<subfield code="b">1</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="101">
-			<subfield code="a">English</subfield>
-		</datafield>
-		<datafield ind1="1" ind2=" " tag="200">
-			<subfield code="a">Infection control</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="210">
-			<subfield code="a">Thorofare, NJ</subfield>
-			<subfield code="c">SLACK Inc.</subfield>
-			<subfield code="d">1980-1987</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="326">
-			<subfield code="a">Monthly</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="500">
-			<subfield code="3">tauth-019</subfield>
-			<subfield code="a">Infection control</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="610">
-			<subfield code="3">subauth-022</subfield>
-			<subfield code="a">Infection</subfield>
-		</datafield>
-		<datafield ind1=" " ind2=" " tag="610">
-			<subfield code="3">subauth-021</subfield>
-			<subfield code="a">Infection Control</subfield>
-		</datafield>
-	</record>
-</collection>
+	<marc:record>
+		<marc:leader>00761nam0 2200241   450 </marc:leader>
+		<marc:controlfield tag="001">33</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="011">
+			<marc:subfield code="a">0899-823X</marc:subfield>
+			<marc:subfield code="b">1</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="101">
+			<marc:subfield code="a">English</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="200">
+			<marc:subfield code="a">Infection control and hospital epidemiology</marc:subfield>
+			<marc:subfield code="e">An official journal of the Society of Hospital Epidemiologists of America</marc:subfield>
+			<marc:subfield code="f">Richard P. Wenzel</marc:subfield>
+			<marc:subfield code="f">Barry Farr</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="207">
+			<marc:subfield code="a">Volume 9, number 1 (January 1988)-</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="210">
+			<marc:subfield code="a">Thorofare, NJ</marc:subfield>
+			<marc:subfield code="c">SLACK Inc.</marc:subfield>
+			<marc:subfield code="d">1988-</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="210">
+			<marc:subfield code="a">Chicago, IL</marc:subfield>
+			<marc:subfield code="c">University of Chicago Press</marc:subfield>
+			<marc:subfield code="d">2006-</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="306">
+			<marc:subfield code="a">Published by University chicago press in 2006</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="326">
+			<marc:subfield code="a">Monthly</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="330">
+			<marc:subfield code="a">Infection Control and Hospital Epidemiology provides original, peer-reviewed scientific articles for anyone involved with an infection control or epidemiology program in a hospital or healthcare facility. Written by infection control practitioners and epidemiologists and guided by an editorial board composed of the nation's leaders in the field, ICHE provides a critical forum for this vital information. </marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="430">
+			<marc:subfield code="3">tauth-019</marc:subfield>
+			<marc:subfield code="t">Infection control</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="517">
+			<marc:subfield code="3">tauth-015</marc:subfield>
+			<marc:subfield code="a">Official journal of The SHEA</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="517">
+			<marc:subfield code="3">tauth-016</marc:subfield>
+			<marc:subfield code="a">ICHE</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="531">
+			<marc:subfield code="3">tauth-017</marc:subfield>
+			<marc:subfield code="a">Infect Control Hosp Epidemiol</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="540">
+			<marc:subfield code="3">tauth-018</marc:subfield>
+			<marc:subfield code="a">Infect Control Hosp Epidemiol</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="610">
+			<marc:subfield code="3">subauth-018</marc:subfield>
+			<marc:subfield code="a">Cross Infection</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="610">
+			<marc:subfield code="3">subauth-019</marc:subfield>
+			<marc:subfield code="a">Epidemiology</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="610">
+			<marc:subfield code="3">subauth-020</marc:subfield>
+			<marc:subfield code="a">Hospitals</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="610">
+			<marc:subfield code="3">subauth-021</marc:subfield>
+			<marc:subfield code="a">Infection Control</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="700">
+			<marc:subfield code="3">pauth-044</marc:subfield>
+			<marc:subfield code="4">651</marc:subfield>
+			<marc:subfield code="a">Wenzel</marc:subfield>
+			<marc:subfield code="b">Richard P.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="700">
+			<marc:subfield code="3">pauth-045</marc:subfield>
+			<marc:subfield code="4">651</marc:subfield>
+			<marc:subfield code="a">Farr</marc:subfield>
+			<marc:subfield code="b">Barry</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="0" ind2="2" tag="710">
+			<marc:subfield code="3">cauth-022</marc:subfield>
+			<marc:subfield code="a">Society of Hospital Epidemiologists of America</marc:subfield>
+			<marc:subfield code="4">340</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+	<marc:record>
+		<marc:leader>00761nam0 2200241   450 </marc:leader>
+		<marc:controlfield tag="001">34</marc:controlfield>
+		<marc:datafield ind1=" " ind2=" " tag="011">
+			<marc:subfield code="a">0195-9417</marc:subfield>
+			<marc:subfield code="b">1</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="101">
+			<marc:subfield code="a">English</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1="1" ind2=" " tag="200">
+			<marc:subfield code="a">Infection control</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="210">
+			<marc:subfield code="a">Thorofare, NJ</marc:subfield>
+			<marc:subfield code="c">SLACK Inc.</marc:subfield>
+			<marc:subfield code="d">1980-1987</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="326">
+			<marc:subfield code="a">Monthly</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="500">
+			<marc:subfield code="3">tauth-019</marc:subfield>
+			<marc:subfield code="a">Infection control</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="610">
+			<marc:subfield code="3">subauth-022</marc:subfield>
+			<marc:subfield code="a">Infection</marc:subfield>
+		</marc:datafield>
+		<marc:datafield ind1=" " ind2=" " tag="610">
+			<marc:subfield code="3">subauth-021</marc:subfield>
+			<marc:subfield code="a">Infection Control</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+</marc:collection>

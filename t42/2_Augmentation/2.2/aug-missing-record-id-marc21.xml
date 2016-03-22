@@ -2,7 +2,7 @@
 <marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<marc:record>
 		<marc:leader>00436a   a2200145   4500</marc:leader>
-		<marc:controlfield tag="001">x10</marc:controlfield>
+		<marc:controlfield tag="001">10</marc:controlfield>
 		<marc:datafield ind1="1" ind2=" " tag="041">
 			<marc:subfield code="a">French</marc:subfield>
 		</marc:datafield>
@@ -38,7 +38,7 @@
 	</marc:record>
 	<marc:record>
 		<marc:leader>00363a   a2200097   4500</marc:leader>
-		<marc:controlfield tag="001">x26</marc:controlfield>
+		<marc:controlfield tag="001">26</marc:controlfield>
 		<marc:datafield ind1="1" ind2=" " tag="100">
 			<marc:subfield code="a">Stevenson, Robert Louis</marc:subfield>
 			<marc:subfield code="4">aut</marc:subfield>
@@ -64,7 +64,7 @@
 	</marc:record>
 	<marc:record>
 		<marc:leader>00438a   a2200145   4500</marc:leader>
-		<marc:controlfield tag="001">x23</marc:controlfield>
+		<marc:controlfield tag="001">23</marc:controlfield>
 		<marc:datafield ind1="1" ind2=" " tag="041">
 			<marc:subfield code="a">English</marc:subfield>
 		</marc:datafield>
@@ -99,7 +99,7 @@
 	</marc:record>
 	<marc:record>
 		<marc:leader>00351a   a2200109   4500</marc:leader>
-		<marc:controlfield tag="001">xx7</marc:controlfield>
+		<marc:controlfield tag="001">7</marc:controlfield>
 		<marc:datafield ind1="1" ind2=" " tag="041">
 			<marc:subfield code="a">French</marc:subfield>
 		</marc:datafield>

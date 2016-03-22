@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<marc:record>
-		<marc:leader>x10</marc:leader>
-		<marc:controlfield tag="001">x10</marc:controlfield>
+		<marc:leader>00761nam0 2200241   450 </marc:leader>
+		<marc:controlfield tag="001">10</marc:controlfield>
 		<marc:datafield ind1=" " ind2=" " tag="010">
 			<marc:subfield code="a">978-2-08-070210-4</marc:subfield>
 			<marc:subfield code="d">5.80euro</marc:subfield>
@@ -12,7 +12,7 @@
 		</marc:datafield>
 		<marc:datafield ind1="1" ind2=" " tag="200">
 			<marc:subfield code="a">Essais</marc:subfield>
-			<subfield code="b">[publication]</subfield>
+			<marc:subfield code="b">[publication]</marc:subfield>
 			<marc:subfield code="f">Michel de Montaigne</marc:subfield>
 		</marc:datafield>
 		<marc:datafield ind1=" " ind2=" " tag="210">
@@ -33,8 +33,8 @@
 		</marc:datafield>
 	</marc:record>
 	<marc:record>
-		<marc:leader>xx8</marc:leader>
-		<marc:controlfield tag="001">xx8</marc:controlfield>
+		<marc:leader>00761nam0 2200241   450 </marc:leader>
+		<marc:controlfield tag="001">8</marc:controlfield>
 		<marc:datafield ind1=" " ind2=" " tag="010">
 			<marc:subfield code="a">978-2-0812-0963-3</marc:subfield>
 			<marc:subfield code="d">2,70 euro</marc:subfield>
@@ -44,7 +44,7 @@
 		</marc:datafield>
 		<marc:datafield ind1="1" ind2=" " tag="200">
 			<marc:subfield code="a">Roman de Renart (Le)</marc:subfield>
-			<subfield code="b">[publication]</subfield>
+			<marc:subfield code="b">[publication]</marc:subfield>
 			<marc:subfield code="f">Christian Keime</marc:subfield>
 			<marc:subfield code="g">Monique Lachet-Lagarde</marc:subfield>
 		</marc:datafield>

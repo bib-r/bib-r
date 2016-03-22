@@ -2,7 +2,7 @@
 <marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<marc:record>
 		<marc:leader>00398a   a2200121   4500</marc:leader>
-		<marc:controlfield tag="001">x18</marc:controlfield>
+		<marc:controlfield tag="001">18</marc:controlfield>
 		<marc:datafield ind1=" " ind2=" " tag="020">
 			<marc:subfield code="a">9781408855713</marc:subfield>
 		</marc:datafield>
@@ -36,7 +36,7 @@
 	</marc:record>
 	<marc:record>
 		<marc:leader>00408a   a2200109   4500</marc:leader>
-		<marc:controlfield tag="001">x19</marc:controlfield>
+		<marc:controlfield tag="001">19</marc:controlfield>
 		<marc:datafield ind1="1" ind2=" " tag="100">
 			<marc:subfield code="a">Yates, David</marc:subfield>
 			<marc:subfield code="4">drt</marc:subfield>
@@ -65,7 +65,7 @@
 	</marc:record>
 	<marc:record>
 		<marc:leader>00424a   a2200109   4500</marc:leader>
-		<marc:controlfield tag="001">x20</marc:controlfield>
+		<marc:controlfield tag="001">20</marc:controlfield>
 		<marc:datafield ind1="1" ind2=" " tag="100">
 			<marc:subfield code="a">Yates, David</marc:subfield>
 			<marc:subfield code="4">drt</marc:subfield>
@@ -94,7 +94,7 @@
 	</marc:record>
 	<marc:record>
 		<marc:leader>00485a   a2200145   4500</marc:leader>
-		<marc:controlfield tag="001">x25</marc:controlfield>
+		<marc:controlfield tag="001">25</marc:controlfield>
 		<marc:datafield ind1=" " ind2=" " tag="020">
 			<marc:subfield code="a">9781843444848</marc:subfield>
 		</marc:datafield>
@@ -128,7 +128,7 @@
 	</marc:record>
 	<marc:record>
 		<marc:leader>00479a   a2200133   4500</marc:leader>
-		<marc:controlfield tag="001">x27</marc:controlfield>
+		<marc:controlfield tag="001">27</marc:controlfield>
 		<marc:datafield ind1=" " ind2=" " tag="020">
 			<marc:subfield code="a">2203389885</marc:subfield>
 			<marc:subfield code="c">13.50euro</marc:subfield>
@@ -167,7 +167,7 @@
 	</marc:record>
 	<marc:record>
 		<marc:leader>00400a   a2200133   4500</marc:leader>
-		<marc:controlfield tag="001">x22</marc:controlfield>
+		<marc:controlfield tag="001">22</marc:controlfield>
 		<marc:datafield ind1=" " ind2=" " tag="020">
 			<marc:subfield code="a">2070360377</marc:subfield>
 			<marc:subfield code="c">39,00 F</marc:subfield>
@@ -203,7 +203,7 @@
 	</marc:record>
 	<marc:record>
 		<marc:leader>00376a   a2200109   4500</marc:leader>
-		<marc:controlfield tag="001">x28</marc:controlfield>
+		<marc:controlfield tag="001">28</marc:controlfield>
 		<marc:datafield ind1="1" ind2=" " tag="100">
 			<marc:subfield code="a">Hooper, Tim</marc:subfield>
 			<marc:subfield code="4">drt</marc:subfield>
@@ -236,7 +236,7 @@
 	</marc:record>
 	<marc:record>
 		<marc:leader>00482a   a2200133   4500</marc:leader>
-		<marc:controlfield tag="001">x29</marc:controlfield>
+		<marc:controlfield tag="001">29</marc:controlfield>
 		<marc:datafield ind1=" " ind2=" " tag="020">
 			<marc:subfield code="a">9782302013773</marc:subfield>
 			<marc:subfield code="c">6,95 euro</marc:subfield>
@@ -272,7 +272,7 @@
 	</marc:record>
 	<marc:record>
 		<marc:leader>00751a   a2200145   4500</marc:leader>
-		<marc:controlfield tag="001">xx6</marc:controlfield>
+		<marc:controlfield tag="001">6</marc:controlfield>
 		<marc:controlfield tag="008"/>
 		<marc:datafield ind1=" " ind2=" " tag="020">
 			<marc:subfield code="a">9782013226554</marc:subfield>
@@ -313,7 +313,7 @@
 	</marc:record>
 	<marc:record>
 		<marc:leader>00465a   a2200157   4500</marc:leader>
-		<marc:controlfield tag="001">xx4</marc:controlfield>
+		<marc:controlfield tag="001">4</marc:controlfield>
 		<marc:datafield ind1=" " ind2=" " tag="020">
 			<marc:subfield code="a">9782013223973</marc:subfield>
 			<marc:subfield code="c">4.50 euro</marc:subfield>
@@ -356,7 +356,7 @@
 	</marc:record>
 	<marc:record>
 		<marc:leader>00476a   a2200133   4500</marc:leader>
-		<marc:controlfield tag="001">x30</marc:controlfield>
+		<marc:controlfield tag="001">30</marc:controlfield>
 		<marc:datafield ind1=" " ind2=" " tag="020">
 			<marc:subfield code="a">9782205060386</marc:subfield>
 			<marc:subfield code="c">20.50 EUR</marc:subfield>
@@ -390,7 +390,7 @@
 	</marc:record>
 	<marc:record>
 		<marc:leader>00492a   a2200145   4500</marc:leader>
-		<marc:controlfield tag="001">x32</marc:controlfield>
+		<marc:controlfield tag="001">32</marc:controlfield>
 		<marc:datafield ind1=" " ind2=" " tag="020">
 			<marc:subfield code="a">9782205067583</marc:subfield>
 			<marc:subfield code="c">11,95 eur</marc:subfield>
@@ -425,7 +425,7 @@
 	</marc:record>
 	<marc:record>
 		<marc:leader>00419a   a2200133   4500</marc:leader>
-		<marc:controlfield tag="001">xx2</marc:controlfield>
+		<marc:controlfield tag="001">2</marc:controlfield>
 		<marc:datafield ind1=" " ind2=" " tag="020">
 			<marc:subfield code="a">9782070558902</marc:subfield>
 			<marc:subfield code="c">14 euro</marc:subfield>
