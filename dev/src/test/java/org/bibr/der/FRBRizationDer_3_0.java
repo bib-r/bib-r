@@ -42,7 +42,7 @@ public class FRBRizationDer_3_0 {
 		w1.write("<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n");
 		w1.close();
 		Writer w2 = new FileWriter(path,true);
-		model.write(w2, "RDF/XML-ABBREV");
+		model.write(w2, "RDF/XML");
 		w2.close();
 	}
 

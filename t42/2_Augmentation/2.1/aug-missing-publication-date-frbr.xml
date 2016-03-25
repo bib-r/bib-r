@@ -1,176 +1,187 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rdf:RDF
+    xmlns:frbr="http://iflastandards.info/ns/fr/frbr/frbrer/"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-    xmlns:frbr="http://research.progilone.fr/benchmark/">
-  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#Ofmiceandmen">
-    <frbr:creator>
-      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#JohnSteinbeck">
-        <frbr:nameOfThePerson>Steinbeck, John</frbr:nameOfThePerson>
-        <frbr:nameOfThePerson>John Steinbeck</frbr:nameOfThePerson>
-        <frbr:identifierForThePerson>pauth-016</frbr:identifierForThePerson>
-      </rdf:Description>
-    </frbr:creator>
-    <frbr:expressionOfWork>
-      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#OfmiceandmenTextEnglish">
-        <frbr:writerOfIntroduction>
-          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#SusanShillinglaw">
-            <frbr:nameOfThePerson>Shillinglaw, Susan</frbr:nameOfThePerson>
-            <frbr:nameOfThePerson>Susan Shillinglaw</frbr:nameOfThePerson>
-            <frbr:identifierForThePerson>pauth-050</frbr:identifierForThePerson>
-          </rdf:Description>
-        </frbr:writerOfIntroduction>
-        <frbr:manifestationOfExpression>
-          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Book9780141185101">
-            <frbr:extent>105 pages</frbr:extent>
-            <frbr:termsOfAvailability>10 euro</frbr:termsOfAvailability>
-            <frbr:publisher>
-              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/CorporateBody#Penguinbooks">
-                <frbr:nameOfTheCorporateBody>Penguin books</frbr:nameOfTheCorporateBody>
-              </rdf:Description>
-            </frbr:publisher>
-            <frbr:placeOfpublication>Harmondsworth</frbr:placeOfpublication>
-            <frbr:dimensions>20 cm</frbr:dimensions>
-            <frbr:placeOfpublication>Great Britain</frbr:placeOfpublication>
-            <frbr:identifierForTheManifestation>9780141185101</frbr:identifierForTheManifestation>
-            <frbr:title>Of mice and men</frbr:title>
-            <frbr:statementOfResponsibilityRelatingToTitleProper
-            >John Steinbeck; Susan Shillinglaw</frbr:statementOfResponsibilityRelatingToTitleProper>
-            <frbr:carrierType>book</frbr:carrierType>
-            <frbr:identifierForTheManifestation>978-0-14-118510-1</frbr:identifierForTheManifestation>
-          </rdf:Description>
-        </frbr:manifestationOfExpression>
-        <frbr:noteOnExpression>with an introduction</frbr:noteOnExpression>
-        <frbr:languageOfExpression>English</frbr:languageOfExpression>
-      </rdf:Description>
-    </frbr:expressionOfWork>
-    <frbr:titleOfTheWork>Of mice and men</frbr:titleOfTheWork>
+    xmlns:rdam="http://rdaregistry.info/Elements/m/"
+    xmlns:rdaa="http://rdaregistry.info/Elements/a/"
+    xmlns:rdac="http://rdaregistry.info/Elements/c/"
+    xmlns:rdae="http://rdaregistry.info/Elements/e/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:rdaw="http://rdaregistry.info/Elements/w/"
+    xmlns:rda="http://rdaregistry.info/Elements/"
+    xmlns:rdai="http://rdaregistry.info/Elements/i/" > 
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Person#SusanShillinglaw">
+    <rdaa:nameOfThePerson>Shillinglaw, Susan</rdaa:nameOfThePerson>
+    <rdaa:nameOfThePerson>Susan Shillinglaw</rdaa:nameOfThePerson>
+    <rdaa:identifierForThePerson>pauth-050</rdaa:identifierForThePerson>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10004</rdf:type>
   </rdf:Description>
-  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#Romans">
-    <frbr:appendixWork>
-      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#Philomena">
-        <frbr:identifierForTheWork>tauth-003</frbr:identifierForTheWork>
-        <frbr:titleOfTheWork>Philomena</frbr:titleOfTheWork>
-      </rdf:Description>
-    </frbr:appendixWork>
-    <frbr:hasAsSubjectConcept>
-      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Concept#RomansdelaTableronde">
-        <frbr:hasTermForTheConcept>Romans de la Table ronde</frbr:hasTermForTheConcept>
-      </rdf:Description>
-    </frbr:hasAsSubjectConcept>
-    <frbr:creator>
-      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#ChretiendeTroyes">
-        <frbr:nameOfThePerson>Chretien de Troyes</frbr:nameOfThePerson>
-        <frbr:identifierForThePerson>pauth-004</frbr:identifierForThePerson>
-      </rdf:Description>
-    </frbr:creator>
-    <frbr:expressionOfWork>
-      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#RomansTextFrench">
-        <frbr:noteOnExpression>in appendice, Philomena</frbr:noteOnExpression>
-        <frbr:manifestationOfExpression>
-          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Book2253132225">
-            <frbr:placeOfpublication>Paris</frbr:placeOfpublication>
-            <frbr:dimensions>19 cm</frbr:dimensions>
-            <frbr:otherTitleInformation>in appendice, Philomena</frbr:otherTitleInformation>
-            <frbr:statementOfResponsibilityRelatingToTitleProper
-            >Chretien de Troyes</frbr:statementOfResponsibilityRelatingToTitleProper>
-            <frbr:title>Romans</frbr:title>
-            <frbr:termsOfAvailability>120,00 F</frbr:termsOfAvailability>
-            <frbr:publisher>
-              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/CorporateBody#LibrairieGeneraleFrancaise">
-                <frbr:nameOfTheCorporateBody>Librairie Generale Francaise</frbr:nameOfTheCorporateBody>
-              </rdf:Description>
-            </frbr:publisher>
-            <frbr:noteOnCarrier>Cover with colorful illustrations</frbr:noteOnCarrier>
-            <frbr:identifierForTheManifestation>2-253-13222-5</frbr:identifierForTheManifestation>
-            <frbr:extent>1279 pages</frbr:extent>
-          </rdf:Description>
-        </frbr:manifestationOfExpression>
-        <frbr:languageOfExpression>French</frbr:languageOfExpression>
-      </rdf:Description>
-    </frbr:expressionOfWork>
-    <frbr:titleOfTheWork>Romans</frbr:titleOfTheWork>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#EtrangeDrJekyllMHydeTextFrench">
+    <rdae:illustrationsExpression rdf:resource="http://rdaregistry.info/Elements/c/Expression#EtrangeDrJekyllMHydeIllustrations"/>
+    <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Book9782070622313"/>
+    <rdae:noteOnExpression>with illustrations</rdae:noteOnExpression>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
   </rdf:Description>
-  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#EtrangeDrJekyllMHyde">
-    <frbr:creator>
-      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#RobertLouisStevenson">
-        <frbr:nameOfThePerson>Robert Louis Stevenson</frbr:nameOfThePerson>
-        <frbr:identifierForThePerson>pauth-003</frbr:identifierForThePerson>
-      </rdf:Description>
-    </frbr:creator>
-    <frbr:expressionOfWork>
-      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#EtrangeDrJekyllMHydeTextFrench">
-        <frbr:illustrationsExpression>
-          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#EtrangeDrJekyllMHydeIllustrations">
-            <frbr:illustrator>
-              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#FrancoisPlace">
-                <frbr:nameOfThePerson>Place, Francois</frbr:nameOfThePerson>
-                <frbr:nameOfThePerson>Francois Place</frbr:nameOfThePerson>
-                <frbr:identifierForThePerson>pauth-051</frbr:identifierForThePerson>
-              </rdf:Description>
-            </frbr:illustrator>
-          </rdf:Description>
-        </frbr:illustrationsExpression>
-        <frbr:manifestationOfExpression>
-          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Book9782070622313">
-            <frbr:publisher>
-              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/CorporateBody#Gallimard">
-                <frbr:nameOfTheCorporateBody>Gallimard</frbr:nameOfTheCorporateBody>
-              </rdf:Description>
-            </frbr:publisher>
-            <frbr:statementOfResponsibilityRelatingToTitleProper
-            >Robert Louis Stevenson; illustrations by Francois Place</frbr:statementOfResponsibilityRelatingToTitleProper>
-            <frbr:title>Etrange cas du Dr Jekyll et de M. Hyde (L')</frbr:title>
-            <frbr:placeOfpublication>Paris</frbr:placeOfpublication>
-            <frbr:extent>144 pages</frbr:extent>
-            <frbr:termsOfAvailability>5.80 euro</frbr:termsOfAvailability>
-            <frbr:noteOnCarrier>Illustrations, cover with colorful illustrations</frbr:noteOnCarrier>
-            <frbr:dimensions>18 cm</frbr:dimensions>
-            <frbr:identifierForTheManifestation>978-2-07-062231-3</frbr:identifierForTheManifestation>
-          </rdf:Description>
-        </frbr:manifestationOfExpression>
-        <frbr:noteOnExpression>with illustrations</frbr:noteOnExpression>
-      </rdf:Description>
-    </frbr:expressionOfWork>
-    <frbr:titleOfTheWork>Etrange cas du Dr Jekyll et de M. Hyde (L')</frbr:titleOfTheWork>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#EtrangeDrJekyllMHydeIllustrations">
+    <rdae:illustrator rdf:resource="http://rdaregistry.info/Elements/c/Person#FrancoisPlace"/>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
   </rdf:Description>
-  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#Essais">
-    <frbr:creator>
-      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#MicheldeMontaigne">
-        <frbr:nameOfThePerson>Michel de Montaigne</frbr:nameOfThePerson>
-        <frbr:identifierForThePerson>pauth-007</frbr:identifierForThePerson>
-      </rdf:Description>
-    </frbr:creator>
-    <frbr:expressionOfWork>
-      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#EssaisTextFrench">
-        <frbr:writerOfIntroduction>
-          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#AlexandreMicha">
-            <frbr:nameOfThePerson>Micha, Alexandre</frbr:nameOfThePerson>
-            <frbr:nameOfThePerson>Alexandre Micha</frbr:nameOfThePerson>
-            <frbr:identifierForThePerson>pauth-028</frbr:identifierForThePerson>
-          </rdf:Description>
-        </frbr:writerOfIntroduction>
-        <frbr:manifestationOfExpression>
-          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Book9782080702104">
-            <frbr:publisher>
-              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/CorporateBody#GarnierFlammarion">
-                <frbr:nameOfTheCorporateBody>Garnier-Flammarion</frbr:nameOfTheCorporateBody>
-              </rdf:Description>
-            </frbr:publisher>
-            <frbr:statementOfResponsibilityRelatingToTitleProper
-            >Michel de Montaigne; Introduction by Alexandre Micha</frbr:statementOfResponsibilityRelatingToTitleProper>
-            <frbr:title>Essais</frbr:title>
-            <frbr:placeOfpublication>Paris</frbr:placeOfpublication>
-            <frbr:extent>443 pages</frbr:extent>
-            <frbr:termsOfAvailability>5.80 euro</frbr:termsOfAvailability>
-            <frbr:noteOnCarrier>Cover with colorful illustrations</frbr:noteOnCarrier>
-            <frbr:dimensions>18 cm</frbr:dimensions>
-            <frbr:identifierForTheManifestation>978-2-08-070210-4</frbr:identifierForTheManifestation>
-          </rdf:Description>
-        </frbr:manifestationOfExpression>
-        <frbr:noteOnExpression>with an introduction</frbr:noteOnExpression>
-        <frbr:languageOfExpression>French</frbr:languageOfExpression>
-      </rdf:Description>
-    </frbr:expressionOfWork>
-    <frbr:titleOfTheWork>Essais</frbr:titleOfTheWork>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Person#ChretiendeTroyes">
+    <rdaa:nameOfThePerson>Chretien de Troyes</rdaa:nameOfThePerson>
+    <rdaa:identifierForThePerson>pauth-004</rdaa:identifierForThePerson>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10004</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Person#FrancoisPlace">
+    <rdaa:nameOfThePerson>Place, Francois</rdaa:nameOfThePerson>
+    <rdaa:nameOfThePerson>Francois Place</rdaa:nameOfThePerson>
+    <rdaa:identifierForThePerson>pauth-051</rdaa:identifierForThePerson>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10004</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#Philomena">
+    <rdaw:identifierForTheWork>tauth-003</rdaw:identifierForTheWork>
+    <rdaw:titleOfTheWork>Philomena</rdaw:titleOfTheWork>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Person#JohnSteinbeck">
+    <rdaa:nameOfThePerson>Steinbeck, John</rdaa:nameOfThePerson>
+    <rdaa:nameOfThePerson>John Steinbeck</rdaa:nameOfThePerson>
+    <rdaa:identifierForThePerson>pauth-016</rdaa:identifierForThePerson>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10004</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/CorporateBody#GarnierFlammarion">
+    <rdaa:nameOfTheCorporateBody>Garnier-Flammarion</rdaa:nameOfTheCorporateBody>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10005</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#RomansTextFrench">
+    <rdae:noteOnExpression>in appendice, Philomena</rdae:noteOnExpression>
+    <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Book2253132225"/>
+    <rdae:languageOfExpression>French</rdae:languageOfExpression>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/CorporateBody#Gallimard">
+    <rdaa:nameOfTheCorporateBody>Gallimard</rdaa:nameOfTheCorporateBody>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10005</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#Book9782080702104">
+    <rdam:extent>443 pages</rdam:extent>
+    <rdam:noteOnCarrier>Cover with colorful illustrations</rdam:noteOnCarrier>
+    <rdam:dimensions>18 cm</rdam:dimensions>
+    <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#GarnierFlammarion"/>
+    <rdam:placeOfpublication>Paris</rdam:placeOfpublication>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
+    <rdam:title>Essais</rdam:title>
+    <rdam:identifierForTheManifestation>978-2-08-070210-4</rdam:identifierForTheManifestation>
+    <rdam:statementOfResponsibilityRelatingToTitleProper>Michel de Montaigne; Introduction by Alexandre Micha</rdam:statementOfResponsibilityRelatingToTitleProper>
+    <rdam:termsOfAvailability>5.80 euro</rdam:termsOfAvailability>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#Romans">
+    <rdaw:P10123 rdf:resource="http://rdaregistry.info/Elements/c/Work#Philomena"/>
+    <frbr:hasAsSubjectConcept rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#RomansdelaTableronde"/>
+    <rdaw:creator rdf:resource="http://rdaregistry.info/Elements/c/Person#ChretiendeTroyes"/>
+    <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#RomansTextFrench"/>
+    <rdaw:titleOfTheWork>Romans</rdaw:titleOfTheWork>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#RomansdelaTableronde">
+    <frbr:hasTermForTheConcept>Romans de la Table ronde</frbr:hasTermForTheConcept>
+    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007#RomansdelaTableronde</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Person#RobertLouisStevenson">
+    <rdaa:nameOfThePerson>Robert Louis Stevenson</rdaa:nameOfThePerson>
+    <rdaa:identifierForThePerson>pauth-003</rdaa:identifierForThePerson>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10004</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#Book9780141185101">
+    <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#Penguinbooks"/>
+    <rdam:termsOfAvailability>10 euro</rdam:termsOfAvailability>
+    <rdam:dimensions>20 cm</rdam:dimensions>
+    <rdam:carrierType>book</rdam:carrierType>
+    <rdam:identifierForTheManifestation>9780141185101</rdam:identifierForTheManifestation>
+    <rdam:statementOfResponsibilityRelatingToTitleProper>John Steinbeck; Susan Shillinglaw</rdam:statementOfResponsibilityRelatingToTitleProper>
+    <rdam:title>Of mice and men</rdam:title>
+    <rdam:identifierForTheManifestation>978-0-14-118510-1</rdam:identifierForTheManifestation>
+    <rdam:placeOfpublication>Harmondsworth</rdam:placeOfpublication>
+    <rdam:extent>105 pages</rdam:extent>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
+    <rdam:placeOfpublication>Great Britain</rdam:placeOfpublication>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Person#MicheldeMontaigne">
+    <rdaa:nameOfThePerson>Michel de Montaigne</rdaa:nameOfThePerson>
+    <rdaa:identifierForThePerson>pauth-007</rdaa:identifierForThePerson>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10004</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#EtrangeDrJekyllMHyde">
+    <rdaw:creator rdf:resource="http://rdaregistry.info/Elements/c/Person#RobertLouisStevenson"/>
+    <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#EtrangeDrJekyllMHydeTextFrench"/>
+    <rdaw:titleOfTheWork>Etrange cas du Dr Jekyll et de M. Hyde (L')</rdaw:titleOfTheWork>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#Book2253132225">
+    <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#LibrairieGeneraleFrancaise"/>
+    <rdam:statementOfResponsibilityRelatingToTitleProper>Chretien de Troyes</rdam:statementOfResponsibilityRelatingToTitleProper>
+    <rdam:extent>1279 pages</rdam:extent>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
+    <rdam:dimensions>19 cm</rdam:dimensions>
+    <rdam:identifierForTheManifestation>2-253-13222-5</rdam:identifierForTheManifestation>
+    <rdam:placeOfpublication>Paris</rdam:placeOfpublication>
+    <rdam:termsOfAvailability>120,00 F</rdam:termsOfAvailability>
+    <rdam:title>Romans</rdam:title>
+    <rdam:noteOnCarrier>Cover with colorful illustrations</rdam:noteOnCarrier>
+    <rdam:otherTitleInformation>in appendice, Philomena</rdam:otherTitleInformation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/creator">
+    <rdfs:label>creator</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#EssaisTextFrench">
+    <rdae:writerOfIntroduction rdf:resource="http://rdaregistry.info/Elements/c/Person#AlexandreMicha"/>
+    <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Book9782080702104"/>
+    <rdae:noteOnExpression>with an introduction</rdae:noteOnExpression>
+    <rdae:languageOfExpression>French</rdae:languageOfExpression>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/CorporateBody#LibrairieGeneraleFrancaise">
+    <rdaa:nameOfTheCorporateBody>Librairie Generale Francaise</rdaa:nameOfTheCorporateBody>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10005</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#Essais">
+    <rdaw:creator rdf:resource="http://rdaregistry.info/Elements/c/Person#MicheldeMontaigne"/>
+    <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#EssaisTextFrench"/>
+    <rdaw:titleOfTheWork>Essais</rdaw:titleOfTheWork>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#OfmiceandmenTextEnglish">
+    <rdae:writerOfIntroduction rdf:resource="http://rdaregistry.info/Elements/c/Person#SusanShillinglaw"/>
+    <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Book9780141185101"/>
+    <rdae:noteOnExpression>with an introduction</rdae:noteOnExpression>
+    <rdae:languageOfExpression>English</rdae:languageOfExpression>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#Book9782070622313">
+    <rdam:noteOnCarrier>Illustrations, cover with colorful illustrations</rdam:noteOnCarrier>
+    <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#Gallimard"/>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
+    <rdam:identifierForTheManifestation>978-2-07-062231-3</rdam:identifierForTheManifestation>
+    <rdam:title>Etrange cas du Dr Jekyll et de M. Hyde (L')</rdam:title>
+    <rdam:dimensions>18 cm</rdam:dimensions>
+    <rdam:termsOfAvailability>5.80 euro</rdam:termsOfAvailability>
+    <rdam:statementOfResponsibilityRelatingToTitleProper>Robert Louis Stevenson; illustrations by Francois Place</rdam:statementOfResponsibilityRelatingToTitleProper>
+    <rdam:placeOfpublication>Paris</rdam:placeOfpublication>
+    <rdam:extent>144 pages</rdam:extent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/CorporateBody#Penguinbooks">
+    <rdaa:nameOfTheCorporateBody>Penguin books</rdaa:nameOfTheCorporateBody>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10005</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Person#AlexandreMicha">
+    <rdaa:nameOfThePerson>Micha, Alexandre</rdaa:nameOfThePerson>
+    <rdaa:nameOfThePerson>Alexandre Micha</rdaa:nameOfThePerson>
+    <rdaa:identifierForThePerson>pauth-028</rdaa:identifierForThePerson>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10004</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#Ofmiceandmen">
+    <rdaw:creator rdf:resource="http://rdaregistry.info/Elements/c/Person#JohnSteinbeck"/>
+    <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#OfmiceandmenTextEnglish"/>
+    <rdaw:titleOfTheWork>Of mice and men</rdaw:titleOfTheWork>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
   </rdf:Description>
 </rdf:RDF>

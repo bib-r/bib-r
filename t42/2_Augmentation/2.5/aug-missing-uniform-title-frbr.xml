@@ -1,46 +1,57 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rdf:RDF
+    xmlns:frbr="http://iflastandards.info/ns/fr/frbr/frbrer/"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-    xmlns:frbr="http://research.progilone.fr/benchmark/">
-  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#Essais">
-    <frbr:creator>
-      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#MicheldeMontaigne">
-        <frbr:nameOfThePerson>Michel de Montaigne</frbr:nameOfThePerson>
-        <frbr:identifierForThePerson>pauth-007</frbr:identifierForThePerson>
-      </rdf:Description>
-    </frbr:creator>
-    <frbr:expressionOfWork>
-      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#EssaisTextFrench">
-        <frbr:writerOfIntroduction>
-          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#AlexandreMicha">
-            <frbr:nameOfThePerson>Micha, Alexandre</frbr:nameOfThePerson>
-            <frbr:nameOfThePerson>Alexandre Micha</frbr:nameOfThePerson>
-            <frbr:identifierForThePerson>pauth-028</frbr:identifierForThePerson>
-          </rdf:Description>
-        </frbr:writerOfIntroduction>
-        <frbr:manifestationOfExpression>
-          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Book9782080702104">
-            <frbr:title>Essais</frbr:title>
-            <frbr:dateOfPublication>1969</frbr:dateOfPublication>
-            <frbr:extent>443 pages</frbr:extent>
-            <frbr:dimensions>18 cm</frbr:dimensions>
-            <frbr:placeOfpublication>Paris</frbr:placeOfpublication>
-            <frbr:termsOfAvailability>5.80 euro</frbr:termsOfAvailability>
-            <frbr:publisher>
-              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/CorporateBody#GarnierFlammarion">
-                <frbr:nameOfTheCorporateBody>Garnier-Flammarion</frbr:nameOfTheCorporateBody>
-              </rdf:Description>
-            </frbr:publisher>
-            <frbr:statementOfResponsibilityRelatingToTitleProper
-            >Michel de Montaigne; Introduction by Alexandre Micha</frbr:statementOfResponsibilityRelatingToTitleProper>
-            <frbr:noteOnCarrier>Cover with colorful illustrations</frbr:noteOnCarrier>
-            <frbr:identifierForTheManifestation>978-2-08-070210-4</frbr:identifierForTheManifestation>
-          </rdf:Description>
-        </frbr:manifestationOfExpression>
-        <frbr:noteOnExpression>with an introduction</frbr:noteOnExpression>
-        <frbr:languageOfExpression>French</frbr:languageOfExpression>
-      </rdf:Description>
-    </frbr:expressionOfWork>
-    <frbr:titleOfTheWork>Essais</frbr:titleOfTheWork>
+    xmlns:rdam="http://rdaregistry.info/Elements/m/"
+    xmlns:rdaa="http://rdaregistry.info/Elements/a/"
+    xmlns:rdac="http://rdaregistry.info/Elements/c/"
+    xmlns:rdae="http://rdaregistry.info/Elements/e/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:rdaw="http://rdaregistry.info/Elements/w/"
+    xmlns:rda="http://rdaregistry.info/Elements/"
+    xmlns:rdai="http://rdaregistry.info/Elements/i/" > 
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#Book9782080702104">
+    <rdam:extent>443 pages</rdam:extent>
+    <rdam:dateOfPublication>1969</rdam:dateOfPublication>
+    <rdam:noteOnCarrier>Cover with colorful illustrations</rdam:noteOnCarrier>
+    <rdam:dimensions>18 cm</rdam:dimensions>
+    <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#GarnierFlammarion"/>
+    <rdam:placeOfpublication>Paris</rdam:placeOfpublication>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
+    <rdam:title>Essais</rdam:title>
+    <rdam:identifierForTheManifestation>978-2-08-070210-4</rdam:identifierForTheManifestation>
+    <rdam:statementOfResponsibilityRelatingToTitleProper>Michel de Montaigne; Introduction by Alexandre Micha</rdam:statementOfResponsibilityRelatingToTitleProper>
+    <rdam:termsOfAvailability>5.80 euro</rdam:termsOfAvailability>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/creator">
+    <rdfs:label>creator</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Person#AlexandreMicha">
+    <rdaa:nameOfThePerson>Micha, Alexandre</rdaa:nameOfThePerson>
+    <rdaa:nameOfThePerson>Alexandre Micha</rdaa:nameOfThePerson>
+    <rdaa:identifierForThePerson>pauth-028</rdaa:identifierForThePerson>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10004</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#EssaisTextFrench">
+    <rdae:writerOfIntroduction rdf:resource="http://rdaregistry.info/Elements/c/Person#AlexandreMicha"/>
+    <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Book9782080702104"/>
+    <rdae:noteOnExpression>with an introduction</rdae:noteOnExpression>
+    <rdae:languageOfExpression>French</rdae:languageOfExpression>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/CorporateBody#GarnierFlammarion">
+    <rdaa:nameOfTheCorporateBody>Garnier-Flammarion</rdaa:nameOfTheCorporateBody>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10005</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#Essais">
+    <rdaw:creator rdf:resource="http://rdaregistry.info/Elements/c/Person#MicheldeMontaigne"/>
+    <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#EssaisTextFrench"/>
+    <rdaw:titleOfTheWork>Essais</rdaw:titleOfTheWork>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Person#MicheldeMontaigne">
+    <rdaa:nameOfThePerson>Michel de Montaigne</rdaa:nameOfThePerson>
+    <rdaa:identifierForThePerson>pauth-007</rdaa:identifierForThePerson>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10004</rdf:type>
   </rdf:Description>
 </rdf:RDF>

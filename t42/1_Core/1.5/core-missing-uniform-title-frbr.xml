@@ -1,77 +1,88 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rdf:RDF
+    xmlns:frbr="http://iflastandards.info/ns/fr/frbr/frbrer/"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-    xmlns:frbr="http://research.progilone.fr/benchmark/">
-  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#RomandeRenart">
-    <frbr:creator>
-      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#ChristianKeime">
-        <frbr:nameOfThePerson>Christian Keime</frbr:nameOfThePerson>
-        <frbr:identifierForThePerson>pauth-005</frbr:identifierForThePerson>
-      </rdf:Description>
-    </frbr:creator>
-    <frbr:expressionOfWork>
-      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#RomandeRenartTextFrench">
-        <frbr:contributor>
-          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#MoniqueLachetLagarde">
-            <frbr:nameOfThePerson>Monique Lachet-Lagarde</frbr:nameOfThePerson>
-            <frbr:identifierForThePerson>pauth-006</frbr:identifierForThePerson>
-          </rdf:Description>
-        </frbr:contributor>
-        <frbr:manifestationOfExpression>
-          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Book9782081209633">
-            <frbr:dateOfPublication>2008</frbr:dateOfPublication>
-            <frbr:placeOfpublication>Paris</frbr:placeOfpublication>
-            <frbr:termsOfAvailability>2,70 euro</frbr:termsOfAvailability>
-            <frbr:statementOfResponsibilityRelatingToTitleProper
-            >Christian Keime; Monique Lachet-Lagarde</frbr:statementOfResponsibilityRelatingToTitleProper>
-            <frbr:publisher>
-              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/CorporateBody#Flammarion">
-                <frbr:nameOfTheCorporateBody>Flammarion</frbr:nameOfTheCorporateBody>
-              </rdf:Description>
-            </frbr:publisher>
-            <frbr:identifierForTheManifestation>978-2-0812-0963-3</frbr:identifierForTheManifestation>
-            <frbr:title>Roman de Renart (Le)</frbr:title>
-            <frbr:dimensions>18 cm</frbr:dimensions>
-            <frbr:extent>159 pages</frbr:extent>
-            <frbr:noteOnCarrier>Illustrations, cover with colorful illustrations</frbr:noteOnCarrier>
-          </rdf:Description>
-        </frbr:manifestationOfExpression>
-        <frbr:languageOfExpression>French</frbr:languageOfExpression>
-      </rdf:Description>
-    </frbr:expressionOfWork>
-    <frbr:titleOfTheWork>Roman de Renart</frbr:titleOfTheWork>
+    xmlns:rdam="http://rdaregistry.info/Elements/m/"
+    xmlns:rdaa="http://rdaregistry.info/Elements/a/"
+    xmlns:rdac="http://rdaregistry.info/Elements/c/"
+    xmlns:rdae="http://rdaregistry.info/Elements/e/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:rdaw="http://rdaregistry.info/Elements/w/"
+    xmlns:rda="http://rdaregistry.info/Elements/"
+    xmlns:rdai="http://rdaregistry.info/Elements/i/" > 
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#Book9782080702104">
+    <rdam:statementOfResponsibilityRelatingToTitleProper>Michel de Montaigne</rdam:statementOfResponsibilityRelatingToTitleProper>
+    <rdam:extent>443 pages</rdam:extent>
+    <rdam:dateOfPublication>1969</rdam:dateOfPublication>
+    <rdam:noteOnCarrier>Cover with colorful illustrations</rdam:noteOnCarrier>
+    <rdam:dimensions>18 cm</rdam:dimensions>
+    <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#GarnierFlammarion"/>
+    <rdam:placeOfpublication>Paris</rdam:placeOfpublication>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
+    <rdam:title>Essais</rdam:title>
+    <rdam:identifierForTheManifestation>978-2-08-070210-4</rdam:identifierForTheManifestation>
+    <rdam:termsOfAvailability>5.80 euro</rdam:termsOfAvailability>
   </rdf:Description>
-  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#Essais">
-    <frbr:creator>
-      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#MicheldeMontaigne">
-        <frbr:nameOfThePerson>Michel de Montaigne</frbr:nameOfThePerson>
-        <frbr:identifierForThePerson>pauth-007</frbr:identifierForThePerson>
-      </rdf:Description>
-    </frbr:creator>
-    <frbr:expressionOfWork>
-      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#EssaisTextFrench">
-        <frbr:manifestationOfExpression>
-          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Book9782080702104">
-            <frbr:title>Essais</frbr:title>
-            <frbr:dateOfPublication>1969</frbr:dateOfPublication>
-            <frbr:extent>443 pages</frbr:extent>
-            <frbr:statementOfResponsibilityRelatingToTitleProper
-            >Michel de Montaigne</frbr:statementOfResponsibilityRelatingToTitleProper>
-            <frbr:dimensions>18 cm</frbr:dimensions>
-            <frbr:placeOfpublication>Paris</frbr:placeOfpublication>
-            <frbr:termsOfAvailability>5.80 euro</frbr:termsOfAvailability>
-            <frbr:publisher>
-              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/CorporateBody#GarnierFlammarion">
-                <frbr:nameOfTheCorporateBody>Garnier-Flammarion</frbr:nameOfTheCorporateBody>
-              </rdf:Description>
-            </frbr:publisher>
-            <frbr:noteOnCarrier>Cover with colorful illustrations</frbr:noteOnCarrier>
-            <frbr:identifierForTheManifestation>978-2-08-070210-4</frbr:identifierForTheManifestation>
-          </rdf:Description>
-        </frbr:manifestationOfExpression>
-        <frbr:languageOfExpression>French</frbr:languageOfExpression>
-      </rdf:Description>
-    </frbr:expressionOfWork>
-    <frbr:titleOfTheWork>Essais</frbr:titleOfTheWork>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#RomandeRenart">
+    <rdaw:creator rdf:resource="http://rdaregistry.info/Elements/c/Person#ChristianKeime"/>
+    <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#RomandeRenartTextFrench"/>
+    <rdaw:titleOfTheWork>Roman de Renart</rdaw:titleOfTheWork>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/creator">
+    <rdfs:label>creator</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Person#MoniqueLachetLagarde">
+    <rdaa:nameOfThePerson>Monique Lachet-Lagarde</rdaa:nameOfThePerson>
+    <rdaa:identifierForThePerson>pauth-006</rdaa:identifierForThePerson>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10004</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#EssaisTextFrench">
+    <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Book9782080702104"/>
+    <rdae:languageOfExpression>French</rdae:languageOfExpression>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#Book9782081209633">
+    <rdam:dimensions>18 cm</rdam:dimensions>
+    <rdam:noteOnCarrier>Illustrations, cover with colorful illustrations</rdam:noteOnCarrier>
+    <rdam:extent>159 pages</rdam:extent>
+    <rdam:termsOfAvailability>2,70 euro</rdam:termsOfAvailability>
+    <rdam:identifierForTheManifestation>978-2-0812-0963-3</rdam:identifierForTheManifestation>
+    <rdam:dateOfPublication>2008</rdam:dateOfPublication>
+    <rdam:title>Roman de Renart (Le)</rdam:title>
+    <rdam:placeOfpublication>Paris</rdam:placeOfpublication>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
+    <rdam:statementOfResponsibilityRelatingToTitleProper>Christian Keime; Monique Lachet-Lagarde</rdam:statementOfResponsibilityRelatingToTitleProper>
+    <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#Flammarion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#RomandeRenartTextFrench">
+    <rdae:contributor rdf:resource="http://rdaregistry.info/Elements/c/Person#MoniqueLachetLagarde"/>
+    <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Book9782081209633"/>
+    <rdae:languageOfExpression>French</rdae:languageOfExpression>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/CorporateBody#GarnierFlammarion">
+    <rdaa:nameOfTheCorporateBody>Garnier-Flammarion</rdaa:nameOfTheCorporateBody>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10005</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#Essais">
+    <rdaw:creator rdf:resource="http://rdaregistry.info/Elements/c/Person#MicheldeMontaigne"/>
+    <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#EssaisTextFrench"/>
+    <rdaw:titleOfTheWork>Essais</rdaw:titleOfTheWork>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Person#ChristianKeime">
+    <rdaa:nameOfThePerson>Christian Keime</rdaa:nameOfThePerson>
+    <rdaa:identifierForThePerson>pauth-005</rdaa:identifierForThePerson>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10004</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Person#MicheldeMontaigne">
+    <rdaa:nameOfThePerson>Michel de Montaigne</rdaa:nameOfThePerson>
+    <rdaa:identifierForThePerson>pauth-007</rdaa:identifierForThePerson>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10004</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/CorporateBody#Flammarion">
+    <rdaa:nameOfTheCorporateBody>Flammarion</rdaa:nameOfTheCorporateBody>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10005</rdf:type>
   </rdf:Description>
 </rdf:RDF>

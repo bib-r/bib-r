@@ -1,280 +1,291 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rdf:RDF
+    xmlns:frbr="http://iflastandards.info/ns/fr/frbr/frbrer/"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-    xmlns:frbr="http://research.progilone.fr/benchmark/">
-  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#InfectionControlAndHospitalEpidemiology">
-    <frbr:variantTitleForTheWork>Infect Control Hosp Epidemiol</frbr:variantTitleForTheWork>
-    <frbr:variantTitleForTheWork>ICHE</frbr:variantTitleForTheWork>
-    <frbr:titleOfTheWork>Infection control and hospital epidemiology</frbr:titleOfTheWork>
-    <frbr:variantTitleForTheWork>Official journal of The SHEA</frbr:variantTitleForTheWork>
-    <frbr:hasAsSubjectConcept>
-      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Concept#Hospitals">
-        <frbr:hasTermForTheConcept>Hospitals</frbr:hasTermForTheConcept>
-      </rdf:Description>
-    </frbr:hasAsSubjectConcept>
-    <frbr:hasAsSubjectConcept>
-      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Concept#Epidemiology">
-        <frbr:hasTermForTheConcept>Epidemiology</frbr:hasTermForTheConcept>
-      </rdf:Description>
-    </frbr:hasAsSubjectConcept>
-    <frbr:expressionOfWork>
-      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#InfectionControlAndHospitalEpidemiologyJournal">
-        <frbr:manifestationOfExpression>
-          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Journal0899823X">
-            <frbr:containerOfManifestation>
-              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Journal0899823XPub2">
-                <frbr:publisher>
-                  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/CorporateBody#UniversityofChicagoPress">
-                    <frbr:nameOfTheCorporateBody>University of Chicago Press</frbr:nameOfTheCorporateBody>
-                  </rdf:Description>
-                </frbr:publisher>
-                <frbr:placeOfpublication>Chicago, IL</frbr:placeOfpublication>
-                <frbr:dateOfPublication>2006-</frbr:dateOfPublication>
-              </rdf:Description>
-            </frbr:containerOfManifestation>
-            <frbr:containerOfManifestation>
-              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Journal0899823XPub1">
-                <frbr:publisher>
-                  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/CorporateBody#SLACKInc">
-                    <frbr:nameOfTheCorporateBody>SLACK Inc.</frbr:nameOfTheCorporateBody>
-                  </rdf:Description>
-                </frbr:publisher>
-                <frbr:placeOfpublication>Thorofare, NJ</frbr:placeOfpublication>
-                <frbr:dateOfPublication>1988-</frbr:dateOfPublication>
-              </rdf:Description>
-            </frbr:containerOfManifestation>
-            <frbr:statementOfResponsibilityRelatingToTitleProper
-            >Richard P. Wenzel; Barry Farr</frbr:statementOfResponsibilityRelatingToTitleProper>
-            <frbr:otherTitleInformation>An official journal of the Society of Hospital Epidemiologists of America</frbr:otherTitleInformation>
-            <frbr:title>Infection control and hospital epidemiology</frbr:title>
-            <frbr:frequency>Monthly</frbr:frequency>
-            <frbr:noteOnPublicationStatement>Published by University chicago press in 2006</frbr:noteOnPublicationStatement>
-            <frbr:publicationStatement>Volume 9, number 1 (January 1988)-</frbr:publicationStatement>
-            <frbr:issnOfSeries>0899-823X</frbr:issnOfSeries>
-          </rdf:Description>
-        </frbr:manifestationOfExpression>
-        <frbr:editor>
-          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/CorporateBody#SocietyHospitalEpidemiologistsAmerica">
-            <frbr:nameOfTheCorporateBody>Society of Hospital Epidemiologists of America</frbr:nameOfTheCorporateBody>
-          </rdf:Description>
-        </frbr:editor>
-        <frbr:summarizationOfTheContent>Infection Control and Hospital Epidemiology...</frbr:summarizationOfTheContent>
-        <frbr:noteOnExpression>Serial</frbr:noteOnExpression>
-        <frbr:languageOfExpression>English</frbr:languageOfExpression>
-      </rdf:Description>
-    </frbr:expressionOfWork>
-    <frbr:expressionOfWork>
-      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#InfectionControlAndHospitalEpidemiologyPublication">
-        <frbr:manifestationOfExpression rdf:resource="http://research.progilone.fr/benchmark/Manifestation#Journal0899823XPub2"/>
-        <frbr:manifestationOfExpression rdf:resource="http://research.progilone.fr/benchmark/Manifestation#Journal0899823XPub1"/>
-      </rdf:Description>
-    </frbr:expressionOfWork>
-    <frbr:hasAsSubjectConcept>
-      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Concept#CrossInfection">
-        <frbr:hasTermForTheConcept>Cross Infection</frbr:hasTermForTheConcept>
-      </rdf:Description>
-    </frbr:hasAsSubjectConcept>
-    <frbr:identifierForTheWork>tauth-014</frbr:identifierForTheWork>
-    <frbr:director>
-      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#BarryFarr">
-        <frbr:nameOfThePerson>Barry Farr</frbr:nameOfThePerson>
-        <frbr:identifierForThePerson>pauth-045</frbr:identifierForThePerson>
-      </rdf:Description>
-    </frbr:director>
-    <frbr:continuationOfWork>
-      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#Infectioncontrol">
-        <frbr:expressionOfWork>
-          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#InfectioncontrolJournal">
-            <frbr:manifestationOfExpression>
-              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#Journal0195-9417">
-                <frbr:title>Infection control</frbr:title>
-                <frbr:publisher rdf:resource="http://research.progilone.fr/benchmark/CorporateBody#SLACKInc"/>
-                <frbr:frequency>Monthly</frbr:frequency>
-                <frbr:issnOfSeries>0195-9417</frbr:issnOfSeries>
-              </rdf:Description>
-            </frbr:manifestationOfExpression>
-            <frbr:noteOnExpression>Serial</frbr:noteOnExpression>
-            <frbr:languageOfExpression>English</frbr:languageOfExpression>
-          </rdf:Description>
-        </frbr:expressionOfWork>
-        <frbr:hasAsSubjectConcept>
-          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Concept#InfectionControl">
-            <frbr:hasTermForTheConcept>Infection Control</frbr:hasTermForTheConcept>
-          </rdf:Description>
-        </frbr:hasAsSubjectConcept>
-        <frbr:hasAsSubjectConcept>
-          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Concept#Infection">
-            <frbr:hasTermForTheConcept>Infection</frbr:hasTermForTheConcept>
-          </rdf:Description>
-        </frbr:hasAsSubjectConcept>
-        <frbr:titleOfTheWork>Infection control</frbr:titleOfTheWork>
-        <frbr:identifierForTheWork>tauth-019</frbr:identifierForTheWork>
-      </rdf:Description>
-    </frbr:continuationOfWork>
-    <frbr:hasAsSubjectConcept rdf:resource="http://research.progilone.fr/benchmark/Concept#InfectionControl"/>
-    <frbr:director>
-      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#RichardPWenzel">
-        <frbr:nameOfThePerson>Richard P. Wenzel</frbr:nameOfThePerson>
-        <frbr:identifierForThePerson>pauth-044</frbr:identifierForThePerson>
-      </rdf:Description>
-    </frbr:director>
+    xmlns:rdam="http://rdaregistry.info/Elements/m/"
+    xmlns:rdaa="http://rdaregistry.info/Elements/a/"
+    xmlns:rdac="http://rdaregistry.info/Elements/c/"
+    xmlns:rdae="http://rdaregistry.info/Elements/e/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:rdaw="http://rdaregistry.info/Elements/w/"
+    xmlns:rda="http://rdaregistry.info/Elements/"
+    xmlns:rdai="http://rdaregistry.info/Elements/i/" > 
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Person#WilliamEdwardsDeming">
+    <rdaa:nameOfThePerson>William Edwards Deming</rdaa:nameOfThePerson>
+    <rdaa:identifierForThePerson>pauth-058</rdaa:identifierForThePerson>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10004</rdf:type>
   </rdf:Description>
-  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#StudyContinualImprovement1">
-    <frbr:complementedByWork>
-      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#StudyContinualImprovement2">
-        <frbr:hasAsSubjectPlace>
-          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Place#Virginia">
-            <frbr:hasTermForTheConcept>Virginia</frbr:hasTermForTheConcept>
-          </rdf:Description>
-        </frbr:hasAsSubjectPlace>
-        <frbr:hasAsSubjectConcept>
-          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Concept#TotalQualityManagement">
-            <frbr:hasTermForTheConcept>Total Quality Management</frbr:hasTermForTheConcept>
-          </rdf:Description>
-        </frbr:hasAsSubjectConcept>
-        <frbr:hasAsSubjectConcept rdf:resource="http://research.progilone.fr/benchmark/Concept#Hospitals"/>
-        <frbr:expressionOfWork>
-          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#StudyContinualImprovementVideo2">
-            <frbr:manifestationOfExpression>
-              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#StudyContinualImprovementVideo2">
-                <frbr:publisher>
-                  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/CorporateBody#FilmsIncorporated">
-                    <frbr:nameOfTheCorporateBody>Films Incorporated</frbr:nameOfTheCorporateBody>
-                  </rdf:Description>
-                </frbr:publisher>
-                <frbr:statementOfResponsibilityRelatingToTitleProper
-                >Clare Crawford-Mason; W. Edwards Deming; Lloyd Dobyns</frbr:statementOfResponsibilityRelatingToTitleProper>
-                <frbr:otherTitleInformation>Part 2</frbr:otherTitleInformation>
-                <frbr:title>A study in continual improvement</frbr:title>
-                <frbr:placeOfpublication>Chicago, Ill.</frbr:placeOfpublication>
-                <frbr:dateOfPublication>1995</frbr:dateOfPublication>
-              </rdf:Description>
-            </frbr:manifestationOfExpression>
-            <frbr:narrator>
-              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#LloydDobyns">
-                <frbr:nameOfThePerson>Lloyd Dobyns</frbr:nameOfThePerson>
-                <frbr:identifierForThePerson>pauth-059</frbr:identifierForThePerson>
-              </rdf:Description>
-            </frbr:narrator>
-            <frbr:contributor>
-              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#WilliamEdwardsDeming">
-                <frbr:nameOfThePerson>William Edwards Deming</frbr:nameOfThePerson>
-                <frbr:identifierForThePerson>pauth-058</frbr:identifierForThePerson>
-              </rdf:Description>
-            </frbr:contributor>
-            <frbr:editor>
-              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#ClareCrawfordMason">
-                <frbr:nameOfThePerson>Clare Crawford-Mason</frbr:nameOfThePerson>
-                <frbr:identifierForThePerson>pauth-057</frbr:identifierForThePerson>
-              </rdf:Description>
-            </frbr:editor>
-            <frbr:summarizationOfTheContent>how an understanding of systems, variation, psychology, and the theory of knowledge underpins the transformation of American business...</frbr:summarizationOfTheContent>
-          </rdf:Description>
-        </frbr:expressionOfWork>
-        <frbr:titleOfTheWork>A study in continual improvement</frbr:titleOfTheWork>
-      </rdf:Description>
-    </frbr:complementedByWork>
-    <frbr:hasAsSubjectPlace rdf:resource="http://research.progilone.fr/benchmark/Place#Virginia"/>
-    <frbr:hasAsSubjectConcept rdf:resource="http://research.progilone.fr/benchmark/Concept#TotalQualityManagement"/>
-    <frbr:hasAsSubjectConcept rdf:resource="http://research.progilone.fr/benchmark/Concept#Hospitals"/>
-    <frbr:expressionOfWork>
-      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#StudyContinualImprovementVideo1">
-        <frbr:manifestationOfExpression>
-          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#StudyContinualImprovementVideo1">
-            <frbr:publisher rdf:resource="http://research.progilone.fr/benchmark/CorporateBody#FilmsIncorporated"/>
-            <frbr:statementOfResponsibilityRelatingToTitleProper
-            >Clare Crawford-Mason; W. Edwards Deming; Lloyd Dobyns</frbr:statementOfResponsibilityRelatingToTitleProper>
-            <frbr:otherTitleInformation>Part 1</frbr:otherTitleInformation>
-            <frbr:title>A study in continual improvement</frbr:title>
-            <frbr:placeOfpublication>Chicago, Ill.</frbr:placeOfpublication>
-            <frbr:dateOfPublication>1995</frbr:dateOfPublication>
-          </rdf:Description>
-        </frbr:manifestationOfExpression>
-        <frbr:narrator rdf:resource="http://research.progilone.fr/benchmark/Person#LloydDobyns"/>
-        <frbr:contributor rdf:resource="http://research.progilone.fr/benchmark/Person#WilliamEdwardsDeming"/>
-        <frbr:editor rdf:resource="http://research.progilone.fr/benchmark/Person#ClareCrawfordMason"/>
-        <frbr:summarizationOfTheContent>Reston Hospital Center's 14 guiding principles and their relationship...</frbr:summarizationOfTheContent>
-      </rdf:Description>
-    </frbr:expressionOfWork>
-    <frbr:titleOfTheWork>A study in continual improvement</frbr:titleOfTheWork>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Person#LaurentDidelot">
+    <rdaa:nameOfThePerson>Laurent Didelot</rdaa:nameOfThePerson>
+    <rdaa:identifierForThePerson>pauth-047</rdaa:identifierForThePerson>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10004</rdf:type>
   </rdf:Description>
-  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#DGC">
-    <frbr:containerOfWork>
-      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#DCGepreuve10corrige">
-        <frbr:creator>
-          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#LaurenceCassio">
-            <frbr:nameOfThePerson>Laurence Cassio</frbr:nameOfThePerson>
-            <frbr:identifierForThePerson>pauth-049</frbr:identifierForThePerson>
-          </rdf:Description>
-        </frbr:creator>
-        <frbr:creator>
-          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#LaurentDidelot">
-            <frbr:nameOfThePerson>Laurent Didelot</frbr:nameOfThePerson>
-            <frbr:identifierForThePerson>pauth-047</frbr:identifierForThePerson>
-          </rdf:Description>
-        </frbr:creator>
-        <frbr:expressionOfWork>
-          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#DCGepreuve10Bookcorrige">
-            <frbr:manifestationOfExpression>
-              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#DCGepreuve9782091638676">
-                <frbr:publisher>
-                  <rdf:Description rdf:about="http://research.progilone.fr/benchmark/CorporateBody#Nathan">
-                    <frbr:otherDesignationAssociatedWithTheCorporateBody
-                    >Groupe Revue fiduciaire</frbr:otherDesignationAssociatedWithTheCorporateBody>
-                    <frbr:nameOfTheCorporateBody>Nathan</frbr:nameOfTheCorporateBody>
-                  </rdf:Description>
-                </frbr:publisher>
-                <frbr:otherTitleInformation>comptabilite approfondie; corriges des applications</frbr:otherTitleInformation>
-                <frbr:placeOfpublication>Paris</frbr:placeOfpublication>
-                <frbr:dateOfPublication>2015</frbr:dateOfPublication>
-                <frbr:identifierForTheManifestation>978-2-09-163867-6</frbr:identifierForTheManifestation>
-              </rdf:Description>
-            </frbr:manifestationOfExpression>
-            <frbr:editor>
-              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#OdileBarbe">
-                <frbr:nameOfThePerson>Odile Barbe-Dandon</frbr:nameOfThePerson>
-                <frbr:identifierForThePerson>pauth-046</frbr:identifierForThePerson>
-              </rdf:Description>
-            </frbr:editor>
-            <frbr:noteOnExpression>2015-2016</frbr:noteOnExpression>
-          </rdf:Description>
-        </frbr:expressionOfWork>
-        <frbr:titleOfTheWork>DCG epreuve 10</frbr:titleOfTheWork>
-      </rdf:Description>
-    </frbr:containerOfWork>
-    <frbr:containerOfWork>
-      <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Work#DCGepreuve10manuel">
-        <frbr:complementedByWork rdf:resource="http://research.progilone.fr/benchmark/Work#DCGepreuve10corrige"/>
-        <frbr:creator>
-          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Person#JeanLucSiegwart">
-            <frbr:nameOfThePerson>Jean-Luc Siegwart</frbr:nameOfThePerson>
-            <frbr:identifierForThePerson>pauth-048</frbr:identifierForThePerson>
-          </rdf:Description>
-        </frbr:creator>
-        <frbr:creator rdf:resource="http://research.progilone.fr/benchmark/Person#LaurentDidelot"/>
-        <frbr:expressionOfWork>
-          <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Expression#DCGepreuve10Bookmanuel">
-            <frbr:manifestationOfExpression>
-              <rdf:Description rdf:about="http://research.progilone.fr/benchmark/Manifestation#DCGepreuve109782091638669">
-                <frbr:statementOfResponsibilityRelatingToTitleProper
-                >Odile Barbe; Laurent Didelot; Laurence Cassio</frbr:statementOfResponsibilityRelatingToTitleProper>
-                <frbr:publisher rdf:resource="http://research.progilone.fr/benchmark/CorporateBody#Nathan"/>
-                <frbr:statementOfResponsibilityRelatingToTitleProper
-                >Odile Barbe; Laurent Didelot; Jean-Luc Siegwart</frbr:statementOfResponsibilityRelatingToTitleProper>
-                <frbr:title>DCG epreuve 10</frbr:title>
-                <frbr:otherTitleInformation>comptabilite approfondie; manuel et applications</frbr:otherTitleInformation>
-                <frbr:placeOfpublication>Paris</frbr:placeOfpublication>
-                <frbr:dateOfPublication>2015</frbr:dateOfPublication>
-                <frbr:identifierForTheManifestation>978-2-09-163866-9</frbr:identifierForTheManifestation>
-              </rdf:Description>
-            </frbr:manifestationOfExpression>
-            <frbr:editor rdf:resource="http://research.progilone.fr/benchmark/Person#OdileBarbe"/>
-            <frbr:noteOnExpression>2015-2016</frbr:noteOnExpression>
-          </rdf:Description>
-        </frbr:expressionOfWork>
-        <frbr:titleOfTheWork>DCG epreuve 10</frbr:titleOfTheWork>
-      </rdf:Description>
-    </frbr:containerOfWork>
-    <frbr:titleOfTheWork>DGC</frbr:titleOfTheWork>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#InfectioncontrolJournal">
+    <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Journal0195-9417"/>
+    <rdae:noteOnExpression>Serial</rdae:noteOnExpression>
+    <rdae:languageOfExpression>English</rdae:languageOfExpression>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#StudyContinualImprovementVideo2">
+    <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#FilmsIncorporated"/>
+    <rdam:statementOfResponsibilityRelatingToTitleProper>Clare Crawford-Mason; W. Edwards Deming; Lloyd Dobyns</rdam:statementOfResponsibilityRelatingToTitleProper>
+    <rdam:otherTitleInformation>Part 2</rdam:otherTitleInformation>
+    <rdam:title>A study in continual improvement</rdam:title>
+    <rdam:placeOfpublication>Chicago, Ill.</rdam:placeOfpublication>
+    <rdam:dateOfPublication>1995</rdam:dateOfPublication>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Person#OdileBarbe">
+    <rdaa:nameOfThePerson>Odile Barbe-Dandon</rdaa:nameOfThePerson>
+    <rdaa:identifierForThePerson>pauth-046</rdaa:identifierForThePerson>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10004</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Person#LaurenceCassio">
+    <rdaa:nameOfThePerson>Laurence Cassio</rdaa:nameOfThePerson>
+    <rdaa:identifierForThePerson>pauth-049</rdaa:identifierForThePerson>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10004</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#StudyContinualImprovement1">
+    <rdaw:complementedByWork rdf:resource="http://rdaregistry.info/Elements/c/Work#StudyContinualImprovement2"/>
+    <frbr:hasAsSubjectPlace rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/Place#Virginia"/>
+    <frbr:hasAsSubjectConcept rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#TotalQualityManagement"/>
+    <frbr:hasAsSubjectConcept rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#Hospitals"/>
+    <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#StudyContinualImprovementVideo1"/>
+    <rdaw:titleOfTheWork>A study in continual improvement</rdaw:titleOfTheWork>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/director">
+    <rdfs:label>director</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#Hospitals">
+    <frbr:hasTermForTheConcept>Hospitals</frbr:hasTermForTheConcept>
+    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007#Hospitals</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/CorporateBody#UniversityofChicagoPress">
+    <rdaa:nameOfTheCorporateBody>University of Chicago Press</rdaa:nameOfTheCorporateBody>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10005</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Person#RichardPWenzel">
+    <rdaa:nameOfThePerson>Richard P. Wenzel</rdaa:nameOfThePerson>
+    <rdaa:identifierForThePerson>pauth-044</rdaa:identifierForThePerson>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10004</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#Epidemiology">
+    <frbr:hasTermForTheConcept>Epidemiology</frbr:hasTermForTheConcept>
+    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007#Epidemiology</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#InfectionControlAndHospitalEpidemiology">
+    <rdaw:director rdf:resource="http://rdaregistry.info/Elements/c/Person#RichardPWenzel"/>
+    <rdaw:variantTitleForTheWork>Infect Control Hosp Epidemiol</rdaw:variantTitleForTheWork>
+    <rdaw:continuationOfWork rdf:resource="http://rdaregistry.info/Elements/c/Work#Infectioncontrol"/>
+    <rdaw:variantTitleForTheWork>Official journal of The SHEA</rdaw:variantTitleForTheWork>
+    <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#InfectionControlAndHospitalEpidemiologyPublication"/>
+    <rdaw:variantTitleForTheWork>ICHE</rdaw:variantTitleForTheWork>
+    <frbr:hasAsSubjectConcept rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#InfectionControl"/>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
+    <rdaw:titleOfTheWork>Infection control and hospital epidemiology</rdaw:titleOfTheWork>
+    <frbr:hasAsSubjectConcept rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#Hospitals"/>
+    <frbr:hasAsSubjectConcept rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#Epidemiology"/>
+    <rdaw:identifierForTheWork>tauth-014</rdaw:identifierForTheWork>
+    <rdaw:director rdf:resource="http://rdaregistry.info/Elements/c/Person#BarryFarr"/>
+    <frbr:hasAsSubjectConcept rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#CrossInfection"/>
+    <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#InfectionControlAndHospitalEpidemiologyJournal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Place#Virginia">
+    <frbr:hasTermForTheConcept>Virginia</frbr:hasTermForTheConcept>
+    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1010</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#InfectionControlAndHospitalEpidemiologyPublication">
+    <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Journal0899823XPub2"/>
+    <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Journal0899823XPub1"/>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#StudyContinualImprovementVideo2">
+    <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#StudyContinualImprovementVideo2"/>
+    <rdae:narrator rdf:resource="http://rdaregistry.info/Elements/c/Person#LloydDobyns"/>
+    <rdae:contributor rdf:resource="http://rdaregistry.info/Elements/c/Person#WilliamEdwardsDeming"/>
+    <rdae:editor rdf:resource="http://rdaregistry.info/Elements/c/Person#ClareCrawfordMason"/>
+    <frbr:summarizationOfTheContent>how an understanding of systems, variation, psychology, and the theory of knowledge underpins the transformation of American business...</frbr:summarizationOfTheContent>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#DCGepreuve10manuel">
+    <rdaw:complementedByWork rdf:resource="http://rdaregistry.info/Elements/c/Work#DCGepreuve10corrige"/>
+    <rdaw:creator rdf:resource="http://rdaregistry.info/Elements/c/Person#JeanLucSiegwart"/>
+    <rdaw:creator rdf:resource="http://rdaregistry.info/Elements/c/Person#LaurentDidelot"/>
+    <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#DCGepreuve10Bookmanuel"/>
+    <rdaw:titleOfTheWork>DCG epreuve 10</rdaw:titleOfTheWork>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#Journal0899823XPub2">
+    <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#UniversityofChicagoPress"/>
+    <rdam:placeOfpublication>Chicago, IL</rdam:placeOfpublication>
+    <rdam:dateOfPublication>2006-</rdam:dateOfPublication>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/CorporateBody#FilmsIncorporated">
+    <rdaa:nameOfTheCorporateBody>Films Incorporated</rdaa:nameOfTheCorporateBody>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10005</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Person#ClareCrawfordMason">
+    <rdaa:nameOfThePerson>Clare Crawford-Mason</rdaa:nameOfThePerson>
+    <rdaa:identifierForThePerson>pauth-057</rdaa:identifierForThePerson>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10004</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#Infectioncontrol">
+    <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#InfectioncontrolJournal"/>
+    <frbr:hasAsSubjectConcept rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#InfectionControl"/>
+    <frbr:hasAsSubjectConcept rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#Infection"/>
+    <rdaw:titleOfTheWork>Infection control</rdaw:titleOfTheWork>
+    <rdaw:identifierForTheWork>tauth-019</rdaw:identifierForTheWork>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#DGC">
+    <rdaw:containerOfWork rdf:resource="http://rdaregistry.info/Elements/c/Work#DCGepreuve10corrige"/>
+    <rdaw:containerOfWork rdf:resource="http://rdaregistry.info/Elements/c/Work#DCGepreuve10manuel"/>
+    <rdaw:titleOfTheWork>DGC</rdaw:titleOfTheWork>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#CrossInfection">
+    <frbr:hasTermForTheConcept>Cross Infection</frbr:hasTermForTheConcept>
+    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007#CrossInfection</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/creator">
+    <rdfs:label>creator</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#StudyContinualImprovement2">
+    <frbr:hasAsSubjectPlace rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/Place#Virginia"/>
+    <frbr:hasAsSubjectConcept rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#TotalQualityManagement"/>
+    <frbr:hasAsSubjectConcept rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#Hospitals"/>
+    <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#StudyContinualImprovementVideo2"/>
+    <rdaw:titleOfTheWork>A study in continual improvement</rdaw:titleOfTheWork>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#DCGepreuve9782091638676">
+    <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#Nathan"/>
+    <rdam:otherTitleInformation>comptabilite approfondie; corriges des applications</rdam:otherTitleInformation>
+    <rdam:placeOfpublication>Paris</rdam:placeOfpublication>
+    <rdam:dateOfPublication>2015</rdam:dateOfPublication>
+    <rdam:identifierForTheManifestation>978-2-09-163867-6</rdam:identifierForTheManifestation>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#DCGepreuve10Bookcorrige">
+    <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#DCGepreuve9782091638676"/>
+    <rdae:editor rdf:resource="http://rdaregistry.info/Elements/c/Person#OdileBarbe"/>
+    <rdae:noteOnExpression>2015-2016</rdae:noteOnExpression>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#InfectionControlAndHospitalEpidemiologyJournal">
+    <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Journal0899823X"/>
+    <rdae:editor rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#SocietyHospitalEpidemiologistsAmerica"/>
+    <frbr:summarizationOfTheContent>Infection Control and Hospital Epidemiology...</frbr:summarizationOfTheContent>
+    <rdae:noteOnExpression>Serial</rdae:noteOnExpression>
+    <rdae:languageOfExpression>English</rdae:languageOfExpression>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#StudyContinualImprovementVideo1">
+    <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#FilmsIncorporated"/>
+    <rdam:statementOfResponsibilityRelatingToTitleProper>Clare Crawford-Mason; W. Edwards Deming; Lloyd Dobyns</rdam:statementOfResponsibilityRelatingToTitleProper>
+    <rdam:otherTitleInformation>Part 1</rdam:otherTitleInformation>
+    <rdam:title>A study in continual improvement</rdam:title>
+    <rdam:placeOfpublication>Chicago, Ill.</rdam:placeOfpublication>
+    <rdam:dateOfPublication>1995</rdam:dateOfPublication>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#Infection">
+    <frbr:hasTermForTheConcept>Infection</frbr:hasTermForTheConcept>
+    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007#Infection</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#InfectionControl">
+    <frbr:hasTermForTheConcept>Infection Control</frbr:hasTermForTheConcept>
+    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007#InfectionControl</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#DCGepreuve10corrige">
+    <rdaw:creator rdf:resource="http://rdaregistry.info/Elements/c/Person#LaurenceCassio"/>
+    <rdaw:creator rdf:resource="http://rdaregistry.info/Elements/c/Person#LaurentDidelot"/>
+    <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#DCGepreuve10Bookcorrige"/>
+    <rdaw:titleOfTheWork>DCG epreuve 10</rdaw:titleOfTheWork>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Person#BarryFarr">
+    <rdaa:nameOfThePerson>Barry Farr</rdaa:nameOfThePerson>
+    <rdaa:identifierForThePerson>pauth-045</rdaa:identifierForThePerson>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10004</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Person#LloydDobyns">
+    <rdaa:nameOfThePerson>Lloyd Dobyns</rdaa:nameOfThePerson>
+    <rdaa:identifierForThePerson>pauth-059</rdaa:identifierForThePerson>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10004</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#Journal0899823X">
+    <rdam:otherTitleInformation>An official journal of the Society of Hospital Epidemiologists of America</rdam:otherTitleInformation>
+    <rdam:frequency>Monthly</rdam:frequency>
+    <rdam:statementOfResponsibilityRelatingToTitleProper>Richard P. Wenzel; Barry Farr</rdam:statementOfResponsibilityRelatingToTitleProper>
+    <rdam:title>Infection control and hospital epidemiology</rdam:title>
+    <rdam:noteOnPublicationStatement>Published by University chicago press in 2006</rdam:noteOnPublicationStatement>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
+    <rdam:issnOfSeries>0899-823X</rdam:issnOfSeries>
+    <rdam:containerOfManifestation rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Journal0899823XPub1"/>
+    <rdam:publicationStatement>Volume 9, number 1 (January 1988)-</rdam:publicationStatement>
+    <rdam:containerOfManifestation rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Journal0899823XPub2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/CorporateBody#SocietyHospitalEpidemiologistsAmerica">
+    <rdaa:nameOfTheCorporateBody>Society of Hospital Epidemiologists of America</rdaa:nameOfTheCorporateBody>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10005</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#TotalQualityManagement">
+    <frbr:hasTermForTheConcept>Total Quality Management</frbr:hasTermForTheConcept>
+    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007#TotalQualityManagement</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#Journal0899823XPub1">
+    <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#SLACKInc"/>
+    <rdam:placeOfpublication>Thorofare, NJ</rdam:placeOfpublication>
+    <rdam:dateOfPublication>1988-</rdam:dateOfPublication>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#Journal0195-9417">
+    <rdam:title>Infection control</rdam:title>
+    <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#SLACKInc"/>
+    <rdam:frequency>Monthly</rdam:frequency>
+    <rdam:issnOfSeries>0195-9417</rdam:issnOfSeries>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/CorporateBody#Nathan">
+    <rdaa:otherDesignationAssociatedWithTheCorporateBody>Groupe Revue fiduciaire</rdaa:otherDesignationAssociatedWithTheCorporateBody>
+    <rdaa:nameOfTheCorporateBody>Nathan</rdaa:nameOfTheCorporateBody>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10005</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Person#JeanLucSiegwart">
+    <rdaa:nameOfThePerson>Jean-Luc Siegwart</rdaa:nameOfThePerson>
+    <rdaa:identifierForThePerson>pauth-048</rdaa:identifierForThePerson>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10004</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#StudyContinualImprovementVideo1">
+    <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#StudyContinualImprovementVideo1"/>
+    <rdae:narrator rdf:resource="http://rdaregistry.info/Elements/c/Person#LloydDobyns"/>
+    <rdae:contributor rdf:resource="http://rdaregistry.info/Elements/c/Person#WilliamEdwardsDeming"/>
+    <rdae:editor rdf:resource="http://rdaregistry.info/Elements/c/Person#ClareCrawfordMason"/>
+    <frbr:summarizationOfTheContent>Reston Hospital Center's 14 guiding principles and their relationship...</frbr:summarizationOfTheContent>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#DCGepreuve10Bookmanuel">
+    <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#DCGepreuve109782091638669"/>
+    <rdae:editor rdf:resource="http://rdaregistry.info/Elements/c/Person#OdileBarbe"/>
+    <rdae:noteOnExpression>2015-2016</rdae:noteOnExpression>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#DCGepreuve109782091638669">
+    <rdam:statementOfResponsibilityRelatingToTitleProper>Odile Barbe; Laurent Didelot; Laurence Cassio</rdam:statementOfResponsibilityRelatingToTitleProper>
+    <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#Nathan"/>
+    <rdam:statementOfResponsibilityRelatingToTitleProper>Odile Barbe; Laurent Didelot; Jean-Luc Siegwart</rdam:statementOfResponsibilityRelatingToTitleProper>
+    <rdam:title>DCG epreuve 10</rdam:title>
+    <rdam:otherTitleInformation>comptabilite approfondie; manuel et applications</rdam:otherTitleInformation>
+    <rdam:placeOfpublication>Paris</rdam:placeOfpublication>
+    <rdam:dateOfPublication>2015</rdam:dateOfPublication>
+    <rdam:identifierForTheManifestation>978-2-09-163866-9</rdam:identifierForTheManifestation>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/CorporateBody#SLACKInc">
+    <rdaa:nameOfTheCorporateBody>SLACK Inc.</rdaa:nameOfTheCorporateBody>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10005</rdf:type>
   </rdf:Description>
 </rdf:RDF>
