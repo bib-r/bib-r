@@ -17,7 +17,7 @@
     <rdam:noteOnCarrier>Cover with colorful illustrations</rdam:noteOnCarrier>
     <rdam:dimensions>18 cm</rdam:dimensions>
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#GarnierFlammarion"/>
-    <rdam:placeOfpublication>Paris</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
     <rdam:title>Essais</rdam:title>
     <rdam:identifierForTheManifestation>978-2-08-070210-4</rdam:identifierForTheManifestation>
@@ -50,7 +50,7 @@
     <rdam:identifierForTheManifestation>978-2-0812-0963-3</rdam:identifierForTheManifestation>
     <rdam:dateOfPublication>2008</rdam:dateOfPublication>
     <rdam:title>Roman de Renart (Le)</rdam:title>
-    <rdam:placeOfpublication>Paris</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
     <rdam:statementOfResponsibilityRelatingToTitleProper>Christian Keime; Monique Lachet-Lagarde</rdam:statementOfResponsibilityRelatingToTitleProper>
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#Flammarion"/>

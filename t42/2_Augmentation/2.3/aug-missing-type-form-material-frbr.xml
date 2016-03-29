@@ -67,7 +67,7 @@
     <rdam:statementOfResponsibilityRelatingToTitleProper>Michel de Montaigne; Introduction by Alexandre Michae</rdam:statementOfResponsibilityRelatingToTitleProper>
     <rdam:title>Essais</rdam:title>
     <rdam:dateOfPublication>1969</rdam:dateOfPublication>
-    <rdam:placeOfpublication>Paris</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdam:termsOfAvailability>5.80 euro</rdam:termsOfAvailability>
     <rdam:identifierForTheManifestation>978-2-08-070210-4</rdam:identifierForTheManifestation>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
@@ -82,7 +82,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#RomansdelaTableronde">
     <frbr:hasTermForTheConcept>Romans de la Table ronde</frbr:hasTermForTheConcept>
-    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007#RomansdelaTableronde</rdf:type>
+    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Person#RobertLouisStevenson">
     <rdaa:nameOfThePerson>Robert Louis Stevenson</rdaa:nameOfThePerson>
@@ -97,9 +97,9 @@
     <rdam:statementOfResponsibilityRelatingToTitleProper>John Steinbeck; Susan Shillinglaw</rdam:statementOfResponsibilityRelatingToTitleProper>
     <rdam:title>Of mice and men</rdam:title>
     <rdam:identifierForTheManifestation>978-0-14-118510-1</rdam:identifierForTheManifestation>
-    <rdam:placeOfpublication>Harmondsworth</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Harmondsworth</rdam:placeOfPublication>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
-    <rdam:placeOfpublication>Great Britain</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Great Britain</rdam:placeOfPublication>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Person#MicheldeMontaigne">
     <rdaa:nameOfThePerson>Michel de Montaigne</rdaa:nameOfThePerson>
@@ -118,7 +118,7 @@
     <rdam:otherTitleInformation>in appendice, Philomena</rdam:otherTitleInformation>
     <rdam:title>Romans</rdam:title>
     <rdam:dateOfPublication>1994</rdam:dateOfPublication>
-    <rdam:placeOfpublication>Paris</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdam:termsOfAvailability>120,00 F</rdam:termsOfAvailability>
     <rdam:identifierForTheManifestation>2-253-13222-5</rdam:identifierForTheManifestation>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
@@ -155,7 +155,7 @@
     <rdam:statementOfResponsibilityRelatingToTitleProper>Robert Louis Stevenson; illustrations by Francois Place</rdam:statementOfResponsibilityRelatingToTitleProper>
     <rdam:title>Etrange cas du Dr Jekyll et de M. Hyde (L')</rdam:title>
     <rdam:dateOfPublication>2008</rdam:dateOfPublication>
-    <rdam:placeOfpublication>Paris</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdam:termsOfAvailability>5.80 euro</rdam:termsOfAvailability>
     <rdam:identifierForTheManifestation>978-2-07-062231-3</rdam:identifierForTheManifestation>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>

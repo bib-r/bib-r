@@ -26,7 +26,7 @@
     <rdam:statementOfResponsibilityRelatingToTitleProper>Robert Louis Stevenson</rdam:statementOfResponsibilityRelatingToTitleProper>
     <rdam:title>Treasure island</rdam:title>
     <rdam:dateOfPublication>2006</rdam:dateOfPublication>
-    <rdam:placeOfpublication>Great Britain</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Great Britain</rdam:placeOfPublication>
     <rdam:termsOfAvailability>11,00 euro</rdam:termsOfAvailability>
     <rdam:identifierForTheManifestation>9780747587477</rdam:identifierForTheManifestation>
     <rdam:identifierForTheManifestation>978-0-7475-8747-7</rdam:identifierForTheManifestation>
@@ -76,7 +76,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#Abhangigkeit">
     <frbr:hasTermForTheConcept>Abhangigkeit</frbr:hasTermForTheConcept>
-    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007#Abhangigkeit</rdf:type>
+    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#HandbookofInjectableDrugs">
     <frbr:hasAsSubjectConcept rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#Injectable"/>
@@ -91,7 +91,7 @@
     <rdam:title>Handbook of Injectable Drugs</rdam:title>
     <rdam:designationOfEdition>14th</rdam:designationOfEdition>
     <rdam:dateOfPublication>2006</rdam:dateOfPublication>
-    <rdam:placeOfpublication>Bethesda</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Bethesda</rdam:placeOfPublication>
     <rdam:identifierForTheManifestation>9781585281503</rdam:identifierForTheManifestation>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
   </rdf:Description>
@@ -111,7 +111,7 @@
     <rdam:statementOfResponsibilityRelatingToTitleProper>John Steinbeck; Gary Sinise</rdam:statementOfResponsibilityRelatingToTitleProper>
     <rdam:title>Of mice and men</rdam:title>
     <rdam:dateOfPublication>1992</rdam:dateOfPublication>
-    <rdam:placeOfpublication>France</rdam:placeOfpublication>
+    <rdam:placeOfPublication>France</rdam:placeOfPublication>
     <rdam:identifierForTheManifestation>9780142429181</rdam:identifierForTheManifestation>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
   </rdf:Description>
@@ -148,7 +148,7 @@
     <rdam:statementOfResponsibilityRelatingToTitleProper>Agatha Christie; David Suchet</rdam:statementOfResponsibilityRelatingToTitleProper>
     <rdam:title>Death on the Nil</rdam:title>
     <rdam:dateOfPublication>2004</rdam:dateOfPublication>
-    <rdam:placeOfpublication>France</rdam:placeOfpublication>
+    <rdam:placeOfPublication>France</rdam:placeOfPublication>
     <rdam:identifierForTheManifestation>9780007191154</rdam:identifierForTheManifestation>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
   </rdf:Description>
@@ -160,7 +160,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#Epidemiologie">
     <frbr:hasTermForTheConcept>Epidemiologie</frbr:hasTermForTheConcept>
-    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007#Epidemiologie</rdf:type>
+    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/CorporateBody#Nathan">
     <rdaa:nameOfTheCorporateBody>Nathan</rdaa:nameOfTheCorporateBody>
@@ -187,11 +187,11 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#Alkohol">
     <frbr:hasTermForTheConcept>Alkohol</frbr:hasTermForTheConcept>
-    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007#Alkohol</rdf:type>
+    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#Behandlung">
     <frbr:hasTermForTheConcept>Behandlung</frbr:hasTermForTheConcept>
-    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007#Behandlung</rdf:type>
+    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Person#GarySinise">
     <rdaa:nameOfThePerson>Sinise, Gary</rdaa:nameOfThePerson>
@@ -209,7 +209,7 @@
     <rdam:statementOfResponsibilityRelatingToTitleProper>Michel de Montaigne</rdam:statementOfResponsibilityRelatingToTitleProper>
     <rdam:title>Essais</rdam:title>
     <rdam:dateOfPublication>1969</rdam:dateOfPublication>
-    <rdam:placeOfpublication>Paris</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdam:termsOfAvailability>5.80 euro</rdam:termsOfAvailability>
     <rdam:identifierForTheManifestation>978-2-08-070210-4</rdam:identifierForTheManifestation>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
@@ -230,7 +230,7 @@
     <rdam:statementOfResponsibilityRelatingToTitleProper>Chretien de Troyes</rdam:statementOfResponsibilityRelatingToTitleProper>
     <rdam:title>Romans</rdam:title>
     <rdam:dateOfPublication>1994</rdam:dateOfPublication>
-    <rdam:placeOfpublication>Paris</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdam:termsOfAvailability>120,00 F</rdam:termsOfAvailability>
     <rdam:identifierForTheManifestation>2-253-13222-5</rdam:identifierForTheManifestation>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
@@ -254,14 +254,14 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#Klinik">
     <frbr:hasTermForTheConcept>Klinik</frbr:hasTermForTheConcept>
-    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007#Klinik</rdf:type>
+    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#Book9781408855713">
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#Bloomsbury"/>
     <rdam:statementOfResponsibilityRelatingToTitleProper>J.K. Rowling</rdam:statementOfResponsibilityRelatingToTitleProper>
     <rdam:title>Harry Potter and the Deathly Hallows</rdam:title>
     <rdam:dateOfPublication>2014</rdam:dateOfPublication>
-    <rdam:placeOfpublication>London</rdam:placeOfpublication>
+    <rdam:placeOfPublication>London</rdam:placeOfPublication>
     <rdam:identifierForTheManifestation>978-1-4088-5571-3</rdam:identifierForTheManifestation>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
   </rdf:Description>
@@ -311,7 +311,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#PsychotropicDrugs">
     <frbr:hasTermForTheConcept>Psychotropic Drugs</frbr:hasTermForTheConcept>
-    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007#PsychotropicDrugs</rdf:type>
+    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/CorporateBody#PulpTheClassics">
     <rdaa:nameOfTheCorporateBody>Pulp! The Classics</rdaa:nameOfTheCorporateBody>
@@ -361,7 +361,7 @@
     <rdam:title>Valerian et Laureline</rdam:title>
     <rdam:otherTitleInformation>l'integrale</rdam:otherTitleInformation>
     <rdam:dateOfPublication>2012</rdam:dateOfPublication>
-    <rdam:placeOfpublication>Paris</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdam:identifierForTheManifestation>978-2205-06038-6</rdam:identifierForTheManifestation>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
   </rdf:Description>
@@ -370,14 +370,14 @@
     <rdam:statementOfResponsibilityRelatingToTitleProper>Descartes; Christine Thubert</rdam:statementOfResponsibilityRelatingToTitleProper>
     <rdam:title>Meditations metaphysiques</rdam:title>
     <rdam:dateOfPublication>2009</rdam:dateOfPublication>
-    <rdam:placeOfpublication>France</rdam:placeOfpublication>
+    <rdam:placeOfPublication>France</rdam:placeOfPublication>
     <rdam:termsOfAvailability>7,50 EUR</rdam:termsOfAvailability>
     <rdam:identifierForTheManifestation>978-2-09-187305-3</rdam:identifierForTheManifestation>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#Marketing">
     <frbr:hasTermForTheConcept>Marketing</frbr:hasTermForTheConcept>
-    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007#Marketing</rdf:type>
+    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#MeditationsMetaphysiquesTextFrench">
     <rdae:contributor rdf:resource="http://rdaregistry.info/Elements/c/Person#ChristineThubert"/>
@@ -447,7 +447,7 @@
     <rdam:statementOfResponsibilityRelatingToTitleProper>Christian Keime; Monique Lachet-Lagarde</rdam:statementOfResponsibilityRelatingToTitleProper>
     <rdam:title>Roman de Renart (Le)</rdam:title>
     <rdam:dateOfPublication>2008</rdam:dateOfPublication>
-    <rdam:placeOfpublication>Paris</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdam:termsOfAvailability>2,70 euro</rdam:termsOfAvailability>
     <rdam:identifierForTheManifestation>978-2-0812-0963-3</rdam:identifierForTheManifestation>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
@@ -484,7 +484,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#Musik">
     <frbr:hasTermForTheConcept>Musik</frbr:hasTermForTheConcept>
-    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007#Musik</rdf:type>
+    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Person#JohnSteinbeck">
     <rdaa:nameOfThePerson>Steinbeck, John</rdaa:nameOfThePerson>
@@ -493,7 +493,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#Consultants">
     <frbr:hasTermForTheConcept>Consultants</frbr:hasTermForTheConcept>
-    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007#Consultants</rdf:type>
+    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/CorporateBody#Bloomsbury">
     <rdaa:nameOfTheCorporateBody>Bloomsbury</rdaa:nameOfTheCorporateBody>
@@ -506,7 +506,7 @@
     <rdam:title>The strange case of Dr Jekyll and Mr Hyde</rdam:title>
     <rdam:alsoIssuedAs rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Kindle9781843444862"/>
     <rdam:dateOfPublication>2014</rdam:dateOfPublication>
-    <rdam:placeOfpublication>Harpenden</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Harpenden</rdam:placeOfPublication>
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#PulpTheClassics"/>
     <rdam:alsoIssuedAs rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#PDF9781843444879"/>
     <rdam:statementOfResponsibilityRelatingToTitleProper>Robert Louis Stevenson</rdam:statementOfResponsibilityRelatingToTitleProper>
@@ -518,7 +518,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#Injectable">
     <frbr:hasTermForTheConcept>Injectable</frbr:hasTermForTheConcept>
-    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007#Injectable</rdf:type>
+    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#ArticleJBA3201443">
     <rdam:statementOfResponsibilityRelatingToTitleProper>Anna Jonker; Emmanuel N. Kuntsche</rdam:statementOfResponsibilityRelatingToTitleProper>
@@ -530,7 +530,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#RomansdelaTableronde">
     <frbr:hasTermForTheConcept>Romans de la Table ronde</frbr:hasTermForTheConcept>
-    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007#RomansdelaTableronde</rdf:type>
+    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#TheAdventuresofTomSawyerTextEnglish">
     <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Book0140390480"/>
@@ -548,7 +548,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#SubstanceRelatedDisorders">
     <frbr:hasTermForTheConcept>Substance-Related Disorders</frbr:hasTermForTheConcept>
-    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007#SubstanceRelatedDisorders</rdf:type>
+    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Person#ChristianKeime">
     <rdaa:nameOfThePerson>Christian Keime</rdaa:nameOfThePerson>
@@ -556,10 +556,10 @@
     <rdf:type>http://rdaregistry.info/Elements/c/C10004</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#Book3319035746">
-    <rdam:placeOfpublication>Cham</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Cham</rdam:placeOfPublication>
     <rdam:dateOfPublication>2014</rdam:dateOfPublication>
-    <rdam:placeOfpublication>New York</rdam:placeOfpublication>
-    <rdam:placeOfpublication>Heidelberg</rdam:placeOfpublication>
+    <rdam:placeOfPublication>New York</rdam:placeOfPublication>
+    <rdam:placeOfPublication>Heidelberg</rdam:placeOfPublication>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
     <rdam:title>Emerging trends in drug use and distribution</rdam:title>
     <rdam:identifierForTheManifestation>doi:10.1007/978-3-319-03575-8</rdam:identifierForTheManifestation>
@@ -569,7 +569,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#StreetDrugs">
     <frbr:hasTermForTheConcept>Street Drugs</frbr:hasTermForTheConcept>
-    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007#StreetDrugs</rdf:type>
+    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/creator">
     <rdfs:label>creator</rdfs:label>
@@ -600,7 +600,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#EthicsMedical">
     <frbr:hasTermForTheConcept>Ethics, Medical</frbr:hasTermForTheConcept>
-    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007#EthicsMedical</rdf:type>
+    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/CorporateBody#Penguinbooks">
     <rdaa:nameOfTheCorporateBody>Penguin books</rdaa:nameOfTheCorporateBody>
@@ -608,14 +608,14 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#PhilosophyMedical">
     <frbr:hasTermForTheConcept>Philosophy, Medical</frbr:hasTermForTheConcept>
-    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007#PhilosophyMedical</rdf:type>
+    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#Book0140390480">
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#Penguinbooks"/>
     <rdam:statementOfResponsibilityRelatingToTitleProper>Mark Twain</rdam:statementOfResponsibilityRelatingToTitleProper>
     <rdam:title>The Adventures of Tom Sawyer</rdam:title>
     <rdam:dateOfPublication>1986</rdam:dateOfPublication>
-    <rdam:placeOfpublication>London</rdam:placeOfpublication>
+    <rdam:placeOfPublication>London</rdam:placeOfPublication>
     <rdam:identifierForTheManifestation>0140390480</rdam:identifierForTheManifestation>
     <rdam:identifierForTheManifestation>0-14-039048-0</rdam:identifierForTheManifestation>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>

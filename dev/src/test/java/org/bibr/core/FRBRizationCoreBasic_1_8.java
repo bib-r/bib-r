@@ -127,7 +127,7 @@ public class FRBRizationCoreBasic_1_8 {
 		manifestation.addProperty(FRBR.dimensions(model), "17 cm");
 		manifestation.addProperty(FRBR.extent(model), "204 pages");
 		manifestation.addProperty(FRBR.termsOfAvailability(model), "11,00 euro");
-		manifestation.addProperty(FRBR.placeOfpublication(model), "Great Britain");
+		manifestation.addProperty(FRBR.placeOfPublication(model), "Great Britain");
 		manifestation.addProperty(FRBR.dateOfPublication(model), "2006");
 		manifestation.addProperty(FRBR.titleOfTheManifestation(model), "Treasure island");
 		manifestation.addProperty(FRBR.statementOfResponsibilityRelatingToTitleProper(model), "Robert Louis Stevenson");
@@ -171,7 +171,7 @@ public class FRBRizationCoreBasic_1_8 {
 		manifestation.addProperty(FRBR.dimensions(model), "18 cm");
 		manifestation.addProperty(FRBR.noteOnCarrier(model), "Cover with colorful illustrations");
 		manifestation.addProperty(FRBR.extent(model), "226 pages");
-		manifestation.addProperty(FRBR.placeOfpublication(model), "London");
+		manifestation.addProperty(FRBR.placeOfPublication(model), "London");
 		manifestation.addProperty(FRBR.dateOfPublication(model), "1986");
 		manifestation.addProperty(FRBR.titleOfTheManifestation(model), "The Adventures of Tom Sawyer");
 		manifestation.addProperty(FRBR.statementOfResponsibilityRelatingToTitleProper(model), "Mark Twain");
@@ -215,7 +215,7 @@ public class FRBRizationCoreBasic_1_8 {
 		manifestation.addProperty(FRBR.noteOnCarrier(model), "Cover with colorful illustrations");
 		manifestation.addProperty(FRBR.termsOfAvailability(model), "120,00 F");
 		manifestation.addProperty(FRBR.extent(model), "1279 pages");
-		manifestation.addProperty(FRBR.placeOfpublication(model), "Paris");
+		manifestation.addProperty(FRBR.placeOfPublication(model), "Paris");
 		manifestation.addProperty(FRBR.dateOfPublication(model), "1994");
 		manifestation.addProperty(FRBR.titleOfTheManifestation(model), "Romans");
 		manifestation.addProperty(FRBR.statementOfResponsibilityRelatingToTitleProper(model), "Chretien de Troyes");
@@ -263,7 +263,7 @@ public class FRBRizationCoreBasic_1_8 {
 		manifestation.addProperty(FRBR.noteOnCarrier(model), "Illustrations, cover with colorful illustrations");
 		manifestation.addProperty(FRBR.termsOfAvailability(model), "2,70 euro");
 		manifestation.addProperty(FRBR.extent(model), "159 pages");
-		manifestation.addProperty(FRBR.placeOfpublication(model), "Paris");
+		manifestation.addProperty(FRBR.placeOfPublication(model), "Paris");
 		manifestation.addProperty(FRBR.dateOfPublication(model), "2008");
 		manifestation.addProperty(FRBR.titleOfTheManifestation(model), "Roman de Renart (Le)");
 		manifestation.addProperty(FRBR.statementOfResponsibilityRelatingToTitleProper(model), "Christian Keime; Monique Lachet-Lagarde");
@@ -313,7 +313,7 @@ public class FRBRizationCoreBasic_1_8 {
 		manifestation.addProperty(FRBR.noteOnCarrier(model), "Cover with colorful illustrations");
 		manifestation.addProperty(FRBR.termsOfAvailability(model), "5.80 euro");
 		manifestation.addProperty(FRBR.extent(model), "443 pages");
-		manifestation.addProperty(FRBR.placeOfpublication(model), "Paris");
+		manifestation.addProperty(FRBR.placeOfPublication(model), "Paris");
 		manifestation.addProperty(FRBR.dateOfPublication(model), "1969");
 		manifestation.addProperty(FRBR.titleOfTheManifestation(model), "Essais");
 		manifestation.addProperty(FRBR.statementOfResponsibilityRelatingToTitleProper(model), "Michel de Montaigne");
@@ -356,7 +356,7 @@ public class FRBRizationCoreBasic_1_8 {
 		manifestation.addProperty(FRBR.noteOnCarrier(model), "On the cover: Texte integral annote, dossier pedagogique");
 		manifestation.addProperty(FRBR.termsOfAvailability(model), "7,50 EUR");
 		manifestation.addProperty(FRBR.extent(model), "191 pages");
-		manifestation.addProperty(FRBR.placeOfpublication(model), "France");
+		manifestation.addProperty(FRBR.placeOfPublication(model), "France");
 		manifestation.addProperty(FRBR.dateOfPublication(model), "2009");
 		manifestation.addProperty(FRBR.titleOfTheManifestation(model), "Meditations metaphysiques");
 		manifestation.addProperty(FRBR.statementOfResponsibilityRelatingToTitleProper(model), "Descartes; Christine Thubert");
@@ -403,9 +403,9 @@ public class FRBRizationCoreBasic_1_8 {
 		manifestation.addProperty(FRBR.identifierForTheManifestation(model), "3319035746");
 		manifestation.addProperty(FRBR.identifierForTheManifestation(model), "doi:10.1007/978-3-319-03575-8");
 		manifestation.addProperty(FRBR.extent(model), "99 pages");
-		manifestation.addProperty(FRBR.placeOfpublication(model), "Cham");
-		manifestation.addProperty(FRBR.placeOfpublication(model), "Heidelberg");
-		manifestation.addProperty(FRBR.placeOfpublication(model), "New York");
+		manifestation.addProperty(FRBR.placeOfPublication(model), "Cham");
+		manifestation.addProperty(FRBR.placeOfPublication(model), "Heidelberg");
+		manifestation.addProperty(FRBR.placeOfPublication(model), "New York");
 		manifestation.addProperty(FRBR.dateOfPublication(model), "2014");
 		manifestation.addProperty(FRBR.titleOfTheManifestation(model), "Emerging trends in drug use and distribution");
 		manifestation.addProperty(FRBR.statementOfResponsibilityRelatingToTitleProper(model), "David N. Khey; John Stogner");
@@ -484,7 +484,7 @@ public class FRBRizationCoreBasic_1_8 {
 		Resource manifestation = FRBR.manifestation(model,"Book9781585281503");
 		manifestation.addProperty(FRBR.identifierForTheManifestation(model), "9781585281503");
 		manifestation.addProperty(FRBR.extent(model), "1720 pages");
-		manifestation.addProperty(FRBR.placeOfpublication(model), "Bethesda");
+		manifestation.addProperty(FRBR.placeOfPublication(model), "Bethesda");
 		manifestation.addProperty(FRBR.dateOfPublication(model), "2006");
 		manifestation.addProperty(FRBR.designationOfEdition(model), "14th");
 		manifestation.addProperty(FRBR.titleOfTheManifestation(model), "Handbook of Injectable Drugs");
@@ -533,7 +533,7 @@ public class FRBRizationCoreBasic_1_8 {
 		manifestation.addProperty(FRBR.dimensions(model), "20 cm");
 		manifestation.addProperty(FRBR.extent(model), "1 volume (619 pages)");
 		manifestation.addProperty(FRBR.noteOnCarrier(model), "Cover with colorful illustrations");
-		manifestation.addProperty(FRBR.placeOfpublication(model), "London");
+		manifestation.addProperty(FRBR.placeOfPublication(model), "London");
 		manifestation.addProperty(FRBR.dateOfPublication(model), "2014");
 		manifestation.addProperty(FRBR.titleOfTheManifestation(model), "Harry Potter and the Deathly Hallows");
 		manifestation.addProperty(FRBR.statementOfResponsibilityRelatingToTitleProper(model), "J.K. Rowling");
@@ -578,7 +578,7 @@ public class FRBRizationCoreBasic_1_8 {
 		manifestation.addProperty(FRBR.dimensions(model), "14 x 13 cm");
 		manifestation.addProperty(FRBR.extent(model), "3 CD (21h30)");
 		manifestation.addProperty(FRBR.noteOnCarrier(model), "housing with illustrations");
-		manifestation.addProperty(FRBR.placeOfpublication(model), "France");
+		manifestation.addProperty(FRBR.placeOfPublication(model), "France");
 		manifestation.addProperty(FRBR.dateOfPublication(model), "1992");
 		manifestation.addProperty(FRBR.carrierType(model), "audio");
 		manifestation.addProperty(FRBR.carrierType(model), "book");
@@ -629,7 +629,7 @@ public class FRBRizationCoreBasic_1_8 {
 		manifestation.addProperty(FRBR.identifierForTheManifestation(model), "9780007191154");
 		manifestation.addProperty(FRBR.dimensions(model), "14 x 13 cm");
 		manifestation.addProperty(FRBR.extent(model), "7 CD (approx. 8h30)");
-		manifestation.addProperty(FRBR.placeOfpublication(model), "France");
+		manifestation.addProperty(FRBR.placeOfPublication(model), "France");
 		manifestation.addProperty(FRBR.dateOfPublication(model), "2004");
 		manifestation.addProperty(FRBR.carrierType(model), "audio");
 		manifestation.addProperty(FRBR.titleOfTheManifestation(model), "Death on the Nil");
@@ -683,7 +683,7 @@ public class FRBRizationCoreBasic_1_8 {
 		manifestation.addProperty(FRBR.dimensions(model), "18 cm");
 		manifestation.addProperty(FRBR.noteOnCarrier(model), "Cover with colorful illustrations");
 		manifestation.addProperty(FRBR.extent(model), "1 volume (123 pages)");
-		manifestation.addProperty(FRBR.placeOfpublication(model), "Harpenden");
+		manifestation.addProperty(FRBR.placeOfPublication(model), "Harpenden");
 		manifestation.addProperty(FRBR.dateOfPublication(model), "2014");
 		manifestation.addProperty(FRBR.titleOfTheManifestation(model), "The strange case of Dr Jekyll and Mr Hyde");
 		manifestation.addProperty(FRBR.statementOfResponsibilityRelatingToTitleProper(model), "Robert Louis Stevenson");
@@ -744,7 +744,7 @@ public class FRBRizationCoreBasic_1_8 {
 		manifestation.addProperty(FRBR.noteOnCarrier(model), "Colorful illustrations, cover with colorful illustrations");
 		manifestation.addProperty(FRBR.extent(model), "1 volume (164 pages)");
 		manifestation.addProperty(FRBR.carrierType(model), "Printed Text");
-		manifestation.addProperty(FRBR.placeOfpublication(model), "Paris");
+		manifestation.addProperty(FRBR.placeOfPublication(model), "Paris");
 		manifestation.addProperty(FRBR.dateOfPublication(model), "2012");
 		manifestation.addProperty(FRBR.otherTitleInformation(model), "l'integrale");
 		manifestation.addProperty(FRBR.titleOfTheManifestation(model), "Valerian et Laureline");

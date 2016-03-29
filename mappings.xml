@@ -3,351 +3,609 @@
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:owl="http://www.w3.org/2002/07/owl#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/m/containerOfManifestation">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/P30033"/>
+    <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/m/containedInManifestation"/>
     <rdfs:label>containerOfManifestation</rdfs:label>
   </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/m/containedInManifestation">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/P30020"/>
+    <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/m/containerOfManifestation"/>
+    <rdfs:label>containedInManifestation</rdfs:label>
+  </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/seriesContainerOf">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10141"/>
+    <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/w/inSeries"/>
     <rdfs:label>seriesContainerOf</rdfs:label>
   </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/inSeries">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10102"/>
+    <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/w/seriesContainerOf"/>
+    <rdfs:label>inSeries</rdfs:label>
+  </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/m/dimensions">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/P30169"/>
     <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P3027"/>
     <rdfs:label>dimensions</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/a/nameOfTheCorporateBody">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/a/P50032"/>
     <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P3043"/>
     <rdfs:label>nameOfTheCorporateBody</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/director">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10066"/>
     <rdfs:label>director</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/m/frequency">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/P30168"/>
     <rdfs:label>frequency</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/a/identifierForTheCorporateBody">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/a/P50032"/>
     <rdfs:label>identifierForTheCorporateBody</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/complementedByWork">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10103"/>
     <rdfs:label>complementedByWork</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/m/dateOfPublication">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/P30011"/>
     <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P3055"/>
     <rdfs:label>dateOfPublication</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/augmentedByWork">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10108"/>
+    <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/w/augmentationOfWork" />
     <rdfs:label>augmentedByWork</rdfs:label>
   </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/augmentationOfWork">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10192"/>
+    <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/w/augmentedByWork" />
+    <rdfs:label>augmentationOfWork</rdfs:label>
+  </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/m/extent">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/P30182"/>
     <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P3024"/>
     <rdfs:label>extent</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/hasAsSubjectConcept">
     <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P2023"/>
+    <owl:inverseOf rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/isSubjectConceptOf" />
     <rdfs:label>hasAsSubjectConcept</rdfs:label>
   </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/isSubjectConceptOf">
+    <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P2024"/>
+    <owl:inverseOf rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/hasAsSubjectConcept" />
+    <rdfs:label>isSubjectConceptOf</rdfs:label>
+  </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/m/alsoIssuedAs">
     <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P2083"/>
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/P30026"/>
     <rdfs:label>alsoIssuedAs</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/hasTermForThePlace">
     <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P3051"/>
     <rdfs:label>hasTermForThePlace</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/containerOfWork">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10147"/>
+    <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/w/containedInWork" />
     <rdfs:label>containerOfWork</rdfs:label>
   </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/containedInWork">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10019"/>
+    <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/w/containerOfWork" />
+    <rdfs:label>containedInWork</rdfs:label>
+  </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/a/otherDesignationAssociatedWithTheCorporateBody">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/a/P50033"/>
     <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P3047"/>
     <rdfs:label>otherDesignationAssociatedWithTheCorporateBody</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/m/carrierType">
     <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P3023"/>
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/P30001"/>
     <rdfs:label>carrierType</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/a/nameOfThePerson">
     <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P3039"/>
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/a/P50111"/>
     <rdfs:label>nameOfThePerson</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/numberingOfPart">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10012"/>
     <rdfs:label>numberingOfPart</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/wholePartWorkRelationship">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10232"/>
     <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P2057"/>
     <rdfs:label>wholePartWorkRelationship</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/m/title">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/P30134"/>
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/u/title"/>
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/titleProper"/>
     <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P3020"/>
     <rdfs:label>title</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/e/narrator">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/e/P20022"/>
     <rdfs:label>narrator</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/e/languageOfExpression">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/e/P20006"/>
     <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P3011"/>
     <rdfs:label>languageOfExpression</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/C1007">
     <rdfs:label>Concept</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/hasAsSubjectPlace">
     <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P2029"/>
+    <owl:inverseOf rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/isSubjectPlaceOf" />
     <rdfs:label>hasAsSubjectPlace</rdfs:label>
   </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/isSubjectPlaceOf">
+    <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P2030"/>
+    <owl:inverseOf rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/hasAsSubjectPlace" />
+    <rdfs:label>isSubjectPlaceOf</rdfs:label>
+  </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/e/actor">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/e/P20012"/>
     <rdfs:label>actor</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/m/publisher">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/P30083"/>
     <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P3056"/>
     <rdfs:label>publisher</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/m/termsOfAvailability">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/P30160"/>
     <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P3029"/>
     <rdfs:label>termsOfAvailability</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/C10008">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/c/Family"/>
     <rdfs:label>Family</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/hasTitleOfTheExpression">
     <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P3008"/>
     <rdfs:label>hasTitleOfTheExpression</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/a/dateAssociatedWithThePerson">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/a/P50107"/>
     <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P3040"/>
     <rdfs:label>dateAssociatedWithThePerson</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/C10004">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/c/Person"/>
     <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/C1005"/>
     <rdfs:label>Person</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/titleOfTheWork">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10088"/>
     <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P3001"/>
     <rdfs:label>titleOfTheWork</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/adaptedAsMotionPictureWork">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10025"/>
+    <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/w/motionPictureAdaptationOfWork" />
     <rdfs:label>adaptedAsMotionPictureWork</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/P10226">
-    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/continuationOfWork"/>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/motionPictureAdaptationOfWork">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10129"/>
+    <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/w/adaptedAsMotionPictureWork" />
+    <rdfs:label>motionPictureAdaptationOfWork</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/continuationOfWork">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10226"/>
+    <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/w/continuedByWork" />
     <rdfs:label>continuationOfWork</rdfs:label>
   </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/continuedByWork">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10191"/>
+    <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/w/continuationOfWork" />
+    <rdfs:label>continuedByWork</rdfs:label>
+  </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/e/noteOnExpression">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/e/P20071"/>
     <rdfs:label>noteOnExpression</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/identifierForTheWork">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10002"/>
     <rdfs:label>identifierForTheWork</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/C1010">
     <rdfs:label>Place</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/P10197">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/parodyOfWork"/>
+    <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/w/parodiedAsWork" />
     <rdfs:label>parodyOfWork</rdfs:label>
   </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/P10144">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/parodiedAsWork"/>
+    <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/w/parodyOfWork" />
+    <rdfs:label>parodiedAsWork</rdfs:label>
+  </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/C10003">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/c/Item"/>
     <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/C1004"/>
     <rdfs:label>Item</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/e/award">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/e/P20005"/>
     <rdfs:label>award</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/hasTermForTheEvent">
     <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P3050"/>
     <rdfs:label>hasTermForTheEvent</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/a/identifierForThePerson">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/a/P50094"/>
     <rdfs:label>identifierForThePerson</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/m/seriesStatement">
     <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P3022"/>
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/P30106"/>
     <rdfs:label>seriesStatement</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/C10007">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/c/Manifestation"/>
     <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/C1003"/>
     <rdfs:label>Manifestation</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/supplementWork">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10172"/>
+    <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/w/supplementWork" />
     <rdfs:label>supplementWork</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/supplementToWork">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10154"/>
+    <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/w/supplementWork" />
+    <rdfs:label>supplementToWork</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/graphicNovelizationOfWork">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10252"/>
+    <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/w/adaptedAsGraphicNovelWork" />
+    <rdfs:label>graphicNovelizationOfWork</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/adaptedAsGraphicNovelWork">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10251"/>
+    <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/w/graphicNovelizationOfWork" />
     <rdfs:label>adaptedAsGraphicNovelWork</rdfs:label>
   </rdf:Description>
+
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/expressionOfWork">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10078"/>
     <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P2001"/>
+    <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/e/workExpressed" />
     <rdfs:label>expressionOfWork</rdfs:label>
   </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/e/workExpressed">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/e/P20231"/>
+    <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/w/expressionOfWork" />
+    <rdfs:label>workExpressed</rdfs:label>
+  </rdf:Description>
+
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/summarizationOfTheContent">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/e/P20069"/>
     <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P3016"/>
     <rdfs:label>summarizationOfTheContent</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/artist">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10058"/>
     <rdfs:label>artist</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/m/designationOfEdition">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/P30133"/>
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/P30107"/>
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/editionStatement"/>
     <rdfs:label>designationOfEdition</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/e/illustrationsExpression">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/e/P20094"/>
+    <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/e/illustrationsForExpression" />
     <rdfs:label>illustrationsExpression</rdfs:label>
   </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/e/illustrationsForExpression">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/e/P20148"/>
+    <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/e/illustrationsExpression" />
+    <rdfs:label>illustrationsForExpression</rdfs:label>
+  </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/e/translator">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/e/P20037"/>
+    <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/e/translatorOf" />
     <rdfs:label>translator</rdfs:label>
   </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/a/translatorOf">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/a/P50145"/>
+    <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/e/translator" />
+    <rdfs:label>translatorOf</rdfs:label>
+  </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/m/publicationStatement">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/P30111"/>
     <rdfs:label>publicationStatement</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/m/otherTitleInformation">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/P30142"/>
     <rdfs:label>otherTitleInformation</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/e/illustrator">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/e/P20051"/>
+    <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/a/illustratorOf" />
     <rdfs:label>illustrator</rdfs:label>
   </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/a/illustratorOf">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/a/P50159"/>
+    <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/e/illustrator" />
+    <rdfs:label>illustratorOf</rdfs:label>
+  </rdf:Description>
+
+  <!-- work in progress -->
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/m/insert">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/P30022"/>
+    <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/m/insertedIn" />
     <rdfs:label>insert</rdfs:label>
   </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/m/insertedIn">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/P30025"/>
+    <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/m/insert" />
+    <rdfs:label>insertedIn</rdfs:label>
+  </rdf:Description>
+
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/C1009">
     <rdfs:label>Event</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/e/translatedAs">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/e/P20171"/>
+    <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/e/translationOf" />
     <rdfs:label>translatedAs</rdfs:label>
   </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/e/translationOf">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/e/P20141"/>
+    <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/e/translatedAs" />
+    <rdfs:label>translationOf</rdfs:label>
+  </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/C10006">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/c/Expression"/>
     <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/C1002"/>
     <rdfs:label>Expression</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/creator">
-    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10061"/>
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10065"/>
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10061"/>
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/author"/>
     <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P2009"/>
+    <owl:inverseOf rdf:resource="ttp://rdaregistry.info/Elements/a/creatorOf" />
+    <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/a/authorOf" />
     <rdfs:label>creator</rdfs:label>
   </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/a/creatorOf">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/a/P50204"/>
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/a/P50195"/>
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/a/authorOf"/>
+    <owl:inverseOf rdf:resource="ttp://rdaregistry.info/Elements/w/creator" />
+    <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/w/author" />
+    <rdfs:label>creatorOf</rdfs:label>
+  </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/e/writerOfIntroduction">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/e/P20045"/>
+    <owl:inverseOf rdf:resource="ttp://rdaregistry.info/Elements/a/writerOfIntroductionOf" />
     <rdfs:label>writerOfIntroduction</rdfs:label>
   </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/a/writerOfIntroductionOf">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/a/P50153"/>
+    <owl:inverseOf rdf:resource="ttp://rdaregistry.info/Elements/e/writerOfIntroduction" />
+    <rdfs:label>writerOfIntroductionOf</rdfs:label>
+  </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/illustrationsWork">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10093"/>
+    <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/w/illustrationsForWork"/>
     <rdfs:label>illustrationsWork</rdfs:label>
   </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/illustrationsForWork">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10152"/>
+    <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/w/illustrationsWork"/>
+    <rdfs:label>illustrationsForWork</rdfs:label>
+  </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/e/manifestationOfExpression">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/e/P20059"/>
     <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P2003"/>
+    <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/m/expressionManifested"/>
     <rdfs:label>manifestationOfExpression</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/P10123">
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/m/expressionManifested">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/P30139"/>
+    <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/e/manifestationOfExpression"/>
+    <rdfs:label>expressionManifested</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/appendixWork">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10123"/>
+    <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/w/appendixToWork"/>
     <rdfs:label>appendixWork</rdfs:label>
   </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/appendixToWork">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10151"/>
+    <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/w/appendixWork"/>
+    <rdfs:label>appendixToWork</rdfs:label>
+  </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/variantTitleForTheWork">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10086"/>
     <rdfs:label>variantTitleForTheWork</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/m/identifierForTheManifestation">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/P30004"/>
     <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P3028"/>
     <rdfs:label>identifierForTheManifestation</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/m/numberingWithinSubseries">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/P30015"/>
     <rdfs:label>numberingWithinSubseries</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/compiler">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10055"/>
+    <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/a/compilerOf"/>
     <rdfs:label>compiler</rdfs:label>
   </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/a/compilerOf">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/a/P50189"/>
+    <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/w/compiler"/>
+    <rdfs:label>compilerOf</rdfs:label>
+  </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/e/editor">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/e/P20048"/>
+    <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/a/editorOf"/>
     <rdfs:label>editor</rdfs:label>
   </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/a/editorOf">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/a/P50156"/>
+    <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/e/editor"/>
+    <rdfs:label>editorOf</rdfs:label>
+  </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/C10001">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/c/Work"/>
     <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/C1001"/>
     <rdfs:label>Work</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/hasTermForTheConcept">
     <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P3056"/>
     <rdfs:label>hasTermForTheConcept</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/m/noteOnCarrier">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/P30214"/>
     <rdfs:label>noteOnCarrier</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/m/statementOfResponsibilityRelatingToTitleProper">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/statementOfResponsibility"/>
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/P30105"/>
     <rdfs:label>statementOfResponsibilityRelatingToTitleProper</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/m/noteOnPublicationStatement">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/P30055"/>
     <rdfs:label>noteOnPublicationStatement</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/m/placeOfpublication">
+
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/m/placeOfPublication">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/P30088"/>
     <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P3057"/>
-    <rdfs:label>placeOfpublication</rdfs:label>
+    <rdfs:label>placeOfPublication</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/m/numberingWithinSeries">
     <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/P3079"/>
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/P30014"/>
     <rdfs:label>numberingWithinSeries</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/C1008">
     <rdfs:label>Object</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/composer">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10053"/>
+    <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/a/composerOf" />
     <rdfs:label>composer</rdfs:label>
   </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/a/composerOf">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/a/P50187"/>
+    <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/w/composer" />
+    <rdfs:label>composerOf</rdfs:label>
+  </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/m/issnOfSeries">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/m/P30166"/>
     <rdfs:label>issnOfSeries</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/C10005">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody"/>
     <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/C1006"/>
     <rdfs:label>CorporateBody</rdfs:label>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/e/contributor">
     <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/e/P20053"/>
+    <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/a/contributorOf" />
     <rdfs:label>contributor</rdfs:label>
   </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/a/contributorOf">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/a/P50161"/>
+    <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/e/contributor" />
+    <rdfs:label>contributorOf</rdfs:label>
+  </rdf:Description>
+
 </rdf:RDF>

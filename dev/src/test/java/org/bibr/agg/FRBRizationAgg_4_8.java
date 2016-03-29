@@ -96,7 +96,7 @@ public class FRBRizationAgg_4_8 {
 				"Cover with colorful illustrations");
 		manifestation.addProperty(FRBR.termsOfAvailability(model), "120,00 F");
 		manifestation.addProperty(FRBR.extent(model), "1279 pages");
-		manifestation.addProperty(FRBR.placeOfpublication(model), "Paris");
+		manifestation.addProperty(FRBR.placeOfPublication(model), "Paris");
 		manifestation.addProperty(FRBR.dateOfPublication(model), "1994");
 		manifestation
 				.addProperty(FRBR.titleOfTheManifestation(model), "Romans");
@@ -162,7 +162,7 @@ public class FRBRizationAgg_4_8 {
 				"Illustrations, cover with colorful illustrations");
 		manifestation.addProperty(FRBR.termsOfAvailability(model), "2,70 euro");
 		manifestation.addProperty(FRBR.extent(model), "159 pages");
-		manifestation.addProperty(FRBR.placeOfpublication(model), "Paris");
+		manifestation.addProperty(FRBR.placeOfPublication(model), "Paris");
 		manifestation.addProperty(FRBR.dateOfPublication(model), "2008");
 		manifestation.addProperty(FRBR.titleOfTheManifestation(model),
 				"Roman de Renart (Le)");
@@ -207,7 +207,7 @@ public class FRBRizationAgg_4_8 {
 				"colorful illustrations");
 		partmanif.addProperty(FRBR.termsOfAvailability(model), "8,90 Euros");
 		partmanif.addProperty(FRBR.extent(model), "31 pages");
-		partmanif.addProperty(FRBR.placeOfpublication(model), "Paris");
+		partmanif.addProperty(FRBR.placeOfPublication(model), "Paris");
 		partmanif.addProperty(FRBR.dateOfPublication(model), "2007");
 		partmanif.addProperty(FRBR.titleOfTheManifestation(model),
 				"Jambons d'Ysengrin (Les )");
@@ -271,7 +271,7 @@ public class FRBRizationAgg_4_8 {
 				"Cover with colorful illustrations");
 		manif1.addProperty(FRBR.termsOfAvailability(model), "5.80 euro");
 		manif1.addProperty(FRBR.extent(model), "443 pages");
-		manif1.addProperty(FRBR.placeOfpublication(model), "Paris");
+		manif1.addProperty(FRBR.placeOfPublication(model), "Paris");
 		manif1.addProperty(FRBR.dateOfPublication(model), "1969");
 		manif1.addProperty(FRBR.numberingWithinSeries(model), "210");
 		manif1.addProperty(FRBR.numberingWithinSubseries(model), "1");
@@ -296,7 +296,7 @@ public class FRBRizationAgg_4_8 {
 				"Cover with colorful illustrations");
 		manif2.addProperty(FRBR.termsOfAvailability(model), "6.80euro");
 		manif2.addProperty(FRBR.extent(model), "510 pages");
-		manif2.addProperty(FRBR.placeOfpublication(model), "Paris");
+		manif2.addProperty(FRBR.placeOfPublication(model), "Paris");
 		manif2.addProperty(FRBR.dateOfPublication(model), "1969");
 		manif2.addProperty(FRBR.numberingWithinSeries(model), "211");
 		manif2.addProperty(FRBR.numberingWithinSubseries(model), "2");
@@ -365,7 +365,7 @@ public class FRBRizationAgg_4_8 {
 				"On the cover: Texte integral annote, dossier pedagogique");
 		manifestation1.addProperty(FRBR.termsOfAvailability(model), "7,50 EUR");
 		manifestation1.addProperty(FRBR.extent(model), "191 pages");
-		manifestation1.addProperty(FRBR.placeOfpublication(model), "France");
+		manifestation1.addProperty(FRBR.placeOfPublication(model), "France");
 		manifestation1.addProperty(FRBR.dateOfPublication(model), "2009");
 		manifestation1.addProperty(FRBR.seriesStatement(model), collection);
 		manifestation1.addProperty(FRBR.titleOfTheManifestation(model),
@@ -449,7 +449,7 @@ public class FRBRizationAgg_4_8 {
 				"Colorful illustrations, cover with colorful illustrations");
 		manifestation.addProperty(FRBR.extent(model), "1 volume (173 pages)");
 		manifestation.addProperty(FRBR.carrierType(model), "Printed Text");
-		manifestation.addProperty(FRBR.placeOfpublication(model), "Paris");
+		manifestation.addProperty(FRBR.placeOfPublication(model), "Paris");
 		manifestation.addProperty(FRBR.dateOfPublication(model), "2012");
 		manifestation.addProperty(FRBR.otherTitleInformation(model),
 				"l'integrale Volume 7");
@@ -599,7 +599,7 @@ public class FRBRizationAgg_4_8 {
 		Resource publication1 = FRBR
 				.manifestation(model, "Journal0899823XPub1");
 		publication1.addProperty(FRBR.dateOfPublication(model), "1988-");
-		publication1.addProperty(FRBR.placeOfpublication(model),
+		publication1.addProperty(FRBR.placeOfPublication(model),
 				"Thorofare, NJ");
 		Resource publisher1 = FRBR.corporate(model, "SLACKInc");
 		publisher1
@@ -610,7 +610,7 @@ public class FRBRizationAgg_4_8 {
 		Resource publication2 = FRBR
 				.manifestation(model, "Journal0899823XPub2");
 		publication2.addProperty(FRBR.dateOfPublication(model), "2006-");
-		publication2.addProperty(FRBR.placeOfpublication(model), "Chicago, IL");
+		publication2.addProperty(FRBR.placeOfPublication(model), "Chicago, IL");
 		Resource publisher2 = FRBR.corporate(model, "UniversityofChicagoPress");
 		publisher2.addProperty(FRBR.nameOfTheCorporateBody(model),
 				"University of Chicago Press");

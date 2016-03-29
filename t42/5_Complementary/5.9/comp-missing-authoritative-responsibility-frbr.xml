@@ -29,7 +29,7 @@
     <rdam:statementOfResponsibilityRelatingToTitleProper>Clare Crawford-Mason; W. Edwards Deming; Lloyd Dobyns</rdam:statementOfResponsibilityRelatingToTitleProper>
     <rdam:otherTitleInformation>Part 2</rdam:otherTitleInformation>
     <rdam:title>A study in continual improvement</rdam:title>
-    <rdam:placeOfpublication>Chicago, Ill.</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Chicago, Ill.</rdam:placeOfPublication>
     <rdam:dateOfPublication>1995</rdam:dateOfPublication>
     <rdam:noteOnCarrier>PAL</rdam:noteOnCarrier>
     <rdam:extent>1 videocassette (27 min)</rdam:extent>
@@ -57,7 +57,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#Hospitals">
     <frbr:hasTermForTheConcept>Hospitals</frbr:hasTermForTheConcept>
-    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007#Hospitals</rdf:type>
+    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/CorporateBody#UniversityofChicagoPress">
     <rdaa:nameOfTheCorporateBody>University of Chicago Press</rdaa:nameOfTheCorporateBody>
@@ -69,7 +69,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#Epidemiology">
     <frbr:hasTermForTheConcept>Epidemiology</frbr:hasTermForTheConcept>
-    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007#Epidemiology</rdf:type>
+    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#InfectionControlAndHospitalEpidemiology">
     <rdaw:director rdf:resource="http://rdaregistry.info/Elements/c/Person#RichardPWenzel"/>
@@ -115,7 +115,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#Journal0899823XPub2">
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#UniversityofChicagoPress"/>
-    <rdam:placeOfpublication>Chicago, IL</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Chicago, IL</rdam:placeOfPublication>
     <rdam:dateOfPublication>2006-</rdam:dateOfPublication>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
   </rdf:Description>
@@ -143,7 +143,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#CrossInfection">
     <frbr:hasTermForTheConcept>Cross Infection</frbr:hasTermForTheConcept>
-    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007#CrossInfection</rdf:type>
+    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/creator">
     <rdfs:label>creator</rdfs:label>
@@ -159,7 +159,7 @@
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#DCGepreuve9782091638676">
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#Nathan"/>
     <rdam:otherTitleInformation>comptabilite approfondie; corriges des applications</rdam:otherTitleInformation>
-    <rdam:placeOfpublication>Paris</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdam:dateOfPublication>2015</rdam:dateOfPublication>
     <rdam:dimensions>24 cm</rdam:dimensions>
     <rdam:extent>1 volume (271 pages)</rdam:extent>
@@ -185,7 +185,7 @@
     <rdam:statementOfResponsibilityRelatingToTitleProper>Clare Crawford-Mason; W. Edwards Deming; Lloyd Dobyns</rdam:statementOfResponsibilityRelatingToTitleProper>
     <rdam:otherTitleInformation>Part 1</rdam:otherTitleInformation>
     <rdam:title>A study in continual improvement</rdam:title>
-    <rdam:placeOfpublication>Chicago, Ill.</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Chicago, Ill.</rdam:placeOfPublication>
     <rdam:dateOfPublication>1995</rdam:dateOfPublication>
     <rdam:noteOnCarrier>PAL</rdam:noteOnCarrier>
     <rdam:extent>1 videocassette (27 min)</rdam:extent>
@@ -193,11 +193,11 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#Infection">
     <frbr:hasTermForTheConcept>Infection</frbr:hasTermForTheConcept>
-    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007#Infection</rdf:type>
+    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#InfectionControl">
     <frbr:hasTermForTheConcept>Infection Control</frbr:hasTermForTheConcept>
-    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007#InfectionControl</rdf:type>
+    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#DCGepreuve10corrige">
     <rdaw:creator rdf:resource="http://rdaregistry.info/Elements/c/Person#LaurenceCassio"/>
@@ -232,11 +232,11 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#TotalQualityManagement">
     <frbr:hasTermForTheConcept>Total Quality Management</frbr:hasTermForTheConcept>
-    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007#TotalQualityManagement</rdf:type>
+    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#Journal0899823XPub1">
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#SLACKInc"/>
-    <rdam:placeOfpublication>Thorofare, NJ</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Thorofare, NJ</rdam:placeOfPublication>
     <rdam:dateOfPublication>1988-</rdam:dateOfPublication>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
   </rdf:Description>
@@ -280,7 +280,7 @@
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
     <rdam:dimensions>24 cm</rdam:dimensions>
     <rdam:dateOfPublication>2015</rdam:dateOfPublication>
-    <rdam:placeOfpublication>Paris</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdam:statementOfResponsibilityRelatingToTitleProper>Odile Barbe; Laurent Didelot; Jean-Luc Siegwart</rdam:statementOfResponsibilityRelatingToTitleProper>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/CorporateBody#SLACKInc">

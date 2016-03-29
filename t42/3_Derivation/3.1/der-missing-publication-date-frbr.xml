@@ -63,7 +63,7 @@
     <rdam:statementOfResponsibilityRelatingToTitleProper>Manu Larcenet; from Christin et Mezieres</rdam:statementOfResponsibilityRelatingToTitleProper>
     <rdam:title>Armure du Jakolass (L')</rdam:title>
     <rdam:otherTitleInformation>Valerian par Manu Larcenet</rdam:otherTitleInformation>
-    <rdam:placeOfpublication>Paris</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdam:carrierType>Graphic Novel</rdam:carrierType>
     <rdam:identifierForTheManifestation>9782205067583</rdam:identifierForTheManifestation>
     <rdam:identifierForTheManifestation>978-2-205-06758-3</rdam:identifierForTheManifestation>
@@ -92,7 +92,7 @@
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
     <rdam:extent>1 volume (164 pages)</rdam:extent>
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#Dargaud"/>
-    <rdam:placeOfpublication>Paris</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdam:title>Valerian et Laureline</rdam:title>
     <rdam:statementOfResponsibilityRelatingToTitleProper>Pierre Christin; Jean-Claude Meziere</rdam:statementOfResponsibilityRelatingToTitleProper>
     <rdam:identifierForTheManifestation>978-2205-06038-6</rdam:identifierForTheManifestation>
@@ -124,7 +124,7 @@
     <rdam:noteOnCarrier>Colorful illustrations</rdam:noteOnCarrier>
     <rdam:dimensions>32 cm</rdam:dimensions>
     <rdam:title>Docteur Jekyll &amp; Mister Hyde</rdam:title>
-    <rdam:placeOfpublication>Paris</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdam:extent>64 pages</rdam:extent>
     <rdam:otherTitleInformation>free adapatation from the book of Robert L. Stevenson</rdam:otherTitleInformation>
     <rdam:identifierForTheManifestation>2203389885</rdam:identifierForTheManifestation>
@@ -265,7 +265,7 @@
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#Book9782013223973">
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#Hachette"/>
     <rdam:statementOfResponsibilityRelatingToTitleProper>Robert Louis Stevenson; Michel Laporte</rdam:statementOfResponsibilityRelatingToTitleProper>
-    <rdam:placeOfpublication>Paris</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdam:termsOfAvailability>4.50 euro</rdam:termsOfAvailability>
     <rdam:extent>248 pages</rdam:extent>
     <rdam:dimensions>18 cm</rdam:dimensions>
@@ -308,7 +308,7 @@
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#Book9782013226554">
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#Hachette"/>
     <rdam:statementOfResponsibilityRelatingToTitleProper>Mark Twain; P. F. Caille; Y. Dubois-Mauvais</rdam:statementOfResponsibilityRelatingToTitleProper>
-    <rdam:placeOfpublication>Paris</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdam:termsOfAvailability>5,90 EUR</rdam:termsOfAvailability>
     <rdam:extent>411 pages</rdam:extent>
     <rdam:dimensions>18 cm</rdam:dimensions>
@@ -325,7 +325,7 @@
     <rdam:dimensions>18 cm</rdam:dimensions>
     <rdam:carrierType>book</rdam:carrierType>
     <rdam:extent>1 volume (123 pages)</rdam:extent>
-    <rdam:placeOfpublication>Harpenden</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Harpenden</rdam:placeOfPublication>
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#PulpTheClassics"/>
     <rdam:statementOfResponsibilityRelatingToTitleProper>Robert Louis Stevenson</rdam:statementOfResponsibilityRelatingToTitleProper>
   </rdf:Description>
@@ -408,7 +408,7 @@
     <rdam:title>Harry Potter and the Deathly Hallows Part 2</rdam:title>
     <rdam:noteOnCarrier>Colors, Audio (PAL)</rdam:noteOnCarrier>
     <rdam:extent>1 DVD (2 h 05 min)</rdam:extent>
-    <rdam:placeOfpublication>Neuilly-sur-Seine</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Neuilly-sur-Seine</rdam:placeOfPublication>
     <rdam:identifierForTheManifestation>5051889209546</rdam:identifierForTheManifestation>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
   </rdf:Description>
@@ -425,7 +425,7 @@
     <rdam:title>Harry Potter and the Deathly Hallows Part 1</rdam:title>
     <rdam:noteOnCarrier>Colors, Audio (PAL)</rdam:noteOnCarrier>
     <rdam:extent>1 DVD (2 h 20 min)</rdam:extent>
-    <rdam:placeOfpublication>Neuilly-sur-Seine</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Neuilly-sur-Seine</rdam:placeOfPublication>
     <rdam:identifierForTheManifestation>5051889060093</rdam:identifierForTheManifestation>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
   </rdf:Description>
@@ -437,7 +437,7 @@
     <rdam:title>Des souris et des hommes</rdam:title>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
     <rdam:termsOfAvailability>39,00 F</rdam:termsOfAvailability>
-    <rdam:placeOfpublication>Paris</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdam:dimensions>18 cm</rdam:dimensions>
     <rdam:statementOfResponsibilityRelatingToTitleProper>John Steinbeck; M.E. Coindreau</rdam:statementOfResponsibilityRelatingToTitleProper>
   </rdf:Description>
@@ -448,7 +448,7 @@
     <rdam:statementOfResponsibilityRelatingToTitleProper>Michael Morpurgo; Andre Dupuis</rdam:statementOfResponsibilityRelatingToTitleProper>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
     <rdam:termsOfAvailability>14 euro</rdam:termsOfAvailability>
-    <rdam:placeOfpublication>Paris</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdam:dimensions>22 cm</rdam:dimensions>
     <rdam:title>Cheval de guerre</rdam:title>
     <rdam:identifierForTheManifestation>978-2-07-055890-2</rdam:identifierForTheManifestation>
@@ -463,7 +463,7 @@
     <rdam:noteOnCarrier>Illustrations, Cover with illustration</rdam:noteOnCarrier>
     <rdam:statementOfResponsibilityRelatingToTitleProper>based on writting by Victor Hugo; adapted in manga by studio Variety artworks</rdam:statementOfResponsibilityRelatingToTitleProper>
     <rdam:title>miserables (Les )</rdam:title>
-    <rdam:placeOfpublication>Paris</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdam:carrierType>Manga</rdam:carrierType>
     <rdam:dimensions>19 cm</rdam:dimensions>
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#Soleil"/>
@@ -483,7 +483,7 @@
     <rdam:title>Les miserables</rdam:title>
     <rdam:noteOnCarrier>Colors (PAL), audio</rdam:noteOnCarrier>
     <rdam:extent>1 DVD monoface area 2 (2 h 31 min)</rdam:extent>
-    <rdam:placeOfpublication>Universal city</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Universal city</rdam:placeOfPublication>
     <rdam:carrierType>Motion Picture</rdam:carrierType>
     <rdam:identifierForTheManifestation>5050582942156</rdam:identifierForTheManifestation>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
@@ -504,7 +504,7 @@
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#Bloomsbury"/>
     <rdam:statementOfResponsibilityRelatingToTitleProper>J.K. Rowling</rdam:statementOfResponsibilityRelatingToTitleProper>
     <rdam:title>Harry Potter and the Deathly Hallows</rdam:title>
-    <rdam:placeOfpublication>London</rdam:placeOfpublication>
+    <rdam:placeOfPublication>London</rdam:placeOfPublication>
     <rdam:noteOnCarrier>Cover with colorful illustrations</rdam:noteOnCarrier>
     <rdam:extent>1 volume (619 pages)</rdam:extent>
     <rdam:dimensions>20 cm</rdam:dimensions>

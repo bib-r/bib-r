@@ -30,7 +30,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#Hospitals">
     <frbr:hasTermForTheConcept>Hospitals</frbr:hasTermForTheConcept>
-    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007#Hospitals</rdf:type>
+    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#ValerianEtLaureline">
     <rdaw:containerOfWork rdf:resource="http://rdaregistry.info/Elements/c/Work#ValerianetLaureline"/>
@@ -104,13 +104,13 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#Journal0899823XPub2">
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#UniversityofChicagoPress"/>
-    <rdam:placeOfpublication>Chicago, IL</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Chicago, IL</rdam:placeOfPublication>
     <rdam:dateOfPublication>2006-</rdam:dateOfPublication>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#Abhangigkeit">
     <frbr:hasTermForTheConcept>Abhangigkeit</frbr:hasTermForTheConcept>
-    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007#Abhangigkeit</rdf:type>
+    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#Comic9782205060386">
     <rdam:carrierType>Printed Text</rdam:carrierType>
@@ -121,7 +121,7 @@
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
     <rdam:dateOfPublication>2012</rdam:dateOfPublication>
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#Dargaud"/>
-    <rdam:placeOfpublication>Paris</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdam:title>Valerian et Laureline</rdam:title>
     <rdam:statementOfResponsibilityRelatingToTitleProper>Pierre Christin; Jean-Claude Mezieres</rdam:statementOfResponsibilityRelatingToTitleProper>
     <rdam:identifierForTheManifestation>978-2205-06038-6</rdam:identifierForTheManifestation>
@@ -133,7 +133,7 @@
     <rdam:title>Meditations metaphysiques</rdam:title>
     <rdam:statementOfResponsibilityRelatingToTitleProper>Descartes; Denis Huisman</rdam:statementOfResponsibilityRelatingToTitleProper>
     <rdam:title>Discours de la methode</rdam:title>
-    <rdam:placeOfpublication>France</rdam:placeOfpublication>
+    <rdam:placeOfPublication>France</rdam:placeOfPublication>
     <rdam:seriesStatement rdf:resource="http://rdaregistry.info/Elements/c/Work#LesIntegralesphilo"/>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#Nathan"/>
@@ -157,7 +157,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#CrossInfection">
     <frbr:hasTermForTheConcept>Cross Infection</frbr:hasTermForTheConcept>
-    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007#CrossInfection</rdf:type>
+    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/CorporateBody#Delcourt">
     <rdaa:nameOfTheCorporateBody>Delcourt</rdaa:nameOfTheCorporateBody>
@@ -213,7 +213,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#InfectionControl">
     <frbr:hasTermForTheConcept>Infection Control</frbr:hasTermForTheConcept>
-    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007#InfectionControl</rdf:type>
+    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#Auborddugouffre">
     <rdaw:creator rdf:resource="http://rdaregistry.info/Elements/c/Person#VictorMargueritte"/>
@@ -256,7 +256,7 @@
     <rdam:numberingWithinSubseries>2</rdam:numberingWithinSubseries>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
     <rdam:otherTitleInformation>Book II</rdam:otherTitleInformation>
-    <rdam:placeOfpublication>Paris</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdam:noteOnCarrier>Cover with colorful illustrations</rdam:noteOnCarrier>
     <rdam:dimensions>18 cm</rdam:dimensions>
     <rdam:identifierForTheManifestation>978-2-08-070211-1</rdam:identifierForTheManifestation>
@@ -265,7 +265,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#Journal0899823XPub1">
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#SLACKInc"/>
-    <rdam:placeOfpublication>Thorofare, NJ</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Thorofare, NJ</rdam:placeOfPublication>
     <rdam:dateOfPublication>1988-</rdam:dateOfPublication>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
   </rdf:Description>
@@ -284,7 +284,7 @@
     <rdam:identifierForTheManifestation>978-2-0812-0963-3</rdam:identifierForTheManifestation>
     <rdam:dateOfPublication>2008</rdam:dateOfPublication>
     <rdam:title>Roman de Renart (Le)</rdam:title>
-    <rdam:placeOfpublication>Paris</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
     <rdam:statementOfResponsibilityRelatingToTitleProper>Christian Keime; Monique Lachet-Lagarde</rdam:statementOfResponsibilityRelatingToTitleProper>
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#Flammarion"/>
@@ -337,11 +337,11 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#Epidemiology">
     <frbr:hasTermForTheConcept>Epidemiology</frbr:hasTermForTheConcept>
-    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007#Epidemiology</rdf:type>
+    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#Behandlung">
     <frbr:hasTermForTheConcept>Behandlung</frbr:hasTermForTheConcept>
-    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007#Behandlung</rdf:type>
+    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Person#Descartes">
     <rdaa:nameOfThePerson>Descartes</rdaa:nameOfThePerson>
@@ -373,7 +373,7 @@
     <rdam:dimensions>18 cm</rdam:dimensions>
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#GarnierFlammarion"/>
     <rdam:numberingWithinSeries>210</rdam:numberingWithinSeries>
-    <rdam:placeOfpublication>Paris</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
     <rdam:otherTitleInformation>Book I</rdam:otherTitleInformation>
     <rdam:title>Essais</rdam:title>
@@ -387,7 +387,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#RomansdelaTableronde">
     <frbr:hasTermForTheConcept>Romans de la Table ronde</frbr:hasTermForTheConcept>
-    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007#RomansdelaTableronde</rdf:type>
+    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#Iloveenglish208">
     <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Iloveenglish208"/>
@@ -424,7 +424,7 @@
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
     <rdam:dimensions>19 cm</rdam:dimensions>
     <rdam:identifierForTheManifestation>2-253-13222-5</rdam:identifierForTheManifestation>
-    <rdam:placeOfpublication>Paris</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdam:termsOfAvailability>120,00 F</rdam:termsOfAvailability>
     <rdam:title>Romans</rdam:title>
     <rdam:noteOnCarrier>Cover with colorful illustrations</rdam:noteOnCarrier>
@@ -440,7 +440,7 @@
     <rdam:title>Jambons d'Ysengrin (Les )</rdam:title>
     <rdam:noteOnCarrier>colorful illustrations</rdam:noteOnCarrier>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
-    <rdam:placeOfpublication>Paris</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/creator">
     <rdfs:label>creator</rdfs:label>
@@ -519,7 +519,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#Klinik">
     <frbr:hasTermForTheConcept>Klinik</frbr:hasTermForTheConcept>
-    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007#Klinik</rdf:type>
+    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#IloveenglishJournal">
     <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#JournalIloveenglish"/>
@@ -533,7 +533,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#LearningEnglish">
     <frbr:hasTermForTheConcept>Learning English</frbr:hasTermForTheConcept>
-    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007#LearningEnglish</rdf:type>
+    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Person#HansSlijpen">
     <rdaa:nameOfThePerson>Hans Slijpen</rdaa:nameOfThePerson>

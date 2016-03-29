@@ -64,7 +64,7 @@
     <rdam:title>Armure du Jakolass (L')</rdam:title>
     <rdam:otherTitleInformation>Valerian par Manu Larcenet</rdam:otherTitleInformation>
     <rdam:dateOfPublication>2011</rdam:dateOfPublication>
-    <rdam:placeOfpublication>Paris</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdam:identifierForTheManifestation>9782205067583</rdam:identifierForTheManifestation>
     <rdam:identifierForTheManifestation>978-2-205-06758-3</rdam:identifierForTheManifestation>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
@@ -91,7 +91,7 @@
     <rdam:title>Valerian et Laureline</rdam:title>
     <rdam:otherTitleInformation>l'integrale</rdam:otherTitleInformation>
     <rdam:dateOfPublication>2012</rdam:dateOfPublication>
-    <rdam:placeOfpublication>Paris</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdam:identifierForTheManifestation>978-2205-06038-6</rdam:identifierForTheManifestation>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
   </rdf:Description>
@@ -120,7 +120,7 @@
     <rdam:title>Docteur Jekyll &amp; Mister Hyde</rdam:title>
     <rdam:otherTitleInformation>free adapatation from the book of Robert L. Stevenson</rdam:otherTitleInformation>
     <rdam:dateOfPublication>2002</rdam:dateOfPublication>
-    <rdam:placeOfpublication>Paris</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdam:identifierForTheManifestation>2203389885</rdam:identifierForTheManifestation>
     <rdam:identifierForTheManifestation>2-203-38988-5</rdam:identifierForTheManifestation>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
@@ -260,7 +260,7 @@
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#Hachette"/>
     <rdam:statementOfResponsibilityRelatingToTitleProper>Robert Louis Stevenson; Michel Laporte</rdam:statementOfResponsibilityRelatingToTitleProper>
     <rdam:dateOfPublication>2010</rdam:dateOfPublication>
-    <rdam:placeOfpublication>Paris</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdam:termsOfAvailability>4.50 euro</rdam:termsOfAvailability>
     <rdam:title>Ile au tresor (L')</rdam:title>
     <rdam:identifierForTheManifestation>9782-01-322397-3</rdam:identifierForTheManifestation>
@@ -302,7 +302,7 @@
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#Hachette"/>
     <rdam:statementOfResponsibilityRelatingToTitleProper>Mark Twain; P. F. Caille; Y. Dubois-Mauvais</rdam:statementOfResponsibilityRelatingToTitleProper>
     <rdam:dateOfPublication>2008</rdam:dateOfPublication>
-    <rdam:placeOfpublication>Paris</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdam:termsOfAvailability>5,90 EUR</rdam:termsOfAvailability>
     <rdam:title>aventures de Tom Sawyer (Les)</rdam:title>
     <rdam:identifierForTheManifestation>978-2-01-322655-4</rdam:identifierForTheManifestation>
@@ -313,7 +313,7 @@
     <rdam:statementOfResponsibilityRelatingToTitleProper>Robert Louis Stevenson</rdam:statementOfResponsibilityRelatingToTitleProper>
     <rdam:title>The strange case of Dr Jekyll and Mr Hyde</rdam:title>
     <rdam:dateOfPublication>2014</rdam:dateOfPublication>
-    <rdam:placeOfpublication>Harpenden</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Harpenden</rdam:placeOfPublication>
     <rdam:identifierForTheManifestation>9781843444848</rdam:identifierForTheManifestation>
     <rdam:identifierForTheManifestation>978-1-84344-484-8</rdam:identifierForTheManifestation>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
@@ -395,7 +395,7 @@
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#WarnerHomeVideo"/>
     <rdam:statementOfResponsibilityRelatingToTitleProper>David Yates; Daniel Radcliffe; Emma Watson</rdam:statementOfResponsibilityRelatingToTitleProper>
     <rdam:title>Harry Potter and the Deathly Hallows Part 2</rdam:title>
-    <rdam:placeOfpublication>Neuilly-sur-Seine</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Neuilly-sur-Seine</rdam:placeOfPublication>
     <rdam:identifierForTheManifestation>5051889209546</rdam:identifierForTheManifestation>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
   </rdf:Description>
@@ -411,7 +411,7 @@
     <rdam:statementOfResponsibilityRelatingToTitleProper>David Yates; Daniel Radcliffe; Emma Watson</rdam:statementOfResponsibilityRelatingToTitleProper>
     <rdam:title>Harry Potter and the Deathly Hallows Part 1</rdam:title>
     <rdam:dateOfPublication>2011</rdam:dateOfPublication>
-    <rdam:placeOfpublication>Neuilly-sur-Seine</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Neuilly-sur-Seine</rdam:placeOfPublication>
     <rdam:identifierForTheManifestation>5051889060093</rdam:identifierForTheManifestation>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
   </rdf:Description>
@@ -419,7 +419,7 @@
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#Gallimard"/>
     <rdam:statementOfResponsibilityRelatingToTitleProper>John Steinbeck; M.E. Coindreau</rdam:statementOfResponsibilityRelatingToTitleProper>
     <rdam:dateOfPublication>1992</rdam:dateOfPublication>
-    <rdam:placeOfpublication>Paris</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdam:termsOfAvailability>39,00 F</rdam:termsOfAvailability>
     <rdam:title>Des souris et des hommes</rdam:title>
     <rdam:identifierForTheManifestation>2-07-036037-7</rdam:identifierForTheManifestation>
@@ -429,7 +429,7 @@
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#Gallimard"/>
     <rdam:statementOfResponsibilityRelatingToTitleProper>Michael Morpurgo; Andre Dupuis</rdam:statementOfResponsibilityRelatingToTitleProper>
     <rdam:dateOfPublication>2005</rdam:dateOfPublication>
-    <rdam:placeOfpublication>Paris</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdam:termsOfAvailability>14 euro</rdam:termsOfAvailability>
     <rdam:title>Cheval de guerre</rdam:title>
     <rdam:identifierForTheManifestation>978-2-07-055890-2</rdam:identifierForTheManifestation>
@@ -446,7 +446,7 @@
     <rdam:statementOfResponsibilityRelatingToTitleProper>based on writting by Victor Hugo; adapted in manga by studio Variety artworks</rdam:statementOfResponsibilityRelatingToTitleProper>
     <rdam:title>miserables (Les )</rdam:title>
     <rdam:dateOfPublication>2011</rdam:dateOfPublication>
-    <rdam:placeOfpublication>Paris</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdam:termsOfAvailability>6,95 euro</rdam:termsOfAvailability>
     <rdam:identifierForTheManifestation>9782302013773</rdam:identifierForTheManifestation>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
@@ -481,7 +481,7 @@
     <rdam:statementOfResponsibilityRelatingToTitleProper>J.K. Rowling</rdam:statementOfResponsibilityRelatingToTitleProper>
     <rdam:title>Harry Potter and the Deathly Hallows</rdam:title>
     <rdam:dateOfPublication>2014</rdam:dateOfPublication>
-    <rdam:placeOfpublication>London</rdam:placeOfpublication>
+    <rdam:placeOfPublication>London</rdam:placeOfPublication>
     <rdam:identifierForTheManifestation>978-1-4088-5571-3</rdam:identifierForTheManifestation>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
   </rdf:Description>

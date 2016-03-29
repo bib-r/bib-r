@@ -25,7 +25,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#Hospitals">
     <frbr:hasTermForTheConcept>Hospitals</frbr:hasTermForTheConcept>
-    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007#Hospitals</rdf:type>
+    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#InfectionControlAndHospitalEpidemiologyJournal">
     <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Journal0899823X"/>
@@ -42,11 +42,11 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#Infection">
     <frbr:hasTermForTheConcept>Infection</frbr:hasTermForTheConcept>
-    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007#Infection</rdf:type>
+    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#InfectionControl">
     <frbr:hasTermForTheConcept>Infection Control</frbr:hasTermForTheConcept>
-    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007#InfectionControl</rdf:type>
+    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Person#BarryFarr">
     <rdaa:nameOfThePerson>Barry Farr</rdaa:nameOfThePerson>
@@ -55,7 +55,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#Epidemiology">
     <frbr:hasTermForTheConcept>Epidemiology</frbr:hasTermForTheConcept>
-    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007#Epidemiology</rdf:type>
+    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#InfectionControlAndHospitalEpidemiology">
     <rdaw:director rdf:resource="http://rdaregistry.info/Elements/c/Person#RichardPWenzel"/>
@@ -96,7 +96,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#Journal0899823XPub1">
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#SLACKInc"/>
-    <rdam:placeOfpublication>Thorofare, NJ</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Thorofare, NJ</rdam:placeOfPublication>
     <rdam:dateOfPublication>1988-</rdam:dateOfPublication>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
   </rdf:Description>
@@ -109,7 +109,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#Journal0899823XPub2">
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#UniversityofChicagoPress"/>
-    <rdam:placeOfpublication>Chicago, IL</rdam:placeOfpublication>
+    <rdam:placeOfPublication>Chicago, IL</rdam:placeOfPublication>
     <rdam:dateOfPublication>2006-</rdam:dateOfPublication>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
   </rdf:Description>
@@ -122,7 +122,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#CrossInfection">
     <frbr:hasTermForTheConcept>Cross Infection</frbr:hasTermForTheConcept>
-    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007#CrossInfection</rdf:type>
+    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/CorporateBody#SLACKInc">
     <rdaa:nameOfTheCorporateBody>SLACK Inc.</rdaa:nameOfTheCorporateBody>

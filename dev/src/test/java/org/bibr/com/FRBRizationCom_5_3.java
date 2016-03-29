@@ -64,7 +64,7 @@ public class FRBRizationCom_5_3 {
 		manifestation1.addProperty(FRBR.identifierForTheManifestation(model),
 				"978-2-09-163866-9");
 		manifestation1.addProperty(FRBR.dateOfPublication(model), "2015");
-		manifestation1.addProperty(FRBR.placeOfpublication(model), "Paris");
+		manifestation1.addProperty(FRBR.placeOfPublication(model), "Paris");
 		manifestation1.addProperty(FRBR.otherTitleInformation(model),
 				"comptabilite approfondie; manuel et applications");
 		manifestation1.addProperty(FRBR.titleOfTheManifestation(model),
@@ -113,7 +113,7 @@ public class FRBRizationCom_5_3 {
 		manifestation2.addProperty(FRBR.identifierForTheManifestation(model),
 				"978-2-09-163867-6");
 		manifestation2.addProperty(FRBR.dateOfPublication(model), "2015");
-		manifestation2.addProperty(FRBR.placeOfpublication(model), "Paris");
+		manifestation2.addProperty(FRBR.placeOfPublication(model), "Paris");
 		manifestation2.addProperty(FRBR.otherTitleInformation(model),
 				"comptabilite approfondie; corriges des applications");
 		manifestation1.addProperty(FRBR.titleOfTheManifestation(model),
@@ -220,7 +220,7 @@ public class FRBRizationCom_5_3 {
 		Resource publication1 = FRBR
 				.manifestation(model, "Journal0899823XPub1");
 		publication1.addProperty(FRBR.dateOfPublication(model), "1988-");
-		publication1.addProperty(FRBR.placeOfpublication(model),
+		publication1.addProperty(FRBR.placeOfPublication(model),
 				"Thorofare, NJ");
 		Resource publisher1 = FRBR.corporate(model, "SLACKInc");
 		publisher1
@@ -231,7 +231,7 @@ public class FRBRizationCom_5_3 {
 		Resource publication2 = FRBR
 				.manifestation(model, "Journal0899823XPub2");
 		publication2.addProperty(FRBR.dateOfPublication(model), "2006-");
-		publication2.addProperty(FRBR.placeOfpublication(model), "Chicago, IL");
+		publication2.addProperty(FRBR.placeOfPublication(model), "Chicago, IL");
 		Resource publisher2 = FRBR.corporate(model, "UniversityofChicagoPress");
 		publisher2.addProperty(FRBR.nameOfTheCorporateBody(model),
 				"University of Chicago Press");
@@ -313,7 +313,7 @@ public class FRBRizationCom_5_3 {
 		Resource manifestation1 = FRBR.manifestation(model,
 				"StudyContinualImprovementVideo1");
 		manifestation1.addProperty(FRBR.dateOfPublication(model), "1995");
-		manifestation1.addProperty(FRBR.placeOfpublication(model),
+		manifestation1.addProperty(FRBR.placeOfPublication(model),
 				"Chicago, Ill.");
 		manifestation1.addProperty(FRBR.titleOfTheManifestation(model),
 				"A study in continual improvement");
@@ -378,7 +378,7 @@ public class FRBRizationCom_5_3 {
 		Resource manifestation2 = FRBR.manifestation(model,
 				"StudyContinualImprovementVideo2");
 		manifestation2.addProperty(FRBR.dateOfPublication(model), "1995");
-		manifestation2.addProperty(FRBR.placeOfpublication(model),
+		manifestation2.addProperty(FRBR.placeOfPublication(model),
 				"Chicago, Ill.");
 		manifestation2.addProperty(FRBR.titleOfTheManifestation(model),
 				"A study in continual improvement");
