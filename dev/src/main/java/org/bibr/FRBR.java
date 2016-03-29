@@ -52,14 +52,7 @@ public class FRBR {
 		person.addProperty(RDF.type,RDA+"/"+catClass+"/"+"C10004");
 		return person;
 	}
-	public Resource person_ONT(Model model){
-		Resource person;
-		person = model.createResource(RDA+"/"+catClass+"/"+"C10004");
-		person.addLiteral(RDFS.label,"Person");
-		Resource frbreq = model.createResource(FRBRER +"/"+ "C1005");
-		person.addProperty(OWL.sameAs,frbreq);
-		return person;
-	}
+
 	// -----------
 	
 	/**
@@ -72,13 +65,7 @@ public class FRBR {
 		corp.addProperty(RDF.type,RDA+"/"+catClass+"/"+"C10005");
 		return corp;
 	}
-	public Resource corporate_ONT(Model model){
-		Resource corp = model.createResource(RDA+"/"+catClass+"/"+"C10005");
-		corp.addLiteral(RDFS.label,"CorporateBody");
-		Resource frbreq = model.createResource(FRBRER +"/"+ "C1006");
-		corp.addProperty(OWL.sameAs,frbreq);
-		return corp;
-	}
+
 	// -----------
 	
 	/**
@@ -89,11 +76,6 @@ public class FRBR {
 	public static Resource family(Model model, String id){
 		Resource family = model.createResource(RDA+"/"+catClass+"/"+"Family"+"#"+id);
 		family.addProperty(RDF.type,RDA+"/"+catClass+"/"+"C10008");
-		return family;
-	}
-	public Resource family_ONT(Model model){
-		Resource family = model.createResource(RDA+"/"+catClass+"/"+"C10008");
-		family.addLiteral(RDFS.label,"Family");
 		return family;
 	}
 	// -----------
@@ -109,14 +91,7 @@ public class FRBR {
 		work.addProperty(RDF.type,RDA+"/"+catClass+"/"+"C10001");
 		return work;
 	}
-	public Resource work_ONT(Model model){
-		Resource work = model.createResource(RDA+"/"+catClass+"/"+"C10001");
-		Resource frbreq = model.createResource(FRBRER +"/"+ "C1001");
-		work.addLiteral(RDFS.label,"Work");
-		work.addProperty(OWL.sameAs,frbreq);
-		return work;
-		
-	}
+
 	// -----------
 	
 	/**
@@ -129,13 +104,7 @@ public class FRBR {
 		expr.addProperty(RDF.type,RDA+"/"+catClass+"/"+"C10006");
 		return expr;
 	}
-	public Resource expression_ONT(Model model){
-		Resource expr = model.createResource(RDA+"/"+catClass+"/"+"C10006");
-		Resource frbreq = model.createResource(FRBRER +"/"+ "C1002");
-		expr.addLiteral(RDFS.label,"Expression");
-		expr.addProperty(OWL.sameAs,frbreq);
-		return expr;
-	}
+
 	// -----------
 	
 	/**
@@ -148,13 +117,7 @@ public class FRBR {
 		manif.addProperty(RDF.type,RDA+"/"+catClass+"/"+"C10007");
 		return manif;
 	}
-	public Resource manifestation_ONT(Model model){
-		Resource manif = model.createResource(RDA+"/"+catClass+"/"+"C10007");
-		Resource frbreq = model.createResource(FRBRER +"/"+ "C1003");
-		manif.addLiteral(RDFS.label,"Manifestation");
-		manif.addProperty(OWL.sameAs,frbreq);
-		return manif;
-	}
+
 	// -----------
 	
 	/**
@@ -167,13 +130,7 @@ public class FRBR {
 		item.addProperty(RDF.type,RDA+"/"+catClass+"/"+"C10003");
 		return item;
 	}
-	public Resource item_ONT(Model model){
-		Resource item = model.createResource(RDA+"/"+catClass+"/"+"C10003");
-		Resource frbreq = model.createResource(FRBRER +"/"+ "C1004");
-		item.addLiteral(RDFS.label,"Item");
-		item.addProperty(OWL.sameAs,frbreq);
-		return item;
-	}
+
 	// -----------
 	
 	/**
@@ -183,14 +140,8 @@ public class FRBR {
 	 */
 	public static Resource concept(Model model, String id){
 		Resource concept = model.createResource(FRBRER +"/"+ "Concept"+"#"+id);
-		concept.addProperty(RDF.type,FRBRER +"/"+ "C1007"+"#"+id);
+		concept.addProperty(RDF.type,FRBRER +"/"+ "C1007");
 		return concept;
-	}
-	public Resource concept_ONT(Model model){
-		Resource concept = model.createResource(FRBRER +"/"+ "C1007");
-		concept.addLiteral(RDFS.label,"Concept");
-		return concept;
-		
 	}
 	// -----------
 	
@@ -204,11 +155,6 @@ public class FRBR {
 		obj.addProperty(RDF.type,FRBRER +"/"+ "C1008");
 		return obj;
 	}
-	public Resource object_ONT(Model model){
-		Resource obj = model.createResource(FRBRER +"/"+ "C1008");
-		obj.addLiteral(RDFS.label,"Object");
-		return obj;
-	}
 	// -----------
 	
 	/**
@@ -219,11 +165,6 @@ public class FRBR {
 	public static Resource event(Model model, String id){
 		Resource event = model.createResource(FRBRER +"/"+ "Event"+"#"+id);
 		event.addProperty(RDF.type,FRBRER +"/"+ "C1009");
-		return event;
-	}
-	public Resource event_ONT(Model model){
-		Resource event = model.createResource(FRBRER +"/"+ "C1009");
-		event.addLiteral(RDFS.label,"Event");
 		return event;
 	}
 	// -----------
@@ -240,15 +181,7 @@ public class FRBR {
 		return place;
 		
 	}
-	public Resource place_ONT(Model model){
-		Resource place = model.createResource(FRBRER +"/"+ "C1010");
-		place.addLiteral(RDFS.label,"Place");
-		return place;
-		
-	}
 	// -----------
-	
-	
 	
 	// PERSON PROPERTIES
 	
@@ -261,15 +194,7 @@ public class FRBR {
 		Property name = model.createProperty(RDA+"/"+catAgent+"/"+"nameOfThePerson");
 		return name;
 	}
-	public Property nameOfThePerson_ONT(Model model){
-		Property name = nameOfThePerson(model);
-		Property rdaeq = model.createProperty(RDA+"/"+catAgent+"/"+"P50111");
-		Property frbreq = model.createProperty(FRBRER +"/"+ "P3039");
-		name.addLiteral(RDFS.label,"nameOfThePerson");
-		name.addProperty(OWL.sameAs,rdaeq);
-		name.addProperty(OWL.sameAs,frbreq);
-		return name;
-	}
+
 	
 	/**
 	 * Person Dates
@@ -280,15 +205,7 @@ public class FRBR {
 		Property p = model.createProperty(RDA+"/"+catAgent+"/"+"dateAssociatedWithThePerson");
 		return p;
 	}
-	public Property dateAssociatedWithThePerson_ONT(Model model){
-		Property p = dateAssociatedWithThePerson(model);
-		Property rdaeq = model.createProperty(RDA+"/"+catAgent+"/"+"P50107");
-		Property frbreq = model.createProperty(FRBRER +"/"+ "P3040");
-		p.addLiteral(RDFS.label,"dateAssociatedWithThePerson");
-		p.addProperty(OWL.sameAs,frbreq);
-		p.addProperty(OWL.sameAs,rdaeq);
-		return p;
-	}
+
 	
 	/**
 	 * Person Name
@@ -299,13 +216,7 @@ public class FRBR {
 		Property p = model.createProperty(RDA+"/"+catAgent+"/"+"identifierForThePerson");
 		return p;
 	}
-	public Property identifierForThePerson_ONT(Model model){
-		Property p = identifierForThePerson(model);
-		Property rdaeq = model.createProperty(RDA+"/"+catAgent+"/"+"P50094");
-		p.addLiteral(RDFS.label,"identifierForThePerson");
-		p.addProperty(OWL.sameAs,rdaeq);
-		return p;
-	}
+
 	
 	
 	
@@ -320,13 +231,7 @@ public class FRBR {
 		Property p = model.createProperty(RDA+"/"+catAgent+"/"+"identifierForTheCorporateBody");
 		return p;
 	}
-	public Property identifierForTheCorporateBody_ONT(Model model){
-		Property p = identifierForTheCorporateBody(model);
-		Property rdaeq = model.createProperty(RDA+"/"+catAgent+"/"+"P50032");
-		p.addLiteral(RDFS.label,"identifierForTheCorporateBody");
-		p.addProperty(OWL.sameAs,rdaeq);
-		return p;
-	}
+
 	
 	/**
 	 * Corporate Body Name
@@ -338,16 +243,7 @@ public class FRBR {
 		return p;
 		
 	}
-	public Property nameOfTheCorporateBody_ONT(Model model){
-		Property p = nameOfTheCorporateBody(model);
-		Property rdaeq = model.createProperty(RDA+"/"+catAgent+"/"+"P50032");
-		Property frbreq = model.createProperty(FRBRER +"/"+ "P3043");
-		p.addLiteral(RDFS.label,"nameOfTheCorporateBody");
-		p.addProperty(OWL.sameAs,frbreq);
-		p.addProperty(OWL.sameAs,rdaeq);
-		return p;
-		
-	}
+
 	
 	/**
 	 * Corporate Body Other Designation
@@ -358,16 +254,7 @@ public class FRBR {
 		Property p = model.createProperty(RDA+"/"+catAgent+"/"+"otherDesignationAssociatedWithTheCorporateBody");
 		return p;
 	}
-	public Property otherDesignationAssociatedWithTheCorporateBody_ONT(Model model){
-		Property p = otherDesignationAssociatedWithTheCorporateBody(model);
-		Property rdaeq = model.createProperty(RDA+"/"+catAgent+"/"+"P50033");
-		Property frbreq = model.createProperty(FRBRER +"/"+ "P3047");
-		p.addLiteral(RDFS.label,"otherDesignationAssociatedWithTheCorporateBody");
-		p.addProperty(OWL.sameAs,frbreq);
-		p.addProperty(OWL.sameAs,rdaeq);
-		return p;
-		
-	}
+
 	
 	
 	
@@ -383,13 +270,7 @@ public class FRBR {
 		Property p = model.createProperty(RDA+"/"+catWork+"/"+"identifierForTheWork");
 		return p;
 	}
-	public Property identifierForTheWork_ONT(Model model){
-		Property p = identifierForTheWork(model);
-		Property rdaeq = model.createProperty(RDA+"/"+catWork+"/"+"P10002");
-		p.addLiteral(RDFS.label,"identifierForTheWork");
-		p.addProperty(OWL.sameAs,rdaeq);
-		return p;
-	}
+
 	
 	/**
 	 *  Work Title
@@ -400,15 +281,7 @@ public class FRBR {
 		Property title = model.createProperty(RDA+"/"+catWork+"/"+"titleOfTheWork");
 		return title;
 	}
-	public Property titleOfTheWork_ONT(Model model){
-		Property title = titleOfTheWork(model);
-		Property frbreq = model.createProperty(FRBRER +"/"+ "P3001");
-		Property rdaeq = model.createProperty(RDA+"/"+catWork+"/"+"P10088");
-		title.addLiteral(RDFS.label,"titleOfTheWork");
-		title.addProperty(OWL.sameAs,frbreq);
-		title.addProperty(OWL.sameAs,rdaeq);
-		return title;
-	}
+
 	
 	/**
 	 *  Augmentation of Work
@@ -419,13 +292,7 @@ public class FRBR {
 		Property aug = model.createProperty(RDA+"/"+catWork+"/"+"augmentedByWork");
 		return aug;
 	}
-	public Property augmentedByWork_ONT(Model model){
-		Property aug = augmentedByWork(model);
-		Property rdaeq = model.createProperty(RDA+"/"+catWork+"/"+"P10108");
-		aug.addLiteral(RDFS.label,"augmentedByWork");
-		aug.addProperty(OWL.sameAs,rdaeq);
-		return aug;
-	}
+
 	
 	/**
 	 *  Artist of Work
@@ -436,13 +303,7 @@ public class FRBR {
 		Property art = model.createProperty(RDA+"/"+catWork+"/"+"artist");
 		return art;
 	}
-	public Property artist_ONT(Model model){
-		Property art = artist(model);
-		Property rdaeq = model.createProperty(RDA+"/"+catWork+"/"+"P10058");
-		art.addLiteral(RDFS.label,"artist");
-		art.addProperty(OWL.sameAs,rdaeq);
-		return art;
-	}
+
 	
 	/**
 	 *  Composer of Work
@@ -453,13 +314,7 @@ public class FRBR {
 		Property cmp = model.createProperty(RDA+"/"+catWork+"/"+"composer");
 		return cmp;
 	}
-	public Property composer_ONT(Model model){
-		Property cmp = composer(model);
-		Property rdaeq = model.createProperty(RDA+"/"+catWork+"/"+"P10053");
-		cmp.addLiteral(RDFS.label,"composer");
-		cmp.addProperty(OWL.sameAs,rdaeq);
-		return cmp;
-	}
+
 	
 	
 	/**
@@ -471,13 +326,7 @@ public class FRBR {
 		Property vtitle = model.createProperty(RDA+"/"+catWork+"/"+"variantTitleForTheWork");
 		return vtitle;
 	}
-	public Property variantTitleForTheWork_ONT(Model model){
-		Property vtitle = variantTitleForTheWork(model);
-		Property rdaeq = model.createProperty(RDA+"/"+catWork+"/"+"P10086");
-		vtitle.addLiteral(RDFS.label,"variantTitleForTheWork");
-		vtitle.addProperty(OWL.sameAs,rdaeq);
-		return vtitle;
-	}
+
 	
 	/**
 	 *  Work Supplement
@@ -488,14 +337,7 @@ public class FRBR {
 		Property supp = model.createProperty(RDA+"/"+catWork+"/"+"supplementWork");
 		return supp;
 	}
-	public Property supplementWork_ONT(Model model){
-		Property supp = supplementWork(model);
-		Property rdaeq = model.createProperty(RDA+"/"+catWork+"/"+"P10172");
-		supp.addLiteral(RDFS.label,"supplementWork");
-		supp.addProperty(OWL.sameAs,rdaeq);
-		return supp;
-		
-	}
+
 	
 	/**
 	 * Work Continuation
@@ -506,13 +348,7 @@ public class FRBR {
 		Property cont = model.createProperty(RDA+"/"+catWork+"/"+"continuationOfWork");
 		return cont;
 	}
-	public Property continuationOfWork_ONT(Model model){
-		Property cont = model.createProperty(RDA+"/"+catWork+"/"+"P10226");
-		Property rdaeq = continuationOfWork(model);
-		cont.addLiteral(RDFS.label,"continuationOfWork");
-		cont.addProperty(OWL.sameAs,rdaeq);
-		return cont;
-	}
+
 	
 	/**
 	 * Work Complement 
@@ -523,13 +359,7 @@ public class FRBR {
 		Property comp = model.createProperty(RDA+"/"+catWork+"/"+"complementedByWork");
 		return comp;
 	}
-	public Property complementedByWork_ONT(Model model){
-		Property comp = complementedByWork(model);
-		Property rdaeq = model.createProperty(RDA+"/"+catWork+"/"+"P10103");
-		comp.addLiteral(RDFS.label,"complementedByWork");
-		comp.addProperty(OWL.sameAs,rdaeq);
-		return comp;
-	}
+
 	
 	/**
 	 * Parody
@@ -540,13 +370,7 @@ public class FRBR {
 		Property par = model.createProperty(RDA+"/"+catWork+"/"+"parodyOfWork");
 		return par;
 	}
-	public Property parodyOfWork_ONT(Model model){
-		Property par = model.createProperty(RDA+"/"+catWork+"/"+"P10197");
-		Property rdaeq = parodyOfWork(model);
-		par.addLiteral(RDFS.label,"parodyOfWork");
-		par.addProperty(OWL.sameAs,rdaeq);
-		return par;
-	}
+
 	
 	/**
 	 *  Appendix Work
@@ -557,13 +381,7 @@ public class FRBR {
 		Property app = model.createProperty(RDA+"/"+catWork+"/"+"P10123");
 		return app;
 	}
-	public Property appendixWork_ONT(Model model){
-		Property rdaeq = model.createProperty(RDA+"/"+catWork+"/"+"P10123");
-		Property app = appendixWork(model);
-		app.addLiteral(RDFS.label,"appendixWork");
-		app.addProperty(OWL.sameAs,rdaeq);
-		return app;
-	}
+
 	
 	/**
 	 * Motion Picture adaptation Work
@@ -574,13 +392,7 @@ public class FRBR {
 		Property amp = model.createProperty(RDA+"/"+catWork+"/"+"adaptedAsMotionPictureWork");
 		return amp;
 	}
-	public Property adaptedAsMotionPictureWork_ONT(Model model){
-		Property amp = adaptedAsMotionPictureWork(model);
-		Property rdaeq = model.createProperty(RDA+"/"+catWork+"/"+"P10025");
-		amp.addLiteral(RDFS.label,"adaptedAsMotionPictureWork");
-		amp.addProperty(OWL.sameAs,rdaeq);
-		return amp;
-	}
+
 	
 	/**
 	 * Graphic Novel adaptation Work
@@ -591,13 +403,7 @@ public class FRBR {
 		Property agn = model.createProperty(RDA+"/"+catWork+"/"+"adaptedAsGraphicNovelWork");
 		return agn;
 	}
-	public Property adaptedAsGraphicNovelWork_ONT(Model model){
-		Property agn = adaptedAsGraphicNovelWork(model);
-		Property rdaeq = model.createProperty(RDA+"/"+catWork+"/"+"P10251");
-		agn.addLiteral(RDFS.label,"adaptedAsGraphicNovelWork");
-		agn.addProperty(OWL.sameAs,rdaeq);
-		return agn;
-	}
+
 	
 	/**
 	 * Illustration Work
@@ -608,13 +414,7 @@ public class FRBR {
 		Property ill = model.createProperty(RDA+"/"+catWork+"/"+"illustrationsWork");
 		return ill;
 	}
-	public Property illustrationsWork_ONT(Model model){
-		Property ill = illustrationsWork(model);
-		Property rdaeq = model.createProperty(RDA+"/"+catWork+"/"+"P10093");
-		ill.addLiteral(RDFS.label,"illustrationsWork");
-		ill.addProperty(OWL.sameAs,rdaeq);
-		return ill;
-	}
+
 	
 	/**
 	 *  Creator
@@ -626,18 +426,7 @@ public class FRBR {
 		creator.addLiteral(RDFS.label,"creator");
 		return creator;
 	}
-	public Property creator_ONT(Model model){
-		Property creator = creator(model);
-		Property frbreq = model.createProperty(FRBRER +"/"+ "P2009");
-		Property rdaeq = model.createProperty(RDA+"/"+catWork+"/"+"P10065");
-		Property rdaeq2 = model.createProperty(RDA+"/"+catWork+"/"+"P10061");
-		creator.addLiteral(RDFS.label,"creator");
-		creator.addProperty(OWL.sameAs,frbreq);
-		creator.addProperty(OWL.sameAs,rdaeq);
-		creator.addProperty(OWL.sameAs,rdaeq2);
-		return creator;
-		
-	}
+
 	
 	/**
 	 *  Compiler
@@ -648,13 +437,7 @@ public class FRBR {
 		Property creator = model.createProperty(RDA+"/"+catWork+"/"+"compiler");
 		return creator;
 	}
-	public Property compiler_ONT(Model model){
-		Property creator = compiler(model);
-		Property rdaeq = model.createProperty(RDA+"/"+catWork+"/"+"P10055");
-		creator.addLiteral(RDFS.label,"compiler");
-		creator.addProperty(OWL.sameAs,rdaeq);
-		return creator;
-	}
+
 	
 	/**
 	 *  Director
@@ -666,13 +449,7 @@ public class FRBR {
 		creator.addLiteral(RDFS.label,"director");
 		return creator;
 	}
-	public Property director_ONT(Model model){
-		Property creator = director(model);
-		Property rdaeq = model.createProperty(RDA+"/"+catWork+"/"+"P10066");
-		creator.addLiteral(RDFS.label,"director");
-		creator.addProperty(OWL.sameAs,rdaeq);
-		return creator;
-	}
+
 	
 	
 	/**
@@ -684,15 +461,7 @@ public class FRBR {
 		Property pw = model.createProperty(RDA+"/"+catWork+"/"+"wholePartWorkRelationship");
 		return pw;
 	}
-	public Property wholePartWorkRelationship_ONT(Model model){
-		Property pw =  wholePartWorkRelationship(model);
-		Property rdaeq = model.createProperty(RDA+"/"+catWork+"/"+"P10232");
-		Property frbreq = model.createProperty(FRBRER +"/"+ "P2057");
-		pw.addLiteral(RDFS.label,"wholePartWorkRelationship");
-		pw.addProperty(OWL.sameAs,frbreq);
-		pw.addProperty(OWL.sameAs,rdaeq);
-		return pw;
-	}
+
 	
 	/**
 	 * Work Container of
@@ -703,13 +472,7 @@ public class FRBR {
 		Property pw = model.createProperty(RDA+"/"+catWork +"/"+ "containerOfWork");
 		return pw;
 	}
-	public Property containerOfWork_ONT(Model model){
-		Property pw = containerOfWork(model);
-		Property rdaeq = model.createProperty(RDA+"/"+catWork+"/"+"P10147");
-		pw.addLiteral(RDFS.label,"containerOfWork");
-		pw.addProperty(OWL.sameAs,rdaeq);
-		return pw;
-	}
+
 	
 	/**
 	 * Work Series
@@ -720,13 +483,7 @@ public class FRBR {
 		Property series = model.createProperty(RDA+"/"+catWork +"/"+ "seriesContainerOf");
 		return series;
 	}
-	public Property seriesContainerOf_ONT(Model model){
-		Property series = seriesContainerOf(model);
-		Property rdaeq = model.createProperty(RDA+"/"+catWork+"/"+"P10141");
-		series.addLiteral(RDFS.label,"seriesContainerOf");
-		series.addProperty(OWL.sameAs,rdaeq);
-		return series;
-	}
+
 	
 	/**
 	 * Work Numbering of Part
@@ -737,13 +494,7 @@ public class FRBR {
 		Property nbpart = model.createProperty(RDA+"/"+catWork +"/"+ "numberingOfPart");
 		return nbpart;
 	}
-	public Property numberingOfPart_ONT(Model model){
-		Property nbpart = numberingOfPart(model);
-		Property rdaeq = model.createProperty(RDA+"/"+catWork+"/"+"P10012");
-		nbpart.addLiteral(RDFS.label,"numberingOfPart");
-		nbpart.addProperty(OWL.sameAs,rdaeq);
-		return nbpart;
-	}
+
 	
 	
 	/**
@@ -755,16 +506,7 @@ public class FRBR {
 		Property exp = model.createProperty(RDA+"/"+catWork +"/"+ "expressionOfWork");
 		return exp;
 	}
-	public Property expressionOfWork_ONT(Model model){
-		Property exp = expressionOfWork(model);
-		Property frbreq = model.createProperty(FRBRER +"/"+ "P2001");
-		Property rdaeq = model.createProperty(RDA+"/"+catWork+"/"+"P10078");
-		exp.addLiteral(RDFS.label,"expressionOfWork");
-		exp.addProperty(OWL.sameAs,frbreq);
-		exp.addProperty(OWL.sameAs,rdaeq);
-		return exp;
-		
-	}
+
 	
 	/**
 	 * Concept, Subject of a Work
@@ -775,13 +517,7 @@ public class FRBR {
 		Property sub = model.createProperty(FRBRER +"/"+ "hasAsSubjectConcept");
 		return sub;
 	}
-	public Property hasAsSubjectConcept_ONT(Model model){
-		Property sub = hasAsSubjectConcept(model);
-		Property frbreq = model.createProperty(FRBRER +"/"+ "P2023");
-		sub.addLiteral(RDFS.label,"hasAsSubjectConcept");
-		sub.addProperty(OWL.sameAs,frbreq);
-		return sub;
-	}
+
 	
 	/**
 	 * Place, Subject of a Work
@@ -792,13 +528,7 @@ public class FRBR {
 		Property sub = model.createProperty(FRBRER +"/"+ "hasAsSubjectPlace");
 		return sub;
 	}
-	public Property hasAsSubjectPlace_ONT(Model model){
-		Property sub = hasAsSubjectPlace(model);
-		Property frbreq = model.createProperty(FRBRER +"/"+ "P2029");
-		sub.addLiteral(RDFS.label,"hasAsSubjectPlace");
-		sub.addProperty(OWL.sameAs,frbreq);
-		return sub;
-	}
+
 	
 	// EXPRESSION PROPERTIES
 	
@@ -811,13 +541,7 @@ public class FRBR {
 		Property title = model.createProperty(FRBRER +"/"+ "hasTitleOfTheExpression");
 		return title;
 	}
-	public Property hasTitleOfTheExpression_ONT(Model model){
-		Property title = hasTitleOfTheExpression(model);
-		Property frbreq = model.createProperty(FRBRER +"/"+ "P3008");
-		title.addLiteral(RDFS.label,"hasTitleOfTheExpression");
-		title.addProperty(OWL.sameAs,frbreq);
-		return title;
-	}
+
 	
 	/**
 	 * Language of Expression
@@ -828,15 +552,7 @@ public class FRBR {
 		Property language = model.createProperty(RDA+"/"+catExpression +"/"+ "languageOfExpression");
 		return language;
 	}
-	public Property languageOfExpression_ONT(Model model){
-		Property language = languageOfExpression(model);
-		Property frbreq = model.createProperty(FRBRER +"/"+ "P3011");
-		Property rdaeq = model.createProperty(RDA+"/"+catExpression+"/"+"P20006");
-		language.addLiteral(RDFS.label,"languageOfExpression");
-		language.addProperty(OWL.sameAs,frbreq);
-		language.addProperty(OWL.sameAs,rdaeq);
-		return language;
-	}
+
 	
 	/**
 	 * Summarization of Content
@@ -847,15 +563,7 @@ public class FRBR {
 		Property summary = model.createProperty(FRBRER +"/"+ "summarizationOfTheContent");
 		return summary;
 	}
-	public Property summarizationOfTheContent_ONT(Model model){
-		Property summary = summarizationOfTheContent(model);
-		Property frbreq = model.createProperty(FRBRER +"/"+ "P3016");
-		Property rdaeq = model.createProperty(RDA+"/"+catExpression+"/"+"P20069");
-		summary.addLiteral(RDFS.label,"summarizationOfTheContent");
-		summary.addProperty(OWL.sameAs,frbreq);
-		summary.addProperty(OWL.sameAs,rdaeq);
-		return summary;
-	}
+
 	
 	/**
 	 *  Manifestation of Expression
@@ -866,15 +574,7 @@ public class FRBR {
 		Property manif = model.createProperty(RDA+"/"+catExpression +"/"+ "manifestationOfExpression");
 		return manif;
 	}
-	public Property manifestationOfExpression_ONT(Model model){
-		Property manif = manifestationOfExpression(model);
-		Property frbreq = model.createProperty(FRBRER +"/"+ "P2003");
-		Property rdaeq = model.createProperty(RDA+"/"+catExpression+"/"+"P20059");
-		manif.addLiteral(RDFS.label,"manifestationOfExpression");
-		manif.addProperty(OWL.sameAs,frbreq);
-		manif.addProperty(OWL.sameAs,rdaeq);
-		return manif;
-	}
+
 	
 	/**
 	 * Note on Introduction
@@ -885,13 +585,7 @@ public class FRBR {
 		Property ne = model.createProperty(RDA+"/"+catExpression +"/"+ "noteOnExpression");
 		return ne;
 	}
-	public Property noteOnExpression_ONT(Model model){
-		Property ne = noteOnExpression(model);
-		Property rdaeq = model.createProperty(RDA+"/"+catExpression+"/"+"P20071");
-		ne.addLiteral(RDFS.label,"noteOnExpression");
-		ne.addProperty(OWL.sameAs,rdaeq);
-		return ne;
-	}
+
 	
 	/**
 	 * Award
@@ -902,13 +596,7 @@ public class FRBR {
 		Property award = model.createProperty(RDA+"/"+catExpression +"/"+ "award");
 		return award;
 	}
-	public Property award_ONT(Model model){
-		Property award = award(model);
-		Property rdaeq = model.createProperty(RDA+"/"+catExpression+"/"+"P20005");
-		award.addLiteral(RDFS.label,"award");
-		award.addProperty(OWL.sameAs,rdaeq);
-		return award;
-	}
+
 	
 	/**
 	 * Illustration Expression
@@ -919,14 +607,7 @@ public class FRBR {
 		Property ie = model.createProperty(RDA+"/"+catExpression +"/"+ "illustrationsExpression");
 		return ie;
 	}
-	public Property illustrationsExpression_ONT(Model model){
-		Property ie = illustrationsExpression(model);
-		Property rdaeq = model.createProperty(RDA+"/"+catExpression+"/"+"P20094");
-		ie.addLiteral(RDFS.label,"illustrationsExpression");
-		ie.addProperty(OWL.sameAs,rdaeq);
-		return ie;
-		
-	}
+
 	
 	/**
 	 * Illustrator
@@ -937,13 +618,7 @@ public class FRBR {
 		Property ill = model.createProperty(RDA+"/"+catExpression +"/"+ "illustrator");
 		return ill;
 	}
-	public Property illustrator_ONT(Model model){	
-		Property ill = illustrator(model);
-		Property rdaeq = model.createProperty(RDA+"/"+catExpression+"/"+"P20051");
-		ill.addLiteral(RDFS.label,"illustrator");
-		ill.addProperty(OWL.sameAs,rdaeq);
-		return ill;
-	}
+
 	
 	/**
 	 * Editor
@@ -954,13 +629,7 @@ public class FRBR {
 		Property ed = model.createProperty(RDA+"/"+catExpression +"/"+ "editor");
 		return ed;
 	}
-	public Property editor_ONT(Model model){
-		Property ed = editor(model);
-		Property rdaeq = model.createProperty(RDA+"/"+catExpression+"/"+"P20048");
-		ed.addLiteral(RDFS.label,"editor");
-		ed.addProperty(OWL.sameAs,rdaeq);
-		return ed;
-	}
+
 	
 	/**
 	 * Contributor
@@ -971,13 +640,7 @@ public class FRBR {
 		Property contrib = model.createProperty(RDA+"/"+catExpression +"/"+ "contributor");
 		return contrib;
 	}
-	public Property contributor_ONT(Model model){
-		Property contrib = contributor(model);
-		Property rdaeq = model.createProperty(RDA+"/"+catExpression+"/"+"P20053");
-		contrib.addLiteral(RDFS.label,"contributor");
-		contrib.addProperty(OWL.sameAs,rdaeq);
-		return contrib;
-	}
+
 	
 	/**
 	 * Translator
@@ -988,13 +651,7 @@ public class FRBR {
 		Property trans = model.createProperty(RDA+"/"+catExpression +"/"+ "translator");
 		return trans;
 	}
-	public Property translator_ONT(Model model){
-		Property trans = translator(model);
-		Property rdaeq = model.createProperty(RDA+"/"+catExpression+"/"+"P20037");
-		trans.addLiteral(RDFS.label,"translator");
-		trans.addProperty(OWL.sameAs,rdaeq);
-		return trans;
-	}
+
 	
 	/**
 	 * Actor
@@ -1005,13 +662,7 @@ public class FRBR {
 		Property act = model.createProperty(RDA+"/"+catExpression +"/"+ "actor");
 		return act;
 	}
-	public Property actor_ONT(Model model){
-		Property act = actor(model);
-		Property rdaeq = model.createProperty(RDA+"/"+catExpression+"/"+"P20012");
-		act.addLiteral(RDFS.label,"actor");
-		act.addProperty(OWL.sameAs,rdaeq);
-		return act;
-	}
+
 	
 	/**
 	 * Translation
@@ -1023,13 +674,7 @@ public class FRBR {
 		Property translation = model.createProperty(RDA+"/"+catExpression +"/"+ "translatedAs");
 		return translation;
 	}
-	public Property translatedAs_ONT(Model model){
-		Property translation = translatedAs(model);
-		Property rdaeq = model.createProperty(RDA+"/"+catExpression+"/"+"P20171");
-		translation.addLiteral(RDFS.label,"translatedAs");
-		translation.addProperty(OWL.sameAs,rdaeq);
-		return translation;
-	}
+
 	
 	/**
 	 * Narrator
@@ -1040,13 +685,7 @@ public class FRBR {
 		Property narr = model.createProperty(RDA+"/"+catExpression +"/"+ "narrator");
 		return narr;
 	}
-	public Property narrator_ONT(Model model){
-		Property narr = narrator(model);
-		Property rdaeq = model.createProperty(RDA+"/"+catExpression+"/"+"P20022");
-		narr.addLiteral(RDFS.label,"narrator");
-		narr.addProperty(OWL.sameAs,rdaeq);
-		return narr;
-	}
+
 	
 	/**
 	 * Writer of Introduction
@@ -1057,13 +696,7 @@ public class FRBR {
 		Property wi = model.createProperty(RDA+"/"+catExpression +"/"+ "writerOfIntroduction");
 		return wi;
 	}
-	public Property writerOfIntroduction_ONT(Model model){
-		Property wi = writerOfIntroduction(model);
-		Property rdaeq = model.createProperty(RDA+"/"+catExpression+"/"+"P20045");
-		wi.addLiteral(RDFS.label,"writerOfIntroduction");
-		wi.addProperty(OWL.sameAs,rdaeq);
-		return wi;
-	}
+
 	
 	// 	MANIFESTATION PROPERTIES
 	
@@ -1076,15 +709,7 @@ public class FRBR {
 		Property id = model.createProperty(RDA+"/"+catManifestation +"/"+ "identifierForTheManifestation");
 		return id;
 	}
-	public Property identifierForTheManifestation_ONT(Model model){
-		Property id = identifierForTheManifestation(model);
-		Property frbreq = model.createProperty(FRBRER +"/"+ "P3028");
-		Property rdaeq = model.createProperty(RDA+"/"+catManifestation+"/"+"P30004");
-		id.addLiteral(RDFS.label,"identifierForTheManifestation");
-		id.addProperty(OWL.sameAs,frbreq);
-		id.addProperty(OWL.sameAs,rdaeq);
-		return id;
-	}
+
 	
 	/**
 	 * Manifestation Title
@@ -1096,16 +721,7 @@ public class FRBR {
 		return title;
 		
 	}
-	public Property titleOfTheManifestation_ONT(Model model){
-		Property title = titleOfTheManifestation(model);
-		Property frbreq = model.createProperty(FRBRER +"/"+ "P3020");
-		Property rdaeq = model.createProperty(RDA+"/"+catManifestation+"/"+"P30134");
-		title.addLiteral(RDFS.label,"title");
-		title.addProperty(OWL.sameAs,frbreq);
-		title.addProperty(OWL.sameAs,rdaeq);
-		return title;
-		
-	}
+
 	
 	/**
 	 * Manifestation Statement of Responsibility
@@ -1117,14 +733,7 @@ public class FRBR {
 		return ps;
 	}
 	
-	public Property statementOfResponsibilityRelatingToTitleProper_ONT(Model model){
-		Property ps = statementOfResponsibilityRelatingToTitleProper(model);
-		Property rdaeq = model.createProperty(RDA+"/"+catManifestation+"/"+"P30105");
-		ps.addLiteral(RDFS.label,"statementOfResponsibilityRelatingToTitleProper");
-		ps.addProperty(OWL.sameAs,rdaeq);
-		return ps;
-		
-	}
+
 	
 	/**
 	 * Manifestation Publication Statement
@@ -1135,13 +744,7 @@ public class FRBR {
 		Property ps = model.createProperty(RDA+"/"+catManifestation +"/"+ "publicationStatement");
 		return ps;
 	}
-	public Property publicationStatement_ONT(Model model){
-		Property ps = publicationStatement(model);
-		Property rdaeq = model.createProperty(RDA+"/"+catManifestation+"/"+"P30111");
-		ps.addLiteral(RDFS.label,"publicationStatement");
-		ps.addProperty(OWL.sameAs,rdaeq);
-		return ps;
-	}
+
 	
 	/**
 	 * Manifestation designationOfEdition
@@ -1152,13 +755,7 @@ public class FRBR {
 		Property nps = model.createProperty(RDA+"/"+catManifestation +"/"+ "designationOfEdition");
 		return nps;
 	}
-	public Property designationOfEdition_ONT(Model model){
-		Property nps = designationOfEdition(model);
-		Property rdaeq = model.createProperty(RDA+"/"+catManifestation+"/"+"P30133");
-		nps.addLiteral(RDFS.label,"designationOfEdition");
-		nps.addProperty(OWL.sameAs,rdaeq);
-		return nps;
-	}
+
 	
 	/**
 	 * Manifestation Note on Publication Statement
@@ -1169,13 +766,7 @@ public class FRBR {
 		Property nps = model.createProperty(RDA+"/"+catManifestation +"/"+ "noteOnPublicationStatement");
 		return nps;
 	}
-	public Property noteOnPublicationStatement_ONT(Model model){
-		Property nps = noteOnPublicationStatement(model);
-		Property rdaeq = model.createProperty(RDA+"/"+catManifestation+"/"+"P30055");
-		nps.addLiteral(RDFS.label,"noteOnPublicationStatement");
-		nps.addProperty(OWL.sameAs,rdaeq);
-		return nps;
-	}
+
 	
 	/**
 	 * Insert
@@ -1186,13 +777,7 @@ public class FRBR {
 		Property ins = model.createProperty(RDA+"/"+catManifestation +"/"+ "insert");
 		return ins;
 	}
-	public Property insert_ONT(Model model){
-		Property ins = insert(model);
-		Property rdaeq = model.createProperty(RDA+"/"+catManifestation+"/"+"P30022");
-		ins.addLiteral(RDFS.label,"insert");
-		ins.addProperty(OWL.sameAs,rdaeq);
-		return ins;
-	}
+
 	
 	
 	/**
@@ -1204,15 +789,7 @@ public class FRBR {
 		Property freq = model.createProperty(RDA+"/"+catManifestation +"/"+ "frequency");
 		return freq;
 	}
-	public Property frequency_ONT(Model model){
-		Property freq = frequency(model);
-		Property rdaeq = model.createProperty(RDA+"/"+catManifestation+"/"+"P30168");
-		Property rdav = model.createProperty(RDAVOCAB+"/"+"frequency");
-		freq.addLiteral(RDFS.label,"frequency");
-		freq.addProperty(OWL.sameAs,rdaeq);
-		freq.addProperty(OWL.sameAs,rdav);
-		return freq;
-	}
+
 	
 	/**
 	 * Manifestation Serial ISSN
@@ -1221,13 +798,6 @@ public class FRBR {
 	 */
 	public static Property issnOfSeries(Model model){
 		Property issn = model.createProperty(RDA+"/"+catManifestation +"/"+ "issnOfSeries");
-		return issn;
-	}
-	public Property issnOfSeries_ONT(Model model){
-		Property issn = issnOfSeries(model);
-		Property rdaeq = model.createProperty(RDA+"/"+catManifestation+"/"+"P30166");
-		issn.addLiteral(RDFS.label,"issnOfSeries");
-		issn.addProperty(OWL.sameAs,rdaeq);
 		return issn;
 	}
 
@@ -1240,15 +810,7 @@ public class FRBR {
 		Property dim = model.createProperty(RDA+"/"+catManifestation +"/"+ "dimensions");
 		return dim;
 	}
-	public Property dimensions_ONT(Model model){
-		Property dim = model.createProperty(RDA+"/"+catManifestation +"/"+ "dimensions");
-		Property frbreq = model.createProperty(FRBRER +"/"+ "P3027");
-		Property rdaeq = model.createProperty(RDA+"/"+catManifestation+"/"+"P30169");
-		dim.addLiteral(RDFS.label,"dimensions");
-		dim.addProperty(OWL.sameAs,frbreq);
-		dim.addProperty(OWL.sameAs,rdaeq);
-		return dim;
-	}
+
 	
 	/**
 	 * Manifestation Extent
@@ -1259,15 +821,7 @@ public class FRBR {
 		Property ext = model.createProperty(RDA+"/"+catManifestation +"/"+ "extent");
 		return ext;
 	}
-	public Property extent_ONT(Model model){
-		Property ext = extent(model);
-		Property frbreq = model.createProperty(FRBRER +"/"+ "P3024");
-		Property rdaeq = model.createProperty(RDA+"/"+catManifestation+"/"+"P30182");
-		ext.addLiteral(RDFS.label,"extent");
-		ext.addProperty(OWL.sameAs,frbreq);
-		ext.addProperty(OWL.sameAs,rdaeq);
-		return ext;
-	}
+
 	
 	/**
 	 * Manifestation Note on Carrier
@@ -1278,13 +832,7 @@ public class FRBR {
 		Property ext = model.createProperty(RDA+"/"+catManifestation +"/"+ "noteOnCarrier");
 		return ext;
 	}
-	public Property noteOnCarrier_ONT(Model model){
-		Property ext = noteOnCarrier(model);
-		Property rdaeq = model.createProperty(RDA+"/"+catManifestation+"/"+"P30214");
-		ext.addLiteral(RDFS.label,"noteOnCarrier");
-		ext.addProperty(OWL.sameAs,rdaeq);
-		return ext;
-	}
+
 	
 	/**
 	 * Manifestation Form of Carrier
@@ -1295,15 +843,7 @@ public class FRBR {
 		Property ext = model.createProperty(RDA+"/"+catManifestation +"/"+ "carrierType");
 		return ext;
 	}
-	public Property carrierType_ONT(Model model){
-		Property ext = carrierType(model);
-		Property frbreq = model.createProperty(FRBRER +"/"+ "P3023");
-		Property rdaeq = model.createProperty(RDA+"/"+catManifestation+"/"+"P30001");
-		ext.addLiteral(RDFS.label,"carrierType");
-		ext.addProperty(OWL.sameAs,rdaeq);
-		ext.addProperty(OWL.sameAs,frbreq);
-		return ext;
-	}
+
 	
 	/**
 	 * Manifestation Terms of Availability
@@ -1314,37 +854,18 @@ public class FRBR {
 		Property ta = model.createProperty(RDA+"/"+catManifestation +"/"+ "termsOfAvailability");
 		return ta;
 	}
-	public Property termsOfAvailability_ONT(Model model){
-		Property ta = termsOfAvailability(model);
-		Property frbreq = model.createProperty(FRBRER +"/"+ "P3029");
-		Property rdaeq = model.createProperty(RDA+"/"+catManifestation+"/"+"P30160");
-		ta.addLiteral(RDFS.label,"termsOfAvailability");
-		ta.addProperty(OWL.sameAs,frbreq);
-		ta.addProperty(OWL.sameAs,rdaeq);
-		return ta;
-		
-	}
+
 	
 	/**
 	 * Manifestation Place of publication
 	 * @param model
 	 * @return
 	 */
-	public static Property placeOfpublication(Model model){
-		Property pp = model.createProperty(RDA+"/"+catManifestation +"/"+ "placeOfpublication");
+	public static Property placeOfPublication(Model model){
+		Property pp = model.createProperty(RDA+"/"+catManifestation +"/"+ "placeOfPublication");
 		return pp;
 	}
-	public Property placeOfpublication_ONT(Model model){
-		
-		Property pp = placeOfpublication(model);
-		Property frbreq = model.createProperty(FRBRER +"/"+ "P3057");
-		Property rdaeq = model.createProperty(RDA+"/"+catManifestation+"/"+"P30088");
-		pp.addLiteral(RDFS.label,"placeOfpublication");
-		pp.addProperty(OWL.sameAs,frbreq);
-		pp.addProperty(OWL.sameAs,rdaeq);
-		return pp;
-		
-	}
+
 	
 	/**
 	 * Manifestation Date of publication
@@ -1355,15 +876,7 @@ public class FRBR {
 		Property dp = model.createProperty(RDA+"/"+catManifestation +"/"+ "dateOfPublication");
 		return dp;
 	}
-	public Property dateOfPublication_ONT(Model model){
-		Property dp = dateOfPublication(model);
-		Property frbreq = model.createProperty(FRBRER +"/"+ "P3055");
-		Property rdaeq = model.createProperty(RDA+"/"+catManifestation+"/"+"P30011");
-		dp.addLiteral(RDFS.label,"dateOfPublication");
-		dp.addProperty(OWL.sameAs,frbreq);
-		dp.addProperty(OWL.sameAs,rdaeq);
-		return dp;
-	}
+
 	
 	/**
 	 * Container of Manifestation
@@ -1374,13 +887,7 @@ public class FRBR {
 		Property cm = model.createProperty(RDA+"/"+catManifestation +"/"+ "containerOfManifestation");
 		return cm;
 	}
-	public Property containerOfManifestation_ONT(Model model){
-		Property cm = containerOfManifestation(model);
-		Property rdaeq = model.createProperty(RDA+"/"+catManifestation+"/"+"P30033");
-		cm.addLiteral(RDFS.label,"containerOfManifestation");
-		cm.addProperty(OWL.sameAs,rdaeq);
-		return cm;
-	}
+
 	
 	/**
 	 * Publisher of Manifestation
@@ -1391,15 +898,7 @@ public class FRBR {
 		Property publisher = model.createProperty(RDA+"/"+catManifestation +"/"+ "publisher");
 		return publisher;
 	}
-	public Property publisher_ONT(Model model){
-		Property publisher = publisher(model);
-		Property frbreq = model.createProperty(FRBRER +"/"+ "P3056");
-		Property rdaeq = model.createProperty(RDA+"/"+catManifestation+"/"+"P30083");
-		publisher.addLiteral(RDFS.label,"publisher");
-		publisher.addProperty(OWL.sameAs,frbreq);
-		publisher.addProperty(OWL.sameAs,rdaeq);
-		return publisher;
-	}
+
 	
 	/**
 	 * Other Information of Proper Title
@@ -1410,13 +909,7 @@ public class FRBR {
 		Property proptitleinfo = model.createProperty(RDA+"/"+catManifestation +"/"+ "otherTitleInformation");
 		return proptitleinfo;
 	}
-	public Property otherTitleInformation_ONT(Model model){
-		Property proptitleinfo = otherTitleInformation(model);
-		Property rdaeq = model.createProperty(RDA+"/"+catManifestation+"/"+"P30142");
-		proptitleinfo.addLiteral(RDFS.label,"otherTitleInformation");
-		proptitleinfo.addProperty(OWL.sameAs,rdaeq);
-		return proptitleinfo;
-	}
+
 	
 	
 	/**
@@ -1428,15 +921,7 @@ public class FRBR {
 		Property aia = model.createProperty(RDA+"/"+catManifestation +"/"+ "alsoIssuedAs");
 		return aia;
 	}
-	public Property alsoIssuedAs_ONT(Model model){
-		Property aia = alsoIssuedAs(model);
-		Property frbreq = model.createProperty(FRBRER +"/"+ "P2083");
-		Property rdaeq = model.createProperty(RDA+"/"+catManifestation+"/"+"P30026");
-		aia.addLiteral(RDFS.label,"alsoIssuedAs");
-		aia.addProperty(OWL.sameAs,rdaeq);
-		aia.addProperty(OWL.sameAs,frbreq);
-		return aia;
-	}
+
 	
 	/**
 	 * Numbering in Series
@@ -1447,16 +932,7 @@ public class FRBR {
 		Property nbs = model.createProperty(RDA+"/"+catManifestation +"/"+ "numberingWithinSeries");
 		return nbs;
 	}
-	public Property numberingWithinSeries_ONT(Model model){
-		Property nbs = numberingWithinSeries(model);
-		Property frbreq = model.createProperty(FRBRER +"/"+ "P3079");
-		Property rdaeq = model.createProperty(RDA+"/"+catManifestation+"/"+"P30014");
-		nbs.addLiteral(RDFS.label,"numberingWithinSeries");
-		nbs.addProperty(OWL.sameAs,rdaeq);
-		nbs.addProperty(OWL.sameAs,frbreq);
-		return nbs;
 
-	}
 	
 	/**
 	 * Numbering in SubSeries
@@ -1467,13 +943,7 @@ public class FRBR {
 		Property nbss = model.createProperty(RDA+"/"+catManifestation +"/"+ "numberingWithinSubseries");
 		return nbss;
 	}
-	public Property numberingWithinSubseries_ONT(Model model){
-		Property nbss = numberingWithinSubseries(model);
-		Property rdaeq = model.createProperty(RDA+"/"+catManifestation+"/"+"P30015");
-		nbss.addLiteral(RDFS.label,"numberingWithinSubseries");
-		nbss.addProperty(OWL.sameAs,rdaeq);
-		return nbss;
-	}
+
 	
 	/**
 	 * Series Statement
@@ -1484,15 +954,7 @@ public class FRBR {
 		Property ss = model.createProperty(RDA+"/"+catManifestation +"/"+ "seriesStatement");
 		return ss;
 	}
-	public Property seriesStatement_ONT(Model model){
-		Property ss = seriesStatement(model);
-		Property frbreq = model.createProperty(FRBRER +"/"+ "P3022");
-		Property rdaeq = model.createProperty(RDA+"/"+catManifestation+"/"+"P30106");
-		ss.addLiteral(RDFS.label,"seriesStatement");
-		ss.addProperty(OWL.sameAs,rdaeq);
-		ss.addProperty(OWL.sameAs,frbreq);
-		return ss;
-	}
+
 	
 	// CONCEPT PROPERTIES
 	
@@ -1505,13 +967,7 @@ public class FRBR {
 		Property conceptTerm = model.createProperty(FRBRER +"/"+ "hasTermForTheConcept");
 		return conceptTerm;
 	}
-	public Property hasTermForTheConcept_ONT(Model model){
-		Property conceptTerm = hasTermForTheConcept(model);
-		Property frbreq = model.createProperty(FRBRER +"/"+ "P3056");
-		conceptTerm.addLiteral(RDFS.label,"hasTermForTheConcept");
-		conceptTerm.addProperty(OWL.sameAs,frbreq);
-		return conceptTerm;
-	}
+
 	
 	// PLACE PROPERTIES
 	
@@ -1524,13 +980,7 @@ public class FRBR {
 		Property placeTerm = model.createProperty(FRBRER +"/"+ "hasTermForThePlace");
 		return placeTerm;
 	}
-	public Property hasTermForThePlace_ONT(Model model){
-		Property placeTerm = hasTermForThePlace(model);
-		Property frbreq = model.createProperty(FRBRER +"/"+ "P3051");
-		placeTerm.addLiteral(RDFS.label,"hasTermForThePlace");
-		placeTerm.addProperty(OWL.sameAs,frbreq);
-		return placeTerm;
-	}
+
 	
 	// 	EVENT PROPERTIES
 	
@@ -1543,12 +993,5 @@ public class FRBR {
 		Property eventTerm = model.createProperty(FRBRER +"/"+ "hasTermForTheEvent");
 		return eventTerm;
 	}
-	public Property hasTermForTheEvent_ONT(Model model){
-		Property eventTerm = hasTermForTheEvent(model);
-		Property frbreq = model.createProperty(FRBRER +"/"+ "P3050");
-		eventTerm.addLiteral(RDFS.label,"hasTermForTheEvent");
-		eventTerm.addProperty(OWL.sameAs,frbreq);
-		return eventTerm;
-		
-	}
+
 }
