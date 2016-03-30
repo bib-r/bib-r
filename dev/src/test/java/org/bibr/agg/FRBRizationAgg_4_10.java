@@ -65,23 +65,18 @@ public class FRBRizationAgg_4_10 {
 		// Part Work 1
 		Resource pw1 = FRBR.work(model, "Cliges");
 		pw1.addProperty(FRBR.titleOfTheWork(model), "Cliges");
-		Resource pw1e = FRBR.expression(model, "CligesText");
 
 		// Part Work 2
 		Resource pw2 = FRBR.work(model, "ChevalierdelaCharrette");
 		pw2.addProperty(FRBR.titleOfTheWork(model),
 				"Chevalier de la Charrette (Le)");
-		Resource pw2e = FRBR.expression(model, "ChevalierdelaCharretteText");
 
 		// Part Work 3
 		Resource pw3 = FRBR.work(model, "ChevalierauLion");
 		pw3.addProperty(FRBR.titleOfTheWork(model), "Chevalier au Lion (Le)");
-		Resource pw3e = FRBR.expression(model, "ChevalierauLionText");
-
 		// Part Work 4
 		Resource pw4 = FRBR.work(model, "ConteduGraal");
 		pw4.addProperty(FRBR.titleOfTheWork(model), "Conte du Graal (Le)");
-		Resource pw4e = FRBR.expression(model, "ConteduGraalText");
 
 		// Expression
 		Resource expression = FRBR.expression(model, "RomansTextFrench");
@@ -131,10 +126,10 @@ public class FRBRizationAgg_4_10 {
 
 		expression.addProperty(FRBR.manifestationOfExpression(model),
 				manifestation);
-		pw1e.addProperty(FRBR.manifestationOfExpression(model), manifestation);
-		pw2e.addProperty(FRBR.manifestationOfExpression(model), manifestation);
-		pw3e.addProperty(FRBR.manifestationOfExpression(model), manifestation);
-		pw4e.addProperty(FRBR.manifestationOfExpression(model), manifestation);
+		pw1.addProperty(FRBR.expressionOfWork(model), expression);
+		pw2.addProperty(FRBR.expressionOfWork(model), expression);
+		pw3.addProperty(FRBR.expressionOfWork(model), expression);
+		pw4.addProperty(FRBR.expressionOfWork(model), expression);
 
 		manifestation.addProperty(FRBR.publisher(model), publisher);
 
@@ -257,10 +252,10 @@ public class FRBRizationAgg_4_10 {
 		subserie.addProperty(FRBR.titleOfTheWork(model), "Essais");
 
 		// Book 1 (componant)
-		Resource book1 = FRBR.work(model, "Essais");
+		Resource book1 = FRBR.work(model, "EssaisBookI");
 		book1.addProperty(FRBR.titleOfTheWork(model), "Essais");
 
-		Resource expr1 = FRBR.expression(model, "EssaisTextFrench");
+		Resource expr1 = FRBR.expression(model, "EssaisBookITextFrench");
 		expr1.addProperty(FRBR.languageOfExpression(model), "French");
 
 		Resource manif1 = FRBR.manifestation(model, "Book9782080702104");
@@ -282,10 +277,10 @@ public class FRBRizationAgg_4_10 {
 				"Michel de Montaigne");
 
 		// Book 2 (componant)
-		Resource book2 = FRBR.work(model, "Essais");
+		Resource book2 = FRBR.work(model, "EssaisBookII");
 		book2.addProperty(FRBR.titleOfTheWork(model), "Essais");
 
-		Resource expr2 = FRBR.expression(model, "EssaisTextFrench");
+		Resource expr2 = FRBR.expression(model, "EssaisBookIITextFrench");
 		expr2.addProperty(FRBR.languageOfExpression(model), "French");
 
 		Resource manif2 = FRBR.manifestation(model, "Book9782080702111");
@@ -367,7 +362,7 @@ public class FRBRizationAgg_4_10 {
 		manifestation1.addProperty(FRBR.extent(model), "191 pages");
 		manifestation1.addProperty(FRBR.placeOfPublication(model), "France");
 		manifestation1.addProperty(FRBR.dateOfPublication(model), "2009");
-		manifestation1.addProperty(FRBR.seriesStatement(model), collection);
+		manifestation1.addProperty(FRBR.seriesStatement(model), "integrales de philo (Les)");
 		manifestation1.addProperty(FRBR.titleOfTheManifestation(model),
 				"Meditations metaphysiques");
 		manifestation1.addProperty(
@@ -390,7 +385,7 @@ public class FRBRizationAgg_4_10 {
 		work2.addProperty(FRBR.titleOfTheWork(model), "Discours de la methode");
 
 		Resource expression2 = FRBR.expression(model,
-				"MeditationsMetaphysiquesTextFrench");
+				"DiscoursdelaMethodeTextFrench");
 		expression2.addProperty(FRBR.languageOfExpression(model), "French");
 		expression2.addProperty(FRBR.noteOnExpression(model),
 				"Bibliography pages 142-143");
@@ -403,7 +398,7 @@ public class FRBRizationAgg_4_10 {
 		manifestation2.addProperty(FRBR.termsOfAvailability(model), "6,50 EUR");
 		manifestation2.addProperty(FRBR.extent(model), "143 pages");
 		manifestation2.addProperty(FRBR.dateOfPublication(model), "2009");
-		manifestation2.addProperty(FRBR.seriesStatement(model), collection);
+		manifestation2.addProperty(FRBR.seriesStatement(model), "integrales de philo (Les)");
 		manifestation1.addProperty(FRBR.titleOfTheManifestation(model),
 				"Discours de la methode");
 		manifestation1.addProperty(
@@ -420,6 +415,9 @@ public class FRBRizationAgg_4_10 {
 				manifestation2);
 		expression2.addProperty(FRBR.contributor(model), collab2);
 		manifestation2.addProperty(FRBR.publisher(model), publisher);
+		
+		collection.addProperty(FRBR.wholePartWorkRelationship(model), work1);
+		collection.addProperty(FRBR.wholePartWorkRelationship(model), work2);
 
 	}
 
@@ -774,6 +772,9 @@ public class FRBRizationAgg_4_10 {
 
 		work.addProperty(FRBR.wholePartWorkRelationship(model), pub1);
 		work.addProperty(FRBR.wholePartWorkRelationship(model), pub2);
+		
+		manifestation.addProperty(FRBR.containerOfManifestation(model), manifpub1);
+		manifestation.addProperty(FRBR.containerOfManifestation(model), manifpub2);
 
 	}
 

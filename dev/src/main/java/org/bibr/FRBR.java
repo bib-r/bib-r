@@ -378,7 +378,7 @@ public class FRBR {
 	 * @return
 	 */
 	public static Property appendixWork(Model model){
-		Property app = model.createProperty(RDA+"/"+catWork+"/"+"P10123");
+		Property app = model.createProperty(RDA+"/"+catWork+"/"+"appendixWork");
 		return app;
 	}
 
@@ -423,7 +423,6 @@ public class FRBR {
 	 */
 	public static Property creator(Model model){
 		Property creator = model.createProperty(RDA+"/"+catWork+"/"+"creator");
-		creator.addLiteral(RDFS.label,"creator");
 		return creator;
 	}
 
@@ -446,7 +445,6 @@ public class FRBR {
 	 */
 	public static Property director(Model model){
 		Property creator = model.createProperty(RDA+"/"+catWork+"/"+"director");
-		creator.addLiteral(RDFS.label,"director");
 		return creator;
 	}
 

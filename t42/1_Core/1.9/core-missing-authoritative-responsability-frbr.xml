@@ -6,7 +6,6 @@
     xmlns:rdaa="http://rdaregistry.info/Elements/a/"
     xmlns:rdac="http://rdaregistry.info/Elements/c/"
     xmlns:rdae="http://rdaregistry.info/Elements/e/"
-    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:rdaw="http://rdaregistry.info/Elements/w/"
     xmlns:rda="http://rdaregistry.info/Elements/"
     xmlns:rdai="http://rdaregistry.info/Elements/i/" > 
@@ -21,10 +20,10 @@
     <rdf:type>http://rdaregistry.info/Elements/c/C10004</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#Book9780747587477">
+    <rdam:placeOfPublication>Great Britain</rdam:placeOfPublication>
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#EditionsRobertLaffont"/>
     <rdam:extent>204 pages</rdam:extent>
     <rdam:termsOfAvailability>11,00 euro</rdam:termsOfAvailability>
-    <rdam:placeOfPublication>Great Britain</rdam:placeOfPublication>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
     <rdam:dateOfPublication>2006</rdam:dateOfPublication>
     <rdam:title>Treasure island</rdam:title>
@@ -116,10 +115,10 @@
     <rdam:noteOnCarrier>housing with illustrations</rdam:noteOnCarrier>
     <rdam:identifierForTheManifestation>9780142429181</rdam:identifierForTheManifestation>
     <rdam:dateOfPublication>1992</rdam:dateOfPublication>
+    <rdam:placeOfPublication>France</rdam:placeOfPublication>
     <rdam:carrierType>book</rdam:carrierType>
     <rdam:carrierType>audio</rdam:carrierType>
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#Penguinbooks"/>
-    <rdam:placeOfPublication>France</rdam:placeOfPublication>
     <rdam:title>Of mice and men</rdam:title>
     <rdam:dimensions>14 x 13 cm</rdam:dimensions>
   </rdf:Description>
@@ -159,8 +158,8 @@
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#HarperCollinsPublishers"/>
     <rdam:identifierForTheManifestation>9780007191154</rdam:identifierForTheManifestation>
     <rdam:title>Death on the Nil</rdam:title>
-    <rdam:placeOfPublication>France</rdam:placeOfPublication>
     <rdam:extent>7 CD (approx. 8h30)</rdam:extent>
+    <rdam:placeOfPublication>France</rdam:placeOfPublication>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#MeditationsMetaphysiques">
     <rdaw:creator rdf:resource="http://rdaregistry.info/Elements/c/Person#Descartes"/>
@@ -218,10 +217,10 @@
     <rdam:noteOnCarrier>Cover with colorful illustrations</rdam:noteOnCarrier>
     <rdam:dimensions>18 cm</rdam:dimensions>
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#GarnierFlammarion"/>
-    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
     <rdam:title>Essais</rdam:title>
     <rdam:identifierForTheManifestation>978-2-08-070210-4</rdam:identifierForTheManifestation>
+    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdam:termsOfAvailability>5.80 euro</rdam:termsOfAvailability>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Person#RobertLouisStevenson">
@@ -241,10 +240,10 @@
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
     <rdam:dimensions>19 cm</rdam:dimensions>
     <rdam:identifierForTheManifestation>2-253-13222-5</rdam:identifierForTheManifestation>
-    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdam:termsOfAvailability>120,00 F</rdam:termsOfAvailability>
     <rdam:title>Romans</rdam:title>
     <rdam:noteOnCarrier>Cover with colorful illustrations</rdam:noteOnCarrier>
+    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#TreasureIslandTextEnglish">
     <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Book9780747587477"/>
@@ -270,13 +269,15 @@
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#Book9781408855713">
     <rdam:title>Harry Potter and the Deathly Hallows</rdam:title>
     <rdam:dateOfPublication>2014</rdam:dateOfPublication>
-    <rdam:placeOfPublication>London</rdam:placeOfPublication>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#Bloomsbury"/>
+    <rdam:numberingWithinSeries>7</rdam:numberingWithinSeries>
     <rdam:noteOnCarrier>Cover with colorful illustrations</rdam:noteOnCarrier>
+    <rdam:placeOfPublication>London</rdam:placeOfPublication>
     <rdam:extent>1 volume (619 pages)</rdam:extent>
     <rdam:statementOfResponsibilityRelatingToTitleProper>J.K. Rowling</rdam:statementOfResponsibilityRelatingToTitleProper>
     <rdam:identifierForTheManifestation>978-1-4088-5571-3</rdam:identifierForTheManifestation>
+    <rdam:seriesStatement>Harry Potter series</rdam:seriesStatement>
     <rdam:dimensions>20 cm</rdam:dimensions>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#CouldMusicPotentially">
@@ -374,8 +375,8 @@
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
     <rdam:dateOfPublication>2012</rdam:dateOfPublication>
     <rdam:extent>1 volume (164 pages)</rdam:extent>
-    <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#Dargaud"/>
     <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
+    <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#Dargaud"/>
     <rdam:title>Valerian et Laureline</rdam:title>
     <rdam:statementOfResponsibilityRelatingToTitleProper>Pierre Christin; Jean-Claude Meziere</rdam:statementOfResponsibilityRelatingToTitleProper>
     <rdam:identifierForTheManifestation>978-2205-06038-6</rdam:identifierForTheManifestation>
@@ -384,8 +385,8 @@
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#Book9782091873053">
     <rdam:noteOnCarrier>On the cover: Texte integral annote, dossier pedagogique</rdam:noteOnCarrier>
     <rdam:termsOfAvailability>7,50 EUR</rdam:termsOfAvailability>
-    <rdam:title>Meditations metaphysiques</rdam:title>
     <rdam:placeOfPublication>France</rdam:placeOfPublication>
+    <rdam:title>Meditations metaphysiques</rdam:title>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#Nathan"/>
     <rdam:dateOfPublication>2009</rdam:dateOfPublication>
@@ -458,10 +459,10 @@
     <rdam:identifierForTheManifestation>978-2-0812-0963-3</rdam:identifierForTheManifestation>
     <rdam:dateOfPublication>2008</rdam:dateOfPublication>
     <rdam:title>Roman de Renart (Le)</rdam:title>
-    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
     <rdam:statementOfResponsibilityRelatingToTitleProper>Christian Keime; Monique Lachet-Lagarde</rdam:statementOfResponsibilityRelatingToTitleProper>
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#Flammarion"/>
+    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#Emergingtrendsindruguseanddistribution">
     <rdaw:creator rdf:resource="http://rdaregistry.info/Elements/c/Person#DavidNKhey"/>
@@ -512,13 +513,13 @@
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
     <rdam:identifierForTheManifestation>978-1-84344-484-8</rdam:identifierForTheManifestation>
     <rdam:title>The strange case of Dr Jekyll and Mr Hyde</rdam:title>
+    <rdam:placeOfPublication>Harpenden</rdam:placeOfPublication>
     <rdam:alsoIssuedAs rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Kindle9781843444862"/>
     <rdam:dateOfPublication>2014</rdam:dateOfPublication>
     <rdam:noteOnCarrier>Cover with colorful illustrations</rdam:noteOnCarrier>
     <rdam:dimensions>18 cm</rdam:dimensions>
     <rdam:carrierType>book</rdam:carrierType>
     <rdam:extent>1 volume (123 pages)</rdam:extent>
-    <rdam:placeOfPublication>Harpenden</rdam:placeOfPublication>
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#PulpTheClassics"/>
     <rdam:alsoIssuedAs rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#PDF9781843444879"/>
     <rdam:statementOfResponsibilityRelatingToTitleProper>Robert Louis Stevenson</rdam:statementOfResponsibilityRelatingToTitleProper>
@@ -565,24 +566,23 @@
     <rdf:type>http://rdaregistry.info/Elements/c/C10004</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#Book3319035746">
-    <rdam:placeOfPublication>Cham</rdam:placeOfPublication>
     <rdam:dateOfPublication>2014</rdam:dateOfPublication>
-    <rdam:placeOfPublication>New York</rdam:placeOfPublication>
-    <rdam:placeOfPublication>Heidelberg</rdam:placeOfPublication>
+    <rdam:placeOfPublication>Cham</rdam:placeOfPublication>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
     <rdam:title>Emerging trends in drug use and distribution</rdam:title>
     <rdam:identifierForTheManifestation>doi:10.1007/978-3-319-03575-8</rdam:identifierForTheManifestation>
     <rdam:statementOfResponsibilityRelatingToTitleProper>David N. Khey; John Stogner</rdam:statementOfResponsibilityRelatingToTitleProper>
+    <rdam:placeOfPublication>Heidelberg</rdam:placeOfPublication>
     <rdam:identifierForTheManifestation>3319035746</rdam:identifierForTheManifestation>
+    <rdam:placeOfPublication>New York</rdam:placeOfPublication>
+    <rdam:numberingWithinSeries>12</rdam:numberingWithinSeries>
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#Springer"/>
+    <rdam:seriesStatement>Springer briefs in criminology</rdam:seriesStatement>
     <rdam:extent>99 pages</rdam:extent>
   </rdf:Description>
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#StreetDrugs">
     <frbr:hasTermForTheConcept>Street Drugs</frbr:hasTermForTheConcept>
     <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007</rdf:type>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/creator">
-    <rdfs:label>creator</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/CorporateBody#Dargaud">
     <rdaa:nameOfTheCorporateBody>Dargaud</rdaa:nameOfTheCorporateBody>
@@ -622,7 +622,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#Book0140390480">
     <rdam:noteOnCarrier>Cover with colorful illustrations</rdam:noteOnCarrier>
-    <rdam:placeOfPublication>London</rdam:placeOfPublication>
     <rdam:extent>226 pages</rdam:extent>
     <rdam:identifierForTheManifestation>0-14-039048-0</rdam:identifierForTheManifestation>
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#Penguinbooks"/>
@@ -631,6 +630,7 @@
     <rdam:identifierForTheManifestation>0140390480</rdam:identifierForTheManifestation>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
     <rdam:title>The Adventures of Tom Sawyer</rdam:title>
+    <rdam:placeOfPublication>London</rdam:placeOfPublication>
     <rdam:dateOfPublication>1986</rdam:dateOfPublication>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Person#HansSlijpen">

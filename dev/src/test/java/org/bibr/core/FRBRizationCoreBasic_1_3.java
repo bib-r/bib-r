@@ -388,6 +388,8 @@ public class FRBRizationCoreBasic_1_3 {
 		manifestation.addProperty(FRBR.placeOfPublication(model), "New York");
 		manifestation.addProperty(FRBR.dateOfPublication(model), "2014");
 		manifestation.addProperty(FRBR.titleOfTheManifestation(model), "Emerging trends in drug use and distribution");
+		manifestation.addProperty(FRBR.seriesStatement(model), "Springer briefs in criminology");
+		manifestation.addProperty(FRBR.numberingWithinSeries(model), "12");
 		manifestation.addProperty(FRBR.statementOfResponsibilityRelatingToTitleProper(model), "David N. Khey; John Stogner");
 		
 		// Person
@@ -512,6 +514,8 @@ public class FRBRizationCoreBasic_1_3 {
 		manifestation.addProperty(FRBR.placeOfPublication(model), "London");
 		manifestation.addProperty(FRBR.dateOfPublication(model), "2014");
 		manifestation.addProperty(FRBR.titleOfTheManifestation(model), "Harry Potter and the Deathly Hallows");
+		manifestation.addProperty(FRBR.seriesStatement(model), "Harry Potter series");
+		manifestation.addProperty(FRBR.numberingWithinSeries(model), "7");
 		manifestation.addProperty(FRBR.statementOfResponsibilityRelatingToTitleProper(model), "J.K. Rowling");
 		
 		// Person

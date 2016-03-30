@@ -6,7 +6,6 @@
     xmlns:rdaa="http://rdaregistry.info/Elements/a/"
     xmlns:rdac="http://rdaregistry.info/Elements/c/"
     xmlns:rdae="http://rdaregistry.info/Elements/e/"
-    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:rdaw="http://rdaregistry.info/Elements/w/"
     xmlns:rda="http://rdaregistry.info/Elements/"
     xmlns:rdai="http://rdaregistry.info/Elements/i/" > 
@@ -15,9 +14,6 @@
     <rdae:noteOnExpression>Serial</rdae:noteOnExpression>
     <rdae:languageOfExpression>English</rdae:languageOfExpression>
     <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/director">
-    <rdfs:label>director</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/CorporateBody#UniversityofChicagoPress">
     <rdaa:nameOfTheCorporateBody>University of Chicago Press</rdaa:nameOfTheCorporateBody>

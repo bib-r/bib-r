@@ -6,7 +6,6 @@
     xmlns:rdaa="http://rdaregistry.info/Elements/a/"
     xmlns:rdac="http://rdaregistry.info/Elements/c/"
     xmlns:rdae="http://rdaregistry.info/Elements/e/"
-    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:rdaw="http://rdaregistry.info/Elements/w/"
     xmlns:rda="http://rdaregistry.info/Elements/"
     xmlns:rdai="http://rdaregistry.info/Elements/i/" > 
@@ -259,6 +258,8 @@
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#Book9781408855713">
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#Bloomsbury"/>
     <rdam:statementOfResponsibilityRelatingToTitleProper>J.K. Rowling</rdam:statementOfResponsibilityRelatingToTitleProper>
+    <rdam:numberingWithinSeries>7</rdam:numberingWithinSeries>
+    <rdam:seriesStatement>Harry Potter series</rdam:seriesStatement>
     <rdam:title>Harry Potter and the Deathly Hallows</rdam:title>
     <rdam:dateOfPublication>2014</rdam:dateOfPublication>
     <rdam:placeOfPublication>London</rdam:placeOfPublication>
@@ -504,9 +505,9 @@
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
     <rdam:identifierForTheManifestation>978-1-84344-484-8</rdam:identifierForTheManifestation>
     <rdam:title>The strange case of Dr Jekyll and Mr Hyde</rdam:title>
+    <rdam:placeOfPublication>Harpenden</rdam:placeOfPublication>
     <rdam:alsoIssuedAs rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Kindle9781843444862"/>
     <rdam:dateOfPublication>2014</rdam:dateOfPublication>
-    <rdam:placeOfPublication>Harpenden</rdam:placeOfPublication>
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#PulpTheClassics"/>
     <rdam:alsoIssuedAs rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#PDF9781843444879"/>
     <rdam:statementOfResponsibilityRelatingToTitleProper>Robert Louis Stevenson</rdam:statementOfResponsibilityRelatingToTitleProper>
@@ -556,23 +557,22 @@
     <rdf:type>http://rdaregistry.info/Elements/c/C10004</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#Book3319035746">
-    <rdam:placeOfPublication>Cham</rdam:placeOfPublication>
     <rdam:dateOfPublication>2014</rdam:dateOfPublication>
-    <rdam:placeOfPublication>New York</rdam:placeOfPublication>
-    <rdam:placeOfPublication>Heidelberg</rdam:placeOfPublication>
+    <rdam:placeOfPublication>Cham</rdam:placeOfPublication>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
     <rdam:title>Emerging trends in drug use and distribution</rdam:title>
     <rdam:identifierForTheManifestation>doi:10.1007/978-3-319-03575-8</rdam:identifierForTheManifestation>
     <rdam:statementOfResponsibilityRelatingToTitleProper>David N. Khey; John Stogner</rdam:statementOfResponsibilityRelatingToTitleProper>
+    <rdam:placeOfPublication>Heidelberg</rdam:placeOfPublication>
     <rdam:identifierForTheManifestation>3319035746</rdam:identifierForTheManifestation>
+    <rdam:placeOfPublication>New York</rdam:placeOfPublication>
+    <rdam:numberingWithinSeries>12</rdam:numberingWithinSeries>
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#Springer"/>
+    <rdam:seriesStatement>Springer briefs in criminology</rdam:seriesStatement>
   </rdf:Description>
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#StreetDrugs">
     <frbr:hasTermForTheConcept>Street Drugs</frbr:hasTermForTheConcept>
     <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007</rdf:type>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/creator">
-    <rdfs:label>creator</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/CorporateBody#Dargaud">
     <rdaa:nameOfTheCorporateBody>Dargaud</rdaa:nameOfTheCorporateBody>

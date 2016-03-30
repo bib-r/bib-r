@@ -6,7 +6,6 @@
     xmlns:rdaa="http://rdaregistry.info/Elements/a/"
     xmlns:rdac="http://rdaregistry.info/Elements/c/"
     xmlns:rdae="http://rdaregistry.info/Elements/e/"
-    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:rdaw="http://rdaregistry.info/Elements/w/"
     xmlns:rda="http://rdaregistry.info/Elements/"
     xmlns:rdai="http://rdaregistry.info/Elements/i/" > 
@@ -53,9 +52,6 @@
     <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#StudyContinualImprovementVideo1"/>
     <rdaw:titleOfTheWork>A study in continual improvement</rdaw:titleOfTheWork>
     <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/director">
-    <rdfs:label>director</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#Hospitals">
     <frbr:hasTermForTheConcept>Hospitals</frbr:hasTermForTheConcept>
@@ -148,9 +144,6 @@
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#CrossInfection">
     <frbr:hasTermForTheConcept>Cross Infection</frbr:hasTermForTheConcept>
     <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007</rdf:type>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/creator">
-    <rdfs:label>creator</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#StudyContinualImprovement2">
     <frbr:hasAsSubjectPlace rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/Place#Virginia"/>

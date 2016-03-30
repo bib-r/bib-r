@@ -6,7 +6,6 @@
     xmlns:rdaa="http://rdaregistry.info/Elements/a/"
     xmlns:rdac="http://rdaregistry.info/Elements/c/"
     xmlns:rdae="http://rdaregistry.info/Elements/e/"
-    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:rdaw="http://rdaregistry.info/Elements/w/"
     xmlns:rda="http://rdaregistry.info/Elements/"
     xmlns:rdai="http://rdaregistry.info/Elements/i/" > 
@@ -17,10 +16,10 @@
     <rdam:noteOnCarrier>Cover with colorful illustrations</rdam:noteOnCarrier>
     <rdam:dimensions>18 cm</rdam:dimensions>
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#GarnierFlammarion"/>
-    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
     <rdam:title>Essais</rdam:title>
     <rdam:identifierForTheManifestation>978-2-08-070210-4</rdam:identifierForTheManifestation>
+    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdam:termsOfAvailability>5.80 euro</rdam:termsOfAvailability>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#RomandeRenart">
@@ -28,9 +27,6 @@
     <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#RomandeRenartTextFrench"/>
     <rdaw:titleOfTheWork>Roman de Renart</rdaw:titleOfTheWork>
     <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/creator">
-    <rdfs:label>creator</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Person#MoniqueLachetLagarde">
     <rdaa:nameOfThePerson>Monique Lachet-Lagarde</rdaa:nameOfThePerson>
@@ -50,10 +46,10 @@
     <rdam:identifierForTheManifestation>978-2-0812-0963-3</rdam:identifierForTheManifestation>
     <rdam:dateOfPublication>2008</rdam:dateOfPublication>
     <rdam:title>Roman de Renart (Le)</rdam:title>
-    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
     <rdam:statementOfResponsibilityRelatingToTitleProper>Christian Keime; Monique Lachet-Lagarde</rdam:statementOfResponsibilityRelatingToTitleProper>
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#Flammarion"/>
+    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#RomandeRenartTextFrench">
     <rdae:contributor rdf:resource="http://rdaregistry.info/Elements/c/Person#MoniqueLachetLagarde"/>

@@ -6,7 +6,6 @@
     xmlns:rdaa="http://rdaregistry.info/Elements/a/"
     xmlns:rdac="http://rdaregistry.info/Elements/c/"
     xmlns:rdae="http://rdaregistry.info/Elements/e/"
-    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:rdaw="http://rdaregistry.info/Elements/w/"
     xmlns:rda="http://rdaregistry.info/Elements/"
     xmlns:rdai="http://rdaregistry.info/Elements/i/" > 
@@ -19,9 +18,6 @@
     <rdaa:nameOfThePerson>David Yates</rdaa:nameOfThePerson>
     <rdaa:identifierForThePerson>pauth-033</rdaa:identifierForThePerson>
     <rdf:type>http://rdaregistry.info/Elements/c/C10004</rdf:type>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/director">
-    <rdfs:label>director</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#strangecaseofDrJekyllMrHydeTextItalian">
     <rdae:translatedAs rdf:resource="http://rdaregistry.info/Elements/c/Expression#strangecaseofDrJekyllMrHydeTextFrench"/>
@@ -91,8 +87,8 @@
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
     <rdam:dateOfPublication>2012</rdam:dateOfPublication>
     <rdam:extent>1 volume (164 pages)</rdam:extent>
-    <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#Dargaud"/>
     <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
+    <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#Dargaud"/>
     <rdam:title>Valerian et Laureline</rdam:title>
     <rdam:statementOfResponsibilityRelatingToTitleProper>Pierre Christin; Jean-Claude Meziere</rdam:statementOfResponsibilityRelatingToTitleProper>
     <rdam:otherTitleInformation>l'integrale</rdam:otherTitleInformation>
@@ -118,11 +114,11 @@
     <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#Book2203389885">
+    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#Casterman"/>
     <rdam:noteOnCarrier>Colorful illustrations</rdam:noteOnCarrier>
     <rdam:dimensions>32 cm</rdam:dimensions>
     <rdam:title>Docteur Jekyll &amp; Mister Hyde</rdam:title>
-    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdam:extent>64 pages</rdam:extent>
     <rdam:otherTitleInformation>free adapatation from the book of Robert L. Stevenson</rdam:otherTitleInformation>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
@@ -135,13 +131,6 @@
     <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#TreasureIslandOriginal"/>
     <rdaw:titleOfTheWork>Treasure Island</rdaw:titleOfTheWork>
     <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#HarryPotterandtheDeathlyHallowsFilm">
-    <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#MP5051889209546"/>
-    <rdae:actor rdf:resource="http://rdaregistry.info/Elements/c/Person#EmmaWatson"/>
-    <rdae:actor rdf:resource="http://rdaregistry.info/Elements/c/Person#DanielRadcliffe"/>
-    <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#MP5051889060093"/>
-    <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#LesMiserablesFilm">
     <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#LesMiserablesFilm"/>
@@ -220,6 +209,13 @@
     <rdaw:titleOfTheWork>Of Mice and men</rdaw:titleOfTheWork>
     <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
   </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#HarryPotterandtheDeathlyHallowsFilm1">
+    <rdae:actor rdf:resource="http://rdaregistry.info/Elements/c/Person#EmmaWatson"/>
+    <rdae:actor rdf:resource="http://rdaregistry.info/Elements/c/Person#DanielRadcliffe"/>
+    <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#MP5051889060093"/>
+    <rdae:noteOnExpression>[Motion Picture]</rdae:noteOnExpression>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
+  </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#AdventuresTomSawyerOriginal">
     <rdae:translatedAs rdf:resource="http://rdaregistry.info/Elements/c/Expression#AdventuresTomSawyerTranslated"/>
     <rdae:languageOfExpression>English</rdae:languageOfExpression>
@@ -249,8 +245,9 @@
     <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#WorkHarryPotter2DVD">
-    <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#HarryPotterandtheDeathlyHallowsFilm"/>
+    <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#HarryPotterandtheDeathlyHallowsFilm2"/>
     <rdaw:director rdf:resource="http://rdaregistry.info/Elements/c/Person#DavidYates"/>
+    <rdaw:titleOfTheWork>Harry Potter and the Deathly Hallows Part 2</rdaw:titleOfTheWork>
     <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#AdventuresTomSawyer">
@@ -317,12 +314,12 @@
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#Book9781843444848">
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
     <rdam:title>The strange case of Dr Jekyll and Mr Hyde</rdam:title>
+    <rdam:placeOfPublication>Harpenden</rdam:placeOfPublication>
     <rdam:dateOfPublication>2014</rdam:dateOfPublication>
     <rdam:noteOnCarrier>Cover with colorful illustrations</rdam:noteOnCarrier>
     <rdam:dimensions>18 cm</rdam:dimensions>
     <rdam:carrierType>book</rdam:carrierType>
     <rdam:extent>1 volume (123 pages)</rdam:extent>
-    <rdam:placeOfPublication>Harpenden</rdam:placeOfPublication>
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#PulpTheClassics"/>
     <rdam:statementOfResponsibilityRelatingToTitleProper>Robert Louis Stevenson</rdam:statementOfResponsibilityRelatingToTitleProper>
   </rdf:Description>
@@ -337,8 +334,9 @@
     <rdf:type>http://rdaregistry.info/Elements/c/C10004</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#WorkHarryPotter1DVD">
-    <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#HarryPotterandtheDeathlyHallowsFilm"/>
+    <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#HarryPotterandtheDeathlyHallowsFilm1"/>
     <rdaw:director rdf:resource="http://rdaregistry.info/Elements/c/Person#DavidYates"/>
+    <rdaw:titleOfTheWork>Harry Potter and the Deathly Hallows Part 1</rdaw:titleOfTheWork>
     <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#ArmureduJakolassTextFrench">
@@ -368,6 +366,13 @@
     <rdaa:identifierForThePerson>pauth-043</rdaa:identifierForThePerson>
     <rdf:type>http://rdaregistry.info/Elements/c/C10004</rdf:type>
   </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#HarryPotterandtheDeathlyHallowsFilm2">
+    <rdae:actor rdf:resource="http://rdaregistry.info/Elements/c/Person#EmmaWatson"/>
+    <rdae:actor rdf:resource="http://rdaregistry.info/Elements/c/Person#DanielRadcliffe"/>
+    <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#MP5051889209546"/>
+    <rdae:noteOnExpression>[Motion Picture]</rdae:noteOnExpression>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
+  </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Person#RobertLouisStevenson">
     <rdaa:nameOfThePerson>Robert Louis Stevenson</rdaa:nameOfThePerson>
     <rdaa:identifierForThePerson>pauth-003</rdaa:identifierForThePerson>
@@ -393,10 +398,12 @@
     <rdae:actor rdf:resource="http://rdaregistry.info/Elements/c/Person#HughJackman"/>
     <rdae:award rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/Event#GoldenGlobe2012"/>
     <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#MP5050582942156"/>
+    <rdae:noteOnExpression>[Motion Picture]</rdae:noteOnExpression>
     <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#HarryPotterandtheDeathlyHallowsText">
     <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Book9781408855713"/>
+    <rdae:noteOnExpression>[publication]</rdae:noteOnExpression>
     <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#MP5051889209546">
@@ -408,9 +415,6 @@
     <rdam:dateOfPublication>2011</rdam:dateOfPublication>
     <rdam:placeOfPublication>Neuilly-sur-Seine</rdam:placeOfPublication>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/creator">
-    <rdfs:label>creator</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/CorporateBody#Dargaud">
     <rdaa:nameOfTheCorporateBody>Dargaud</rdaa:nameOfTheCorporateBody>
@@ -427,6 +431,7 @@
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#Book2070360377">
+    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdam:extent>189 pages</rdam:extent>
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#Gallimard"/>
     <rdam:dateOfPublication>1992</rdam:dateOfPublication>
@@ -434,7 +439,6 @@
     <rdam:title>Des souris et des hommes</rdam:title>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
     <rdam:termsOfAvailability>39,00 F</rdam:termsOfAvailability>
-    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdam:dimensions>18 cm</rdam:dimensions>
     <rdam:statementOfResponsibilityRelatingToTitleProper>John Steinbeck; M.E. Coindreau</rdam:statementOfResponsibilityRelatingToTitleProper>
   </rdf:Description>
@@ -445,9 +449,9 @@
     <rdam:statementOfResponsibilityRelatingToTitleProper>Michael Morpurgo; Andre Dupuis</rdam:statementOfResponsibilityRelatingToTitleProper>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
     <rdam:termsOfAvailability>14 euro</rdam:termsOfAvailability>
-    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdam:dimensions>22 cm</rdam:dimensions>
     <rdam:title>Cheval de guerre</rdam:title>
+    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdam:dateOfPublication>2005</rdam:dateOfPublication>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#ArmureduJakolass">
@@ -458,10 +462,10 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#Book9782302013773">
     <rdam:noteOnCarrier>Illustrations, Cover with illustration</rdam:noteOnCarrier>
+    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdam:statementOfResponsibilityRelatingToTitleProper>based on writting by Victor Hugo; adapted in manga by studio Variety artworks</rdam:statementOfResponsibilityRelatingToTitleProper>
     <rdam:dateOfPublication>2011</rdam:dateOfPublication>
     <rdam:title>miserables (Les )</rdam:title>
-    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdam:carrierType>Manga</rdam:carrierType>
     <rdam:dimensions>19 cm</rdam:dimensions>
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#Soleil"/>
@@ -498,15 +502,17 @@
     <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#Book9781408855713">
-    <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#Bloomsbury"/>
-    <rdam:statementOfResponsibilityRelatingToTitleProper>J.K. Rowling</rdam:statementOfResponsibilityRelatingToTitleProper>
     <rdam:title>Harry Potter and the Deathly Hallows</rdam:title>
     <rdam:dateOfPublication>2014</rdam:dateOfPublication>
-    <rdam:placeOfPublication>London</rdam:placeOfPublication>
-    <rdam:noteOnCarrier>Cover with colorful illustrations</rdam:noteOnCarrier>
-    <rdam:extent>1 volume (619 pages)</rdam:extent>
-    <rdam:dimensions>20 cm</rdam:dimensions>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
+    <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#Bloomsbury"/>
+    <rdam:numberingWithinSeries>7</rdam:numberingWithinSeries>
+    <rdam:noteOnCarrier>Cover with colorful illustrations</rdam:noteOnCarrier>
+    <rdam:placeOfPublication>London</rdam:placeOfPublication>
+    <rdam:extent>1 volume (619 pages)</rdam:extent>
+    <rdam:statementOfResponsibilityRelatingToTitleProper>J.K. Rowling</rdam:statementOfResponsibilityRelatingToTitleProper>
+    <rdam:seriesStatement>Harry Potter series</rdam:seriesStatement>
+    <rdam:dimensions>20 cm</rdam:dimensions>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#ValerianEtLaurelineTextFrench">
     <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Comic9782205060386"/>

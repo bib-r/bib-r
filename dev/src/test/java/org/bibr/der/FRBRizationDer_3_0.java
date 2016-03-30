@@ -321,6 +321,7 @@ public class FRBRizationDer_3_0 {
 		work.addProperty(FRBR.titleOfTheWork(model), "Harry Potter and the Deathly Hallows");
 		
 		Resource expression = FRBR.expression(model,"HarryPotterandtheDeathlyHallowsText");
+		expression.addProperty(FRBR.noteOnExpression(model), "[publication]");
 		
 		// Manifestation
 		Resource manifestation = FRBR.manifestation(model,"Book9781408855713");
@@ -331,6 +332,8 @@ public class FRBRizationDer_3_0 {
 		manifestation.addProperty(FRBR.placeOfPublication(model), "London");
 		manifestation.addProperty(FRBR.dateOfPublication(model), "2014");
 		manifestation.addProperty(FRBR.titleOfTheManifestation(model), "Harry Potter and the Deathly Hallows");
+		manifestation.addProperty(FRBR.seriesStatement(model), "Harry Potter series");
+		manifestation.addProperty(FRBR.numberingWithinSeries(model), "7");
 		manifestation.addProperty(FRBR.statementOfResponsibilityRelatingToTitleProper(model), "J.K. Rowling");
 
 		// Relationships
@@ -342,9 +345,10 @@ public class FRBRizationDer_3_0 {
 		// Film 1
 		
 		Resource film1 = FRBR.work(model,"WorkHarryPotter1DVD");
-		work.addProperty(FRBR.titleOfTheWork(model), "Harry Potter and the Deathly Hallows");
+		film1.addProperty(FRBR.titleOfTheWork(model), "Harry Potter and the Deathly Hallows Part 1");
 		
-		Resource expfilm = FRBR.expression(model,"HarryPotterandtheDeathlyHallowsFilm");
+		Resource expfilm1 = FRBR.expression(model,"HarryPotterandtheDeathlyHallowsFilm1");
+		expfilm1.addProperty(FRBR.noteOnExpression(model), "[Motion Picture]");
 		
 		Resource manifilm1 = FRBR.manifestation(model,"MP5051889060093");
 		manifilm1.addProperty(FRBR.identifierForTheManifestation(model), "5051889060093");
@@ -357,16 +361,19 @@ public class FRBRizationDer_3_0 {
 		
 		// Relationships
 		film1.addProperty(FRBR.director(model), dir);
-		film1.addProperty(FRBR.expressionOfWork(model), expfilm);
-		expfilm.addProperty(FRBR.manifestationOfExpression(model), manifilm1);
-		expfilm.addProperty(FRBR.actor(model), act1);
-		expfilm.addProperty(FRBR.actor(model), act2);
+		film1.addProperty(FRBR.expressionOfWork(model), expfilm1);
+		expfilm1.addProperty(FRBR.manifestationOfExpression(model), manifilm1);
+		expfilm1.addProperty(FRBR.actor(model), act1);
+		expfilm1.addProperty(FRBR.actor(model), act2);
 		manifilm1.addProperty(FRBR.publisher(model), publisher2);
 		
 		// Film 2
 		
 		Resource film2 = FRBR.work(model,"WorkHarryPotter2DVD");
-		work.addProperty(FRBR.titleOfTheWork(model), "Harry Potter and the Deathly Hallows");
+		film2.addProperty(FRBR.titleOfTheWork(model), "Harry Potter and the Deathly Hallows Part 2");
+		
+		Resource expfilm2 = FRBR.expression(model,"HarryPotterandtheDeathlyHallowsFilm2");
+		expfilm2.addProperty(FRBR.noteOnExpression(model), "[Motion Picture]");
 		
 		Resource manifilm2 = FRBR.manifestation(model,"MP5051889209546");
 		manifilm2.addProperty(FRBR.identifierForTheManifestation(model), "5051889209546");
@@ -378,9 +385,12 @@ public class FRBRizationDer_3_0 {
 		manifilm2.addProperty(FRBR.statementOfResponsibilityRelatingToTitleProper(model), "David Yates; Daniel Radcliffe; Emma Watson");
 		
 		film2.addProperty(FRBR.director(model), dir);
-		film2.addProperty(FRBR.expressionOfWork(model), expfilm);
-		expfilm.addProperty(FRBR.manifestationOfExpression(model), manifilm2);
+		film2.addProperty(FRBR.expressionOfWork(model), expfilm2);
+		expfilm2.addProperty(FRBR.manifestationOfExpression(model), manifilm2);
+		expfilm2.addProperty(FRBR.actor(model), act1);
+		expfilm2.addProperty(FRBR.actor(model), act2);
 		manifilm2.addProperty(FRBR.publisher(model), publisher2);
+
 		
 		// Adaptation
 		work.addProperty(FRBR.adaptedAsMotionPictureWork(model),film1);
@@ -499,6 +509,7 @@ public class FRBRizationDer_3_0 {
 		award.addProperty(FRBR.hasTermForTheEvent(model), "United States");
 		
 		Resource expfilm = FRBR.expression(model,"LesMiserablesFilm");
+		expfilm.addProperty(FRBR.noteOnExpression(model), "[Motion Picture]");
 		
 		Resource dir = FRBR.person(model,"TimHooper");
 		dir.addProperty(FRBR.identifierForThePerson(model), "pauth-038");

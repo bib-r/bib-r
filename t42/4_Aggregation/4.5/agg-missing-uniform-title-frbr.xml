@@ -6,21 +6,37 @@
     xmlns:rdaa="http://rdaregistry.info/Elements/a/"
     xmlns:rdac="http://rdaregistry.info/Elements/c/"
     xmlns:rdae="http://rdaregistry.info/Elements/e/"
-    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:rdaw="http://rdaregistry.info/Elements/w/"
     xmlns:rda="http://rdaregistry.info/Elements/"
     xmlns:rdai="http://rdaregistry.info/Elements/i/" > 
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#RomandeRenart">
+    <rdaw:wholePartWorkRelationship rdf:resource="http://rdaregistry.info/Elements/c/Work#JambonsYsengrin"/>
+    <rdaw:creator rdf:resource="http://rdaregistry.info/Elements/c/Person#ChristianKeime"/>
+    <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#RomandeRenartTextFrench"/>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#EssaisBookIITextFrench">
+    <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Book9782080702111"/>
+    <rdae:languageOfExpression>French</rdae:languageOfExpression>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#ChevalierdelaCharrette">
+    <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#RomansTextFrench"/>
+    <rdaw:titleOfTheWork>Chevalier de la Charrette (Le)</rdaw:titleOfTheWork>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
+  </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Person#ChretiendeTroyes">
     <rdaa:nameOfThePerson>Chretien de Troyes</rdaa:nameOfThePerson>
     <rdaa:identifierForThePerson>pauth-004</rdaa:identifierForThePerson>
     <rdf:type>http://rdaregistry.info/Elements/c/C10004</rdf:type>
   </rdf:Description>
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/director">
-    <rdfs:label>director</rdfs:label>
-  </rdf:Description>
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#Hospitals">
     <frbr:hasTermForTheConcept>Hospitals</frbr:hasTermForTheConcept>
     <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/CorporateBody#UniversityofChicagoPress">
+    <rdaa:nameOfTheCorporateBody>University of Chicago Press</rdaa:nameOfTheCorporateBody>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10005</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#JambonsYsengrin">
     <rdaw:creator rdf:resource="http://rdaregistry.info/Elements/c/Person#JeanMarcMathis"/>
@@ -40,10 +56,52 @@
     <rdaw:titleOfTheWork>GF</rdaw:titleOfTheWork>
     <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
   </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#Epidemiology">
+    <frbr:hasTermForTheConcept>Epidemiology</frbr:hasTermForTheConcept>
+    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#EssaisBookI">
+    <rdaw:creator rdf:resource="http://rdaregistry.info/Elements/c/Person#MicheldeMontaigne"/>
+    <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#EssaisBookITextFrench"/>
+    <rdaw:titleOfTheWork>Essais</rdaw:titleOfTheWork>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#InfectionControlAndHospitalEpidemiology">
+    <rdaw:director rdf:resource="http://rdaregistry.info/Elements/c/Person#RichardPWenzel"/>
+    <rdaw:variantTitleForTheWork>Infect Control Hosp Epidemiol</rdaw:variantTitleForTheWork>
+    <rdaw:variantTitleForTheWork>Official journal of The SHEA</rdaw:variantTitleForTheWork>
+    <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#InfectionControlAndHospitalEpidemiologyPublication"/>
+    <rdaw:variantTitleForTheWork>ICHE</rdaw:variantTitleForTheWork>
+    <frbr:hasAsSubjectConcept rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#InfectionControl"/>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
+    <frbr:hasAsSubjectConcept rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#Hospitals"/>
+    <frbr:hasAsSubjectConcept rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#Epidemiology"/>
+    <rdaw:identifierForTheWork>tauth-014</rdaw:identifierForTheWork>
+    <rdaw:director rdf:resource="http://rdaregistry.info/Elements/c/Person#BarryFarr"/>
+    <frbr:hasAsSubjectConcept rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#CrossInfection"/>
+    <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#InfectionControlAndHospitalEpidemiologyJournal"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#RomansTextFrench">
     <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Book2253132225"/>
     <rdae:languageOfExpression>French</rdae:languageOfExpression>
     <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#Book9782080702104">
+    <rdam:numberingWithinSubseries>1</rdam:numberingWithinSubseries>
+    <rdam:seriesStatement rdf:resource="http://rdaregistry.info/Elements/c/Work#GF"/>
+    <rdam:statementOfResponsibilityRelatingToTitleProper>Michel de Montaigne</rdam:statementOfResponsibilityRelatingToTitleProper>
+    <rdam:extent>443 pages</rdam:extent>
+    <rdam:dateOfPublication>1969</rdam:dateOfPublication>
+    <rdam:noteOnCarrier>Cover with colorful illustrations</rdam:noteOnCarrier>
+    <rdam:dimensions>18 cm</rdam:dimensions>
+    <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#GarnierFlammarion"/>
+    <rdam:numberingWithinSeries>210</rdam:numberingWithinSeries>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
+    <rdam:otherTitleInformation>Book I</rdam:otherTitleInformation>
+    <rdam:title>Essais</rdam:title>
+    <rdam:identifierForTheManifestation>978-2-08-070210-4</rdam:identifierForTheManifestation>
+    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
+    <rdam:termsOfAvailability>5.80 euro</rdam:termsOfAvailability>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#Romans">
     <rdaw:containerOfWork rdf:resource="http://rdaregistry.info/Elements/c/Work#ConteduGraal"/>
@@ -60,23 +118,84 @@
     <rdaa:identifierForThePerson>pauth-006</rdaa:identifierForThePerson>
     <rdf:type>http://rdaregistry.info/Elements/c/C10004</rdf:type>
   </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#InfectionControlAndHospitalEpidemiologyPublication">
+    <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Journal0899823XPub2"/>
+    <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Journal0899823XPub1"/>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#RomansdelaTableronde">
+    <frbr:hasTermForTheConcept>Romans de la Table ronde</frbr:hasTermForTheConcept>
+    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007</rdf:type>
+  </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#Journal0899823XPub2">
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#UniversityofChicagoPress"/>
     <rdam:placeOfPublication>Chicago, IL</rdam:placeOfPublication>
     <rdam:dateOfPublication>2006-</rdam:dateOfPublication>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
   </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#EssaisBookII">
+    <rdaw:creator rdf:resource="http://rdaregistry.info/Elements/c/Person#MicheldeMontaigne"/>
+    <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#EssaisBookIITextFrench"/>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
+  </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#Cliges">
+    <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#RomansTextFrench"/>
     <rdaw:titleOfTheWork>Cliges</rdaw:titleOfTheWork>
     <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Person#ChristianKeime">
+    <rdaa:nameOfThePerson>Christian Keime</rdaa:nameOfThePerson>
+    <rdaa:identifierForThePerson>pauth-005</rdaa:identifierForThePerson>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10004</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Person#MicheldeMontaigne">
+    <rdaa:nameOfThePerson>Michel de Montaigne</rdaa:nameOfThePerson>
+    <rdaa:identifierForThePerson>pauth-007</rdaa:identifierForThePerson>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10004</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#CrossInfection">
     <frbr:hasTermForTheConcept>Cross Infection</frbr:hasTermForTheConcept>
     <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007</rdf:type>
   </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#ChevalierauLion">
+    <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#RomansTextFrench"/>
+    <rdaw:titleOfTheWork>Chevalier au Lion (Le)</rdaw:titleOfTheWork>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
+  </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/CorporateBody#Delcourt">
     <rdaa:nameOfTheCorporateBody>Delcourt</rdaa:nameOfTheCorporateBody>
     <rdf:type>http://rdaregistry.info/Elements/c/C10005</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#Book2253132225">
+    <rdam:dateOfPublication>1994</rdam:dateOfPublication>
+    <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#LibrairieGeneraleFrancaise"/>
+    <rdam:statementOfResponsibilityRelatingToTitleProper>Chretien de Troyes</rdam:statementOfResponsibilityRelatingToTitleProper>
+    <rdam:extent>1279 pages</rdam:extent>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
+    <rdam:dimensions>19 cm</rdam:dimensions>
+    <rdam:identifierForTheManifestation>2-253-13222-5</rdam:identifierForTheManifestation>
+    <rdam:termsOfAvailability>120,00 F</rdam:termsOfAvailability>
+    <rdam:title>Romans</rdam:title>
+    <rdam:noteOnCarrier>Cover with colorful illustrations</rdam:noteOnCarrier>
+    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#Book9782756003580">
+    <rdam:identifierForTheManifestation>978-2-7560-0358-0</rdam:identifierForTheManifestation>
+    <rdam:termsOfAvailability>8,90 Euros</rdam:termsOfAvailability>
+    <rdam:statementOfResponsibilityRelatingToTitleProper>Jean-Marc Mathis; illustrated by Thierry Martin</rdam:statementOfResponsibilityRelatingToTitleProper>
+    <rdam:extent>31 pages</rdam:extent>
+    <rdam:dimensions>30 cm</rdam:dimensions>
+    <rdam:dateOfPublication>2007</rdam:dateOfPublication>
+    <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#Delcourt"/>
+    <rdam:title>Jambons d'Ysengrin (Les )</rdam:title>
+    <rdam:noteOnCarrier>colorful illustrations</rdam:noteOnCarrier>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
+    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#ConteduGraal">
+    <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#RomansTextFrench"/>
+    <rdaw:titleOfTheWork>Conte du Graal (Le)</rdaw:titleOfTheWork>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/CorporateBody#LibrairieGeneraleFrancaise">
     <rdaa:nameOfTheCorporateBody>Librairie Generale Francaise</rdaa:nameOfTheCorporateBody>
@@ -96,18 +215,50 @@
     <rdae:languageOfExpression>English</rdae:languageOfExpression>
     <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
   </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#Essais">
+    <rdaw:containerOfWork rdf:resource="http://rdaregistry.info/Elements/c/Work#EssaisBookII"/>
+    <rdaw:containerOfWork rdf:resource="http://rdaregistry.info/Elements/c/Work#EssaisBookI"/>
+    <rdaw:titleOfTheWork>Essais</rdaw:titleOfTheWork>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
+  </rdf:Description>
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#InfectionControl">
     <frbr:hasTermForTheConcept>Infection Control</frbr:hasTermForTheConcept>
     <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Person#BarryFarr">
+    <rdaa:nameOfThePerson>Barry Farr</rdaa:nameOfThePerson>
+    <rdaa:identifierForThePerson>pauth-045</rdaa:identifierForThePerson>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10004</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Person#JeanMarcMathis">
+    <rdaa:nameOfThePerson>Jean-Marc Mathis</rdaa:nameOfThePerson>
+    <rdaa:identifierForThePerson>pauth-026</rdaa:identifierForThePerson>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10004</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/CorporateBody#Flammarion">
+    <rdaa:nameOfTheCorporateBody>Flammarion</rdaa:nameOfTheCorporateBody>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10005</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#Journal0899823X">
+    <rdam:otherTitleInformation>An official journal of the Society of Hospital Epidemiologists of America</rdam:otherTitleInformation>
+    <rdam:frequency>Monthly</rdam:frequency>
+    <rdam:statementOfResponsibilityRelatingToTitleProper>Richard P. Wenzel; Barry Farr</rdam:statementOfResponsibilityRelatingToTitleProper>
+    <rdam:title>Infection control and hospital epidemiology</rdam:title>
+    <rdam:noteOnPublicationStatement>Published by University chicago press in 2006</rdam:noteOnPublicationStatement>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
+    <rdam:issnOfSeries>0899-823X</rdam:issnOfSeries>
+    <rdam:containerOfManifestation rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Journal0899823XPub1"/>
+    <rdam:publicationStatement>Volume 9, number 1 (January 1988)-</rdam:publicationStatement>
+    <rdam:containerOfManifestation rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Journal0899823XPub2"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#JambonsYsengrinComicFrench">
     <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Book9782756003580"/>
     <rdae:languageOfExpression>French</rdae:languageOfExpression>
     <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
   </rdf:Description>
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#CligesText">
-    <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Book2253132225"/>
-    <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/CorporateBody#SocietyHospitalEpidemiologistsAmerica">
+    <rdaa:nameOfTheCorporateBody>Society of Hospital Epidemiologists of America</rdaa:nameOfTheCorporateBody>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10005</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#Book9782080702111">
     <rdam:termsOfAvailability>6.80euro</rdam:termsOfAvailability>
@@ -140,174 +291,18 @@
     <rdam:identifierForTheManifestation>978-2-0812-0963-3</rdam:identifierForTheManifestation>
     <rdam:dateOfPublication>2008</rdam:dateOfPublication>
     <rdam:title>Roman de Renart (Le)</rdam:title>
-    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
     <rdam:statementOfResponsibilityRelatingToTitleProper>Christian Keime; Monique Lachet-Lagarde</rdam:statementOfResponsibilityRelatingToTitleProper>
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#Flammarion"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/CorporateBody#SLACKInc">
-    <rdaa:nameOfTheCorporateBody>SLACK Inc.</rdaa:nameOfTheCorporateBody>
-    <rdf:type>http://rdaregistry.info/Elements/c/C10005</rdf:type>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#RomandeRenart">
-    <rdaw:wholePartWorkRelationship rdf:resource="http://rdaregistry.info/Elements/c/Work#JambonsYsengrin"/>
-    <rdaw:creator rdf:resource="http://rdaregistry.info/Elements/c/Person#ChristianKeime"/>
-    <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#RomandeRenartTextFrench"/>
-    <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#ChevalierdelaCharrette">
-    <rdaw:titleOfTheWork>Chevalier de la Charrette (Le)</rdaw:titleOfTheWork>
-    <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/CorporateBody#UniversityofChicagoPress">
-    <rdaa:nameOfTheCorporateBody>University of Chicago Press</rdaa:nameOfTheCorporateBody>
-    <rdf:type>http://rdaregistry.info/Elements/c/C10005</rdf:type>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#Epidemiology">
-    <frbr:hasTermForTheConcept>Epidemiology</frbr:hasTermForTheConcept>
-    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007</rdf:type>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#InfectionControlAndHospitalEpidemiology">
-    <rdaw:director rdf:resource="http://rdaregistry.info/Elements/c/Person#RichardPWenzel"/>
-    <rdaw:variantTitleForTheWork>Infect Control Hosp Epidemiol</rdaw:variantTitleForTheWork>
-    <rdaw:variantTitleForTheWork>Official journal of The SHEA</rdaw:variantTitleForTheWork>
-    <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#InfectionControlAndHospitalEpidemiologyPublication"/>
-    <rdaw:variantTitleForTheWork>ICHE</rdaw:variantTitleForTheWork>
-    <frbr:hasAsSubjectConcept rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#InfectionControl"/>
-    <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
-    <frbr:hasAsSubjectConcept rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#Hospitals"/>
-    <frbr:hasAsSubjectConcept rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#Epidemiology"/>
-    <rdaw:identifierForTheWork>tauth-014</rdaw:identifierForTheWork>
-    <rdaw:director rdf:resource="http://rdaregistry.info/Elements/c/Person#BarryFarr"/>
-    <frbr:hasAsSubjectConcept rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#CrossInfection"/>
-    <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#InfectionControlAndHospitalEpidemiologyJournal"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#Book9782080702104">
-    <rdam:numberingWithinSubseries>1</rdam:numberingWithinSubseries>
-    <rdam:seriesStatement rdf:resource="http://rdaregistry.info/Elements/c/Work#GF"/>
-    <rdam:statementOfResponsibilityRelatingToTitleProper>Michel de Montaigne</rdam:statementOfResponsibilityRelatingToTitleProper>
-    <rdam:extent>443 pages</rdam:extent>
-    <rdam:dateOfPublication>1969</rdam:dateOfPublication>
-    <rdam:noteOnCarrier>Cover with colorful illustrations</rdam:noteOnCarrier>
-    <rdam:dimensions>18 cm</rdam:dimensions>
-    <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#GarnierFlammarion"/>
-    <rdam:numberingWithinSeries>210</rdam:numberingWithinSeries>
-    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
-    <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
-    <rdam:otherTitleInformation>Book I</rdam:otherTitleInformation>
-    <rdam:title>Essais</rdam:title>
-    <rdam:identifierForTheManifestation>978-2-08-070210-4</rdam:identifierForTheManifestation>
-    <rdam:termsOfAvailability>5.80 euro</rdam:termsOfAvailability>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#InfectionControlAndHospitalEpidemiologyPublication">
-    <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Journal0899823XPub2"/>
-    <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Journal0899823XPub1"/>
-    <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#RomansdelaTableronde">
-    <frbr:hasTermForTheConcept>Romans de la Table ronde</frbr:hasTermForTheConcept>
-    <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007</rdf:type>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#ChevalierdelaCharretteText">
-    <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Book2253132225"/>
-    <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Person#ChristianKeime">
-    <rdaa:nameOfThePerson>Christian Keime</rdaa:nameOfThePerson>
-    <rdaa:identifierForThePerson>pauth-005</rdaa:identifierForThePerson>
-    <rdf:type>http://rdaregistry.info/Elements/c/C10004</rdf:type>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Person#MicheldeMontaigne">
-    <rdaa:nameOfThePerson>Michel de Montaigne</rdaa:nameOfThePerson>
-    <rdaa:identifierForThePerson>pauth-007</rdaa:identifierForThePerson>
-    <rdf:type>http://rdaregistry.info/Elements/c/C10004</rdf:type>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#ChevalierauLion">
-    <rdaw:titleOfTheWork>Chevalier au Lion (Le)</rdaw:titleOfTheWork>
-    <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#Book2253132225">
-    <rdam:dateOfPublication>1994</rdam:dateOfPublication>
-    <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#LibrairieGeneraleFrancaise"/>
-    <rdam:statementOfResponsibilityRelatingToTitleProper>Chretien de Troyes</rdam:statementOfResponsibilityRelatingToTitleProper>
-    <rdam:extent>1279 pages</rdam:extent>
-    <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
-    <rdam:dimensions>19 cm</rdam:dimensions>
-    <rdam:identifierForTheManifestation>2-253-13222-5</rdam:identifierForTheManifestation>
-    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
-    <rdam:termsOfAvailability>120,00 F</rdam:termsOfAvailability>
-    <rdam:title>Romans</rdam:title>
-    <rdam:noteOnCarrier>Cover with colorful illustrations</rdam:noteOnCarrier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#Book9782756003580">
-    <rdam:identifierForTheManifestation>978-2-7560-0358-0</rdam:identifierForTheManifestation>
-    <rdam:termsOfAvailability>8,90 Euros</rdam:termsOfAvailability>
-    <rdam:statementOfResponsibilityRelatingToTitleProper>Jean-Marc Mathis; illustrated by Thierry Martin</rdam:statementOfResponsibilityRelatingToTitleProper>
-    <rdam:extent>31 pages</rdam:extent>
-    <rdam:dimensions>30 cm</rdam:dimensions>
-    <rdam:dateOfPublication>2007</rdam:dateOfPublication>
-    <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#Delcourt"/>
-    <rdam:title>Jambons d'Ysengrin (Les )</rdam:title>
-    <rdam:noteOnCarrier>colorful illustrations</rdam:noteOnCarrier>
-    <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
     <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
   </rdf:Description>
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/creator">
-    <rdfs:label>creator</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#EssaisTextFrench">
-    <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Book9782080702111"/>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#EssaisBookITextFrench">
     <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Book9782080702104"/>
     <rdae:languageOfExpression>French</rdae:languageOfExpression>
     <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
   </rdf:Description>
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#ConteduGraal">
-    <rdaw:titleOfTheWork>Conte du Graal (Le)</rdaw:titleOfTheWork>
-    <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#Essais">
-    <rdaw:containerOfWork rdf:resource="http://rdaregistry.info/Elements/c/Work#Essais"/>
-    <rdaw:creator rdf:resource="http://rdaregistry.info/Elements/c/Person#MicheldeMontaigne"/>
-    <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#EssaisTextFrench"/>
-    <rdaw:titleOfTheWork>Essais</rdaw:titleOfTheWork>
-    <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Person#BarryFarr">
-    <rdaa:nameOfThePerson>Barry Farr</rdaa:nameOfThePerson>
-    <rdaa:identifierForThePerson>pauth-045</rdaa:identifierForThePerson>
-    <rdf:type>http://rdaregistry.info/Elements/c/C10004</rdf:type>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Person#JeanMarcMathis">
-    <rdaa:nameOfThePerson>Jean-Marc Mathis</rdaa:nameOfThePerson>
-    <rdaa:identifierForThePerson>pauth-026</rdaa:identifierForThePerson>
-    <rdf:type>http://rdaregistry.info/Elements/c/C10004</rdf:type>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/CorporateBody#Flammarion">
-    <rdaa:nameOfTheCorporateBody>Flammarion</rdaa:nameOfTheCorporateBody>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/CorporateBody#SLACKInc">
+    <rdaa:nameOfTheCorporateBody>SLACK Inc.</rdaa:nameOfTheCorporateBody>
     <rdf:type>http://rdaregistry.info/Elements/c/C10005</rdf:type>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#Journal0899823X">
-    <rdam:otherTitleInformation>An official journal of the Society of Hospital Epidemiologists of America</rdam:otherTitleInformation>
-    <rdam:frequency>Monthly</rdam:frequency>
-    <rdam:statementOfResponsibilityRelatingToTitleProper>Richard P. Wenzel; Barry Farr</rdam:statementOfResponsibilityRelatingToTitleProper>
-    <rdam:title>Infection control and hospital epidemiology</rdam:title>
-    <rdam:noteOnPublicationStatement>Published by University chicago press in 2006</rdam:noteOnPublicationStatement>
-    <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
-    <rdam:issnOfSeries>0899-823X</rdam:issnOfSeries>
-    <rdam:containerOfManifestation rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Journal0899823XPub1"/>
-    <rdam:publicationStatement>Volume 9, number 1 (January 1988)-</rdam:publicationStatement>
-    <rdam:containerOfManifestation rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Journal0899823XPub2"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/CorporateBody#SocietyHospitalEpidemiologistsAmerica">
-    <rdaa:nameOfTheCorporateBody>Society of Hospital Epidemiologists of America</rdaa:nameOfTheCorporateBody>
-    <rdf:type>http://rdaregistry.info/Elements/c/C10005</rdf:type>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#ConteduGraalText">
-    <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Book2253132225"/>
-    <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#ChevalierauLionText">
-    <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Book2253132225"/>
-    <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
   </rdf:Description>
 </rdf:RDF>

@@ -218,10 +218,11 @@ public class FRBRizationAug_2_10 {
 		
 		// Expression
 		Resource expression = FRBR.expression(model,"EtrangeDrJekyllMHydeTextFrench");
-		expression.addProperty(FRBR.noteOnExpression(model), "with illustrations");
+		expression.addProperty(FRBR.noteOnExpression(model), "story");
 		
 		// Illustrations
 		Resource illustrations = FRBR.expression(model,"EtrangeDrJekyllMHydeIllustrations");
+		illustrations.addProperty(FRBR.noteOnExpression(model), "illustrations");
 		
 		// Manifestation
 		Resource manifestation = FRBR.manifestation(model,"Book9782070622313");
@@ -252,12 +253,13 @@ public class FRBRizationAug_2_10 {
 		
 		// Relationships
 		work.addProperty(FRBR.expressionOfWork(model), expression);
+		work.addProperty(FRBR.expressionOfWork(model), illustrations);
 		work.addProperty(FRBR.creator(model), author);
 		expression.addProperty(FRBR.manifestationOfExpression(model), manifestation);
 		expression.addProperty(FRBR.illustrationsExpression(model), illustrations);
 		
 		illustrations.addProperty(FRBR.illustrator(model), ill);
-		//illustrations.addProperty(FRBR.manifestationOfExpression(model), manifestation);
+		illustrations.addProperty(FRBR.manifestationOfExpression(model), manifestation);
 		
 		manifestation.addProperty(FRBR.publisher(model), publisher);
 

@@ -252,6 +252,7 @@ public class FRBRizationAug_2_5 {
 		
 		// Relationships
 		work.addProperty(FRBR.expressionOfWork(model), expression);
+		work.addProperty(FRBR.expressionOfWork(model), illustrations);
 		work.addProperty(FRBR.creator(model), author);
 		expression.addProperty(FRBR.manifestationOfExpression(model), manifestation);
 		expression.addProperty(FRBR.illustrationsExpression(model), illustrations);

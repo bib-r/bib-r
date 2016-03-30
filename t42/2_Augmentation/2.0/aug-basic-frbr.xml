@@ -6,7 +6,6 @@
     xmlns:rdaa="http://rdaregistry.info/Elements/a/"
     xmlns:rdac="http://rdaregistry.info/Elements/c/"
     xmlns:rdae="http://rdaregistry.info/Elements/e/"
-    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:rdaw="http://rdaregistry.info/Elements/w/"
     xmlns:rda="http://rdaregistry.info/Elements/"
     xmlns:rdai="http://rdaregistry.info/Elements/i/" > 
@@ -19,11 +18,13 @@
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#EtrangeDrJekyllMHydeTextFrench">
     <rdae:illustrationsExpression rdf:resource="http://rdaregistry.info/Elements/c/Expression#EtrangeDrJekyllMHydeIllustrations"/>
     <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Book9782070622313"/>
-    <rdae:noteOnExpression>with illustrations</rdae:noteOnExpression>
+    <rdae:noteOnExpression>story</rdae:noteOnExpression>
     <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#EtrangeDrJekyllMHydeIllustrations">
+    <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Book9782070622313"/>
     <rdae:illustrator rdf:resource="http://rdaregistry.info/Elements/c/Person#FrancoisPlace"/>
+    <rdae:noteOnExpression>illustrations</rdae:noteOnExpression>
     <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Person#ChretiendeTroyes">
@@ -68,15 +69,15 @@
     <rdam:noteOnCarrier>Cover with colorful illustrations</rdam:noteOnCarrier>
     <rdam:dimensions>18 cm</rdam:dimensions>
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#GarnierFlammarion"/>
-    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
     <rdam:title>Essais</rdam:title>
     <rdam:identifierForTheManifestation>978-2-08-070210-4</rdam:identifierForTheManifestation>
+    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdam:statementOfResponsibilityRelatingToTitleProper>Michel de Montaigne; Introduction by Alexandre Micha</rdam:statementOfResponsibilityRelatingToTitleProper>
     <rdam:termsOfAvailability>5.80 euro</rdam:termsOfAvailability>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#Romans">
-    <rdaw:P10123 rdf:resource="http://rdaregistry.info/Elements/c/Work#Philomena"/>
+    <rdaw:appendixWork rdf:resource="http://rdaregistry.info/Elements/c/Work#Philomena"/>
     <frbr:hasAsSubjectConcept rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#RomansdelaTableronde"/>
     <rdaw:creator rdf:resource="http://rdaregistry.info/Elements/c/Person#ChretiendeTroyes"/>
     <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#RomansTextFrench"/>
@@ -98,14 +99,14 @@
     <rdam:termsOfAvailability>10 euro</rdam:termsOfAvailability>
     <rdam:dimensions>20 cm</rdam:dimensions>
     <rdam:carrierType>book</rdam:carrierType>
+    <rdam:placeOfPublication>Harmondsworth</rdam:placeOfPublication>
     <rdam:identifierForTheManifestation>9780141185101</rdam:identifierForTheManifestation>
     <rdam:statementOfResponsibilityRelatingToTitleProper>John Steinbeck; Susan Shillinglaw</rdam:statementOfResponsibilityRelatingToTitleProper>
     <rdam:title>Of mice and men</rdam:title>
     <rdam:identifierForTheManifestation>978-0-14-118510-1</rdam:identifierForTheManifestation>
-    <rdam:placeOfPublication>Harmondsworth</rdam:placeOfPublication>
+    <rdam:placeOfPublication>Great Britain</rdam:placeOfPublication>
     <rdam:extent>105 pages</rdam:extent>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
-    <rdam:placeOfPublication>Great Britain</rdam:placeOfPublication>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Person#MicheldeMontaigne">
     <rdaa:nameOfThePerson>Michel de Montaigne</rdaa:nameOfThePerson>
@@ -114,6 +115,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#EtrangeDrJekyllMHyde">
     <rdaw:creator rdf:resource="http://rdaregistry.info/Elements/c/Person#RobertLouisStevenson"/>
+    <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#EtrangeDrJekyllMHydeIllustrations"/>
     <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#EtrangeDrJekyllMHydeTextFrench"/>
     <rdaw:titleOfTheWork>Etrange cas du Dr Jekyll et de M. Hyde (L')</rdaw:titleOfTheWork>
     <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
@@ -126,14 +128,11 @@
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
     <rdam:dimensions>19 cm</rdam:dimensions>
     <rdam:identifierForTheManifestation>2-253-13222-5</rdam:identifierForTheManifestation>
-    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdam:termsOfAvailability>120,00 F</rdam:termsOfAvailability>
     <rdam:title>Romans</rdam:title>
     <rdam:noteOnCarrier>Cover with colorful illustrations</rdam:noteOnCarrier>
     <rdam:otherTitleInformation>in appendice, Philomena</rdam:otherTitleInformation>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/creator">
-    <rdfs:label>creator</rdfs:label>
+    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#EssaisTextFrench">
     <rdae:writerOfIntroduction rdf:resource="http://rdaregistry.info/Elements/c/Person#AlexandreMicha"/>
@@ -165,11 +164,11 @@
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
     <rdam:identifierForTheManifestation>978-2-07-062231-3</rdam:identifierForTheManifestation>
     <rdam:title>Etrange cas du Dr Jekyll et de M. Hyde (L')</rdam:title>
+    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdam:dimensions>18 cm</rdam:dimensions>
     <rdam:termsOfAvailability>5.80 euro</rdam:termsOfAvailability>
     <rdam:statementOfResponsibilityRelatingToTitleProper>Robert Louis Stevenson; illustrations by Francois Place</rdam:statementOfResponsibilityRelatingToTitleProper>
     <rdam:dateOfPublication>2008</rdam:dateOfPublication>
-    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdam:extent>144 pages</rdam:extent>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/CorporateBody#Penguinbooks">

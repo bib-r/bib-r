@@ -6,13 +6,17 @@
     xmlns:rdaa="http://rdaregistry.info/Elements/a/"
     xmlns:rdac="http://rdaregistry.info/Elements/c/"
     xmlns:rdae="http://rdaregistry.info/Elements/e/"
-    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:rdaw="http://rdaregistry.info/Elements/w/"
     xmlns:rda="http://rdaregistry.info/Elements/"
     xmlns:rdai="http://rdaregistry.info/Elements/i/" > 
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#IloveenglishAudio">
     <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#JournalIloveenglish"/>
     <rdae:noteOnExpression>1 CD audio</rdae:noteOnExpression>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#EssaisBookIITextFrench">
+    <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Book9782080702111"/>
+    <rdae:languageOfExpression>French</rdae:languageOfExpression>
     <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#HartUndSozialArticleEnglish">
@@ -25,9 +29,6 @@
     <rdaa:nameOfThePerson>Chretien de Troyes</rdaa:nameOfThePerson>
     <rdaa:identifierForThePerson>pauth-004</rdaa:identifierForThePerson>
     <rdf:type>http://rdaregistry.info/Elements/c/C10004</rdf:type>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/director">
-    <rdfs:label>director</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#Hospitals">
     <frbr:hasTermForTheConcept>Hospitals</frbr:hasTermForTheConcept>
@@ -123,8 +124,8 @@
     <rdam:extent>1 volume (173 pages)</rdam:extent>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
     <rdam:dateOfPublication>2012</rdam:dateOfPublication>
-    <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#Dargaud"/>
     <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
+    <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#Dargaud"/>
     <rdam:title>Valerian et Laureline</rdam:title>
     <rdam:statementOfResponsibilityRelatingToTitleProper>Pierre Christin; Jean-Claude Mezieres</rdam:statementOfResponsibilityRelatingToTitleProper>
   </rdf:Description>
@@ -132,25 +133,23 @@
     <rdam:statementOfResponsibilityRelatingToTitleProper>Descartes; Andre Vergez; Christine Thubert</rdam:statementOfResponsibilityRelatingToTitleProper>
     <rdam:noteOnCarrier>On the cover: Texte integral annote, dossier pedagogique</rdam:noteOnCarrier>
     <rdam:termsOfAvailability>7,50 EUR</rdam:termsOfAvailability>
+    <rdam:placeOfPublication>France</rdam:placeOfPublication>
     <rdam:title>Meditations metaphysiques</rdam:title>
     <rdam:statementOfResponsibilityRelatingToTitleProper>Descartes; Denis Huisman</rdam:statementOfResponsibilityRelatingToTitleProper>
     <rdam:title>Discours de la methode</rdam:title>
-    <rdam:placeOfPublication>France</rdam:placeOfPublication>
-    <rdam:seriesStatement rdf:resource="http://rdaregistry.info/Elements/c/Work#LesIntegralesphilo"/>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#Nathan"/>
     <rdam:dateOfPublication>2009</rdam:dateOfPublication>
     <rdam:dimensions>21 cm</rdam:dimensions>
     <rdam:extent>191 pages</rdam:extent>
+    <rdam:seriesStatement>integrales de philo (Les)</rdam:seriesStatement>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#Cliges">
+    <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#RomansTextFrench"/>
     <rdaw:titleOfTheWork>Cliges</rdaw:titleOfTheWork>
     <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#MeditationsMetaphysiquesTextFrench">
-    <rdae:contributor rdf:resource="http://rdaregistry.info/Elements/c/Person#DenisHuisman"/>
-    <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Book9782091873022"/>
-    <rdae:noteOnExpression>Bibliography pages 142-143</rdae:noteOnExpression>
     <rdae:contributor rdf:resource="http://rdaregistry.info/Elements/c/Person#ChristineThubert"/>
     <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Book9782091873053"/>
     <rdae:languageOfExpression>French</rdae:languageOfExpression>
@@ -244,10 +243,6 @@
     <rdaw:titleOfTheWork>Meditations metaphysiques</rdaw:titleOfTheWork>
     <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
   </rdf:Description>
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#CligesText">
-    <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Book2253132225"/>
-    <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
-  </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#Book9782080702111">
     <rdam:termsOfAvailability>6.80euro</rdam:termsOfAvailability>
     <rdam:title>Essais</rdam:title>
@@ -284,10 +279,10 @@
     <rdam:termsOfAvailability>2,70 euro</rdam:termsOfAvailability>
     <rdam:dateOfPublication>2008</rdam:dateOfPublication>
     <rdam:title>Roman de Renart (Le)</rdam:title>
-    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
     <rdam:statementOfResponsibilityRelatingToTitleProper>Christian Keime; Monique Lachet-Lagarde</rdam:statementOfResponsibilityRelatingToTitleProper>
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#Flammarion"/>
+    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/CorporateBody#Nathan">
     <rdaa:nameOfTheCorporateBody>Nathan</rdaa:nameOfTheCorporateBody>
@@ -295,7 +290,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#Book9782091873022">
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#Nathan"/>
-    <rdam:seriesStatement rdf:resource="http://rdaregistry.info/Elements/c/Work#LesIntegralesphilo"/>
+    <rdam:seriesStatement>integrales de philo (Les)</rdam:seriesStatement>
     <rdam:dateOfPublication>2009</rdam:dateOfPublication>
     <rdam:extent>143 pages</rdam:extent>
     <rdam:termsOfAvailability>6,50 EUR</rdam:termsOfAvailability>
@@ -319,11 +314,14 @@
     <rdf:type>http://rdaregistry.info/Elements/c/C10004</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#LesIntegralesphilo">
+    <rdaw:wholePartWorkRelationship rdf:resource="http://rdaregistry.info/Elements/c/Work#DiscoursdelaMethode"/>
+    <rdaw:wholePartWorkRelationship rdf:resource="http://rdaregistry.info/Elements/c/Work#MeditationsMetaphysiques"/>
     <rdaw:identifierForTheWork>colauth-001</rdaw:identifierForTheWork>
     <rdaw:titleOfTheWork>Les Integrales de philo</rdaw:titleOfTheWork>
     <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#ChevalierdelaCharrette">
+    <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#RomansTextFrench"/>
     <rdaw:titleOfTheWork>Chevalier de la Charrette (Le)</rdaw:titleOfTheWork>
     <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
   </rdf:Description>
@@ -339,6 +337,12 @@
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#Epidemiology">
     <frbr:hasTermForTheConcept>Epidemiology</frbr:hasTermForTheConcept>
     <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#EssaisBookI">
+    <rdaw:creator rdf:resource="http://rdaregistry.info/Elements/c/Person#MicheldeMontaigne"/>
+    <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#EssaisBookITextFrench"/>
+    <rdaw:titleOfTheWork>Essais</rdaw:titleOfTheWork>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#Behandlung">
     <frbr:hasTermForTheConcept>Behandlung</frbr:hasTermForTheConcept>
@@ -375,10 +379,10 @@
     <rdam:dimensions>18 cm</rdam:dimensions>
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#GarnierFlammarion"/>
     <rdam:numberingWithinSeries>210</rdam:numberingWithinSeries>
-    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
     <rdam:otherTitleInformation>Book I</rdam:otherTitleInformation>
     <rdam:title>Essais</rdam:title>
+    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdam:termsOfAvailability>5.80 euro</rdam:termsOfAvailability>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#InfectionControlAndHospitalEpidemiologyPublication">
@@ -390,12 +394,14 @@
     <frbr:hasTermForTheConcept>Romans de la Table ronde</frbr:hasTermForTheConcept>
     <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1007</rdf:type>
   </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#EssaisBookII">
+    <rdaw:creator rdf:resource="http://rdaregistry.info/Elements/c/Person#MicheldeMontaigne"/>
+    <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#EssaisBookIITextFrench"/>
+    <rdaw:titleOfTheWork>Essais</rdaw:titleOfTheWork>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
+  </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#Iloveenglish208">
     <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Iloveenglish208"/>
-    <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#ChevalierdelaCharretteText">
-    <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Book2253132225"/>
     <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Person#ChristianKeime">
@@ -416,6 +422,7 @@
     <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#ChevalierauLion">
+    <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#RomansTextFrench"/>
     <rdaw:titleOfTheWork>Chevalier au Lion (Le)</rdaw:titleOfTheWork>
     <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
   </rdf:Description>
@@ -426,10 +433,10 @@
     <rdam:extent>1279 pages</rdam:extent>
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
     <rdam:dimensions>19 cm</rdam:dimensions>
-    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
     <rdam:termsOfAvailability>120,00 F</rdam:termsOfAvailability>
     <rdam:title>Romans</rdam:title>
     <rdam:noteOnCarrier>Cover with colorful illustrations</rdam:noteOnCarrier>
+    <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#Book9782756003580">
     <rdam:termsOfAvailability>8,90 Euros</rdam:termsOfAvailability>
@@ -443,20 +450,19 @@
     <rdf:type>http://rdaregistry.info/Elements/c/C10007</rdf:type>
     <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
   </rdf:Description>
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/creator">
-    <rdfs:label>creator</rdfs:label>
-  </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/CorporateBody#Dargaud">
     <rdaa:nameOfTheCorporateBody>Dargaud</rdaa:nameOfTheCorporateBody>
     <rdf:type>http://rdaregistry.info/Elements/c/C10005</rdf:type>
   </rdf:Description>
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#EssaisTextFrench">
-    <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Book9782080702111"/>
-    <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Book9782080702104"/>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#DiscoursdelaMethodeTextFrench">
+    <rdae:contributor rdf:resource="http://rdaregistry.info/Elements/c/Person#DenisHuisman"/>
+    <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Book9782091873022"/>
+    <rdae:noteOnExpression>Bibliography pages 142-143</rdae:noteOnExpression>
     <rdae:languageOfExpression>French</rdae:languageOfExpression>
     <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#ConteduGraal">
+    <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#RomansTextFrench"/>
     <rdaw:titleOfTheWork>Conte du Graal (Le)</rdaw:titleOfTheWork>
     <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
   </rdf:Description>
@@ -465,9 +471,8 @@
     <rdf:type>http://rdaregistry.info/Elements/c/C10005</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#Essais">
-    <rdaw:containerOfWork rdf:resource="http://rdaregistry.info/Elements/c/Work#Essais"/>
-    <rdaw:creator rdf:resource="http://rdaregistry.info/Elements/c/Person#MicheldeMontaigne"/>
-    <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#EssaisTextFrench"/>
+    <rdaw:containerOfWork rdf:resource="http://rdaregistry.info/Elements/c/Work#EssaisBookII"/>
+    <rdaw:containerOfWork rdf:resource="http://rdaregistry.info/Elements/c/Work#EssaisBookI"/>
     <rdaw:titleOfTheWork>Essais</rdaw:titleOfTheWork>
     <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
   </rdf:Description>
@@ -492,11 +497,13 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#DiscoursdelaMethode">
     <rdaw:creator rdf:resource="http://rdaregistry.info/Elements/c/Person#Descartes"/>
-    <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#MeditationsMetaphysiquesTextFrench"/>
+    <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#DiscoursdelaMethodeTextFrench"/>
     <rdaw:titleOfTheWork>Discours de la methode</rdaw:titleOfTheWork>
     <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation#JournalIloveenglish">
+    <rdam:containerOfManifestation rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Iloveenglish209"/>
+    <rdam:containerOfManifestation rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Iloveenglish208"/>
     <rdam:publisher rdf:resource="http://rdaregistry.info/Elements/c/CorporateBody#BayardPresse"/>
     <rdam:title>I love english</rdam:title>
     <rdam:dateOfPublication>2002-</rdam:dateOfPublication>
@@ -543,17 +550,14 @@
     <rdaa:identifierForThePerson>pauth-023</rdaa:identifierForThePerson>
     <rdf:type>http://rdaregistry.info/Elements/c/C10004</rdf:type>
   </rdf:Description>
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#ValerianEtLaurelineTextFrench">
-    <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Comic9782205060386"/>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#EssaisBookITextFrench">
+    <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Book9782080702104"/>
     <rdae:languageOfExpression>French</rdae:languageOfExpression>
     <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
   </rdf:Description>
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#ConteduGraalText">
-    <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Book2253132225"/>
-    <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#ChevalierauLionText">
-    <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Book2253132225"/>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#ValerianEtLaurelineTextFrench">
+    <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Comic9782205060386"/>
+    <rdae:languageOfExpression>French</rdae:languageOfExpression>
     <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Place#Netherlands">
