@@ -64,7 +64,7 @@ public class FRBRizationAug_2_3 {
 		Resource manifestation = FRBR.manifestation(model,"Book2253132225");
 		manifestation.addProperty(FRBR.identifierForTheManifestation(model), "2-253-13222-5");
 		manifestation.addProperty(FRBR.termsOfAvailability(model), "120,00 F");
-		manifestation.addProperty(FRBR.placeOfpublication(model), "Paris");
+		manifestation.addProperty(FRBR.placeOfPublication(model), "Paris");
 		manifestation.addProperty(FRBR.dateOfPublication(model), "1994");
 		manifestation.addProperty(FRBR.titleOfTheManifestation(model), "Romans");
 		manifestation.addProperty(FRBR.otherTitleInformation(model), "in appendice, Philomena");
@@ -115,7 +115,7 @@ public class FRBRizationAug_2_3 {
 		Resource manifestation = FRBR.manifestation(model,"Book9782080702104");
 		manifestation.addProperty(FRBR.identifierForTheManifestation(model), "978-2-08-070210-4");
 		manifestation.addProperty(FRBR.termsOfAvailability(model), "5.80 euro");
-		manifestation.addProperty(FRBR.placeOfpublication(model), "Paris");
+		manifestation.addProperty(FRBR.placeOfPublication(model), "Paris");
 		manifestation.addProperty(FRBR.dateOfPublication(model), "1969");
 		manifestation.addProperty(FRBR.titleOfTheManifestation(model), "Essais");
 		manifestation.addProperty(FRBR.statementOfResponsibilityRelatingToTitleProper(model), "Michel de Montaigne; Introduction by Alexandre Michae");
@@ -164,8 +164,8 @@ public class FRBRizationAug_2_3 {
 		manifestation.addProperty(FRBR.identifierForTheManifestation(model), "9780141185101");
 		manifestation.addProperty(FRBR.identifierForTheManifestation(model), "978-0-14-118510-1");
 		manifestation.addProperty(FRBR.termsOfAvailability(model), "10 euro");
-		manifestation.addProperty(FRBR.placeOfpublication(model), "Harmondsworth");
-		manifestation.addProperty(FRBR.placeOfpublication(model), "Great Britain");
+		manifestation.addProperty(FRBR.placeOfPublication(model), "Harmondsworth");
+		manifestation.addProperty(FRBR.placeOfPublication(model), "Great Britain");
 		manifestation.addProperty(FRBR.dateOfPublication(model), "2010");
 		manifestation.addProperty(FRBR.titleOfTheManifestation(model), "Of mice and men");
 		manifestation.addProperty(FRBR.statementOfResponsibilityRelatingToTitleProper(model), "John Steinbeck; Susan Shillinglaw");
@@ -218,7 +218,7 @@ public class FRBRizationAug_2_3 {
 		Resource manifestation = FRBR.manifestation(model,"Book9782070622313");
 		manifestation.addProperty(FRBR.identifierForTheManifestation(model), "978-2-07-062231-3");
 		manifestation.addProperty(FRBR.termsOfAvailability(model), "5.80 euro");
-		manifestation.addProperty(FRBR.placeOfpublication(model), "Paris");
+		manifestation.addProperty(FRBR.placeOfPublication(model), "Paris");
 		manifestation.addProperty(FRBR.dateOfPublication(model), "2008");
 		manifestation.addProperty(FRBR.titleOfTheManifestation(model), "Etrange cas du Dr Jekyll et de M. Hyde (L')");
 		manifestation.addProperty(FRBR.statementOfResponsibilityRelatingToTitleProper(model), "Robert Louis Stevenson; illustrations by Francois Place");

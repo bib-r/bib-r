@@ -67,7 +67,7 @@ public class FRBRizationAug_2_1 {
 		manifestation.addProperty(FRBR.noteOnCarrier(model), "Cover with colorful illustrations");
 		manifestation.addProperty(FRBR.termsOfAvailability(model), "120,00 F");
 		manifestation.addProperty(FRBR.extent(model), "1279 pages");
-		manifestation.addProperty(FRBR.placeOfpublication(model), "Paris");
+		manifestation.addProperty(FRBR.placeOfPublication(model), "Paris");
 		manifestation.addProperty(FRBR.titleOfTheManifestation(model), "Romans");
 		manifestation.addProperty(FRBR.otherTitleInformation(model), "in appendice, Philomena");
 		manifestation.addProperty(FRBR.statementOfResponsibilityRelatingToTitleProper(model), "Chretien de Troyes");
@@ -120,7 +120,7 @@ public class FRBRizationAug_2_1 {
 		manifestation.addProperty(FRBR.noteOnCarrier(model), "Cover with colorful illustrations");
 		manifestation.addProperty(FRBR.termsOfAvailability(model), "5.80 euro");
 		manifestation.addProperty(FRBR.extent(model), "443 pages");
-		manifestation.addProperty(FRBR.placeOfpublication(model), "Paris");
+		manifestation.addProperty(FRBR.placeOfPublication(model), "Paris");
 		manifestation.addProperty(FRBR.titleOfTheManifestation(model), "Essais");
 		manifestation.addProperty(FRBR.statementOfResponsibilityRelatingToTitleProper(model), "Michel de Montaigne; Introduction by Alexandre Micha");
 		
@@ -170,8 +170,8 @@ public class FRBRizationAug_2_1 {
 		manifestation.addProperty(FRBR.termsOfAvailability(model), "10 euro");
 		manifestation.addProperty(FRBR.dimensions(model), "20 cm");
 		manifestation.addProperty(FRBR.extent(model), "105 pages");
-		manifestation.addProperty(FRBR.placeOfpublication(model), "Harmondsworth");
-		manifestation.addProperty(FRBR.placeOfpublication(model), "Great Britain");
+		manifestation.addProperty(FRBR.placeOfPublication(model), "Harmondsworth");
+		manifestation.addProperty(FRBR.placeOfPublication(model), "Great Britain");
 		manifestation.addProperty(FRBR.carrierType(model), "book");
 		manifestation.addProperty(FRBR.titleOfTheManifestation(model), "Of mice and men");
 		manifestation.addProperty(FRBR.statementOfResponsibilityRelatingToTitleProper(model), "John Steinbeck; Susan Shillinglaw");
@@ -227,7 +227,7 @@ public class FRBRizationAug_2_1 {
 		manifestation.addProperty(FRBR.noteOnCarrier(model), "Illustrations, cover with colorful illustrations");
 		manifestation.addProperty(FRBR.termsOfAvailability(model), "5.80 euro");
 		manifestation.addProperty(FRBR.extent(model), "144 pages");
-		manifestation.addProperty(FRBR.placeOfpublication(model), "Paris");
+		manifestation.addProperty(FRBR.placeOfPublication(model), "Paris");
 		manifestation.addProperty(FRBR.titleOfTheManifestation(model), "Etrange cas du Dr Jekyll et de M. Hyde (L')");
 		manifestation.addProperty(FRBR.statementOfResponsibilityRelatingToTitleProper(model), "Robert Louis Stevenson; illustrations by Francois Place");
 		

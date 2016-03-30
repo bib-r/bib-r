@@ -74,7 +74,7 @@ public class FRBRizationDer_3_1 {
 		manifestation.addProperty(FRBR.extent(model), "185 pages");
 		manifestation.addProperty(FRBR.noteOnCarrier(model), "Illustrations, cover with colorful illustrations");
 		manifestation.addProperty(FRBR.termsOfAvailability(model), "14 euro");
-		manifestation.addProperty(FRBR.placeOfpublication(model), "Paris");
+		manifestation.addProperty(FRBR.placeOfPublication(model), "Paris");
 		manifestation.addProperty(FRBR.titleOfTheManifestation(model), "Cheval de guerre");
 		manifestation.addProperty(FRBR.statementOfResponsibilityRelatingToTitleProper(model), "Michael Morpurgo; Andre Dupuis");
 		
@@ -128,7 +128,7 @@ public class FRBRizationDer_3_1 {
 		manifestation.addProperty(FRBR.dimensions(model), "18 cm");
 		manifestation.addProperty(FRBR.extent(model), "248 pages");
 		manifestation.addProperty(FRBR.termsOfAvailability(model), "4.50 euro");
-		manifestation.addProperty(FRBR.placeOfpublication(model), "Paris");
+		manifestation.addProperty(FRBR.placeOfPublication(model), "Paris");
 		manifestation.addProperty(FRBR.titleOfTheManifestation(model), "Ile au tresor (L')");
 		manifestation.addProperty(FRBR.statementOfResponsibilityRelatingToTitleProper(model), "Robert Louis Stevenson; Michel Laporte");
 		
@@ -184,7 +184,7 @@ public class FRBRizationDer_3_1 {
 		manifestation.addProperty(FRBR.dimensions(model), "18 cm");
 		manifestation.addProperty(FRBR.extent(model), "411 pages");
 		manifestation.addProperty(FRBR.termsOfAvailability(model), "5,90 EUR");
-		manifestation.addProperty(FRBR.placeOfpublication(model), "Paris");
+		manifestation.addProperty(FRBR.placeOfPublication(model), "Paris");
 		manifestation.addProperty(FRBR.titleOfTheManifestation(model), "aventures de Tom Sawyer (Les)");
 		manifestation.addProperty(FRBR.statementOfResponsibilityRelatingToTitleProper(model), "Mark Twain; P. F. Caille; Y. Dubois-Mauvais");
 		
@@ -246,7 +246,7 @@ public class FRBRizationDer_3_1 {
 		manifestation.addProperty(FRBR.extent(model), "189 pages");
 		manifestation.addProperty(FRBR.noteOnCarrier(model), "Cover with colorful illustrations");
 		manifestation.addProperty(FRBR.termsOfAvailability(model), "39,00 F");
-		manifestation.addProperty(FRBR.placeOfpublication(model), "Paris");
+		manifestation.addProperty(FRBR.placeOfPublication(model), "Paris");
 		manifestation.addProperty(FRBR.titleOfTheManifestation(model), "Des souris et des hommes");
 		manifestation.addProperty(FRBR.statementOfResponsibilityRelatingToTitleProper(model), "John Steinbeck; M.E. Coindreau");
 		
@@ -325,7 +325,7 @@ public class FRBRizationDer_3_1 {
 		manifestation.addProperty(FRBR.dimensions(model), "20 cm");
 		manifestation.addProperty(FRBR.extent(model), "1 volume (619 pages)");
 		manifestation.addProperty(FRBR.noteOnCarrier(model), "Cover with colorful illustrations");
-		manifestation.addProperty(FRBR.placeOfpublication(model), "London");
+		manifestation.addProperty(FRBR.placeOfPublication(model), "London");
 		manifestation.addProperty(FRBR.titleOfTheManifestation(model), "Harry Potter and the Deathly Hallows");
 		manifestation.addProperty(FRBR.statementOfResponsibilityRelatingToTitleProper(model), "J.K. Rowling");
 
@@ -344,7 +344,7 @@ public class FRBRizationDer_3_1 {
 		
 		Resource manifilm1 = FRBR.manifestation(model,"MP5051889060093");
 		manifilm1.addProperty(FRBR.identifierForTheManifestation(model), "5051889060093");
-		manifilm1.addProperty(FRBR.placeOfpublication(model), "Neuilly-sur-Seine");
+		manifilm1.addProperty(FRBR.placeOfPublication(model), "Neuilly-sur-Seine");
 		manifilm1.addProperty(FRBR.extent(model), "1 DVD (2 h 20 min)");
 		manifilm1.addProperty(FRBR.noteOnCarrier(model), "Colors, Audio (PAL)");
 		manifilm1.addProperty(FRBR.titleOfTheManifestation(model), "Harry Potter and the Deathly Hallows Part 1");
@@ -365,7 +365,7 @@ public class FRBRizationDer_3_1 {
 		
 		Resource manifilm2 = FRBR.manifestation(model,"MP5051889209546");
 		manifilm2.addProperty(FRBR.identifierForTheManifestation(model), "5051889209546");
-		manifilm2.addProperty(FRBR.placeOfpublication(model), "Neuilly-sur-Seine");
+		manifilm2.addProperty(FRBR.placeOfPublication(model), "Neuilly-sur-Seine");
 		manifilm2.addProperty(FRBR.extent(model), "1 DVD (2 h 05 min)");
 		manifilm2.addProperty(FRBR.noteOnCarrier(model), "Colors, Audio (PAL)");
 		manifilm2.addProperty(FRBR.titleOfTheManifestation(model), "Harry Potter and the Deathly Hallows Part 2");
@@ -409,7 +409,7 @@ public class FRBRizationDer_3_1 {
 		manifestation.addProperty(FRBR.dimensions(model), "18 cm");
 		manifestation.addProperty(FRBR.noteOnCarrier(model), "Cover with colorful illustrations");
 		manifestation.addProperty(FRBR.extent(model), "1 volume (123 pages)");
-		manifestation.addProperty(FRBR.placeOfpublication(model), "Harpenden");;
+		manifestation.addProperty(FRBR.placeOfPublication(model), "Harpenden");;
 		manifestation.addProperty(FRBR.titleOfTheManifestation(model), "The strange case of Dr Jekyll and Mr Hyde");
 		manifestation.addProperty(FRBR.statementOfResponsibilityRelatingToTitleProper(model), "Robert Louis Stevenson");
 		
@@ -439,7 +439,7 @@ public class FRBRizationDer_3_1 {
 		comictransmanif.addProperty(FRBR.dimensions(model), "32 cm");
 		comictransmanif.addProperty(FRBR.noteOnCarrier(model), "Colorful illustrations");
 		comictransmanif.addProperty(FRBR.extent(model), "64 pages");
-		comictransmanif.addProperty(FRBR.placeOfpublication(model), "Paris");
+		comictransmanif.addProperty(FRBR.placeOfPublication(model), "Paris");
 		comictransmanif.addProperty(FRBR.otherTitleInformation(model), "free adapatation from the book of Robert L. Stevenson");
 		comictransmanif.addProperty(FRBR.titleOfTheManifestation(model), "Docteur Jekyll & Mister Hyde");
 		
@@ -510,7 +510,7 @@ public class FRBRizationDer_3_1 {
 		Resource manifilm1 = FRBR.manifestation(model,"MP5050582942156");
 		manifilm1.addProperty(FRBR.identifierForTheManifestation(model), "5050582942156");
 		manifilm1.addProperty(FRBR.carrierType(model), "Motion Picture");
-		manifilm1.addProperty(FRBR.placeOfpublication(model), "Universal city");
+		manifilm1.addProperty(FRBR.placeOfPublication(model), "Universal city");
 		manifilm1.addProperty(FRBR.extent(model), "1 DVD monoface area 2 (2 h 31 min)");
 		manifilm1.addProperty(FRBR.noteOnCarrier(model), "Colors (PAL), audio");
 		manifilm1.addProperty(FRBR.titleOfTheManifestation(model), "Les miserables");
@@ -539,7 +539,7 @@ public class FRBRizationDer_3_1 {
 		mangamanif.addProperty(FRBR.termsOfAvailability(model),"6,95 euro");
 		mangamanif.addProperty(FRBR.noteOnCarrier(model), "Illustrations, Cover with illustration");
 		mangamanif.addProperty(FRBR.extent(model), "Not paged");
-		mangamanif.addProperty(FRBR.placeOfpublication(model), "Paris");
+		mangamanif.addProperty(FRBR.placeOfPublication(model), "Paris");
 		mangamanif.addProperty(FRBR.titleOfTheManifestation(model), "miserables (Les )");
 		mangamanif.addProperty(FRBR.statementOfResponsibilityRelatingToTitleProper(model), "based on writting by Victor Hugo; adapted in manga by studio Variety artworks");
 		
@@ -591,7 +591,7 @@ public class FRBRizationDer_3_1 {
 		manifestation.addProperty(FRBR.noteOnCarrier(model), "Colorful illustrations, cover with colorful illustrations");
 		manifestation.addProperty(FRBR.extent(model), "1 volume (164 pages)");
 		manifestation.addProperty(FRBR.carrierType(model), "Printed Text");
-		manifestation.addProperty(FRBR.placeOfpublication(model), "Paris");
+		manifestation.addProperty(FRBR.placeOfPublication(model), "Paris");
 		manifestation.addProperty(FRBR.otherTitleInformation(model), "l'integrale");
 		manifestation.addProperty(FRBR.titleOfTheManifestation(model), "Valerian et Laureline");
 		manifestation.addProperty(FRBR.statementOfResponsibilityRelatingToTitleProper(model), "Pierre Christin; Jean-Claude Meziere");
@@ -626,7 +626,7 @@ public class FRBRizationDer_3_1 {
 		comicmanif.addProperty(FRBR.identifierForTheManifestation(model), "978-2-205-06758-3");
 		comicmanif.addProperty(FRBR.identifierForTheManifestation(model), "9782205067583");
 		comicmanif.addProperty(FRBR.carrierType(model), "Graphic Novel");
-		comicmanif.addProperty(FRBR.placeOfpublication(model), "Paris");
+		comicmanif.addProperty(FRBR.placeOfPublication(model), "Paris");
 		comicmanif.addProperty(FRBR.otherTitleInformation(model), "Valerian par Manu Larcenet");
 		comicmanif.addProperty(FRBR.titleOfTheManifestation(model), "Armure du Jakolass (L')");
 		comicmanif.addProperty(FRBR.statementOfResponsibilityRelatingToTitleProper(model), "Manu Larcenet; from Christin et Mezieres");
