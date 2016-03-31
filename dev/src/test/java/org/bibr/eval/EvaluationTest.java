@@ -1,22 +1,44 @@
 package org.bibr.eval;
 
+import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
+import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;
 
 public class EvaluationTest {
-
-	@Ignore
-	public void expertTest() throws Exception{
-		
-		// Read the mapping
+	
+	private Evaluator eval;
+	
+	@Before
+	public void initialization(){
+		eval = new Evaluator();
 		String pathMapping = "C:/Users/Joffrey/Documents/Developpement/BIB-R/mappings.xml";
-		Evaluator eval = new Evaluator();
 		eval.readMappings(pathMapping);
 		
+		//System.out.println(eval.getMappings());
+	}
+	
+	
+	@SuppressWarnings("unchecked")
+	@Test
+	public void fullTest(){
+		
+		// Expert
+		String pathExp = "C:/Tests/eval/core-basic-frbr.xml";
+		RDFRequest requestExp = new RDFRequest();
+		requestExp.setPath(pathExp);
+		requestExp.setTypeStategy("property");
+		requestExp.setDataStrategy("http://www.w3.org/1999/02/22-rdf-syntax-ns#type");
+		
+		RDFReader rdfExp = eval.initializeCollection(requestExp);
+		
+		// -----------
+		
+		// Coll
 		String path = "C:/Tests/eval/frbrml_core_basic.xml";
 
 		RDFRequest request = new RDFRequest();
@@ -24,66 +46,11 @@ public class EvaluationTest {
 		request.setTypeStategy("property");
 		request.setDataStrategy("http://www.w3.org/1999/02/22-rdf-syntax-ns#type");
 		
-		RDFReader rdf = new RDFReader();
-		rdf.read(request);
-		Map<String,Entity> ents = rdf.process();
+		RDFReader rdfColl = eval.initializeCollection(request);
+		// -----------
 		
-		// show tests results
-		
-		for (Iterator iterator = rdf.getEntityTypes().iterator(); iterator.hasNext();) {
-			String type = (String) iterator.next();
-			if(!eval.getMappings().containsKey(type)){
-				System.out.println("Unknown entity type: "+type);
-			}
-		}
-		
-		
-		for (Iterator<Map.Entry<String, Entity>> it = ents.entrySet().iterator(); it
-				.hasNext();) {
-			Map.Entry<String, Entity> entry = it.next();
-			String key = entry.getKey();
-			Entity e = entry.getValue();
-			System.out.println(key+" :: "+e);
-		}
+		eval.evaluate(rdfColl, rdfExp);
 
-	}
-	
-	@Test
-	public void collectionTest() throws Exception{
 		
-		// Read the mapping
-		String pathMapping = "C:/Users/Joffrey/Documents/Developpement/BIB-R/mappings.xml";
-		Evaluator eval = new Evaluator();
-		eval.readMappings(pathMapping);
-		
-		String path = "C:/Tests/eval/core-basic-frbr.xml";
-
-		RDFRequest request = new RDFRequest();
-		request.setPath(path);
-		request.setTypeStategy("property");
-		request.setDataStrategy("http://www.w3.org/1999/02/22-rdf-syntax-ns#type");
-		
-		RDFReader rdf = new RDFReader();
-		rdf.read(request);
-		Map<String,Entity> ents = rdf.process();
-		
-		// show tests results
-		
-		for (Iterator iterator = rdf.getEntityTypes().iterator(); iterator.hasNext();) {
-			String type = (String) iterator.next();
-			if(!eval.getMappings().containsKey(type)){
-				System.out.println("Unknown entity type: "+type);
-			}
-		}
-		
-		
-		for (Iterator<Map.Entry<String, Entity>> it = ents.entrySet().iterator(); it
-				.hasNext();) {
-			Map.Entry<String, Entity> entry = it.next();
-			String key = entry.getKey();
-			Entity e = entry.getValue();
-			System.out.println(key+" :: "+e);
-		}
-
 	}
 }

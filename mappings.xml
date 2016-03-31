@@ -194,8 +194,8 @@
     <rdfs:label>termsOfAvailability</rdfs:label>
   </rdf:Description>
 
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/C10008">
-    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/c/Family"/>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Family">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/c/C10008"/>
     <rdfs:label>Family</rdfs:label>
   </rdf:Description>
 
@@ -258,19 +258,19 @@
     <rdfs:label>Place</rdfs:label>
   </rdf:Description>
 
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/P10197">
-    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/parodyOfWork"/>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/parodyOfWork">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10197"/>
     <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/w/parodiedAsWork" />
     <rdfs:label>parodyOfWork</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/P10144">
-    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/parodiedAsWork"/>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/w/parodiedAsWork">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/w/P10144"/>
     <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/w/parodyOfWork" />
     <rdfs:label>parodiedAsWork</rdfs:label>
   </rdf:Description>
 
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/C10003">
-    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/c/Item"/>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Item">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/c/C10003"/>
     <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/C1004"/>
     <rdfs:label>Item</rdfs:label>
   </rdf:Description>
@@ -296,8 +296,8 @@
     <rdfs:label>seriesStatement</rdfs:label>
   </rdf:Description>
 
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/C10007">
-    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/c/Manifestation"/>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Manifestation">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
     <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/C1003"/>
     <rdfs:label>Manifestation</rdfs:label>
   </rdf:Description>
@@ -425,8 +425,8 @@
     <rdfs:label>translationOf</rdfs:label>
   </rdf:Description>
 
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/C10006">
-    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/c/Expression"/>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/c/C10006"/>
     <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/C1002"/>
     <rdfs:label>Expression</rdfs:label>
   </rdf:Description>
@@ -532,8 +532,8 @@
     <rdfs:label>editorOf</rdfs:label>
   </rdf:Description>
 
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/C10001">
-    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/c/Work"/>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work">
+    <owl:sameAs rdf:resource="http://rdaregistry.info/Elements/c/C10001"/>
     <owl:sameAs rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/C1001"/>
     <rdfs:label>Work</rdfs:label>
   </rdf:Description>

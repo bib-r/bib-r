@@ -8,13 +8,18 @@ public class Entity {
 	
 	private Map<String, List<String>> properties;
 	
-	public Entity(){
+	private Map<String, String> relationships;
+	
+	private String type;
+	
+	public Entity(String type){
 		properties = new HashMap<String, List<String>>();
+		this.type = type;
 	}
 	
 	@Override
 	public String toString() {
-		return "Entity [properties=" + properties + "]";
+		return type.substring(type.lastIndexOf("/")+1,type.length())+" [properties=" + properties + "]";
 	}
 
 	public Map<String, List<String>> getProperties() {
@@ -23,6 +28,14 @@ public class Entity {
 
 	public void setProperties(Map<String, List<String>> properties) {
 		this.properties = properties;
+	}
+
+	public String getType() {
+		return type;
+	}
+
+	public void setType(String type) {
+		this.type = type;
 	}
 	
 }
