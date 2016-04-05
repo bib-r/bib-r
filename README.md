@@ -9,3 +9,6 @@ These datasets are released under a CC BY-NC licence.
 
 https://creativecommons.org/licenses/
 
+## Changelog
+
+Add a JAVA process to automatically evaluate a RDF/XML catalog with the dataset T42. The process is a new draft and is still in Beta.
