@@ -1,5 +1,10 @@
 package org.bibr.eval;
 
+/**
+ * Contains information about a single RDF file to be evaluated with another
+ * @author Joffrey
+ *
+ */
 public class RDFRequest {
 
 	private String path;

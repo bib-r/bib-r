@@ -9,6 +9,16 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 
+/**
+ * Used to perform a basic entity matching task for RDF extracted entities in
+ * the FRBR context. Note that the algorithm was coded to quickly release an
+ * example of FRBR RDF evaluation. It does not reflect any real entity matching
+ * processes we may use for other purposes and it should not be considered as a
+ * reference in any way whatsoever !
+ * 
+ * @author Joffrey
+ *
+ */
 public class Matcher {
 
 	public static Boolean match(Entity e1, Entity e2, JaroWinkler jaro,
@@ -17,7 +27,7 @@ public class Matcher {
 		if (e1.getType().equals(e2.getType())) {
 
 			Set<String> propToMatch = new HashSet<String>();
-
+			
 			// Keep only properties present in both entities
 			for (String p : e1.getProperties().keySet()) {
 				if (e2.getProperties().keySet().contains(p)) {
@@ -25,6 +35,8 @@ public class Matcher {
 				}
 			}
 
+			
+			
 			// Matching
 			Integer singleMatch = 0;
 			for (Iterator<String> iterator = propToMatch.iterator(); iterator
@@ -79,10 +91,14 @@ public class Matcher {
 								match = true;
 							}
 						}
-
-						if (!alreadyMatches.contains(s1) && match) {
-							singleMatch++;
-							alreadyMatches.add(s1);
+						
+						if(match){
+							e1.getPropMatched().add(prop);
+							e2.getPropMatched().add(prop);
+							if (!alreadyMatches.contains(s1)) {
+								singleMatch++;
+								alreadyMatches.add(s1);
+							}
 							loop = false;
 							break;
 						}
@@ -98,8 +114,7 @@ public class Matcher {
 			if ((propToMatch.size() > 1 && singleMatch >= propToMatch.size() / 2)
 					|| (propToMatch.size() > 0 && singleMatch >= propToMatch
 							.size())) {
-				
-				
+
 				return true;
 			} else {
 				return false;

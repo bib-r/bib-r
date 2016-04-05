@@ -7,6 +7,11 @@ import java.util.Map;
 import org.junit.Before;
 import org.junit.Test;
 
+/**
+ * Typical test for evaluating two FRBR collections (input and expertise) 
+ * @author Joffrey
+ *
+ */
 public class EvaluationTest {
 	
 	private Evaluation eval;

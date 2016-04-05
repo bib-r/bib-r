@@ -447,7 +447,7 @@ public class FRBRizationCoreBasic_1_5 {
 		
 		// Place
 		Resource place = FRBR.place(model,"UnitedStates");
-		place.addProperty(FRBR.hasTermForTheConcept(model), "United States");
+		place.addProperty(FRBR.hasTermForThePlace(model), "United States");
 		
 		// Relationships
 		work.addProperty(FRBR.expressionOfWork(model), expression);
@@ -862,7 +862,7 @@ public class FRBRizationCoreBasic_1_5 {
 		
 		// Place
 		Resource place = FRBR.place(model,"Netherlands");
-		place.addProperty(FRBR.hasTermForTheConcept(model), "Netherlands");
+		place.addProperty(FRBR.hasTermForThePlace(model), "Netherlands");
 		
 		// Relationships
 		work.addProperty(FRBR.expressionOfWork(model), expression);

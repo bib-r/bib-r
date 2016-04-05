@@ -72,7 +72,7 @@
     <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Place#UnitedStates">
-    <frbr:hasTermForTheConcept>United States</frbr:hasTermForTheConcept>
+    <frbr:hasTermForThePlace>United States</frbr:hasTermForThePlace>
     <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1010</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Concept#Abhangigkeit">
@@ -667,7 +667,7 @@
     <rdf:type>http://rdaregistry.info/Elements/c/C10005</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Place#Netherlands">
-    <frbr:hasTermForTheConcept>Netherlands</frbr:hasTermForTheConcept>
+    <frbr:hasTermForThePlace>Netherlands</frbr:hasTermForThePlace>
     <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1010</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Person#DavidSuchet">

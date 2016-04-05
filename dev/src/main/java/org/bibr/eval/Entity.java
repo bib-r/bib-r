@@ -1,9 +1,16 @@
 package org.bibr.eval;
 
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
+/**
+ * Representation of an entity from RDF, i.e., a specific instance of a RDF class
+ * @author Joffrey
+ *
+ */
 public class Entity {
 	
 	private String identifier;
@@ -12,12 +19,15 @@ public class Entity {
 	
 	private Map<String, List<String>> relationships;
 	
+	private Set<String> propMatched;
+	
 	private String type;
 	
 	public Entity(String identifier, String type){
 		this.identifier = identifier;
 		properties = new HashMap<String, List<String>>();
 		relationships = new HashMap<String, List<String>>();
+		propMatched = new HashSet<String>();
 		this.type = type;
 	}
 	
@@ -56,6 +66,14 @@ public class Entity {
 
 	public void setIdentifier(String identifier) {
 		this.identifier = identifier;
+	}
+
+	public Set<String> getPropMatched() {
+		return propMatched;
+	}
+
+	public void setPropMatched(Set<String> propMatched) {
+		this.propMatched = propMatched;
 	}
 	
 }

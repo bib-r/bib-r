@@ -20,6 +20,13 @@ public class Evaluation {
 		super();
 	}
 
+	/**
+	 * Main method that launch the whole process of evaluation for two RDF collections
+	 * @param rcol
+	 * @param rexp
+	 * @param pathMapping
+	 * @param replacements
+	 */
 	public void process(RDFRequest rcol, RDFRequest rexp, String pathMapping,
 			Map<String, Map<String, String>> replacements) {
 

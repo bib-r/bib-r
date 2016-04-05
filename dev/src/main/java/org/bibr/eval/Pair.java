@@ -1,5 +1,7 @@
 package org.bibr.eval;
 
+
+
 public class Pair {
 	
 	private Entity col;
@@ -12,14 +14,10 @@ public class Pair {
 		this.exp = exp;
 	}
 	
-	
-
 	@Override
 	public String toString() {
 		return "Pair [col=" + col + ", exp=" + exp + "]";
 	}
-
-
 
 	public Entity getCol() {
 		return col;

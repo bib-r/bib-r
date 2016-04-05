@@ -90,7 +90,7 @@
     <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#InfectionControlAndHospitalEpidemiologyJournal"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Place#Virginia">
-    <frbr:hasTermForTheConcept>Virginia</frbr:hasTermForTheConcept>
+    <frbr:hasTermForThePlace>Virginia</frbr:hasTermForThePlace>
     <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1010</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#InfectionControlAndHospitalEpidemiologyPublication">

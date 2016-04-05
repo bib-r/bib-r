@@ -544,7 +544,7 @@
     <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbrer/Place#Netherlands">
-    <frbr:hasTermForTheConcept>Netherlands</frbr:hasTermForTheConcept>
+    <frbr:hasTermForThePlace>Netherlands</frbr:hasTermForThePlace>
     <rdf:type>http://iflastandards.info/ns/fr/frbr/frbrer/C1010</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Person#DenisHuisman">

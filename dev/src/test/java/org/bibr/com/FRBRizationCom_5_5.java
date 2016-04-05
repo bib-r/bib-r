@@ -349,7 +349,7 @@ public class FRBRizationCom_5_5 {
 
 		// Place
 		Resource place = FRBR.place(model, "Virginia");
-		place.addProperty(FRBR.hasTermForTheConcept(model), "Virginia");
+		place.addProperty(FRBR.hasTermForThePlace(model), "Virginia");
 
 		work1.addProperty(FRBR.expressionOfWork(model), expression1);
 		expression1.addProperty(FRBR.editor(model), author1);

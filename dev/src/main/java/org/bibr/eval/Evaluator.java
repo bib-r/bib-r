@@ -17,7 +17,8 @@ import org.apache.jena.rdf.model.Statement;
 import org.apache.jena.rdf.model.StmtIterator;
 
 /**
- * Class to evaluate 2 RDF collections (already initialized).
+ * Class to evaluate 2 RDF collections (already initialized as POJOs).
+ * 
  * @author Joffrey
  *
  */
@@ -31,7 +32,7 @@ public class Evaluator {
 	// Statistics
 	private Map<String, Set<Match>> toFind = new HashMap<String, Set<Match>>();
 	private Set<String> entAlreadyToFind = new HashSet<String>();
-	
+
 	// String similarity
 	private JaroWinkler jaro = new JaroWinkler();
 
@@ -44,7 +45,8 @@ public class Evaluator {
 	}
 
 	/**
-	 * Main method to evaluate 2 RDF collections already initialized
+	 * Main method to evaluate 2 RDF collections (already initialized as POJOs).
+	 * 
 	 * @param rcol
 	 * @param rexp
 	 * @param isCollection
@@ -58,101 +60,149 @@ public class Evaluator {
 		List<Entity> cols = new ArrayList<Entity>(ercol.values());
 		List<Entity> exps = new ArrayList<Entity>(erexp.values());
 
-		FRBRTreeProcessing(cols,exps);
-		
+		FRBRTreeProcessing(cols, exps);
+
 		// Statistics:
 		generateStatistics(isCollection);
-		
+
 	}
-	
+
 	/**
-	 * Method that 
+	 * Method to compare two lists of entities according to the FRBR core
+	 * structure. Note that the structure is hardcoded since it is NOT the
+	 * objective of this program to compare entity collections generically.
+	 * 
 	 * @param cols
 	 * @param exps
 	 */
-	private void FRBRTreeProcessing(List<Entity> cols, List<Entity> exps){
-		
+	private void FRBRTreeProcessing(List<Entity> cols, List<Entity> exps) {
+
 		// Basic level
 		List<Pair> manifPairs = this.getMatches(cols, exps,
 				"http://rdaregistry.info/Elements/c/Manifestation");
-		for(Entity e : exps){
-			if(e.getType().equals("http://rdaregistry.info/Elements/c/Manifestation")){
-				updateStatisticalResults(e, "http://rdaregistry.info/Elements/e/manifestationOfExpression");
+		
+		for (Entity e : exps) {
+			if (e.getType().equals(
+					"http://rdaregistry.info/Elements/c/Manifestation")) {
+				updateStatisticalResults(e,
+						"http://rdaregistry.info/Elements/e/manifestationOfExpression");
 			}
 		}
-		
-		
-		for (Iterator<Pair> iterator = manifPairs.iterator(); iterator.hasNext();) {
+
+		for (Iterator<Pair> iterator = manifPairs.iterator(); iterator
+				.hasNext();) {
 			Pair pair = (Pair) iterator.next();
 			computeFoundResults(pair);
 		}
-		
-		// Note: For other levels, the statistical results are computed in the getNextDepthPairs method.
+
+		// Note: For other levels, the statistical results are computed in the
+		// getNextDepthPairs method.
 		// Manifestation level
 		List<Pair> exprPairs = getNextDepthPairs(manifPairs,
 				"http://rdaregistry.info/Elements/c/Expression");
-		
+
 		getNextDepthPairs(manifPairs,
-						"http://rdaregistry.info/Elements/c/CorporateBody");
-		
+				"http://rdaregistry.info/Elements/c/CorporateBody");
+
 		// Expression Level
 		getNextDepthPairs(exprPairs,
-					"http://rdaregistry.info/Elements/c/Person");
-		
-		List<Pair> workPairs = getNextDepthPairs(exprPairs, "http://rdaregistry.info/Elements/c/Work");
-		
+				"http://rdaregistry.info/Elements/c/Person");
+
+		List<Pair> workPairs = getNextDepthPairs(exprPairs,
+				"http://rdaregistry.info/Elements/c/Work");
+
 		// Work Level
-		getNextDepthPairs(workPairs, "http://rdaregistry.info/Elements/c/Person");
+		getNextDepthPairs(workPairs,
+				"http://rdaregistry.info/Elements/c/Person");
 		
-		List<Pair> superWorkPairs = getNextDepthPairs(workPairs, "http://rdaregistry.info/Elements/c/Work");
+		getNextDepthPairs(workPairs,
+				"http://iflastandards.info/ns/fr/frbr/frbrer/Concept");
 		
-		getNextDepthPairs(superWorkPairs, "http://rdaregistry.info/Elements/c/Work");
+		getNextDepthPairs(workPairs,
+				"http://iflastandards.info/ns/fr/frbr/frbrer/Place");
+
+		List<Pair> superWorkPairs = getNextDepthPairs(workPairs,
+				"http://rdaregistry.info/Elements/c/Work");
+
+		getNextDepthPairs(superWorkPairs,
+				"http://rdaregistry.info/Elements/c/Work");
 	}
-	
+
 	/**
 	 * Generate the evaluation results (for the display)
-	 * @param isCollection
+	 * 
+	 * @param isCollection Means if we compare an input collection with the expertise
 	 */
-	public void generateStatistics(Boolean isCollection){
-		if(!isCollection){
-			List<String> sortedKeys= new ArrayList<String>(toFind.keySet());
+	public void generateStatistics(Boolean isCollection) {
+		if (!isCollection) {
+			List<String> sortedKeys = new ArrayList<String>(toFind.keySet());
 			Collections.sort(sortedKeys);
-			for (String key : sortedKeys) { 
-			   Set<Match> value = toFind.get(key);
-			   
-			   String ePart = key.split("#")[0];
-			   String entity = ePart.substring(ePart.lastIndexOf("/")+1, ePart.length());
-			   
-			   String pPart = key.split("#")[1];
-			   String prop = pPart.substring(pPart.lastIndexOf("/")+1, pPart.length());
-			   
-			   System.out.println("To find: " + value.size() + " " + entity+" ("+prop+")");
-			}
-		}else{
-			List<String> sortedKeys= new ArrayList<String>(toFind.keySet());
-			Collections.sort(sortedKeys);
-			for (String key : sortedKeys) { 
-			   Set<Match> value = toFind.get(key);
-			   Integer nbMatch = 0;
-			   for (Iterator<Match> iterator = value.iterator(); iterator.hasNext();) {
+			for (String key : sortedKeys) {
+				Set<Match> value = toFind.get(key);
+				Set<String> propMatched = new HashSet<String>();
+				for (Iterator<Match> iterator = value.iterator(); iterator
+						.hasNext();) {
 					Match match = (Match) iterator.next();
-					if(match.getInfo()){
+					propMatched.addAll(match.getPropMatched());
+				}
+				
+				String ePart = key.split("#")[0];
+				String entity = ePart.substring(ePart.lastIndexOf("/") + 1,
+						ePart.length());
+
+				String pPart = key.split("#")[1];
+				String prop = pPart.substring(pPart.lastIndexOf("/") + 1,
+						pPart.length());
+
+				System.out.println("To find: " + value.size() + " " + entity
+						+ " (" + prop + ")");
+				for (Iterator<String> iterator = propMatched.iterator(); iterator
+						.hasNext();) {
+					String mProp = (String) iterator.next();
+					String prettyMProp = mProp.substring(mProp.lastIndexOf("/") + 1,mProp.length());
+					System.out.println("Property: "+prettyMProp);
+				}
+			}
+			
+			System.out.println("-------");
+			
+		} else {
+			List<String> sortedKeys = new ArrayList<String>(toFind.keySet());
+			Collections.sort(sortedKeys);
+			for (String key : sortedKeys) {
+				Set<Match> value = toFind.get(key);
+				Integer nbMatch = 0;
+				Set<String> propMatched = new HashSet<String>();
+				for (Iterator<Match> iterator = value.iterator(); iterator
+						.hasNext();) {
+					Match match = (Match) iterator.next();
+					propMatched.addAll(match.getPropMatched());
+					if (match.getInfo()) {
 						nbMatch++;
 					}
-			   }
-			   
-			   String ePart = key.split("#")[0];
-			   String entity = ePart.substring(ePart.lastIndexOf("/")+1, ePart.length());
-			   
-			   String pPart = key.split("#")[1];
-			   String prop = pPart.substring(pPart.lastIndexOf("/")+1, pPart.length());
-			   if(nbMatch > 0){
-				   System.out.println("Found: " + nbMatch + " " + entity+" ("+prop+")");
-			   }
+				}
+
+				String ePart = key.split("#")[0];
+				String entity = ePart.substring(ePart.lastIndexOf("/") + 1,
+						ePart.length());
+
+				String pPart = key.split("#")[1];
+				String prop = pPart.substring(pPart.lastIndexOf("/") + 1,
+						pPart.length());
+				if (nbMatch > 0) {
+					System.out.println("Found: " + nbMatch + " " + entity
+							+ " (" + prop + ")");
+					for (Iterator<String> iterator = propMatched.iterator(); iterator
+							.hasNext();) {
+						String mProp = (String) iterator.next();
+						String prettyMProp = mProp.substring(mProp.lastIndexOf("/") + 1,mProp.length());
+						System.out.println("Matched Property: "+prettyMProp);
+					}
+				}
 			}
 		}
 	}
-	
+
 	/**
 	 * From a list of Pairs, get the related pairs from initial pairs's
 	 * relationship, filtering by an entity type.
@@ -163,8 +213,12 @@ public class Evaluator {
 	 */
 	public List<Pair> getNextDepthPairs(List<Pair> pairs, String type) {
 
-		List<Pair> depth1pairs = new ArrayList<Pair>();
+		// for collecting the pairs of matched entities
+		List<Pair> depth1pairs = new ArrayList<Pair>(); 
+		
+		// for selecting the relevant pairs to keep
 		List<Pair> result = new ArrayList<Pair>();
+		
 		Set<String> alreadyVisited = new HashSet<String>();
 
 		for (Iterator<Pair> iterator = pairs.iterator(); iterator.hasNext();) {
@@ -213,29 +267,26 @@ public class Evaluator {
 			for (Entry<String, List<Entity>> entry : expDepth1.entrySet()) {
 				String key = entry.getKey();
 				List<Entity> expents = entry.getValue();
-				
 
 				for (Iterator<Entity> iterator2 = expents.iterator(); iterator2
 						.hasNext();) {
 					Entity ex = (Entity) iterator2.next();
-					updateStatisticalResults(ex,key);
+					updateStatisticalResults(ex, key);
 				}
 
 				depth1pairs.addAll(this.getMatches(colDepth1.get(key), expents,
 						type));
 			}
 
-			
 			for (Iterator<Pair> iterator2 = depth1pairs.iterator(); iterator2
 					.hasNext();) {
 				Pair pair = (Pair) iterator2.next();
-				if(!alreadyVisited.contains(pair.getExp().getIdentifier())){
+				if (!alreadyVisited.contains(pair.getExp().getIdentifier())) {
 					result.add(pair);
 					alreadyVisited.add(pair.getExp().getIdentifier());
-					
 					// Compute results for statistical display
 					computeFoundResults(pair);
-	
+
 				}
 			}
 			// break;
@@ -243,9 +294,14 @@ public class Evaluator {
 		}
 		return result;
 	}
-	
-	private void computeFoundResults(Pair pair){
-		
+
+	/**
+	 * Edit the toFind Map of entities to be found with a pair (= match) result. 
+	 * We use the class Match to keep and show the results
+	 * @param pair
+	 */
+	private void computeFoundResults(Pair pair) {
+
 		Boolean successMatch = false;
 		for (Iterator<Set<Match>> iterator3 = toFind.values().iterator(); iterator3
 				.hasNext();) {
@@ -253,32 +309,35 @@ public class Evaluator {
 			for (Iterator<Match> iterator4 = matches.iterator(); iterator4
 					.hasNext();) {
 				Match match = (Match) iterator4.next();
-				if(match.getEntity().equals(pair.getExp().getIdentifier())){
+				if (match.getEntity().equals(pair.getExp().getIdentifier())) {
 					match.setInfo(true);
+					match.getPropMatched().addAll(pair.getExp().getPropMatched());
 					successMatch = true;
 					break;
 				}
 			}
-			if(successMatch){
+			if (successMatch) {
 				break;
 			}
 		}
-		
+
 	}
-	
+
 	/**
-	 * For statistical display
+	 * For statistical results (display)
+	 * 
 	 * @param e
 	 * @param relationType
 	 */
-	public void updateStatisticalResults(Entity e, String relationType){
-		
-		if(!entAlreadyToFind.contains(e.getIdentifier())){
-			String typeKey = e.getType()+"#"+relationType;
+	public void updateStatisticalResults(Entity e, String relationType) {
+
+		if (!entAlreadyToFind.contains(e.getIdentifier())) {
+			String typeKey = e.getType() + "#" + relationType;
 			if (!toFind.containsKey(typeKey)) {
-					toFind.put(typeKey, new HashSet<Match>());
+				toFind.put(typeKey, new HashSet<Match>());
 			}
-			toFind.get(typeKey).add(new Match(e.getIdentifier()));
+			Match m = new Match(e.getIdentifier());
+			toFind.get(typeKey).add(m);
 			entAlreadyToFind.add(e.getIdentifier());
 		}
 	}
@@ -328,6 +387,11 @@ public class Evaluator {
 		}
 	}
 
+	/**
+	 * Just call the relevant API (e.g., Jena) to read a RDF file
+	 * @param request
+	 * @return
+	 */
 	public RDFReader initializeCollection(RDFRequest request) {
 
 		RDFReader rdf = new RDFReader();
@@ -336,59 +400,73 @@ public class Evaluator {
 	}
 
 	/**
-	 * Return the pairs of correspondences from two distinct list of entities, filtering a specific type of entity.
+	 * Return the pairs of correspondences from two distinct list of entities,
+	 * filtering a specific type of entity.
+	 * 
 	 * @param lsCol
 	 * @param lsExp
 	 * @param type
 	 * @param level
 	 * @return
 	 */
-	public List<Pair> getMatches(List<Entity> lsCol, List<Entity> lsExp, String type) {
+	public List<Pair> getMatches(List<Entity> lsCol, List<Entity> lsExp,
+			String type) {
 
 		List<Pair> pairs = new ArrayList<Pair>();
-		
+
 		List<Entity> EntsCol = new ArrayList<Entity>();
 		List<Entity> EntsExp = new ArrayList<Entity>();
-
+		
 		if (lsCol != null) {
-			for (Iterator<Entity> iterator = lsCol.iterator(); iterator.hasNext();) {
+			for (Iterator<Entity> iterator = lsCol.iterator(); iterator
+					.hasNext();) {
 				Entity e = (Entity) iterator.next();
+				
 				if (e.getType().equals(type)) {
+					
 					EntsCol.add(e);
 				}
 			}
 		}
 
 		if (lsExp != null) {
-			for (Iterator<Entity> iterator = lsExp.iterator(); iterator.hasNext();) {
+			for (Iterator<Entity> iterator = lsExp.iterator(); iterator
+					.hasNext();) {
 				Entity e = (Entity) iterator.next();
+				
 				if (e.getType().equals(type)) {
+					
 					EntsExp.add(e);
+					
 				}
 			}
 		}
 
 		Integer nbMatch = 0;
-		Set<String> matchedPairs = new HashSet<String>(); // save the pairs matched using the similarity function
+		// save the pairs matched using the similarity function
+		Set<String> matchedEntities = new HashSet<String>();
 
 		for (Iterator<Entity> iterator = EntsExp.iterator(); iterator.hasNext();) {
 			Entity exp = (Entity) iterator.next();
+			
 			for (Iterator<Entity> iterator2 = EntsCol.iterator(); iterator2
 					.hasNext();) {
 				Entity col = (Entity) iterator2.next();
 
 				Pair p = new Pair(col, exp);
-				String idPair = col.getIdentifier() + exp.getIdentifier();
+				//String idPair = col.getIdentifier() + exp.getIdentifier();
 				Boolean match = Matcher.match(col, exp, jaro, replacements);
 
 				if (EntsCol.size() == EntsExp.size()
-						&& !matchedPairs.contains(idPair)) {
+						&& !matchedEntities.contains(exp.getIdentifier()) && !matchedEntities.contains(col.getIdentifier())) {
 					match = true;
 				}
-				
-				if (match && !matchedPairs.contains(idPair)) {
+
+				if (match && !matchedEntities.contains(exp.getIdentifier()) && !matchedEntities.contains(col.getIdentifier())) {
 					pairs.add(p);
-					matchedPairs.add(idPair);
+
+					matchedEntities.add(exp.getIdentifier());
+					matchedEntities.add(col.getIdentifier());
 					nbMatch++;
 					break;
 				}
@@ -399,7 +477,9 @@ public class Evaluator {
 	}
 
 	/**
-	 * Read a RDF/XML mapping file to create Maps of same and inverse ontology concepts
+	 * Read a RDF/XML mapping file to create Maps of same and inverse ontology
+	 * concepts
+	 * 
 	 * @param path
 	 */
 	public void readMappings(String path) {
@@ -422,7 +502,7 @@ public class Evaluator {
 			evaluateMapping(inverses, rdf, type, uriInverse);
 		}
 	}
-	
+
 	/**
 	 * @see readMappings
 	 * @param mappings

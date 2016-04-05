@@ -671,7 +671,7 @@ public class FRBRizationAgg_4_1 {
 
 		// Place
 		Resource place = FRBR.place(model, "Netherlands");
-		place.addProperty(FRBR.hasTermForTheConcept(model), "Netherlands");
+		place.addProperty(FRBR.hasTermForThePlace(model), "Netherlands");
 
 		// Relationships
 		work.addProperty(FRBR.expressionOfWork(model), expression);
