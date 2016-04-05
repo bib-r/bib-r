@@ -85,28 +85,31 @@ public class RDFReader {
 				}
 
 				if (type != null) {
+					Boolean isRelationship = false;
 					entityTypes.add(type);
 
 					// Get the predicate types
 					if (s.getPredicate().isURIResource()
 							&& !s.getPredicate().toString()
 									.equals(strategyData)) {
+
 						propertyTypes.add(s.getPredicate().toString());
-						if (!s.getObject().isURIResource()) {
-							property = s.getPredicate().toString();
-							data = s.getObject().toString();
+						data = s.getObject().toString();
+						property = s.getPredicate().toString();
+						if (s.getObject().isURIResource()) {
+							isRelationship = true;
 						}
 					}
 
 					// Build an entity if not exists
 					Entity e = null;
 					if (entityTypes.contains(type)) {
-						
+
 						type = mappings.get(type);
 						if (!ents.containsKey(s.getSubject().toString())) {
 
 							// System.out.println("Convert: "+type);
-							e = new Entity(type);
+							e = new Entity(s.getSubject().toString(),type);
 							ents.put(s.getSubject().toString(), e);
 						} else {
 							e = ents.get(s.getSubject().toString());
@@ -117,11 +120,20 @@ public class RDFReader {
 							String prop = mappings.get(property);
 
 							if (prop != null) {
-								if (e.getProperties().get(prop) == null) {
-									e.getProperties().put(prop,
-											new ArrayList<String>());
+
+								if (isRelationship) {
+									if (e.getRelationships().get(prop) == null) {
+										e.getRelationships().put(prop,
+												new ArrayList<String>());
+									}
+									e.getRelationships().get(prop).add(data);
+								} else {
+									if (e.getProperties().get(prop) == null) {
+										e.getProperties().put(prop,
+												new ArrayList<String>());
+									}
+									e.getProperties().get(prop).add(data);
 								}
-								e.getProperties().get(prop).add(data);
 							}
 						}
 					}

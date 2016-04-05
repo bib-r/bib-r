@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:frbrizer="http://idi.ntnu.no/frbrizer/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:marc="http://www.loc.gov/MARC21/slim"
+         xmlns:a="http://rdaregistry.info/Elements/a/"
+         xmlns:c="http://rdaregistry.info/Elements/c/"
+         xmlns:u="http://rdaregistry.info/Elements/u/"
+         xmlns:e="http://rdaregistry.info/Elements/e/"
+         xmlns:w="http://rdaregistry.info/Elements/w/"
+         xmlns:frsad="http://iflastandards.info/ns/fr/frsad/"
+         xmlns:frbrer="http://iflastandards.info/ns/fr/frbr/frbrer/"
+         xmlns:marcrdf="http://marc21rdf.info/elements/"
+         xmlns:m="http://rdaregistry.info/Elements/m/"
+         xml:base="http://idi.ntnu.no/frbrizer/">
+   <rdf:Description rdf:type="c:Expression"
+                    rdf:about="chretiendetroyes\cperson#romans\cwork#\cexpression#">
+      <e:languageOfExpression>French</e:languageOfExpression>
+      <u:title>Romans</u:title>
+      <e:manifestationOfExpression rdf:resource="urnisbn2253132225\cmanifestation#"/>
+      <e:workExpressed rdf:resource="chretiendetroyes\cperson#romans\cwork#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Expression"
+                    rdf:about="christieagatha\cperson#deathonthenil\cwork#\cexpression#">
+      <e:languageOfExpression>English</e:languageOfExpression>
+      <u:title>Death on the Nil</u:title>
+      <e:manifestationOfExpression rdf:resource="urnismn9780007191154\cmanifestation#"/>
+      <e:workExpressed rdf:resource="christieagatha\cperson#deathonthenil\cwork#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Expression"
+                    rdf:about="descartesrene\cperson#meditationsmetaphysiques\cwork#\cexpression#">
+      <e:languageOfExpression>French</e:languageOfExpression>
+      <u:title>Meditations metaphysiques</u:title>
+      <e:manifestationOfExpression rdf:resource="urnisbn9782091873053\cmanifestation#"/>
+      <e:workExpressed rdf:resource="descartesrene\cperson#meditationsmetaphysiques\cwork#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Expression"
+                    rdf:about="jonkeranna\cperson#couldmusicpotentiallyserveasafunctionalalternativetoalcoholconsumptiontag012subfieldsubfieldcodeetheimportanceofmusicmotivesamongdrinkingandnondrinkingadolescents\cwork#\cexpression#">
+      <e:languageOfExpression>English</e:languageOfExpression>
+      <u:title>Could music potentially serve as a functional alternative to alcohol consumption?</u:title>
+      <e:manifestationOfExpression rdf:resource="urnisrcdoi101556jba3201443\cmanifestation#"/>
+      <e:workExpressed rdf:resource="jonkeranna\cperson#couldmusicpotentiallyserveasafunctionalalternativetoalcoholconsumptiontag012subfieldsubfieldcodeetheimportanceofmusicmotivesamongdrinkingandnondrinkingadolescents\cwork#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Expression"
+                    rdf:about="keimechristian\cperson#romanderenart\cwork#french\cexpression#">
+      <e:languageOfExpression>French</e:languageOfExpression>
+      <u:title>Roman de Renart (Le)</u:title>
+      <e:manifestationOfExpression rdf:resource="urnisbn9782081209633\cmanifestation#"/>
+      <e:workExpressed rdf:resource="keimechristian\cperson#romanderenart\cwork#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Expression"
+                    rdf:about="kheydavidn\cperson#emergingtrendsindruguseanddistributionbryanleemiller\cwork#\cexpression#">
+      <e:languageOfExpression>English</e:languageOfExpression>
+      <u:title>Emerging trends in drug use and distribution : Bryan Lee Miller</u:title>
+      <e:manifestationOfExpression rdf:resource="urnisbn3319035746\cmanifestation#"/>
+      <e:workExpressed rdf:resource="kheydavidn\cperson#emergingtrendsindruguseanddistributionbryanleemiller\cwork#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Expression"
+                    rdf:about="mezieresjeanclaude\cperson#valerianetlaurelinelintegrale\cwork#\cexpression#">
+      <e:languageOfExpression>French</e:languageOfExpression>
+      <u:title>Valerian et Laureline : l'integrale</u:title>
+      <e:manifestationOfExpression rdf:resource="urnisbn9782205060386\cmanifestation#"/>
+      <e:workExpressed rdf:resource="mezieresjeanclaude\cperson#valerianetlaurelinelintegrale\cwork#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Expression"
+                    rdf:about="montaignemichelde\cperson#essais\cwork#french\cexpression#">
+      <e:languageOfExpression>French</e:languageOfExpression>
+      <u:title>Essais</u:title>
+      <e:manifestationOfExpression rdf:resource="urnisbn9782080702104\cmanifestation#"/>
+      <e:workExpressed rdf:resource="montaignemichelde\cperson#essais\cwork#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Expression"
+                    rdf:about="morpurgomichael\cperson#warhorse\cwork#\cexpression#">
+      <e:languageOfExpression>English</e:languageOfExpression>
+      <u:title>War horse</u:title>
+      <e:manifestationOfExpression rdf:resource="urnisbn9780439796644\cmanifestation#"/>
+      <e:workExpressed rdf:resource="morpurgomichael\cperson#warhorse\cwork#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Expression"
+                    rdf:about="rowlingjoannekathleen1965\cperson#harrypotterandthedeathlyhallows\cwork#\cexpression#">
+      <u:title>Harry Potter and the Deathly Hallows</u:title>
+      <e:manifestationOfExpression rdf:resource="urnisbn9781408855713\cmanifestation#"/>
+      <e:workExpressed rdf:resource="rowlingjoannekathleen1965\cperson#harrypotterandthedeathlyhallows\cwork#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Expression"
+                    rdf:about="slijpenhans\cperson#hartundsozialdasutrechtermodell\cwork#\cexpression#">
+      <e:languageOfExpression>German</e:languageOfExpression>
+      <u:title>Hart und Sozial : Das Utrechter Modell</u:title>
+      <e:manifestationOfExpression rdf:resource="x39\cmanifestation#"/>
+      <e:workExpressed rdf:resource="slijpenhans\cperson#hartundsozialdasutrechtermodell\cwork#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Expression"
+                    rdf:about="steinbeckjohn\cperson#ofmiceandmen\cwork#\cexpression#">
+      <e:languageOfExpression>English</e:languageOfExpression>
+      <u:title>Of mice and men</u:title>
+      <e:manifestationOfExpression rdf:resource="urnismn9780142429181\cmanifestation#"/>
+      <e:workExpressed rdf:resource="steinbeckjohn\cperson#ofmiceandmen\cwork#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Expression"
+                    rdf:about="stevensonrobertlouis18501894\cperson#thestrangecaseofdrjekyllandmrhyde\cwork#\cexpression#">
+      <e:languageOfExpression>English</e:languageOfExpression>
+      <u:title>The strange case of Dr Jekyll and Mr Hyde</u:title>
+      <e:manifestationOfExpression rdf:resource="urnisbn9781843444848\cmanifestation#"/>
+      <e:workExpressed rdf:resource="stevensonrobertlouis18501894\cperson#thestrangecaseofdrjekyllandmrhyde\cwork#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Expression"
+                    rdf:about="stevensonrobertlouis\cperson#treasureisland\cwork#\cexpression#">
+      <e:languageOfExpression>English</e:languageOfExpression>
+      <u:title>Treasure island</u:title>
+      <e:manifestationOfExpression rdf:resource="urnisbn9780747587477\cmanifestation#"/>
+      <e:workExpressed rdf:resource="stevensonrobertlouis\cperson#treasureisland\cwork#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Expression"
+                    rdf:about="thomasmadc\cperson#whyphilosophersshouldofferethicsconsultations\cwork#\cexpression#">
+      <e:languageOfExpression>English</e:languageOfExpression>
+      <u:title>Why philosophers should offer ethics consultations</u:title>
+      <e:manifestationOfExpression rdf:resource="urnisrcdoi101007bf00489793\cmanifestation#"/>
+      <e:workExpressed rdf:resource="thomasmadc\cperson#whyphilosophersshouldofferethicsconsultations\cwork#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Expression"
+                    rdf:about="trissella\cperson#handbookofinjectabledrugs\cwork#\cexpression#">
+      <e:languageOfExpression>English</e:languageOfExpression>
+      <u:title>Handbook of Injectable Drugs</u:title>
+      <e:manifestationOfExpression rdf:resource="urnisbn9781585281503\cmanifestation#"/>
+      <e:workExpressed rdf:resource="trissella\cperson#handbookofinjectabledrugs\cwork#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Expression"
+                    rdf:about="twainmark\cperson#theadventuresoftomsawyer\cwork#\cexpression#">
+      <e:languageOfExpression>English</e:languageOfExpression>
+      <u:title>The Adventures of Tom Sawyer</u:title>
+      <e:manifestationOfExpression rdf:resource="urnisbn0140390480\cmanifestation#"/>
+      <e:workExpressed rdf:resource="twainmark\cperson#theadventuresoftomsawyer\cwork#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Manifestation" rdf:about="urnisbn0140390480\cmanifestation#">
+      <m:dateOfPublication>1986</m:dateOfPublication>
+      <m:dimensions>18 cm</m:dimensions>
+      <m:extent>226 pages</m:extent>
+      <m:identifierForTheManifestation>urn:isbn:0140390480</m:identifierForTheManifestation>
+      <m:placeOfPublication>London</m:placeOfPublication>
+      <m:publisher>Penguin books</m:publisher>
+      <m:seriesStatement>Penguin classics</m:seriesStatement>
+      <m:statementOfResponsibility>Mark Twain</m:statementOfResponsibility>
+      <m:titleProper>The Adventures of Tom Sawyer</m:titleProper>
+      <marcrdf:M001>xx5</marcrdf:M001>
+      <marcrdf:M300__b>Cover with colorful illustrations</marcrdf:M300__b>
+      <m:expressionManifested rdf:resource="twainmark\cperson#theadventuresoftomsawyer\cwork#\cexpression#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Manifestation" rdf:about="urnisbn2253132225\cmanifestation#">
+      <m:dateOfPublication>1994</m:dateOfPublication>
+      <m:dimensions>19 cm</m:dimensions>
+      <m:extent>1279 pages</m:extent>
+      <m:identifierForTheManifestation>urn:isbn:2253132225</m:identifierForTheManifestation>
+      <m:placeOfPublication>Paris</m:placeOfPublication>
+      <m:publisher>Librairie Generale Francaise</m:publisher>
+      <m:statementOfResponsibility>Chretien de Troyes</m:statementOfResponsibility>
+      <m:titleProper>Romans</m:titleProper>
+      <marcrdf:M001>xx7</marcrdf:M001>
+      <marcrdf:M300__b>Cover with colorful illustrations</marcrdf:M300__b>
+      <m:expressionManifested rdf:resource="chretiendetroyes\cperson#romans\cwork#\cexpression#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Manifestation" rdf:about="urnisbn3319035746\cmanifestation#">
+      <m:dateOfPublication>2014</m:dateOfPublication>
+      <m:extent>99 pages</m:extent>
+      <m:identifierForTheManifestation>urn:isbn:3319035746</m:identifierForTheManifestation>
+      <m:numberingOfSerials>12</m:numberingOfSerials>
+      <m:placeOfPublication>Cham</m:placeOfPublication>
+      <m:placeOfPublication>Heidelberg</m:placeOfPublication>
+      <m:placeOfPublication>New York</m:placeOfPublication>
+      <m:publisher>Springer</m:publisher>
+      <m:seriesStatement>Springer briefs in criminology</m:seriesStatement>
+      <m:statementOfResponsibility>David N. Khey; John Stogner</m:statementOfResponsibility>
+      <m:titleProper>Emerging trends in drug use and distribution : Bryan Lee Miller</m:titleProper>
+      <marcrdf:M001>x14</marcrdf:M001>
+      <m:expressionManifested rdf:resource="kheydavidn\cperson#emergingtrendsindruguseanddistributionbryanleemiller\cwork#\cexpression#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Manifestation" rdf:about="urnisbn9780439796644\cmanifestation#">
+      <m:dateOfPublication>2010</m:dateOfPublication>
+      <m:dimensions>18 cm</m:dimensions>
+      <m:extent>165 pages</m:extent>
+      <m:identifierForTheManifestation>urn:isbn:9780439796644</m:identifierForTheManifestation>
+      <m:publisher>Scholastic Ltd</m:publisher>
+      <m:statementOfResponsibility>Michael Morpurgo</m:statementOfResponsibility>
+      <m:titleProper>War horse</m:titleProper>
+      <marcrdf:M001>xx1</marcrdf:M001>
+      <m:expressionManifested rdf:resource="morpurgomichael\cperson#warhorse\cwork#\cexpression#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Manifestation" rdf:about="urnisbn9780747587477\cmanifestation#">
+      <m:dateOfPublication>2006</m:dateOfPublication>
+      <m:dimensions>17 cm</m:dimensions>
+      <m:extent>204 pages</m:extent>
+      <m:identifierForTheManifestation>urn:isbn:9780747587477</m:identifierForTheManifestation>
+      <m:publisher>Editions Robert Laffont</m:publisher>
+      <m:statementOfResponsibility>Robert Louis Stevenson</m:statementOfResponsibility>
+      <m:titleProper>Treasure island</m:titleProper>
+      <marcrdf:M001>xx3</marcrdf:M001>
+      <m:expressionManifested rdf:resource="stevensonrobertlouis\cperson#treasureisland\cwork#\cexpression#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Manifestation" rdf:about="urnisbn9781408855713\cmanifestation#">
+      <m:dateOfPublication>2014</m:dateOfPublication>
+      <m:dimensions>20 cm</m:dimensions>
+      <m:extent>1 volume (619 pages)</m:extent>
+      <m:identifierForTheManifestation>urn:isbn:9781408855713</m:identifierForTheManifestation>
+      <m:numberingOfSerials>7</m:numberingOfSerials>
+      <m:placeOfPublication>London</m:placeOfPublication>
+      <m:publisher>Bloomsbury</m:publisher>
+      <m:seriesStatement>Harry Potter series</m:seriesStatement>
+      <m:statementOfResponsibility>J.K. Rowling</m:statementOfResponsibility>
+      <m:titleProper>Harry Potter and the Deathly Hallows</m:titleProper>
+      <marcrdf:M001>x18</marcrdf:M001>
+      <marcrdf:M300__b>Cover with colorful illustrations</marcrdf:M300__b>
+      <m:expressionManifested rdf:resource="rowlingjoannekathleen1965\cperson#harrypotterandthedeathlyhallows\cwork#\cexpression#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Manifestation" rdf:about="urnisbn9781585281503\cmanifestation#">
+      <m:dateOfPublication>2006</m:dateOfPublication>
+      <m:editionStatement>14th</m:editionStatement>
+      <m:extent>1720 pages</m:extent>
+      <m:identifierForTheManifestation>urn:isbn:9781585281503</m:identifierForTheManifestation>
+      <m:placeOfPublication>Bethesda</m:placeOfPublication>
+      <m:publisher>American Society of Health-System Pharmacists</m:publisher>
+      <m:statementOfResponsibility>Lawrence A. Trissel</m:statementOfResponsibility>
+      <m:titleProper>Handbook of Injectable Drugs</m:titleProper>
+      <marcrdf:M001>x15</marcrdf:M001>
+      <m:expressionManifested rdf:resource="trissella\cperson#handbookofinjectabledrugs\cwork#\cexpression#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Manifestation" rdf:about="urnisbn9781843444848\cmanifestation#">
+      <m:dateOfPublication>2014</m:dateOfPublication>
+      <m:dimensions>18 cm</m:dimensions>
+      <m:extent>1 volume (123 pages)</m:extent>
+      <m:identifierForTheManifestation>urn:isbn:9781843444848</m:identifierForTheManifestation>
+      <m:identifierForTheManifestation>urn:isbn:9781843444862 (kindle)</m:identifierForTheManifestation>
+      <m:identifierForTheManifestation>urn:isbn:9781843444879 (PDF)</m:identifierForTheManifestation>
+      <m:placeOfPublication>Harpenden</m:placeOfPublication>
+      <m:publisher>Pulp! The Classics</m:publisher>
+      <m:statementOfResponsibility>Robert Louis Stevenson</m:statementOfResponsibility>
+      <m:titleProper>The strange case of Dr Jekyll and Mr Hyde</m:titleProper>
+      <marcrdf:M001>x25</marcrdf:M001>
+      <marcrdf:M300__b>Cover with colorful illustrations</marcrdf:M300__b>
+      <m:expressionManifested rdf:resource="stevensonrobertlouis18501894\cperson#thestrangecaseofdrjekyllandmrhyde\cwork#\cexpression#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Manifestation" rdf:about="urnisbn9782080702104\cmanifestation#">
+      <m:dateOfPublication>1969</m:dateOfPublication>
+      <m:dimensions>18 cm</m:dimensions>
+      <m:extent>443 pages</m:extent>
+      <m:identifierForTheManifestation>urn:isbn:9782080702104</m:identifierForTheManifestation>
+      <m:placeOfPublication>Paris</m:placeOfPublication>
+      <m:publisher>Garnier-Flammarion</m:publisher>
+      <m:statementOfResponsibility>Michel de Montaigne</m:statementOfResponsibility>
+      <m:titleProper>Essais</m:titleProper>
+      <marcrdf:M001>x10</marcrdf:M001>
+      <marcrdf:M300__b>Cover with colorful illustrations</marcrdf:M300__b>
+      <m:expressionManifested rdf:resource="montaignemichelde\cperson#essais\cwork#french\cexpression#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Manifestation" rdf:about="urnisbn9782081209633\cmanifestation#">
+      <m:dateOfPublication>2008</m:dateOfPublication>
+      <m:dimensions>18 cm</m:dimensions>
+      <m:extent>159 pages</m:extent>
+      <m:identifierForTheManifestation>urn:isbn:9782081209633</m:identifierForTheManifestation>
+      <m:placeOfPublication>Paris</m:placeOfPublication>
+      <m:publisher>Flammarion</m:publisher>
+      <m:seriesStatement>Etonnants classiques. 335</m:seriesStatement>
+      <m:statementOfResponsibility>Christian Keime; Monique Lachet-Lagarde</m:statementOfResponsibility>
+      <m:titleProper>Roman de Renart (Le)</m:titleProper>
+      <marcrdf:M001>xx8</marcrdf:M001>
+      <marcrdf:M300__b>Illustrations, cover with colorful illustrations</marcrdf:M300__b>
+      <m:expressionManifested rdf:resource="keimechristian\cperson#romanderenart\cwork#french\cexpression#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Manifestation" rdf:about="urnisbn9782091873053\cmanifestation#">
+      <m:dateOfPublication>2009</m:dateOfPublication>
+      <m:dimensions>21 cm</m:dimensions>
+      <m:extent>191 pages</m:extent>
+      <m:identifierForTheManifestation>urn:isbn:9782091873053</m:identifierForTheManifestation>
+      <m:publisher>Nathan</m:publisher>
+      <m:seriesStatement>integrales de philo (Les)</m:seriesStatement>
+      <m:statementOfResponsibility>Descartes; Christine Thubert</m:statementOfResponsibility>
+      <m:titleProper>Meditations metaphysiques</m:titleProper>
+      <marcrdf:M001>x12</marcrdf:M001>
+      <m:expressionManifested rdf:resource="descartesrene\cperson#meditationsmetaphysiques\cwork#\cexpression#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Manifestation" rdf:about="urnisbn9782205060386\cmanifestation#">
+      <m:dateOfPublication>2012</m:dateOfPublication>
+      <m:dimensions>30 cm</m:dimensions>
+      <m:extent>1 volume (164 pages)</m:extent>
+      <m:identifierForTheManifestation>urn:isbn:9782205060386</m:identifierForTheManifestation>
+      <m:placeOfPublication>Paris</m:placeOfPublication>
+      <m:publisher>Dargaud</m:publisher>
+      <m:statementOfResponsibility>Pierre Christin; Jean-Claude Meziere</m:statementOfResponsibility>
+      <m:titleProper>Valerian et Laureline : l'integrale</m:titleProper>
+      <marcrdf:M001>x30</marcrdf:M001>
+      <marcrdf:M300__b>Colorful illustrations, cover with colorful illustrations</marcrdf:M300__b>
+      <m:expressionManifested rdf:resource="mezieresjeanclaude\cperson#valerianetlaurelinelintegrale\cwork#\cexpression#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Manifestation" rdf:about="urnismn9780007191154\cmanifestation#">
+      <m:dateOfPublication>2004</m:dateOfPublication>
+      <m:dimensions>14 x 13 cm</m:dimensions>
+      <m:extent>7 CD (approx. 8h30)</m:extent>
+      <m:identifierForTheManifestation>urn:ismn:9780007191154</m:identifierForTheManifestation>
+      <m:publisher>HarperCollins Publishers</m:publisher>
+      <m:statementOfResponsibility>Agatha Christie; David Suchet</m:statementOfResponsibility>
+      <m:titleProper>Death on the Nil</m:titleProper>
+      <marcrdf:M001>x24</marcrdf:M001>
+      <m:expressionManifested rdf:resource="christieagatha\cperson#deathonthenil\cwork#\cexpression#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Manifestation" rdf:about="urnismn9780142429181\cmanifestation#">
+      <m:dateOfPublication>1992</m:dateOfPublication>
+      <m:dimensions>14 x 13 cm</m:dimensions>
+      <m:extent>3 CD (21h30)</m:extent>
+      <m:identifierForTheManifestation>urn:ismn:9780142429181</m:identifierForTheManifestation>
+      <m:publisher>Penguin</m:publisher>
+      <m:statementOfResponsibility>John Steinbeck; Gary Sinise</m:statementOfResponsibility>
+      <m:titleProper>Of mice and men</m:titleProper>
+      <marcrdf:M001>x21</marcrdf:M001>
+      <marcrdf:M300__b>housing with illustrations</marcrdf:M300__b>
+      <marcrdf:M300__e>book</marcrdf:M300__e>
+      <m:expressionManifested rdf:resource="steinbeckjohn\cperson#ofmiceandmen\cwork#\cexpression#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Manifestation"
+                    rdf:about="urnisrcdoi101007bf00489793\cmanifestation#">
+      <m:identifierForTheManifestation>urn:isrc:doi:10.1007/BF00489793</m:identifierForTheManifestation>
+      <m:statementOfResponsibility>D.C. Thomasma</m:statementOfResponsibility>
+      <m:titleProper>Why philosophers should offer ethics consultations</m:titleProper>
+      <marcrdf:M001>x38</marcrdf:M001>
+      <m:expressionManifested rdf:resource="thomasmadc\cperson#whyphilosophersshouldofferethicsconsultations\cwork#\cexpression#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Manifestation"
+                    rdf:about="urnisrcdoi101556jba3201443\cmanifestation#">
+      <m:identifierForTheManifestation>urn:isrc:doi:10.1556/JBA.3.2014.4.3</m:identifierForTheManifestation>
+      <m:statementOfResponsibility>Anna Jonker; Emmanuel N. Kuntsche</m:statementOfResponsibility>
+      <m:titleProper>Could music potentially serve as a functional alternative to alcohol consumption?</m:titleProper>
+      <marcrdf:M001>x40</marcrdf:M001>
+      <m:expressionManifested rdf:resource="jonkeranna\cperson#couldmusicpotentiallyserveasafunctionalalternativetoalcoholconsumptiontag012subfieldsubfieldcodeetheimportanceofmusicmotivesamongdrinkingandnondrinkingadolescents\cwork#\cexpression#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Manifestation" rdf:about="x39\cmanifestation#">
+      <m:statementOfResponsibility>Hans Slijpen</m:statementOfResponsibility>
+      <m:titleProper>Hart und Sozial : Das Utrechter Modell</m:titleProper>
+      <marcrdf:M001>x39</marcrdf:M001>
+      <m:expressionManifested rdf:resource="slijpenhans\cperson#hartundsozialdasutrechtermodell\cwork#\cexpression#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Person" rdf:about="chretiendetroyes\cperson#">
+      <a:nameOfThePerson>Chretien de Troyes</a:nameOfThePerson>
+      <a:authorOf rdf:resource="chretiendetroyes\cperson#romans\cwork#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Person" rdf:about="christieagatha\cperson#">
+      <a:nameOfThePerson>Christie, Agatha</a:nameOfThePerson>
+      <a:authorOf rdf:resource="christieagatha\cperson#deathonthenil\cwork#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Person" rdf:about="christinpierre\cperson#">
+      <a:nameOfThePerson>Christin, Pierre</a:nameOfThePerson>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Person" rdf:about="descartesrene\cperson#">
+      <a:nameOfThePerson>Descartes, Rene</a:nameOfThePerson>
+      <a:authorOf rdf:resource="descartesrene\cperson#meditationsmetaphysiques\cwork#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Person" rdf:about="jonkeranna\cperson#">
+      <a:nameOfThePerson>Jonker, Anna</a:nameOfThePerson>
+      <a:authorOf rdf:resource="jonkeranna\cperson#couldmusicpotentiallyserveasafunctionalalternativetoalcoholconsumptiontag012subfieldsubfieldcodeetheimportanceofmusicmotivesamongdrinkingandnondrinkingadolescents\cwork#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Person" rdf:about="keimechristian\cperson#">
+      <a:nameOfThePerson>Keime, Christian</a:nameOfThePerson>
+      <a:authorOf rdf:resource="keimechristian\cperson#romanderenart\cwork#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Person" rdf:about="kheydavidn\cperson#">
+      <a:nameOfThePerson>Khey, David N.</a:nameOfThePerson>
+      <a:authorOf rdf:resource="kheydavidn\cperson#emergingtrendsindruguseanddistributionbryanleemiller\cwork#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Person" rdf:about="kuntscheemmanueln\cperson#">
+      <a:nameOfThePerson>Kuntsche, Emmanuel N.</a:nameOfThePerson>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Person" rdf:about="lachetlagardemonique\cperson#">
+      <a:nameOfThePerson>Lachet-Lagarde, Monique</a:nameOfThePerson>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Person" rdf:about="mezieresjeanclaude\cperson#">
+      <a:nameOfThePerson>Mezieres, Jean-Claude</a:nameOfThePerson>
+      <a:authorOf rdf:resource="mezieresjeanclaude\cperson#valerianetlaurelinelintegrale\cwork#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Person" rdf:about="millerbryanlee\cperson#">
+      <a:nameOfThePerson>Miller, Bryan Lee</a:nameOfThePerson>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Person" rdf:about="montaignemichelde\cperson#">
+      <a:nameOfThePerson>Montaigne, Michel de</a:nameOfThePerson>
+      <a:authorOf rdf:resource="montaignemichelde\cperson#essais\cwork#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Person" rdf:about="morpurgomichael\cperson#">
+      <a:nameOfThePerson>Morpurgo, Michael</a:nameOfThePerson>
+      <a:authorOf rdf:resource="morpurgomichael\cperson#warhorse\cwork#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Person" rdf:about="rowlingjoannekathleen1965\cperson#">
+      <a:dateAssociatedWithThePerson>1965-....</a:dateAssociatedWithThePerson>
+      <a:nameOfThePerson>Rowling, Joanne Kathleen</a:nameOfThePerson>
+      <a:authorOf rdf:resource="rowlingjoannekathleen1965\cperson#harrypotterandthedeathlyhallows\cwork#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Person" rdf:about="sinisegary\cperson#">
+      <a:nameOfThePerson>Sinise, Gary</a:nameOfThePerson>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Person" rdf:about="slijpenhans\cperson#">
+      <a:nameOfThePerson>Slijpen, Hans</a:nameOfThePerson>
+      <a:authorOf rdf:resource="slijpenhans\cperson#hartundsozialdasutrechtermodell\cwork#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Person" rdf:about="steinbeckjohn\cperson#">
+      <a:nameOfThePerson>Steinbeck, John</a:nameOfThePerson>
+      <a:authorOf rdf:resource="steinbeckjohn\cperson#ofmiceandmen\cwork#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Person" rdf:about="stevensonrobertlouis18501894\cperson#">
+      <a:dateAssociatedWithThePerson>1850-1894</a:dateAssociatedWithThePerson>
+      <a:nameOfThePerson>Stevenson, Robert Louis</a:nameOfThePerson>
+      <a:authorOf rdf:resource="stevensonrobertlouis18501894\cperson#thestrangecaseofdrjekyllandmrhyde\cwork#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Person" rdf:about="stevensonrobertlouis\cperson#">
+      <a:nameOfThePerson>Stevenson, Robert Louis</a:nameOfThePerson>
+      <a:authorOf rdf:resource="stevensonrobertlouis\cperson#treasureisland\cwork#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Person" rdf:about="stognerjohn\cperson#">
+      <a:nameOfThePerson>Stogner, John</a:nameOfThePerson>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Person" rdf:about="suchetdavid\cperson#">
+      <a:nameOfThePerson>Suchet, David</a:nameOfThePerson>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Person" rdf:about="thomasmadc\cperson#">
+      <a:nameOfThePerson>Thomasma, D.C.</a:nameOfThePerson>
+      <a:authorOf rdf:resource="thomasmadc\cperson#whyphilosophersshouldofferethicsconsultations\cwork#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Person" rdf:about="thubertchristine\cperson#">
+      <a:nameOfThePerson>Thubert, Christine</a:nameOfThePerson>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Person" rdf:about="trissella\cperson#">
+      <a:nameOfThePerson>Trissel, L.A.</a:nameOfThePerson>
+      <a:authorOf rdf:resource="trissella\cperson#handbookofinjectabledrugs\cwork#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Person" rdf:about="twainmark\cperson#">
+      <a:nameOfThePerson>Twain, Mark</a:nameOfThePerson>
+      <a:authorOf rdf:resource="twainmark\cperson#theadventuresoftomsawyer\cwork#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Work" rdf:about="chretiendetroyes\cperson#romans\cwork#">
+      <w:titleOfTheWork>Romans</w:titleOfTheWork>
+      <w:author rdf:resource="chretiendetroyes\cperson#"/>
+      <w:expressionOfWork rdf:resource="chretiendetroyes\cperson#romans\cwork#\cexpression#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Work" rdf:about="christieagatha\cperson#deathonthenil\cwork#">
+      <w:titleOfTheWork>Death on the Nil</w:titleOfTheWork>
+      <w:author rdf:resource="christieagatha\cperson#"/>
+      <w:expressionOfWork rdf:resource="christieagatha\cperson#deathonthenil\cwork#\cexpression#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Work"
+                    rdf:about="descartesrene\cperson#meditationsmetaphysiques\cwork#">
+      <w:titleOfTheWork>Meditations metaphysiques</w:titleOfTheWork>
+      <w:author rdf:resource="descartesrene\cperson#"/>
+      <w:expressionOfWork rdf:resource="descartesrene\cperson#meditationsmetaphysiques\cwork#\cexpression#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Work"
+                    rdf:about="jonkeranna\cperson#couldmusicpotentiallyserveasafunctionalalternativetoalcoholconsumptiontag012subfieldsubfieldcodeetheimportanceofmusicmotivesamongdrinkingandnondrinkingadolescents\cwork#">
+      <marcrdf:M5200_a>This study investigated whether adolescents who drink and those who are teetotal differ in the link between music motives and health-related outcomes (life satisfaction, self-rated health, school pressure, somatic complaints, depressed and aggressive mood, physical powerlessness, frequency of being bullied and bullying others and evenings spent out with friends).</marcrdf:M5200_a>
+      <w:titleOfTheWork>Could music potentially serve as a functional alternative to alcohol consumption?</w:titleOfTheWork>
+      <w:author rdf:resource="jonkeranna\cperson#"/>
+      <w:expressionOfWork rdf:resource="jonkeranna\cperson#couldmusicpotentiallyserveasafunctionalalternativetoalcoholconsumptiontag012subfieldsubfieldcodeetheimportanceofmusicmotivesamongdrinkingandnondrinkingadolescents\cwork#\cexpression#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Work" rdf:about="keimechristian\cperson#romanderenart\cwork#">
+      <w:titleOfTheWork>Roman de Renart</w:titleOfTheWork>
+      <w:author rdf:resource="keimechristian\cperson#"/>
+      <w:expressionOfWork rdf:resource="keimechristian\cperson#romanderenart\cwork#french\cexpression#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Work"
+                    rdf:about="kheydavidn\cperson#emergingtrendsindruguseanddistributionbryanleemiller\cwork#">
+      <marcrdf:M5200_a>This Brief explores emerging trends in drug use and distribution. This timely Brief examines recent examples of emerging drugs including salvia (from the plant Salvia divinorum), bath salts (and other synthetic stimulants) and so-called research chemicals (primarily substituted phenethylamines, synthetic cousins of ecstasy), which have tended to receive brief levels of high intensity media coverage that may or may not reflect an actual increase in their usage.</marcrdf:M5200_a>
+      <w:titleOfTheWork>Emerging trends in drug use and distribution : Bryan Lee Miller</w:titleOfTheWork>
+      <w:author rdf:resource="kheydavidn\cperson#"/>
+      <w:expressionOfWork rdf:resource="kheydavidn\cperson#emergingtrendsindruguseanddistributionbryanleemiller\cwork#\cexpression#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Work"
+                    rdf:about="mezieresjeanclaude\cperson#valerianetlaurelinelintegrale\cwork#">
+      <w:titleOfTheWork>Valerian et Laureline : l'integrale</w:titleOfTheWork>
+      <w:author rdf:resource="mezieresjeanclaude\cperson#"/>
+      <w:expressionOfWork rdf:resource="mezieresjeanclaude\cperson#valerianetlaurelinelintegrale\cwork#\cexpression#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Work" rdf:about="montaignemichelde\cperson#essais\cwork#">
+      <w:titleOfTheWork>Essais</w:titleOfTheWork>
+      <w:author rdf:resource="montaignemichelde\cperson#"/>
+      <w:expressionOfWork rdf:resource="montaignemichelde\cperson#essais\cwork#french\cexpression#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Work" rdf:about="morpurgomichael\cperson#warhorse\cwork#">
+      <marcrdf:M5200_a>World War I has started and the military needs horses to move equipment, charge the enemy, and carry wounded soldiers off the battlefield. Joey, a farm horse is sold to the Army. Joey misses the farmer's son, Albert, and spends the war years wondering if the war will ever end and if he will ever see Albert again.</marcrdf:M5200_a>
+      <w:titleOfTheWork>War horse</w:titleOfTheWork>
+      <w:author rdf:resource="morpurgomichael\cperson#"/>
+      <w:expressionOfWork rdf:resource="morpurgomichael\cperson#warhorse\cwork#\cexpression#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Work"
+                    rdf:about="rowlingjoannekathleen1965\cperson#harrypotterandthedeathlyhallows\cwork#">
+      <w:titleOfTheWork>Harry Potter and the Deathly Hallows</w:titleOfTheWork>
+      <w:author rdf:resource="rowlingjoannekathleen1965\cperson#"/>
+      <w:expressionOfWork rdf:resource="rowlingjoannekathleen1965\cperson#harrypotterandthedeathlyhallows\cwork#\cexpression#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Work"
+                    rdf:about="slijpenhans\cperson#hartundsozialdasutrechtermodell\cwork#">
+      <marcrdf:M5200_a>Wiederholungstater sind haufig noch weiteren Belastungen in Form einer Abhangigkeit von psychotropen Substanzen oder einer anderen psychischen Storung ausgesetzt. Eine alleinige Bearbeitung des Deliktes hat deshalb wenig Sinn.</marcrdf:M5200_a>
+      <w:titleOfTheWork>Hart und Sozial : Das Utrechter Modell</w:titleOfTheWork>
+      <w:author rdf:resource="slijpenhans\cperson#"/>
+      <w:expressionOfWork rdf:resource="slijpenhans\cperson#hartundsozialdasutrechtermodell\cwork#\cexpression#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Work" rdf:about="steinbeckjohn\cperson#ofmiceandmen\cwork#">
+      <w:titleOfTheWork>Of mice and men</w:titleOfTheWork>
+      <w:author rdf:resource="steinbeckjohn\cperson#"/>
+      <w:expressionOfWork rdf:resource="steinbeckjohn\cperson#ofmiceandmen\cwork#\cexpression#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Work"
+                    rdf:about="stevensonrobertlouis18501894\cperson#thestrangecaseofdrjekyllandmrhyde\cwork#">
+      <w:titleOfTheWork>The strange case of Dr Jekyll and Mr Hyde</w:titleOfTheWork>
+      <w:author rdf:resource="stevensonrobertlouis18501894\cperson#"/>
+      <w:expressionOfWork rdf:resource="stevensonrobertlouis18501894\cperson#thestrangecaseofdrjekyllandmrhyde\cwork#\cexpression#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Work"
+                    rdf:about="stevensonrobertlouis\cperson#treasureisland\cwork#">
+      <marcrdf:M5200_a>When an old sailor named Billy Bones dies in the inn belonging to young Jim Hawkins's parents, he leaves a greasy old map on which an X marks the spot where treasure is buried. Jim joins the crew of a ship in pursuit of Bones's treasure, and on the seas meets up with Long John Silver, a peg-legged pirate who has infiltrated their ranks. Jim must survive mutinies and counter-mutinies, face hand-to-hand combat with drunken sailors, and outwit double-crossing thieves before the treasure can be his.</marcrdf:M5200_a>
+      <w:titleOfTheWork>Treasure island</w:titleOfTheWork>
+      <w:author rdf:resource="stevensonrobertlouis\cperson#"/>
+      <w:expressionOfWork rdf:resource="stevensonrobertlouis\cperson#treasureisland\cwork#\cexpression#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Work"
+                    rdf:about="thomasmadc\cperson#whyphilosophersshouldofferethicsconsultations\cwork#">
+      <marcrdf:M5200_a>Considerable debate has occurred about the proper role of philosophers when offering ethics consultations. Some argue that only physicians or clinical experienced personnel should offer ethics consultations in the clinical setting. Others argue still further that philosophers are ill-equipped to offer such advice, since to do so rests on no social warrant, and violates the abstract and neutral nature of the discipline itself. I argue that philosophers not only can offer such consultations but ought to.</marcrdf:M5200_a>
+      <w:titleOfTheWork>Why philosophers should offer ethics consultations</w:titleOfTheWork>
+      <w:author rdf:resource="thomasmadc\cperson#"/>
+      <w:expressionOfWork rdf:resource="thomasmadc\cperson#whyphilosophersshouldofferethicsconsultations\cwork#\cexpression#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Work"
+                    rdf:about="trissella\cperson#handbookofinjectabledrugs\cwork#">
+      <w:titleOfTheWork>Handbook of Injectable Drugs</w:titleOfTheWork>
+      <w:author rdf:resource="trissella\cperson#"/>
+      <w:expressionOfWork rdf:resource="trissella\cperson#handbookofinjectabledrugs\cwork#\cexpression#"/>
+   </rdf:Description>
+   <rdf:Description rdf:type="c:Work" rdf:about="twainmark\cperson#theadventuresoftomsawyer\cwork#">
+      <w:titleOfTheWork>The Adventures of Tom Sawyer</w:titleOfTheWork>
+      <w:author rdf:resource="twainmark\cperson#"/>
+      <w:expressionOfWork rdf:resource="twainmark\cperson#theadventuresoftomsawyer\cwork#\cexpression#"/>
+   </rdf:Description>
+</rdf:RDF>

@@ -2,30 +2,39 @@ package org.bibr.eval;
 
 public class Pair {
 	
-	private Entity e1;
+	private Entity col;
 	
-	private Entity e2;
+	private Entity exp;
 
-	public Pair(Entity e1, Entity e2) {
+	public Pair(Entity col, Entity exp) {
 		super();
-		this.e1 = e1;
-		this.e2 = e2;
+		this.col = col;
+		this.exp = exp;
+	}
+	
+	
+
+	@Override
+	public String toString() {
+		return "Pair [col=" + col + ", exp=" + exp + "]";
 	}
 
-	public Entity getE1() {
-		return e1;
+
+
+	public Entity getCol() {
+		return col;
 	}
 
-	public void setE1(Entity e1) {
-		this.e1 = e1;
+	public void setCol(Entity col) {
+		this.col = col;
 	}
 
-	public Entity getE2() {
-		return e2;
+	public Entity getExp() {
+		return exp;
 	}
 
-	public void setE2(Entity e2) {
-		this.e2 = e2;
+	public void setExp(Entity exp) {
+		this.exp = exp;
 	}
 
 }
