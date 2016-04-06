@@ -141,7 +141,7 @@
 		</marc:datafield>
 		<marc:datafield ind1=" " ind2=" " tag="410">
 			<marc:subfield code="3">colauth-002</marc:subfield>
-			<marc:subfield code="a">Springer briefs in criminology</marc:subfield>
+			<marc:subfield code="t">Springer briefs in criminology</marc:subfield>
 		</marc:datafield>
 		<marc:datafield ind1=" " ind2=" " tag="606">
 			<marc:subfield code="3">subauth-002</marc:subfield>
@@ -254,7 +254,7 @@
 		</marc:datafield>
 		<marc:datafield ind1="0" ind2=" " tag="410">
 			<marc:subfield code="3">colauth-003</marc:subfield>
-			<marc:subfield code="a">Harry Potter series</marc:subfield>
+			<marc:subfield code="t">Harry Potter series</marc:subfield>
 		</marc:datafield>
 	</marc:record>
 	<marc:record>

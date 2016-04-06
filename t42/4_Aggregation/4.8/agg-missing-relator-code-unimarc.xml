@@ -129,7 +129,7 @@
 		</marc:datafield>
 		<marc:datafield ind1="2" ind2=" " tag="410">
 			<marc:subfield code="3">colauth-008</marc:subfield>
-			<marc:subfield code="a">GF</marc:subfield>
+			<marc:subfield code="t">GF</marc:subfield>
 		</marc:datafield>
 		<marc:datafield ind1="1" ind2="1" tag="500">
 			<marc:subfield code="3">tauth-002</marc:subfield>
@@ -210,7 +210,7 @@
 		</marc:datafield>
 		<marc:datafield ind1="0" ind2=" " tag="410">
 			<marc:subfield code="3">colauth-003</marc:subfield>
-			<marc:subfield code="a">Harry Potter series</marc:subfield>
+			<marc:subfield code="t">Harry Potter series</marc:subfield>
 		</marc:datafield>
 		<marc:datafield ind1=" " ind2="1" tag="700">
 			<marc:subfield code="3">pauth-014</marc:subfield>
