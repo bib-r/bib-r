@@ -112,7 +112,11 @@ public class FRBRizationAug_2_5 {
 		// Expression
 		Resource expression = FRBR.expression(model,"EssaisTextFrench");
 		expression.addProperty(FRBR.languageOfExpression(model), "French");
-		expression.addProperty(FRBR.noteOnExpression(model), "with an introduction");
+		
+		Resource introduction = FRBR.work(model,"EssaisIntroduction");
+		introduction.addProperty(FRBR.titleOfTheWork(model), "[Introduction]");
+		Resource introExpr = FRBR.expression(model,"EssaisTextIntro");
+		introExpr.addProperty(FRBR.noteOnExpression(model), "[Introduction]");
 		
 		// Manifestation
 		Resource manifestation = FRBR.manifestation(model,"Book9782080702104");
@@ -144,9 +148,16 @@ public class FRBRizationAug_2_5 {
 		// Relationships
 		work.addProperty(FRBR.expressionOfWork(model), expression);
 		work.addProperty(FRBR.creator(model), author);
+		
+		work.addProperty(FRBR.augmentedByWork(model), introduction);
+		introduction.addProperty(FRBR.expressionOfWork(model), introExpr);
+		
+		introExpr.addProperty(FRBR.manifestationOfExpression(model), manifestation);
+		introExpr.addProperty(FRBR.writerOfIntroduction(model), authorintro);
 		expression.addProperty(FRBR.manifestationOfExpression(model), manifestation);
-		expression.addProperty(FRBR.writerOfIntroduction(model), authorintro);
+		
 		manifestation.addProperty(FRBR.publisher(model), publisher);
+
 
 	}
 

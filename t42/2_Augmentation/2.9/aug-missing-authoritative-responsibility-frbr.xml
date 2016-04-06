@@ -14,15 +14,9 @@
     <rdf:type>http://rdaregistry.info/Elements/c/C10004</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#EtrangeDrJekyllMHydeTextFrench">
-    <rdae:illustrationsExpression rdf:resource="http://rdaregistry.info/Elements/c/Expression#EtrangeDrJekyllMHydeIllustrations"/>
+    <rdae:illustrationsExpression rdf:resource="http://rdaregistry.info/Elements/c/Expression#EtrangeDrJekyllMHydeExprIllustrations"/>
     <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Book9782070622313"/>
-    <rdae:noteOnExpression>story</rdae:noteOnExpression>
-    <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#EtrangeDrJekyllMHydeIllustrations">
-    <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Book9782070622313"/>
-    <rdae:illustrator rdf:resource="http://rdaregistry.info/Elements/c/Person#FrancoisPlace"/>
-    <rdae:noteOnExpression>illustrations</rdae:noteOnExpression>
+    <rdae:noteOnExpression>[Text]</rdae:noteOnExpression>
     <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Person#ChretiendeTroyes">
@@ -34,9 +28,16 @@
     <rdf:type>http://rdaregistry.info/Elements/c/C10004</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#Philomena">
+    <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#PhilomenaExpr"/>
     <rdaw:identifierForTheWork>tauth-003</rdaw:identifierForTheWork>
     <rdaw:titleOfTheWork>Philomena</rdaw:titleOfTheWork>
     <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#OfmiceandmenExprIntroduction">
+    <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Book9780141185101"/>
+    <rdae:writerOfIntroduction rdf:resource="http://rdaregistry.info/Elements/c/Person#SusanShillinglaw"/>
+    <rdae:noteOnExpression>[Introduction]</rdae:noteOnExpression>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Person#JohnSteinbeck">
     <rdaa:nameOfThePerson>John Steinbeck</rdaa:nameOfThePerson>
@@ -46,8 +47,12 @@
     <rdaa:nameOfTheCorporateBody>Garnier-Flammarion</rdaa:nameOfTheCorporateBody>
     <rdf:type>http://rdaregistry.info/Elements/c/C10005</rdf:type>
   </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#OfmiceandmenIntroduction">
+    <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#OfmiceandmenExprIntroduction"/>
+    <rdaw:titleOfTheWork>[Introduction]</rdaw:titleOfTheWork>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
+  </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#RomansTextFrench">
-    <rdae:noteOnExpression>in appendice, Philomena</rdae:noteOnExpression>
     <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Book2253132225"/>
     <rdae:languageOfExpression>French</rdae:languageOfExpression>
     <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
@@ -104,9 +109,14 @@
     <rdaa:nameOfThePerson>Michel de Montaigne</rdaa:nameOfThePerson>
     <rdf:type>http://rdaregistry.info/Elements/c/C10004</rdf:type>
   </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#EtrangeDrJekyllMHydeIllustrations">
+    <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#EtrangeDrJekyllMHydeExprIllustrations"/>
+    <rdaw:titleOfTheWork>[Illustrations]</rdaw:titleOfTheWork>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
+  </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#EtrangeDrJekyllMHyde">
+    <rdaw:augmentedByWork rdf:resource="http://rdaregistry.info/Elements/c/Work#EtrangeDrJekyllMHydeIllustrations"/>
     <rdaw:creator rdf:resource="http://rdaregistry.info/Elements/c/Person#RobertLouisStevenson"/>
-    <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#EtrangeDrJekyllMHydeIllustrations"/>
     <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#EtrangeDrJekyllMHydeTextFrench"/>
     <rdaw:titleOfTheWork>Etrange cas du Dr Jekyll et de M. Hyde (L')</rdaw:titleOfTheWork>
     <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
@@ -125,10 +135,14 @@
     <rdam:otherTitleInformation>in appendice, Philomena</rdam:otherTitleInformation>
     <rdam:placeOfPublication>Paris</rdam:placeOfPublication>
   </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#EtrangeDrJekyllMHydeExprIllustrations">
+    <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Book9782070622313"/>
+    <rdae:illustrator rdf:resource="http://rdaregistry.info/Elements/c/Person#FrancoisPlace"/>
+    <rdae:noteOnExpression>[Illustrations]</rdae:noteOnExpression>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
+  </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#EssaisTextFrench">
-    <rdae:writerOfIntroduction rdf:resource="http://rdaregistry.info/Elements/c/Person#AlexandreMicha"/>
     <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Book9782080702104"/>
-    <rdae:noteOnExpression>with an introduction</rdae:noteOnExpression>
     <rdae:languageOfExpression>French</rdae:languageOfExpression>
     <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
   </rdf:Description>
@@ -137,13 +151,13 @@
     <rdf:type>http://rdaregistry.info/Elements/c/C10005</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#Essais">
+    <rdaw:augmentedByWork rdf:resource="http://rdaregistry.info/Elements/c/Work#EssaisIntroduction"/>
     <rdaw:creator rdf:resource="http://rdaregistry.info/Elements/c/Person#MicheldeMontaigne"/>
     <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#EssaisTextFrench"/>
     <rdaw:titleOfTheWork>Essais</rdaw:titleOfTheWork>
     <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#OfmiceandmenTextEnglish">
-    <rdae:writerOfIntroduction rdf:resource="http://rdaregistry.info/Elements/c/Person#SusanShillinglaw"/>
     <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Book9780141185101"/>
     <rdae:noteOnExpression>with an introduction</rdae:noteOnExpression>
     <rdae:languageOfExpression>English</rdae:languageOfExpression>
@@ -170,10 +184,27 @@
     <rdaa:nameOfThePerson>Alexandre Micha</rdaa:nameOfThePerson>
     <rdf:type>http://rdaregistry.info/Elements/c/C10004</rdf:type>
   </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#EssaisTextIntro">
+    <rdae:writerOfIntroduction rdf:resource="http://rdaregistry.info/Elements/c/Person#AlexandreMicha"/>
+    <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Book9782080702104"/>
+    <rdae:noteOnExpression>[Introduction]</rdae:noteOnExpression>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#EssaisIntroduction">
+    <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#EssaisTextIntro"/>
+    <rdaw:titleOfTheWork>[Introduction]</rdaw:titleOfTheWork>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
+  </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#Ofmiceandmen">
+    <rdaw:augmentedByWork rdf:resource="http://rdaregistry.info/Elements/c/Work#OfmiceandmenIntroduction"/>
     <rdaw:creator rdf:resource="http://rdaregistry.info/Elements/c/Person#JohnSteinbeck"/>
     <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#OfmiceandmenTextEnglish"/>
     <rdaw:titleOfTheWork>Of mice and men</rdaw:titleOfTheWork>
     <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#PhilomenaExpr">
+    <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Book2253132225"/>
+    <rdae:noteOnExpression>[Philomena]</rdae:noteOnExpression>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
   </rdf:Description>
 </rdf:RDF>

@@ -56,6 +56,10 @@ public class FRBRizationAug_2_9 {
 		aug.addProperty(FRBR.titleOfTheWork(model), "Philomena");
 		aug.addProperty(FRBR.identifierForTheWork(model), "tauth-003");
 		
+		// Augmented Expression
+		Resource augExpr = FRBR.expression(model,"PhilomenaExpr");
+		augExpr.addProperty(FRBR.noteOnExpression(model), "[Philomena]");
+		
 		// Expression
 		Resource expression = FRBR.expression(model,"RomansTextFrench");
 		expression.addProperty(FRBR.languageOfExpression(model), "French");
@@ -89,11 +93,12 @@ public class FRBRizationAug_2_9 {
 		work.addProperty(FRBR.expressionOfWork(model), expression);
 		work.addProperty(FRBR.creator(model), author);
 		work.addProperty(FRBR.hasAsSubjectConcept(model), concept);
+		
 		work.addProperty(FRBR.appendixWork(model), aug);
+		aug.addProperty(FRBR.expressionOfWork(model), augExpr);
 		
 		expression.addProperty(FRBR.manifestationOfExpression(model), manifestation);
-		expression.addProperty(FRBR.noteOnExpression(model), "in appendice, Philomena");
-		
+		augExpr.addProperty(FRBR.manifestationOfExpression(model), manifestation);
 		manifestation.addProperty(FRBR.publisher(model), publisher);
 
 	}
@@ -111,7 +116,11 @@ public class FRBRizationAug_2_9 {
 		// Expression
 		Resource expression = FRBR.expression(model,"EssaisTextFrench");
 		expression.addProperty(FRBR.languageOfExpression(model), "French");
-		expression.addProperty(FRBR.noteOnExpression(model), "with an introduction");
+		
+		Resource introduction = FRBR.work(model,"EssaisIntroduction");
+		introduction.addProperty(FRBR.titleOfTheWork(model), "[Introduction]");
+		Resource introExpr = FRBR.expression(model,"EssaisTextIntro");
+		introExpr.addProperty(FRBR.noteOnExpression(model), "[Introduction]");
 		
 		// Manifestation
 		Resource manifestation = FRBR.manifestation(model,"Book9782080702104");
@@ -140,9 +149,16 @@ public class FRBRizationAug_2_9 {
 		// Relationships
 		work.addProperty(FRBR.expressionOfWork(model), expression);
 		work.addProperty(FRBR.creator(model), author);
+		
+		work.addProperty(FRBR.augmentedByWork(model), introduction);
+		introduction.addProperty(FRBR.expressionOfWork(model), introExpr);
+		
+		introExpr.addProperty(FRBR.manifestationOfExpression(model), manifestation);
+		introExpr.addProperty(FRBR.writerOfIntroduction(model), authorintro);
 		expression.addProperty(FRBR.manifestationOfExpression(model), manifestation);
-		expression.addProperty(FRBR.writerOfIntroduction(model), authorintro);
+		
 		manifestation.addProperty(FRBR.publisher(model), publisher);
+
 
 	}
 
@@ -156,10 +172,18 @@ public class FRBRizationAug_2_9 {
 		Resource work = FRBR.work(model,"Ofmiceandmen");
 		work.addProperty(FRBR.titleOfTheWork(model), "Of mice and men");
 		
+		// Introduction
+		Resource introduction = FRBR.work(model,"OfmiceandmenIntroduction");
+		introduction.addProperty(FRBR.titleOfTheWork(model), "[Introduction]");
+		
 		// Expression
 		Resource expression = FRBR.expression(model,"OfmiceandmenTextEnglish");
 		expression.addProperty(FRBR.languageOfExpression(model), "English");
 		expression.addProperty(FRBR.noteOnExpression(model), "with an introduction");
+		
+		// Introduction Expression
+		Resource expIntroduction = FRBR.expression(model,"OfmiceandmenExprIntroduction");
+		expIntroduction.addProperty(FRBR.noteOnExpression(model), "[Introduction]");
 		
 		// Manifestation
 		Resource manifestation = FRBR.manifestation(model,"Book9780141185101");
@@ -190,8 +214,11 @@ public class FRBRizationAug_2_9 {
 		// Relationships
 		work.addProperty(FRBR.expressionOfWork(model), expression);
 		work.addProperty(FRBR.creator(model), author);
+		introduction.addProperty(FRBR.expressionOfWork(model), expIntroduction);
+		work.addProperty(FRBR.augmentedByWork(model), introduction);
 		expression.addProperty(FRBR.manifestationOfExpression(model), manifestation);
-		expression.addProperty(FRBR.writerOfIntroduction(model), authorintro);
+		expIntroduction.addProperty(FRBR.writerOfIntroduction(model), authorintro);
+		expIntroduction.addProperty(FRBR.manifestationOfExpression(model), manifestation);
 		manifestation.addProperty(FRBR.publisher(model), publisher);
 
 	}
@@ -210,11 +237,13 @@ public class FRBRizationAug_2_9 {
 		
 		// Expression
 		Resource expression = FRBR.expression(model,"EtrangeDrJekyllMHydeTextFrench");
-		expression.addProperty(FRBR.noteOnExpression(model), "story");
+		expression.addProperty(FRBR.noteOnExpression(model), "[Text]");
 		
 		// Illustrations
-		Resource illustrations = FRBR.expression(model,"EtrangeDrJekyllMHydeIllustrations");
-		illustrations.addProperty(FRBR.noteOnExpression(model), "illustrations");
+		Resource illustrations = FRBR.work(model,"EtrangeDrJekyllMHydeIllustrations");
+		illustrations.addProperty(FRBR.titleOfTheWork(model), "[Illustrations]");
+		Resource exprIll = FRBR.expression(model,"EtrangeDrJekyllMHydeExprIllustrations");
+		exprIll.addProperty(FRBR.noteOnExpression(model), "[Illustrations]");
 		
 		// Manifestation
 		Resource manifestation = FRBR.manifestation(model,"Book9782070622313");
@@ -242,13 +271,16 @@ public class FRBRizationAug_2_9 {
 		
 		// Relationships
 		work.addProperty(FRBR.expressionOfWork(model), expression);
-		work.addProperty(FRBR.expressionOfWork(model), illustrations);
 		work.addProperty(FRBR.creator(model), author);
-		expression.addProperty(FRBR.manifestationOfExpression(model), manifestation);
-		expression.addProperty(FRBR.illustrationsExpression(model), illustrations);
+		work.addProperty(FRBR.augmentedByWork(model), illustrations);
 		
-		illustrations.addProperty(FRBR.illustrator(model), ill);
-		illustrations.addProperty(FRBR.manifestationOfExpression(model), manifestation);
+		expression.addProperty(FRBR.manifestationOfExpression(model), manifestation);
+		expression.addProperty(FRBR.illustrationsExpression(model), exprIll);
+		
+		illustrations.addProperty(FRBR.expressionOfWork(model), exprIll);
+
+		exprIll.addProperty(FRBR.illustrator(model), ill);
+		exprIll.addProperty(FRBR.manifestationOfExpression(model), manifestation);
 		
 		manifestation.addProperty(FRBR.publisher(model), publisher);
 

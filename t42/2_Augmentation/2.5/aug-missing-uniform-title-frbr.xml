@@ -29,17 +29,27 @@
     <rdf:type>http://rdaregistry.info/Elements/c/C10004</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#EssaisTextFrench">
-    <rdae:writerOfIntroduction rdf:resource="http://rdaregistry.info/Elements/c/Person#AlexandreMicha"/>
     <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Book9782080702104"/>
-    <rdae:noteOnExpression>with an introduction</rdae:noteOnExpression>
     <rdae:languageOfExpression>French</rdae:languageOfExpression>
     <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Expression#EssaisTextIntro">
+    <rdae:writerOfIntroduction rdf:resource="http://rdaregistry.info/Elements/c/Person#AlexandreMicha"/>
+    <rdae:manifestationOfExpression rdf:resource="http://rdaregistry.info/Elements/c/Manifestation#Book9782080702104"/>
+    <rdae:noteOnExpression>[Introduction]</rdae:noteOnExpression>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10006</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#EssaisIntroduction">
+    <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#EssaisTextIntro"/>
+    <rdaw:titleOfTheWork>[Introduction]</rdaw:titleOfTheWork>
+    <rdf:type>http://rdaregistry.info/Elements/c/C10001</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/CorporateBody#GarnierFlammarion">
     <rdaa:nameOfTheCorporateBody>Garnier-Flammarion</rdaa:nameOfTheCorporateBody>
     <rdf:type>http://rdaregistry.info/Elements/c/C10005</rdf:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://rdaregistry.info/Elements/c/Work#Essais">
+    <rdaw:augmentedByWork rdf:resource="http://rdaregistry.info/Elements/c/Work#EssaisIntroduction"/>
     <rdaw:creator rdf:resource="http://rdaregistry.info/Elements/c/Person#MicheldeMontaigne"/>
     <rdaw:expressionOfWork rdf:resource="http://rdaregistry.info/Elements/c/Expression#EssaisTextFrench"/>
     <rdaw:titleOfTheWork>Essais</rdaw:titleOfTheWork>
